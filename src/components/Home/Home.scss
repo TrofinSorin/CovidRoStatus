@@ -1,0 +1,104 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.map {
+  width: 900px;
+  height: 700px;
+  transform: scale(1.1);
+
+  path {
+    fill: #7c7c7c;
+    stroke: red;
+
+    &:hover {
+      fill: brown;
+      cursor: pointer;
+    }
+  }
+
+  text {
+    fill: white;
+    pointer-events: none;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .map {
+    width: 800px;
+    height: 600px;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .map {
+    width: 650px;
+    height: 650px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .map {
+    width: 600px;
+    height: 600px;
+    transform: scale(1.2);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .map {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .map {
+    width: 400px;
+    height: 400px;
+    transform: scale(1.3);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .map {
+    width: 300px;
+    height: 300px;
+    transform: scale(1.5);
+  }
+}
