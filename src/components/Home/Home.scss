@@ -33,7 +33,7 @@
 }
 
 .map {
-  width: 900px;
+  width: 800px;
   height: 700px;
   transform: scale(1.1);
 
@@ -60,13 +60,35 @@
   }
 }
 
+@media only screen and (max-width: 1300px) {
+  h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .map {
+    width: 810px;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .map {
+    width: 700px;
+    height: 600px;
+  }
+}
+
 @media only screen and (max-width: 1100px) {
   h2 {
     font-size: 1.6rem !important;
   }
 
   .map {
-    width: 800px;
+    width: 650px;
     height: 600px;
   }
 }

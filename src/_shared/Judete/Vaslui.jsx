@@ -5,9 +5,9 @@ const Vaslui = props => {
     <div id="map">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="750"
-        height="800"
-        viewBox="-50 200 600 500"
+        width="650"
+        height="700"
+        viewBox="-50 200 800 500"
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a

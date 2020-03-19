@@ -65,7 +65,7 @@ const Judet = props => {
           Persoane decedate:{" "}
           <span style={{ color: "red" }}>{countyData.Persoane_decedate}</span>
         </h2>
-        <h2 style={{ fontSize: "32px" }}>
+        {/* <h2 style={{ fontSize: "32px" }}>
           Persoane vindecate:{" "}
           <span style={{ color: "red" }}>{countyData.Persoane_vindecate}</span>
         </h2>
@@ -76,7 +76,7 @@ const Judet = props => {
         <h2 style={{ fontSize: "32px" }}>
           Cazuri infirmate:{" "}
           <span style={{ color: "red" }}>{countyData.Cazuri_infirmate}</span>
-        </h2>
+        </h2> */}
       </div>
 
       <Suspense fallback={<Spin size="large" />}>

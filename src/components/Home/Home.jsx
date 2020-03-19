@@ -54,7 +54,7 @@ class Home extends Component {
 
     return (
       <div className="HomeWrapper">
-        <Button
+        {/* <Button
           style={{
             fontSize: "10px",
             color: "white",
@@ -66,7 +66,7 @@ class Home extends Component {
           }}
         >
           Mobile Install Info
-        </Button>
+        </Button> */}
         <a
           target="_blank"
           rel="noopener noreferrer"
