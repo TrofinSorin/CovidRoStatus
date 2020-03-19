@@ -3,7 +3,7 @@
 const Constanta = props => {
   return (
     <div id="map">
-      <svg width="1200" height="800" viewBox="-15 100 600 800">
+      <svg width="600" height="800" viewBox="-15 100 600 800">
         <rect width="600" height="800" style={{ fill: "none" }}></rect>
         <a
           href="/#/location/?county=CT&locationId=62486"

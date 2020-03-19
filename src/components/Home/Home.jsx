@@ -45,13 +45,12 @@ class Home extends Component {
   componentWillUnmount() {}
 
   render() {
-    const { data, countyLoader } = this.state;
-    console.log("countyLoader:", countyLoader);
+    const { data } = this.state;
 
     return (
       <div className="HomeWrapper">
-        <h1 style={{ textAlign: "center", fontSize: "50px" }}>
-          Coronavirus Romania Status
+        <h1 style={{ textAlign: "center", fontSize: "50px", marginTop: "0" }}>
+          CoronaRoStatus
         </h1>
         <div className="wrapper">
           {!Object.keys(data ? data : {}).length ? (

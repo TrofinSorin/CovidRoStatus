@@ -1,4 +1,5 @@
 .JudetWrapper {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -6,11 +7,81 @@
   path {
     fill: #7c7c7c;
     stroke: red;
-    stroke-width: 1px !important;
+    stroke-width: 0.2 !important;
 
     &:hover {
       fill: brown;
       cursor: pointer;
     }
+  }
+
+  #map,
+  .county-map {
+    display: flex;
+    justify-content: center;
+  }
+
+  .county-map {
+    width: 900px;
+    height: 700px;
+    transform: scale(1.1);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .JudetWrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .county-map {
+    width: 800px !important;
+    height: 600px !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .county-map,
+  svg {
+    width: 650px !important;
+    height: 650px !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .county-map,
+  svg {
+    width: 600px !important;
+    height: 600px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .county-map,
+  svg {
+    width: 400px !important;
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .county-map,
+  svg {
+    width: 300px !important;
+    height: 300px !important;
+    transform: scale(1.1) !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .county-map,
+  svg {
+    width: 250px !important;
+    height: 250px !important;
+    transform: scale(1.1) !important;
   }
 }

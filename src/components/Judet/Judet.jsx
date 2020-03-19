@@ -79,18 +79,12 @@ const Judet = props => {
       </div>
 
       <Suspense fallback={<p>Loading Map</p>}>
-        <MapComponent />
+        <div className="county-map" style={{ pointerEvents: "none" }}>
+          <MapComponent />
+        </div>
       </Suspense>
     </div>
   );
-};
-
-Judet.propTypes = {
-  // bla: PropTypes.string,
-};
-
-Judet.defaultProps = {
-  // bla: 'test',
 };
 
 export default Judet;

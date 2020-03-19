@@ -1,13 +1,12 @@
-@import './styles/colors';
-@import './styles/variables';
+@import "./styles/colors";
+@import "./styles/variables";
 
-
-html, body {
+html,
+body {
   height: 100%;
   background-color: #282c34;
 }
 .App {
-
 }
 
 .App-logo {
@@ -15,17 +14,28 @@ html, body {
 }
 
 main {
-  
   padding: 3rem;
 }
 
-p, h1,h2,h3,h4,h5,span {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
   color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    padding: 1.5rem;
   }
 }
 
