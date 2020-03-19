@@ -4,6 +4,7 @@ import "./Home.scss";
 import HartaRomania from "../../_shared/HartaRomania/HartaRomania";
 import { Spin } from "antd";
 import { CoffeeOutlined } from "@ant-design/icons";
+import { Button } from "antd";
 
 class Home extends Component {
   constructor(props) {
@@ -53,6 +54,19 @@ class Home extends Component {
 
     return (
       <div className="HomeWrapper">
+        <Button
+          style={{
+            fontSize: "10px",
+            color: "white",
+            background: "transparent",
+            padding: "1px",
+            position: "absolute",
+            right: "35px",
+            top: "4px"
+          }}
+        >
+          Mobile Install Info
+        </Button>
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -60,7 +74,9 @@ class Home extends Component {
           href="https://www.patreon.com/trofinSorin"
         >
           <CoffeeOutlined />
-          <span style={{ marginLeft: "0.3rem", color: "white" }}>
+          <span
+            style={{ marginLeft: "0.3rem", marginTop: "5px", color: "white" }}
+          >
             Doneaza pentru sustinerea site-ului
           </span>
         </a>
