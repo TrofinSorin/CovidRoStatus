@@ -7,7 +7,7 @@ const Botosani = props => {
         xmlns="http://www.w3.org/2000/svg"
         width="500"
         height="800"
-        viewBox="0 150 500 750"
+        viewBox="-150 150 700 750"
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a

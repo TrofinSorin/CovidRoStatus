@@ -5,9 +5,9 @@ const Vrancea = props => {
     <div id="map">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="750"
-        height="800"
-        viewBox="-20 200 600 600"
+        width="500"
+        height="500"
+        viewBox="-20 50 600 600"
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a

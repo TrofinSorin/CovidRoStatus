@@ -7,7 +7,7 @@ const Buzau = props => {
         xmlns="http://www.w3.org/2000/svg"
         width="500"
         height="800"
-        viewBox="3 150 500 700"
+        viewBox="-50 100 700 700"
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a

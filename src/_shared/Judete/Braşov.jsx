@@ -7,7 +7,7 @@ const Brasov = props => {
         xmlns="http://www.w3.org/2000/svg"
         width="500"
         height="600"
-        viewBox="22 150 500 650"
+        viewBox="-50 150 700 650"
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a

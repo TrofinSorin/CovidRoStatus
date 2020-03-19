@@ -7,7 +7,7 @@ const Calarasi = props => {
         xmlns="http://www.w3.org/2000/svg"
         width="550"
         height="600"
-        viewBox="205 150 150 600"
+        viewBox="-100 150 700 600"
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a

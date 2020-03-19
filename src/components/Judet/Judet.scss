@@ -37,51 +37,74 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 625px !important;
+      height: 850px !important;
+    }
+  }
+}
+
 @media only screen and (max-width: 1100px) {
-  .county-map {
-    width: 800px !important;
-    height: 600px !important;
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 550px !important;
+      height: 800px !important;
+    }
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .county-map,
-  svg {
-    width: 650px !important;
-    height: 650px !important;
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 500px !important;
+      height: 1000px !important;
+    }
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .county-map,
-  svg {
-    width: 600px !important;
-    height: 600px !important;
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 450px !important;
+      height: 700px !important;
+    }
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .county-map,
-  svg {
-    width: 400px !important;
-    height: 400px !important;
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 400px !important;
+      height: 550px !important;
+    }
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .county-map,
-  svg {
-    width: 300px !important;
-    height: 300px !important;
-    transform: scale(1.1) !important;
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 300px !important;
+      height: 450px !important;
+      transform: scale(1.1) !important;
+    }
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .county-map,
-  svg {
-    width: 250px !important;
-    height: 250px !important;
-    transform: scale(1.1) !important;
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 250px !important;
+      height: 400px !important;
+      transform: scale(1.1) !important;
+    }
   }
 }
