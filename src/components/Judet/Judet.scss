@@ -1,0 +1,16 @@
+.JudetWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  path {
+    fill: #7c7c7c;
+    stroke: red;
+    stroke-width: 1px !important;
+
+    &:hover {
+      fill: brown;
+      cursor: pointer;
+    }
+  }
+}

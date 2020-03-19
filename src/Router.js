@@ -1,18 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
-import Home from './components/Home';
-import Judet from './components/Judet/Judet';
+import React from "react";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import Home from "./components/Home";
+import Judet from "./components/Judet/Judet";
 
 const Router = props => (
   <React.Fragment>
     <BrowserRouter>
       <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/judet/:id' component={Judet} />
-        <Redirect to='/' />
+        <Route exact path="/" component={Home} />
+        <Route path="/judet/:id/:countyName" component={Judet} />
+        <Redirect to="/" />
       </Switch>
     </BrowserRouter>
-
   </React.Fragment>
 );
 
