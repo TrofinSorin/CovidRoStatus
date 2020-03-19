@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.scss';
-import Router from './Router';
+import React from "react";
+import "./App.scss";
+import Router from "./Router";
 
 function App() {
   return (
@@ -9,6 +9,10 @@ function App() {
       <main>
         <Router></Router>
       </main>
+
+      <footer>
+        <p>footer</p>
+      </footer>
     </div>
   );
 }

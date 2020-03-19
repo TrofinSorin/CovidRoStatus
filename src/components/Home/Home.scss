@@ -4,6 +4,20 @@
   justify-content: space-around;
 }
 
+.donate {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 1rem;
+  font-family: "Baloo Chettan 2", cursive;
+  align-items: center;
+
+  svg {
+    max-height: 2rem;
+    max-width: 2rem;
+  }
+}
+
 .info-wrapper {
   .ant-spin {
     position: absolute;

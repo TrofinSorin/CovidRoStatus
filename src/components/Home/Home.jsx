@@ -3,6 +3,7 @@ import axios from "axios";
 import "./Home.scss";
 import HartaRomania from "../../_shared/HartaRomania/HartaRomania";
 import { Spin } from "antd";
+import { CoffeeOutlined } from "@ant-design/icons";
 
 class Home extends Component {
   constructor(props) {
@@ -52,6 +53,17 @@ class Home extends Component {
 
     return (
       <div className="HomeWrapper">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="donate"
+          href="https://www.patreon.com/trofinSorin"
+        >
+          <CoffeeOutlined />
+          <span style={{ marginLeft: "0.3rem", color: "white" }}>
+            Doneaza pentru sustinerea site-ului
+          </span>
+        </a>
         <h1 style={{ textAlign: "center", fontSize: "50px", marginTop: "0" }}>
           CoronaRoStatus COVID19 in Romania
         </h1>
