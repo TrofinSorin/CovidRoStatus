@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import "./Home.scss";
 import HartaRomania from "../../_shared/HartaRomania/HartaRomania";
+import { Spin } from "antd";
 
 class Home extends Component {
   constructor(props) {
@@ -11,7 +12,8 @@ class Home extends Component {
       hasError: false,
       data: {},
       countyData: [],
-      countyLoader: true
+      countyLoader: true,
+      infoLoader: true
     };
   }
 
@@ -24,7 +26,8 @@ class Home extends Component {
         )[0];
 
         this.setState({
-          data: dataForRomania
+          data: dataForRomania,
+          infoLoader: false
         });
       });
 
@@ -50,43 +53,50 @@ class Home extends Component {
     return (
       <div className="HomeWrapper">
         <h1 style={{ textAlign: "center", fontSize: "50px", marginTop: "0" }}>
-          CoronaRoStatus
+          CoronaRoStatus COVID19 in Romania
         </h1>
         <div className="wrapper">
-          {!Object.keys(data ? data : {}).length ? (
-            <h1>
-              No data for the moment. Please check again in a few moments!{" "}
-            </h1>
-          ) : (
-            <div className="info">
-              <h2 style={{ fontSize: "32px" }}>
-                Total Cazuri: <span style={{ color: "red" }}>{data.cases}</span>
-              </h2>
-              <h2 style={{ fontSize: "32px" }}>
-                Activi: <span style={{ color: "red" }}>{data.active}</span>
-              </h2>
-              <h2 style={{ fontSize: "32px" }}>
-                Cazuri aparute astazi:{" "}
-                <span style={{ color: "red" }}>{data.todayCases}</span>
-              </h2>
-              <h2 style={{ fontSize: "32px" }}>
-                Cazuri Recuperate:{" "}
-                <span style={{ color: "red" }}>{data.recovered}</span>
-              </h2>
-              <h2 style={{ fontSize: "32px" }}>
-                Cazuri Critice:{" "}
-                <span style={{ color: "red" }}>{data.critical}</span>
-              </h2>
-              <h2 style={{ fontSize: "32px" }}>
-                Total Decese:{" "}
-                <span style={{ color: "red" }}>{data.deaths}</span>
-              </h2>
-              <h2 style={{ fontSize: "32px" }}>
-                Total Decese Astazi:{" "}
-                <span style={{ color: "red" }}>{data.todayDeaths}</span>
-              </h2>
-            </div>
-          )}
+          <div className="info-wrapper" style={{ position: "relative" }}>
+            {!this.state.infoLoader ? (
+              !Object.keys(data ? data : {}).length ? (
+                <h1>
+                  No data for the moment. Please check again in a few moments!{" "}
+                </h1>
+              ) : (
+                <div className="info">
+                  <h2 style={{ fontSize: "32px" }}>
+                    Total Cazuri:{" "}
+                    <span style={{ color: "red" }}>{data.cases}</span>
+                  </h2>
+                  <h2 style={{ fontSize: "32px" }}>
+                    Activi: <span style={{ color: "red" }}>{data.active}</span>
+                  </h2>
+                  <h2 style={{ fontSize: "32px" }}>
+                    Cazuri aparute astazi:{" "}
+                    <span style={{ color: "red" }}>{data.todayCases}</span>
+                  </h2>
+                  <h2 style={{ fontSize: "32px" }}>
+                    Cazuri Recuperate:{" "}
+                    <span style={{ color: "red" }}>{data.recovered}</span>
+                  </h2>
+                  <h2 style={{ fontSize: "32px" }}>
+                    Cazuri Critice:{" "}
+                    <span style={{ color: "red" }}>{data.critical}</span>
+                  </h2>
+                  <h2 style={{ fontSize: "32px" }}>
+                    Total Decese:{" "}
+                    <span style={{ color: "red" }}>{data.deaths}</span>
+                  </h2>
+                  <h2 style={{ fontSize: "32px" }}>
+                    Total Decese Astazi:{" "}
+                    <span style={{ color: "red" }}>{data.todayDeaths}</span>
+                  </h2>
+                </div>
+              )
+            ) : (
+              <Spin size="large" />
+            )}
+          </div>
 
           <div className="map">
             {!this.state.countyLoader ? (
@@ -98,7 +108,9 @@ class Home extends Component {
                   moments
                 </h1>
               )
-            ) : null}
+            ) : (
+              <Spin size="large" />
+            )}
           </div>
         </div>
       </div>

@@ -4,6 +4,13 @@
   justify-content: space-around;
 }
 
+.info-wrapper {
+  .ant-spin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+}
 .info {
   margin-top: 5rem;
 }
@@ -12,6 +19,12 @@
   width: 900px;
   height: 700px;
   transform: scale(1.1);
+
+  .ant-spin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
 
   path {
     fill: #7c7c7c;

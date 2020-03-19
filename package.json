@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@vx/responsive": "0.0.195",
     "and": "0.0.3",
+    "antd": "^4.0.3",
     "axios": "^0.19.2",
     "craco-alias": "^2.1.0",
     "cross-env": "^6.0.3",

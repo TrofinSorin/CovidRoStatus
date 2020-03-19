@@ -41,8 +41,8 @@
   .JudetWrapper {
     .county-map,
     svg {
-      width: 625px !important;
-      height: 850px !important;
+      width: 550px !important;
+      height: 800px !important;
     }
   }
 }
@@ -52,7 +52,17 @@
     .county-map,
     svg {
       width: 550px !important;
-      height: 800px !important;
+      height: 700px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 500px !important;
+      height: 700px !important;
     }
   }
 }

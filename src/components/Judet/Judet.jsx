@@ -3,6 +3,7 @@ import axios from "axios";
 import { useParams } from "react-router";
 import { useHistory } from "react-router-dom";
 import "./Judet.scss";
+import { Spin } from "antd";
 
 function loadCounty(name) {
   const Component = React.lazy(() =>
@@ -78,7 +79,7 @@ const Judet = props => {
         </h2>
       </div>
 
-      <Suspense fallback={<p>Loading Map</p>}>
+      <Suspense fallback={<Spin size="large" />}>
         <div className="county-map" style={{ pointerEvents: "none" }}>
           <MapComponent />
         </div>
