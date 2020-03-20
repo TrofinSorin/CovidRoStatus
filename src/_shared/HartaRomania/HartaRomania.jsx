@@ -1801,4 +1801,4 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
   );
 };
 
-export default withParentSize(HartaRomania);
+export default HartaRomania;

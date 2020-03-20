@@ -153,20 +153,24 @@ class Home extends Component {
               <Spin size="large" />
             )}
 
-            {quarantinePeople ? (
+            {quarantinePeople && quarantinePeople.toString().length ? (
               <h2 style={{ fontSize: "32px" }}>
                 Persoane în carantină:
                 <span style={{ color: "red" }}>
-                  {quarantinePeople.toString()}
+                  {typeof quarantinePeople === "number"
+                    ? quarantinePeople.toString()
+                    : null}
                 </span>
               </h2>
             ) : null}
 
-            {isolatedPeople ? (
+            {isolatedPeople && isolatedPeople.toString().length ? (
               <h2 style={{ fontSize: "32px" }}>
                 Persoane izolate:
                 <span style={{ color: "red" }}>
-                  {isolatedPeople.toString()}
+                  {typeof isolatedPeople === "number"
+                    ? isolatedPeople.toString()
+                    : null}
                 </span>
               </h2>
             ) : null}

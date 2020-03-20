@@ -1,4 +1,8 @@
 .HomeWrapper {
+  h1 {
+    margin: 0 auto;
+  }
+
   h2 {
     margin: 0;
   }
@@ -71,6 +75,7 @@
     font-size: 1.6rem !important;
   }
 
+  svg,
   .map {
     width: 810px;
     height: 600px;
@@ -82,6 +87,7 @@
     font-size: 1.6rem !important;
   }
 
+  svg,
   .map {
     width: 700px;
     height: 600px;
@@ -89,17 +95,26 @@
 }
 
 @media only screen and (max-width: 1100px) {
+  h1 {
+    font-size: 40px !important;
+  }
+
   h2 {
     font-size: 1.6rem !important;
   }
 
+  svg,
   .map {
-    width: 650px;
+    width: 570px;
     height: 600px;
   }
 }
 
 @media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 30px !important;
+  }
+
   .wrapper {
     flex-direction: column;
   }
@@ -112,6 +127,7 @@
     font-size: 1.8rem !important;
   }
 
+  svg,
   .map {
     width: 650px;
     height: 650px;
@@ -119,30 +135,46 @@
 }
 
 @media only screen and (max-width: 700px) {
+  h1 {
+    margin: 2rem 0 !important;
+    font-size: 37px !important;
+    width: 100%;
+  }
+
   .wrapper {
     flex-direction: column;
   }
+
   .info {
     margin-top: 0;
   }
+
+  svg,
   .map {
     width: 600px;
     height: 600px;
-    transform: scale(1.2);
   }
 }
 
 @media only screen and (max-width: 600px) {
+  h1 {
+    margin: 2rem 0 !important;
+    font-size: 33px !important;
+  }
+
   .wrapper {
     flex-direction: column;
   }
+
   .info {
     margin-top: 0;
   }
+
   h2 {
     font-size: 1.5rem !important;
   }
 
+  svg,
   .map {
     width: 500px;
     height: 500px;
@@ -150,24 +182,27 @@
 }
 
 @media only screen and (max-width: 500px) {
+  h1 {
+    margin: 2rem 0 !important;
+    font-size: 30px !important;
+  }
+
   .wrapper {
     flex-direction: column;
   }
+
   .info {
     margin-top: 0;
   }
+
   text {
     font-size: 1.3rem;
   }
-  .map {
-    width: 400px;
-    height: 400px;
-    transform: scale(1.35);
-  }
 
-  svg {
-    width: 410px;
-    height: 435px;
+  svg,
+  .map {
+    width: 390px;
+    height: 360px;
   }
 }
 
@@ -175,12 +210,14 @@
   .wrapper {
     flex-direction: column;
   }
+
   .info {
     margin-top: 0;
   }
+
+  svg,
   .map {
     width: 300px;
     height: 300px;
-    transform: scale(1.4);
   }
 }

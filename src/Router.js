@@ -9,7 +9,7 @@ const Router = props => (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/judet/:id/:countyName" component={Judet} />
-        <Redirect to="/" />
+        {/* <Redirect to="/" /> */}
       </Switch>
     </BrowserRouter>
   </React.Fragment>
