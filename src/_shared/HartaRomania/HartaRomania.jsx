@@ -40,12 +40,8 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
       width={parentWidth}
       xmlns="http://www.w3.org/2000/svg"
       overflow="hidden"
-      id="esri.Map_0_gc"
     >
-      <g
-        id="Cazuri_judet_COVID_19_WFL1_4947_layer"
-        data-geometry-type="polygon"
-      >
+      <g data-geometry-type="polygon">
         <g>
           <path
             className="Arad"

@@ -11,8 +11,6 @@ const Bacau = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          county-region-status
-          locations="vm.countyLocations"
           data-original-title="Mănăstirea Cașin"
           onClick={e => e.preventDefault()}
           href="true"

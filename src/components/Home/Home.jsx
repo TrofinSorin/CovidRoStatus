@@ -4,7 +4,7 @@ import "./Home.scss";
 import HartaRomania from "../../_shared/HartaRomania/HartaRomania";
 import { Spin } from "antd";
 import { CoffeeOutlined } from "@ant-design/icons";
-import { Button } from "antd";
+import Footer from "../Footer/Footer";
 
 class Home extends Component {
   constructor(props) {
@@ -15,7 +15,9 @@ class Home extends Component {
       data: {},
       countyData: [],
       countyLoader: true,
-      infoLoader: true
+      infoLoader: true,
+      quarantinePeople: {},
+      isolatedPeople: {}
     };
   }
 
@@ -45,12 +47,38 @@ class Home extends Component {
           countyLoader: false
         });
       });
+
+    axios
+      .all([
+        axios.get(
+          "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22sum%22%2C%22onStatisticField%22%3A%22Persoane_in_carantina%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&cacheHint=true"
+        ),
+        axios.get(
+          "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22sum%22%2C%22onStatisticField%22%3A%22Persoane_izolate%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&cacheHint=true"
+        )
+      ])
+      .then(
+        axios.spread((quarantinePeople, isolatedPeople) => {
+          this.setState({
+            quarantinePeople:
+              quarantinePeople.data.features[0] &&
+              quarantinePeople.data.features[0].attributes
+                ? quarantinePeople.data.features[0].attributes.value
+                : null,
+            isolatedPeople:
+              isolatedPeople.data.features[0] &&
+              isolatedPeople.data.features[0].attributes
+                ? isolatedPeople.data.features[0].attributes.value
+                : null
+          });
+        })
+      );
   }
 
   componentWillUnmount() {}
 
   render() {
-    const { data } = this.state;
+    const { data, quarantinePeople, isolatedPeople } = this.state;
 
     return (
       <div className="HomeWrapper">
@@ -81,42 +109,42 @@ class Home extends Component {
           </span>
         </a>
         <h1 style={{ textAlign: "center", fontSize: "50px", marginTop: "0" }}>
-          CoronaRoStatus COVID19 in Romania
+          Covid19RoStatus, Monitorizare Coronavirus in Romania
         </h1>
         <div className="wrapper">
           <div className="info-wrapper" style={{ position: "relative" }}>
             {!this.state.infoLoader ? (
               !Object.keys(data ? data : {}).length ? (
                 <h1>
-                  No data for the moment. Please check again in a few moments!{" "}
+                  No data for the moment. Please check again in a few moments!
                 </h1>
               ) : (
                 <div className="info">
                   <h2 style={{ fontSize: "32px" }}>
-                    Total Cazuri:{" "}
+                    Total Cazuri:
                     <span style={{ color: "red" }}>{data.cases}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Activi: <span style={{ color: "red" }}>{data.active}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
-                    Cazuri aparute astazi:{" "}
+                    Cazuri aparute astazi:
                     <span style={{ color: "red" }}>{data.todayCases}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
-                    Cazuri Recuperate:{" "}
+                    Cazuri Recuperate:
                     <span style={{ color: "red" }}>{data.recovered}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
-                    Cazuri Critice:{" "}
+                    Cazuri Critice:
                     <span style={{ color: "red" }}>{data.critical}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
-                    Total Decese:{" "}
+                    Total Decese:
                     <span style={{ color: "red" }}>{data.deaths}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
-                    Total Decese Astazi:{" "}
+                    Total Decese Astazi:
                     <span style={{ color: "red" }}>{data.todayDeaths}</span>
                   </h2>
                 </div>
@@ -124,6 +152,24 @@ class Home extends Component {
             ) : (
               <Spin size="large" />
             )}
+
+            {quarantinePeople ? (
+              <h2 style={{ fontSize: "32px" }}>
+                Persoane în carantină:
+                <span style={{ color: "red" }}>
+                  {quarantinePeople.toString()}
+                </span>
+              </h2>
+            ) : null}
+
+            {isolatedPeople ? (
+              <h2 style={{ fontSize: "32px" }}>
+                Persoane izolate:
+                <span style={{ color: "red" }}>
+                  {isolatedPeople.toString()}
+                </span>
+              </h2>
+            ) : null}
           </div>
 
           <div className="map">
@@ -141,6 +187,8 @@ class Home extends Component {
             )}
           </div>
         </div>
+
+        <Footer></Footer>
       </div>
     );
   }

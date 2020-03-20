@@ -1,3 +1,9 @@
+.HomeWrapper {
+  h2 {
+    margin: 0;
+  }
+}
+
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -29,7 +35,7 @@
   }
 }
 .info {
-  margin-top: 5rem;
+  margin-top: 2.5rem;
 }
 
 .map {
