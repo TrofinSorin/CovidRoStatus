@@ -12,7 +12,8 @@ const Covasna = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Întorsura Buzăului"
-          href="/#/location/?county=CV&locationId=63580"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Barcani"
-          href="/#/location/?county=CV&locationId=63633"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Dobîrlău"
-          href="/#/location/?county=CV&locationId=64265"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Comandău"
-          href="/#/location/?county=CV&locationId=63553"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Boroșneu Mare"
-          href="/#/location/?county=CV&locationId=63937"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Chichiș"
-          href="/#/location/?county=CV&locationId=64238"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Zagon"
-          href="/#/location/?county=CV&locationId=65011"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Ozun"
-          href="/#/location/?county=CV&locationId=64639"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Reci"
-          href="/#/location/?county=CV&locationId=64773"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Brateș"
-          href="/#/location/?county=CV&locationId=64005"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Covasna"
-          href="/#/location/?county=CV&locationId=63526"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Valea Mare"
-          href="/#/location/?county=CV&locationId=65099"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Vîlcele"
-          href="/#/location/?county=CV&locationId=64942"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Hăghig"
-          href="/#/location/?county=CV&locationId=64390"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Sfîntu Gheorghe"
-          href="/#/location/?county=CV&locationId=63394"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Moacșa"
-          href="/#/location/?county=CV&locationId=64568"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Zăbala"
-          href="/#/location/?county=CV&locationId=65048"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Arcuș"
-          href="/#/location/?county=CV&locationId=65113"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Belin"
-          href="/#/location/?county=CV&locationId=63866"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Ghelința"
-          href="/#/location/?county=CV&locationId=64318"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Ghidfalău"
-          href="/#/location/?county=CV&locationId=64345"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Catalina"
-          href="/#/location/?county=CV&locationId=64130"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Dalnic"
-          href="/#/location/?county=CV&locationId=65147"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Valea Crișului"
-          href="/#/location/?county=CV&locationId=64906"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Aita Mare"
-          href="/#/location/?county=CV&locationId=63777"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Ojdula"
-          href="/#/location/?county=CV&locationId=64602"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Bodoc"
-          href="/#/location/?county=CV&locationId=63893"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Cernat"
-          href="/#/location/?county=CV&locationId=64194"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Târgu Secuiesc"
-          href="/#/location/?county=CV&locationId=63740"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Malnaș"
-          href="/#/location/?county=CV&locationId=64504"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Micfalău"
-          href="/#/location/?county=CV&locationId=65139"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Brețcu"
-          href="/#/location/?county=CV&locationId=64096"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Turia"
-          href="/#/location/?county=CV&locationId=64871"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Bixad"
-          href="/#/location/?county=CV&locationId=65121"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Sînzieni"
-          href="/#/location/?county=CV&locationId=64826"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Lemnia"
-          href="/#/location/?county=CV&locationId=64461"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Poian"
-          href="/#/location/?county=CV&locationId=64719"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Vîrghiș"
-          href="/#/location/?county=CV&locationId=64997"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Bățani"
-          href="/#/location/?county=CV&locationId=63802"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Brăduț"
-          href="/#/location/?county=CV&locationId=64041"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Ilieni"
-          href="/#/location/?county=CV&locationId=64425"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Baraolt"
-          href="/#/location/?county=CV&locationId=63447"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Mereni"
-          href="/#/location/?county=CV&locationId=65105"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Estelnic"
-          href="/#/location/?county=CV&locationId=65154"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Covasna = props => {
         </a>
         <a
           data-original-title="Sita Buzăului"
-          href="/#/location/?county=CV&locationId=63688"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

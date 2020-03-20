@@ -12,7 +12,8 @@ const Prahova = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Gorgota"
-          href="/#/location/?county=PH&locationId=133508"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Balta Doamnei"
-          href="/#/location/?county=PH&locationId=132226"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Olari"
-          href="/#/location/?county=PH&locationId=136250"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Gherghița"
-          href="/#/location/?county=PH&locationId=133429"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Șirna"
-          href="/#/location/?county=PH&locationId=135431"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Tinosu"
-          href="/#/location/?county=PH&locationId=135850"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Puchenii Mari"
-          href="/#/location/?county=PH&locationId=134942"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Sălciile"
-          href="/#/location/?county=PH&locationId=135146"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Cocorastii Colt"
-          href="/#/location/?county=PH&locationId=136241"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Ciorani"
-          href="/#/location/?county=PH&locationId=132681"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Rîfov"
-          href="/#/location/?county=PH&locationId=135020"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Drăgănești"
-          href="/#/location/?county=PH&locationId=133018"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Brazi"
-          href="/#/location/?county=PH&locationId=130712"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Dumbrava"
-          href="/#/location/?county=PH&locationId=133090"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Bărcănești"
-          href="/#/location/?county=PH&locationId=130552"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Mănești"
-          href="/#/location/?county=PH&locationId=134194"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Boldești-Gradiștea"
-          href="/#/location/?county=PH&locationId=132379"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Tîrgșoru Vechi"
-          href="/#/location/?county=PH&locationId=130892"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Berceni"
-          href="/#/location/?county=PH&locationId=130614"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Fulga"
-          href="/#/location/?county=PH&locationId=133394"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Albești-Paleologu"
-          href="/#/location/?county=PH&locationId=131933"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Colceag"
-          href="/#/location/?county=PH&locationId=132752"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Tomșani"
-          href="/#/location/?county=PH&locationId=135896"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Filipeștii de Tîrg"
-          href="/#/location/?county=PH&locationId=133214"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Valea Călugărească"
-          href="/#/location/?county=PH&locationId=135949"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Ariceștii Rahtivani"
-          href="/#/location/?county=PH&locationId=132075"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Bucov"
-          href="/#/location/?county=PH&locationId=130785"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Filipeștii de Pădure"
-          href="/#/location/?county=PH&locationId=133161"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Urlați"
-          href="/#/location/?county=PH&locationId=131620"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Păulești"
-          href="/#/location/?county=PH&locationId=130847"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Florești"
-          href="/#/location/?county=PH&locationId=133330"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Plopeni"
-          href="/#/location/?county=PH&locationId=131443"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Fântânele"
-          href="/#/location/?county=PH&locationId=133278"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Plopu"
-          href="/#/location/?county=PH&locationId=134390"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Ceptura"
-          href="/#/location/?county=PH&locationId=132510"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Băicoi"
-          href="/#/location/?county=PH&locationId=130981"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Gura Vadului"
-          href="/#/location/?county=PH&locationId=133688"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Iordăcheanu"
-          href="/#/location/?county=PH&locationId=133722"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Gornet-Cricov"
-          href="/#/location/?county=PH&locationId=133615"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Călugăreni"
-          href="/#/location/?county=PH&locationId=132459"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Bănești"
-          href="/#/location/?county=PH&locationId=132315"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Cocorăștii Mislii"
-          href="/#/location/?county=PH&locationId=132716"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Tătaru"
-          href="/#/location/?county=PH&locationId=135681"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Bălțești"
-          href="/#/location/?county=PH&locationId=132271"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Jugureni"
-          href="/#/location/?county=PH&locationId=133866"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Scorțeni"
-          href="/#/location/?county=PH&locationId=135164"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Podenii Noi"
-          href="/#/location/?county=PH&locationId=134443"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Apostolache"
-          href="/#/location/?county=PH&locationId=132011"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Vîlcănești"
-          href="/#/location/?county=PH&locationId=136198"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Provița de Sus"
-          href="/#/location/?county=PH&locationId=134899"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Gornet"
-          href="/#/location/?county=PH&locationId=133562"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Păcureți"
-          href="/#/location/?county=PH&locationId=134336"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Telega"
-          href="/#/location/?county=PH&locationId=135789"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Câmpina"
-          href="/#/location/?county=PH&locationId=131256"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Sîngeru"
-          href="/#/location/?county=PH&locationId=135244"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Cosminele"
-          href="/#/location/?county=PH&locationId=132841"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Gura Vitioarei"
-          href="/#/location/?county=PH&locationId=131835"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Lapoș"
-          href="/#/location/?county=PH&locationId=133919"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Vărbilău"
-          href="/#/location/?county=PH&locationId=136134"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Adunați"
-          href="/#/location/?county=PH&locationId=131899"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Surani"
-          href="/#/location/?county=PH&locationId=135404"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Chiojdeanca"
-          href="/#/location/?county=PH&locationId=132645"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Șoimari"
-          href="/#/location/?county=PH&locationId=135501"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Vălenii de Munte"
-          href="/#/location/?county=PH&locationId=131817"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Salcia"
-          href="/#/location/?county=PH&locationId=135128"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Predeal-Sărari"
-          href="/#/location/?county=PH&locationId=134755"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Aluniș"
-          href="/#/location/?county=PH&locationId=131988"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Șotrile"
-          href="/#/location/?county=PH&locationId=135547"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Ariceștii Zeletin"
-          href="/#/location/?county=PH&locationId=132137"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Talea"
-          href="/#/location/?county=PH&locationId=135654"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Cărbunești"
-          href="/#/location/?county=PH&locationId=132486"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Brebu"
-          href="/#/location/?county=PH&locationId=132404"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Teișani"
-          href="/#/location/?county=PH&locationId=135725"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Slănic"
-          href="/#/location/?county=PH&locationId=131577"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Drajna"
-          href="/#/location/?county=PH&locationId=132896"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Comarnic"
-          href="/#/location/?county=PH&locationId=131336"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Posești"
-          href="/#/location/?county=PH&locationId=134648"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Bertea"
-          href="/#/location/?county=PH&locationId=132342"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Ștefești"
-          href="/#/location/?county=PH&locationId=135618"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Izvoarele"
-          href="/#/location/?county=PH&locationId=133795"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Secăria"
-          href="/#/location/?county=PH&locationId=135226"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Sinaia"
-          href="/#/location/?county=PH&locationId=131540"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Bătrâni"
-          href="/#/location/?county=PH&locationId=136278"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Valea Doftanei"
-          href="/#/location/?county=PH&locationId=136107"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Azuga"
-          href="/#/location/?county=PH&locationId=130954"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Cerașu"
-          href="/#/location/?county=PH&locationId=132574"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Măneciu"
-          href="/#/location/?county=PH&locationId=134096"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Poienarii Burchii"
-          href="/#/location/?county=PH&locationId=134559"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Bușteni"
-          href="/#/location/?county=PH&locationId=131210"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1258,7 +1347,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Baba Ana"
-          href="/#/location/?county=PH&locationId=132164"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1272,7 +1362,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Vadu Săpat"
-          href="/#/location/?county=PH&locationId=136269"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1286,7 +1377,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Ploiești"
-          href="/#/location/?county=PH&locationId=130534"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1300,7 +1392,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Măgurele"
-          href="/#/location/?county=PH&locationId=134014"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1314,7 +1407,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Boldești-Scăeni"
-          href="/#/location/?county=PH&locationId=131069"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1328,7 +1422,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Lipănești"
-          href="/#/location/?county=PH&locationId=133964"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1342,7 +1437,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Măgureni"
-          href="/#/location/?county=PH&locationId=134050"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1356,7 +1452,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Provița de Jos"
-          href="/#/location/?county=PH&locationId=134853"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1370,7 +1467,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Mizil"
-          href="/#/location/?county=PH&locationId=131407"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1384,7 +1482,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Starchiojd"
-          href="/#/location/?county=PH&locationId=135315"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1398,7 +1497,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Blejoi"
-          href="/#/location/?county=PH&locationId=130678"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1412,7 +1512,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Cornu"
-          href="/#/location/?county=PH&locationId=132805"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1426,7 +1527,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Poiana Câmpina"
-          href="/#/location/?county=PH&locationId=131274"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1440,7 +1542,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Dumbrăvești"
-          href="/#/location/?county=PH&locationId=131461"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1454,7 +1557,8 @@ const Prahova = props => {
         </a>
         <a
           data-original-title="Breaza"
-          href="/#/location/?county=PH&locationId=131103"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

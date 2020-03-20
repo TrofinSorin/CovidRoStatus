@@ -12,7 +12,8 @@ const Giurgiu = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Găujani"
-          href="/#/location/?county=GR&locationId=103194"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Vedea"
-          href="/#/location/?county=GR&locationId=105909"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Malu"
-          href="/#/location/?county=GR&locationId=179739"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Slobozia"
-          href="/#/location/?county=GR&locationId=100549"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Gogoșari"
-          href="/#/location/?county=GR&locationId=103309"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Putineiu"
-          href="/#/location/?county=GR&locationId=104715"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Oinacu"
-          href="/#/location/?county=GR&locationId=104519"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Gostinu"
-          href="/#/location/?county=GR&locationId=103354"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Daia"
-          href="/#/location/?county=GR&locationId=102446"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Băneasa"
-          href="/#/location/?county=GR&locationId=101001"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Izvoarele"
-          href="/#/location/?county=GR&locationId=103899"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Greaca"
-          href="/#/location/?county=GR&locationId=103470"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Mihai Bravu"
-          href="/#/location/?county=GR&locationId=104118"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Stoenești"
-          href="/#/location/?county=GR&locationId=105348"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Isvoarele"
-          href="/#/location/?county=GR&locationId=179766"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Hotarele"
-          href="/#/location/?county=GR&locationId=103639"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Schitu"
-          href="/#/location/?county=GR&locationId=104975"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Gostinari"
-          href="/#/location/?county=GR&locationId=103372"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Călugăreni"
-          href="/#/location/?county=GR&locationId=101662"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Valea Dragului"
-          href="/#/location/?county=GR&locationId=105776"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Singureni"
-          href="/#/location/?county=GR&locationId=105106"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Adunații-Copăceni"
-          href="/#/location/?county=GR&locationId=100781"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Clejani"
-          href="/#/location/?county=GR&locationId=101984"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Bucșani"
-          href="/#/location/?county=GR&locationId=101378"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Mîrșa"
-          href="/#/location/?county=GR&locationId=104225"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Ogrezeni"
-          href="/#/location/?county=GR&locationId=104485"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Grădinari"
-          href="/#/location/?county=GR&locationId=103407"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Roata de Jos"
-          href="/#/location/?county=GR&locationId=104831"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Crevedia Mare"
-          href="/#/location/?county=GR&locationId=102348"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Bolintin-Vale"
-          href="/#/location/?county=GR&locationId=101190"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Bolintin-Deal"
-          href="/#/location/?county=GR&locationId=101163"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Joița"
-          href="/#/location/?county=GR&locationId=103997"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Vînătorii Mici"
-          href="/#/location/?county=GR&locationId=105972"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Săbăreni"
-          href="/#/location/?county=GR&locationId=179775"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Florești-Stoenești"
-          href="/#/location/?county=GR&locationId=102794"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Ulmi"
-          href="/#/location/?county=GR&locationId=105623"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Găiseni"
-          href="/#/location/?county=GR&locationId=103087"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Colibași"
-          href="/#/location/?county=GR&locationId=102071"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Comana"
-          href="/#/location/?county=GR&locationId=102106"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Bulbucata"
-          href="/#/location/?county=GR&locationId=101519"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Ghimpați"
-          href="/#/location/?county=GR&locationId=103238"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Iepurești"
-          href="/#/location/?county=GR&locationId=103693"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Prundu"
-          href="/#/location/?county=GR&locationId=104680"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Herăști"
-          href="/#/location/?county=GR&locationId=179757"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Buturugeni"
-          href="/#/location/?county=GR&locationId=101617"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Vărăști"
-          href="/#/location/?county=GR&locationId=105874"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Toporu"
-          href="/#/location/?county=GR&locationId=154709"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Răsuceni"
-          href="/#/location/?county=GR&locationId=104788"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Stănești"
-          href="/#/location/?county=GR&locationId=105295"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Mihăilești"
-          href="/#/location/?county=GR&locationId=104136"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Cosoba"
-          href="/#/location/?county=GR&locationId=179748"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Letca Nouă"
-          href="/#/location/?county=GR&locationId=104047"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Frătești"
-          href="/#/location/?county=GR&locationId=102909"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Giurgiu = props => {
         </a>
         <a
           data-original-title="Giurgiu"
-          href="/#/location/?county=GR&locationId=100521"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

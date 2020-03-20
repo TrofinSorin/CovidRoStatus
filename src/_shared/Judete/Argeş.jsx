@@ -12,7 +12,8 @@ const Arges = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Miroși"
-          href="/#/location/?county=AG&locationId=17398"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Râca"
-          href="/#/location/?county=AG&locationId=20048"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Căldăraru"
-          href="/#/location/?county=AG&locationId=15064"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Popești"
-          href="/#/location/?county=AG&locationId=18162"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Bîrla"
-          href="/#/location/?county=AG&locationId=14450"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Ștefan cel Mare"
-          href="/#/location/?county=AG&locationId=19114"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Izvoru"
-          href="/#/location/?county=AG&locationId=16739"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Hârsești"
-          href="/#/location/?county=AG&locationId=16613"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Ungheni"
-          href="/#/location/?county=AG&locationId=19560"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Slobozia"
-          href="/#/location/?county=AG&locationId=18741"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Mozăceni"
-          href="/#/location/?county=AG&locationId=17575"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Stolnici"
-          href="/#/location/?county=AG&locationId=18938"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Teiu"
-          href="/#/location/?county=AG&locationId=19212"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Lunca Corbului"
-          href="/#/location/?county=AG&locationId=16944"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Suseni"
-          href="/#/location/?county=AG&locationId=19007"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Rătești"
-          href="/#/location/?county=AG&locationId=18331"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Costești"
-          href="/#/location/?county=AG&locationId=13668"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Săpata"
-          href="/#/location/?county=AG&locationId=18581"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Oarja"
-          href="/#/location/?county=AG&locationId=17824"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Căteasca"
-          href="/#/location/?county=AG&locationId=15233"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Bradu"
-          href="/#/location/?county=AG&locationId=13276"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Leordeni"
-          href="/#/location/?county=AG&locationId=16757"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Poiana Lacului"
-          href="/#/location/?county=AG&locationId=18028"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Topoloveni"
-          href="/#/location/?county=AG&locationId=13757"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Priboieni"
-          href="/#/location/?county=AG&locationId=18242"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Ciomăgești"
-          href="/#/location/?county=AG&locationId=15554"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Băbana"
-          href="/#/location/?county=AG&locationId=14085"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Cocu"
-          href="/#/location/?county=AG&locationId=15652"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Uda"
-          href="/#/location/?county=AG&locationId=19392"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Mioveni"
-          href="/#/location/?county=AG&locationId=13301"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Călinești"
-          href="/#/location/?county=AG&locationId=15108"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Cuca"
-          href="/#/location/?county=AG&locationId=16132"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Beleți-Negrești"
-          href="/#/location/?county=AG&locationId=14352"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Micești"
-          href="/#/location/?county=AG&locationId=17209"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Merișani"
-          href="/#/location/?county=AG&locationId=17101"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Dîrmănești"
-          href="/#/location/?county=AG&locationId=16365"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Țițești"
-          href="/#/location/?county=AG&locationId=19338"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Davidești"
-          href="/#/location/?county=AG&locationId=16285"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Morărești"
-          href="/#/location/?county=AG&locationId=17423"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Boțești"
-          href="/#/location/?county=AG&locationId=14726"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Poienarii de Argeș"
-          href="/#/location/?county=AG&locationId=17913"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Stîlpeni"
-          href="/#/location/?county=AG&locationId=18778"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Vulturești"
-          href="/#/location/?county=AG&locationId=20055"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Băiculești"
-          href="/#/location/?county=AG&locationId=14165"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Coșești"
-          href="/#/location/?county=AG&locationId=15901"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Ciofringeni"
-          href="/#/location/?county=AG&locationId=15493"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Hârtiești"
-          href="/#/location/?county=AG&locationId=16659"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Mihăești"
-          href="/#/location/?county=AG&locationId=17254"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Curtea de Argeș"
-          href="/#/location/?county=AG&locationId=13622"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Vlădești"
-          href="/#/location/?county=AG&locationId=19999"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Tigveni"
-          href="/#/location/?county=AG&locationId=19249"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Pietroșani"
-          href="/#/location/?county=AG&locationId=17851"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Boteni"
-          href="/#/location/?county=AG&locationId=14673"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Schitu Golești"
-          href="/#/location/?county=AG&locationId=18670"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Cetățeni"
-          href="/#/location/?county=AG&locationId=15402"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Valea Iașului"
-          href="/#/location/?county=AG&locationId=19695"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Valea Danului"
-          href="/#/location/?county=AG&locationId=19631"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Domnești"
-          href="/#/location/?county=AG&locationId=16454"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Poienarii de Muscel"
-          href="/#/location/?county=AG&locationId=17968"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Cepari"
-          href="/#/location/?county=AG&locationId=15313"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Mioarele"
-          href="/#/location/?county=AG&locationId=17334"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Godeni"
-          href="/#/location/?county=AG&locationId=16551"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Șuici"
-          href="/#/location/?county=AG&locationId=19141"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Albeștii de Argeș"
-          href="/#/location/?county=AG&locationId=13819"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Bughea de Jos"
-          href="/#/location/?county=AG&locationId=14922"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Cicănești"
-          href="/#/location/?county=AG&locationId=15448"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Aninoasa"
-          href="/#/location/?county=AG&locationId=13999"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Corbi"
-          href="/#/location/?county=AG&locationId=15830"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Stoenești"
-          href="/#/location/?county=AG&locationId=18858"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Corbeni"
-          href="/#/location/?county=AG&locationId=15741"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Brăduleț"
-          href="/#/location/?county=AG&locationId=14753"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Dragoslavele"
-          href="/#/location/?county=AG&locationId=16472"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Berevoești"
-          href="/#/location/?county=AG&locationId=14405"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Albeștii de Muscel"
-          href="/#/location/?county=AG&locationId=13891"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Valea Mare Pravăț"
-          href="/#/location/?county=AG&locationId=13524"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Lerești"
-          href="/#/location/?county=AG&locationId=16908"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Dîmbovicioara"
-          href="/#/location/?county=AG&locationId=16329"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Sălătrucu"
-          href="/#/location/?county=AG&locationId=18554"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Rucăr"
-          href="/#/location/?county=AG&locationId=18527"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Arefu"
-          href="/#/location/?county=AG&locationId=14049"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Nucșoara"
-          href="/#/location/?county=AG&locationId=17771"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Bogați"
-          href="/#/location/?county=AG&locationId=14584"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Dobrești"
-          href="/#/location/?county=AG&locationId=16427"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Vedea"
-          href="/#/location/?county=AG&locationId=19793"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Mălureni"
-          href="/#/location/?county=AG&locationId=17049"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Mușătești"
-          href="/#/location/?county=AG&locationId=17619"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Albota"
-          href="/#/location/?county=AG&locationId=13935"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Moșoaia"
-          href="/#/location/?county=AG&locationId=17496"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Cotmeana"
-          href="/#/location/?county=AG&locationId=15983"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1258,7 +1347,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Drăganu"
-          href="/#/location/?county=AG&locationId=16506"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1272,7 +1362,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Ștefănești"
-          href="/#/location/?county=AG&locationId=13392"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1286,7 +1377,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Mărăcineni"
-          href="/#/location/?county=AG&locationId=13365"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1300,7 +1392,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Pitești"
-          href="/#/location/?county=AG&locationId=13169"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1314,7 +1407,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Rociu"
-          href="/#/location/?county=AG&locationId=18475"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1328,7 +1422,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Buzoești"
-          href="/#/location/?county=AG&locationId=14940"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1342,7 +1437,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Recea"
-          href="/#/location/?county=AG&locationId=18411"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1356,7 +1452,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Negrași"
-          href="/#/location/?county=AG&locationId=17726"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1370,7 +1467,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Bălilești"
-          href="/#/location/?county=AG&locationId=14272"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1384,7 +1482,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Bascov"
-          href="/#/location/?county=AG&locationId=13187"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1398,7 +1497,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Budeasa"
-          href="/#/location/?county=AG&locationId=14851"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1412,7 +1512,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Bughea de Sus"
-          href="/#/location/?county=AG&locationId=20063"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1426,7 +1527,8 @@ const Arges = props => {
         </a>
         <a
           data-original-title="Câmpulung"
-          href="/#/location/?county=AG&locationId=13490"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

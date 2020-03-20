@@ -12,7 +12,8 @@ const Vaslui = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Pochidia"
-          href="/#/location/?county=VS&locationId=167311"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Tutova"
-          href="/#/location/?county=VS&locationId=166529"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Blăgești"
-          href="/#/location/?county=VS&locationId=162559"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Vinderei"
-          href="/#/location/?county=VS&locationId=166770"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Ivești"
-          href="/#/location/?county=VS&locationId=164543"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Fruntișeni"
-          href="/#/location/?county=VS&locationId=167231"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Bîrlad"
-          href="/#/location/?county=VS&locationId=161794"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Ciocani"
-          href="/#/location/?county=VS&locationId=167268"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Epureni"
-          href="/#/location/?county=VS&locationId=163789"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Murgeni"
-          href="/#/location/?county=VS&locationId=164981"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Zorleni"
-          href="/#/location/?county=VS&locationId=167179"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Perieni"
-          href="/#/location/?county=VS&locationId=165274"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Șuletea"
-          href="/#/location/?county=VS&locationId=166137"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Coroiești"
-          href="/#/location/?county=VS&locationId=163057"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Băcani"
-          href="/#/location/?county=VS&locationId=162327"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Fălciu"
-          href="/#/location/?county=VS&locationId=163832"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Dodești"
-          href="/#/location/?county=VS&locationId=167286"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Pogana"
-          href="/#/location/?county=VS&locationId=165416"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Găgești"
-          href="/#/location/?county=VS&locationId=163903"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Viișoara"
-          href="/#/location/?county=VS&locationId=166707"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Banca"
-          href="/#/location/?county=VS&locationId=162194"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Iana"
-          href="/#/location/?county=VS&locationId=164339"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Berezeni"
-          href="/#/location/?county=VS&locationId=162498"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Ibănești"
-          href="/#/location/?county=VS&locationId=167222"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Roșiești"
-          href="/#/location/?county=VS&locationId=165817"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Bogdănești"
-          href="/#/location/?county=VS&locationId=162693"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Vetrișoaia"
-          href="/#/location/?county=VS&locationId=166672"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Bogdănița"
-          href="/#/location/?county=VS&locationId=162791"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Puiești"
-          href="/#/location/?county=VS&locationId=165470"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Alexandru Vlahuță"
-          href="/#/location/?county=VS&locationId=162069"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Vutcani"
-          href="/#/location/?county=VS&locationId=167035"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Costești"
-          href="/#/location/?county=VS&locationId=163137"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Deleni"
-          href="/#/location/?county=VS&locationId=163324"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Bogdana"
-          href="/#/location/?county=VS&locationId=162595"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Gherghești"
-          href="/#/location/?county=VS&locationId=163967"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Voinești"
-          href="/#/location/?county=VS&locationId=166869"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Lipovăț"
-          href="/#/location/?county=VS&locationId=164687"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Hoceni"
-          href="/#/location/?county=VS&locationId=164197"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Lunca Banului"
-          href="/#/location/?county=VS&locationId=164749"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Dimitrie Cantemir"
-          href="/#/location/?county=VS&locationId=164277"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Poienești"
-          href="/#/location/?county=VS&locationId=165336"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Pușcași"
-          href="/#/location/?county=VS&locationId=167320"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Oltenești"
-          href="/#/location/?county=VS&locationId=165069"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Laza"
-          href="/#/location/?county=VS&locationId=164598"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Dragomirești"
-          href="/#/location/?county=VS&locationId=163486"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Crețești"
-          href="/#/location/?county=VS&locationId=163208"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Bălteni"
-          href="/#/location/?county=VS&locationId=162452"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Vaslui"
-          href="/#/location/?county=VS&locationId=161945"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Ivănești"
-          href="/#/location/?county=VS&locationId=164393"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Muntenii de Sus"
-          href="/#/location/?county=VS&locationId=167302"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Tanacu"
-          href="/#/location/?county=VS&locationId=166182"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Delești"
-          href="/#/location/?county=VS&locationId=163379"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Stănilești"
-          href="/#/location/?county=VS&locationId=165979"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Cozmești"
-          href="/#/location/?county=VS&locationId=167277"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Pungești"
-          href="/#/location/?county=VS&locationId=165611"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Tătărăni"
-          href="/#/location/?county=VS&locationId=166315"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Gîrceni"
-          href="/#/location/?county=VS&locationId=164062"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Duda-Epureni"
-          href="/#/location/?county=VS&locationId=163681"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Ștefan cel Mare"
-          href="/#/location/?county=VS&locationId=166057"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Oșești"
-          href="/#/location/?county=VS&locationId=165130"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Văleni"
-          href="/#/location/?county=VS&locationId=166636"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Rafaila"
-          href="/#/location/?county=VS&locationId=167240"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Ferești"
-          href="/#/location/?county=VS&locationId=167295"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Vulturești"
-          href="/#/location/?county=VS&locationId=166985"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Zăpodeni"
-          href="/#/location/?county=VS&locationId=167071"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Solești"
-          href="/#/location/?county=VS&locationId=165899"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Arsura"
-          href="/#/location/?county=VS&locationId=162149"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Drînceni"
-          href="/#/location/?county=VS&locationId=163618"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Dumești"
-          href="/#/location/?county=VS&locationId=163734"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Negrești"
-          href="/#/location/?county=VS&locationId=161856"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Huși"
-          href="/#/location/?county=VS&locationId=161829"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Pădureni"
-          href="/#/location/?county=VS&locationId=165185"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Pogonești"
-          href="/#/location/?county=VS&locationId=167259"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Albești"
-          href="/#/location/?county=VS&locationId=162014"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Muntenii de Jos"
-          href="/#/location/?county=VS&locationId=164936"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Mălușteni"
-          href="/#/location/?county=VS&locationId=164829"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Grivița"
-          href="/#/location/?county=VS&locationId=164133"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Todirești"
-          href="/#/location/?county=VS&locationId=166413"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Miclești"
-          href="/#/location/?county=VS&locationId=164892"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Boțești"
-          href="/#/location/?county=VS&locationId=162871"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Bunești-Averești"
-          href="/#/location/?county=VS&locationId=162924"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Dănești"
-          href="/#/location/?county=VS&locationId=163253"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Rebricea"
-          href="/#/location/?county=VS&locationId=165719"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Codăești"
-          href="/#/location/?county=VS&locationId=163002"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Băcești"
-          href="/#/location/?county=VS&locationId=162381"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Vaslui = props => {
         </a>
         <a
           data-original-title="Tăcuta"
-          href="/#/location/?county=VS&locationId=166235"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

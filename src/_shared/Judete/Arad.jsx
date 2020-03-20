@@ -12,7 +12,8 @@ const Arad = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Birchiș"
-          href="/#/location/?county=AR&locationId=10006"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Bata"
-          href="/#/location/?county=AR&locationId=9887"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Șiștarovăț"
-          href="/#/location/?county=AR&locationId=12402"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Ususău"
-          href="/#/location/?county=AR&locationId=10765"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Vinga"
-          href="/#/location/?county=AR&locationId=12643"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Șagu"
-          href="/#/location/?county=AR&locationId=12144"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Zăbrani"
-          href="/#/location/?county=AR&locationId=12778"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Vărădia de Mureș"
-          href="/#/location/?county=AR&locationId=12572"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Frumușeni"
-          href="/#/location/?county=AR&locationId=12920"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Săvîrșin"
-          href="/#/location/?county=AR&locationId=11842"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Fântânele"
-          href="/#/location/?county=AR&locationId=9280"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Secusigiu"
-          href="/#/location/?county=AR&locationId=11940"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Bîrzava"
-          href="/#/location/?county=AR&locationId=10104"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Ghioroc"
-          href="/#/location/?county=AR&locationId=10872"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Păuliș"
-          href="/#/location/?county=AR&locationId=11539"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Brazii"
-          href="/#/location/?county=AR&locationId=10239"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Covăsinț"
-          href="/#/location/?county=AR&locationId=10514"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Semlac"
-          href="/#/location/?county=AR&locationId=12037"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Livada"
-          href="/#/location/?county=AR&locationId=9333"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Șeitin"
-          href="/#/location/?county=AR&locationId=12206"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Vladimirescu"
-          href="/#/location/?county=AR&locationId=9397"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Arad"
-          href="/#/location/?county=AR&locationId=9262"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Almaș"
-          href="/#/location/?county=AR&locationId=9743"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Peregu Mare"
-          href="/#/location/?county=AR&locationId=11637"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Chisindia"
-          href="/#/location/?county=AR&locationId=10417"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Pleșcuța"
-          href="/#/location/?county=AR&locationId=11762"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Șofronea"
-          href="/#/location/?county=AR&locationId=9360"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Nădlac"
-          href="/#/location/?county=AR&locationId=9627"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Tauț"
-          href="/#/location/?county=AR&locationId=12457"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Pecica"
-          href="/#/location/?county=AR&locationId=11584"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Zimandu Nou"
-          href="/#/location/?county=AR&locationId=12876"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Șiria"
-          href="/#/location/?county=AR&locationId=12368"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Buteni"
-          href="/#/location/?county=AR&locationId=10293"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Iratoșu"
-          href="/#/location/?county=AR&locationId=11352"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Tîrnova"
-          href="/#/location/?county=AR&locationId=12509"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Hălmagiu"
-          href="/#/location/?county=AR&locationId=11058"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Hălmăgel"
-          href="/#/location/?county=AR&locationId=11174"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Pîncota"
-          href="/#/location/?county=AR&locationId=9654"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Șilindia"
-          href="/#/location/?county=AR&locationId=12288"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Vîrfurile"
-          href="/#/location/?county=AR&locationId=12689"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Dorobanți"
-          href="/#/location/?county=AR&locationId=12912"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Bîrsa"
-          href="/#/location/?county=AR&locationId=10051"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Dieci"
-          href="/#/location/?county=AR&locationId=10701"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Gurahonț"
-          href="/#/location/?county=AR&locationId=10943"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Sântana"
-          href="/#/location/?county=AR&locationId=12091"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Seleuș"
-          href="/#/location/?county=AR&locationId=11995"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Curtici"
-          href="/#/location/?county=AR&locationId=9495"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Olari"
-          href="/#/location/?county=AR&locationId=11502"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Zărand"
-          href="/#/location/?county=AR&locationId=12812"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Bocsig"
-          href="/#/location/?county=AR&locationId=10195"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Macea"
-          href="/#/location/?county=AR&locationId=11398"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Șimand"
-          href="/#/location/?county=AR&locationId=12340"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Dezna"
-          href="/#/location/?county=AR&locationId=10649"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Ignești"
-          href="/#/location/?county=AR&locationId=11307"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Moneasa"
-          href="/#/location/?county=AR&locationId=11478"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Ineu"
-          href="/#/location/?county=AR&locationId=9538"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Archiș"
-          href="/#/location/?county=AR&locationId=9832"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Șicula"
-          href="/#/location/?county=AR&locationId=12242"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Grăniceri"
-          href="/#/location/?county=AR&locationId=10916"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Chișineu-Criș"
-          href="/#/location/?county=AR&locationId=9459"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Cermei"
-          href="/#/location/?county=AR&locationId=10373"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Șepreuș"
-          href="/#/location/?county=AR&locationId=12224"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Socodor"
-          href="/#/location/?county=AR&locationId=12126"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Craiva"
-          href="/#/location/?county=AR&locationId=10532"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Pilu"
-          href="/#/location/?county=AR&locationId=11735"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Mișca"
-          href="/#/location/?county=AR&locationId=11423"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Zerind"
-          href="/#/location/?county=AR&locationId=12849"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Apateu"
-          href="/#/location/?county=AR&locationId=9798"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Cărand"
-          href="/#/location/?county=AR&locationId=10346"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Sebiș"
-          href="/#/location/?county=AR&locationId=9690"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Lipova"
-          href="/#/location/?county=AR&locationId=9574"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Petriș"
-          href="/#/location/?county=AR&locationId=11664"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Beliu"
-          href="/#/location/?county=AR&locationId=9930"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Hășmaș"
-          href="/#/location/?county=AR&locationId=11236"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Sintea Mare"
-          href="/#/location/?county=AR&locationId=12055"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Zădăreni"
-          href="/#/location/?county=AR&locationId=12938"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Felnac"
-          href="/#/location/?county=AR&locationId=10827"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Arad = props => {
         </a>
         <a
           data-original-title="Conop"
-          href="/#/location/?county=AR&locationId=10453"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

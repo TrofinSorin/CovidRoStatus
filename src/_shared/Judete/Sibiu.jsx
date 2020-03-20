@@ -12,7 +12,8 @@ const Sibiu = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Boița"
-          href="/#/location/?county=SB&locationId=146021"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Rîu Sadului"
-          href="/#/location/?county=SB&locationId=145382"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Turnu Roșu"
-          href="/#/location/?county=SB&locationId=145934"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Tălmaciu"
-          href="/#/location/?county=SB&locationId=145827"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Racovița"
-          href="/#/location/?county=SB&locationId=145355"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Sadu"
-          href="/#/location/?county=SB&locationId=145471"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Cîrțișoara"
-          href="/#/location/?county=SB&locationId=144535"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Cisnădie"
-          href="/#/location/?county=SB&locationId=143735"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Orlat"
-          href="/#/location/?county=SB&locationId=145202"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Avrig"
-          href="/#/location/?county=SB&locationId=144054"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Porumbacu de Jos"
-          href="/#/location/?county=SB&locationId=145293"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Cristian"
-          href="/#/location/?county=SB&locationId=143487"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Tilișca"
-          href="/#/location/?county=SB&locationId=145907"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Arpașu de Jos"
-          href="/#/location/?county=SB&locationId=143959"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Cîrța"
-          href="/#/location/?county=SB&locationId=144508"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Poiana Sibiului"
-          href="/#/location/?county=SB&locationId=145275"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Șura Mică"
-          href="/#/location/?county=SB&locationId=145792"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Săliște"
-          href="/#/location/?county=SB&locationId=145499"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Roșia"
-          href="/#/location/?county=SB&locationId=145408"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Marpod"
-          href="/#/location/?county=SB&locationId=144893"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Ocna Sibiului"
-          href="/#/location/?county=SB&locationId=143851"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Miercurea Sibiului"
-          href="/#/location/?county=SB&locationId=144928"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Șura Mare"
-          href="/#/location/?county=SB&locationId=145765"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Nocrich"
-          href="/#/location/?county=SB&locationId=145140"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Vurpăr"
-          href="/#/location/?county=SB&locationId=145998"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Apoldu de Jos"
-          href="/#/location/?county=SB&locationId=143922"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Chirpăr"
-          href="/#/location/?county=SB&locationId=144456"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Ludoș"
-          href="/#/location/?county=SB&locationId=144866"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Slimnic"
-          href="/#/location/?county=SB&locationId=145603"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Alțina"
-          href="/#/location/?county=SB&locationId=143888"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Loamneș"
-          href="/#/location/?county=SB&locationId=144795"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Merghindeal"
-          href="/#/location/?county=SB&locationId=144964"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Mihăileni"
-          href="/#/location/?county=SB&locationId=145042"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Șeica Mare"
-          href="/#/location/?county=SB&locationId=145667"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Agnita"
-          href="/#/location/?county=SB&locationId=143682"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Bîrghiș"
-          href="/#/location/?county=SB&locationId=144232"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Iacobeni"
-          href="/#/location/?county=SB&locationId=144651"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Șeica Mică"
-          href="/#/location/?county=SB&locationId=145738"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Valea Viilor"
-          href="/#/location/?county=SB&locationId=145961"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Axente Sever"
-          href="/#/location/?county=SB&locationId=144116"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Moșna"
-          href="/#/location/?county=SB&locationId=145104"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Copșa Mică"
-          href="/#/location/?county=SB&locationId=143771"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Micăsasa"
-          href="/#/location/?county=SB&locationId=144991"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Tîrnava"
-          href="/#/location/?county=SB&locationId=143646"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Brateiu"
-          href="/#/location/?county=SB&locationId=144349"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Mediaș"
-          href="/#/location/?county=SB&locationId=143619"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Ațel"
-          href="/#/location/?county=SB&locationId=143995"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Blăjel"
-          href="/#/location/?county=SB&locationId=144303"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Alma"
-          href="/#/location/?county=SB&locationId=146012"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Dîrlos"
-          href="/#/location/?county=SB&locationId=144553"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Dumbrăveni"
-          href="/#/location/?county=SB&locationId=143806"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Hoghilag"
-          href="/#/location/?county=SB&locationId=144615"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Bazna"
-          href="/#/location/?county=SB&locationId=144152"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Biertan"
-          href="/#/location/?county=SB&locationId=144198"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Laslea"
-          href="/#/location/?county=SB&locationId=144731"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Brădeni"
-          href="/#/location/?county=SB&locationId=144376"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Bruiu"
-          href="/#/location/?county=SB&locationId=144410"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Sibiu"
-          href="/#/location/?county=SB&locationId=143450"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Poplaca"
-          href="/#/location/?county=SB&locationId=143502"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Rășinari"
-          href="/#/location/?county=SB&locationId=143520"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Păuca"
-          href="/#/location/?county=SB&locationId=145220"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Jina"
-          href="/#/location/?county=SB&locationId=144713"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Gura Rîului"
-          href="/#/location/?county=SB&locationId=144599"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Sibiu = props => {
         </a>
         <a
           data-original-title="Șelimbăr"
-          href="/#/location/?county=SB&locationId=143557"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

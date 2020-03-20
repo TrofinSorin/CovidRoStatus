@@ -12,7 +12,8 @@ const Braila = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Victoria"
-          href="/#/location/?county=BR&locationId=44435"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Bărăganul"
-          href="/#/location/?county=BR&locationId=42824"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Ciocile"
-          href="/#/location/?county=BR&locationId=42968"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Roșiori"
-          href="/#/location/?county=BR&locationId=43812"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Berteștii de Jos"
-          href="/#/location/?county=BR&locationId=42842"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Ulmu"
-          href="/#/location/?county=BR&locationId=44328"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Însurăței"
-          href="/#/location/?county=BR&locationId=43411"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Tufești"
-          href="/#/location/?county=BR&locationId=44300"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Surdila-Greci"
-          href="/#/location/?county=BR&locationId=42771"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Făurei"
-          href="/#/location/?county=BR&locationId=42753"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Gropeni"
-          href="/#/location/?county=BR&locationId=43313"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Tichilești"
-          href="/#/location/?county=BR&locationId=44177"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Jirlău"
-          href="/#/location/?county=BR&locationId=43466"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Movila Miresii"
-          href="/#/location/?county=BR&locationId=43652"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Șuțești"
-          href="/#/location/?county=BR&locationId=44140"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Tudor Vladimirescu"
-          href="/#/location/?county=BR&locationId=44257"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Frecăței"
-          href="/#/location/?county=BR&locationId=43117"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Mărașu"
-          href="/#/location/?county=BR&locationId=43493"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Cazasu"
-          href="/#/location/?county=BR&locationId=44560"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Gemenele"
-          href="/#/location/?county=BR&locationId=43242"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Rîmnicelu"
-          href="/#/location/?county=BR&locationId=43732"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Racoviță"
-          href="/#/location/?county=BR&locationId=43698"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Vădeni"
-          href="/#/location/?county=BR&locationId=44391"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Ianca"
-          href="/#/location/?county=BR&locationId=43331"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Gradiștea"
-          href="/#/location/?county=BR&locationId=43279"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Salcia Tudor"
-          href="/#/location/?county=BR&locationId=43867"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Măxineni"
-          href="/#/location/?county=BR&locationId=43563"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Siliștea"
-          href="/#/location/?county=BR&locationId=43992"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Unirea"
-          href="/#/location/?county=BR&locationId=44355"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Viziru"
-          href="/#/location/?county=BR&locationId=44505"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Traian"
-          href="/#/location/?county=BR&locationId=44202"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Zăvoaia"
-          href="/#/location/?county=BR&locationId=44532"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Dudești"
-          href="/#/location/?county=BR&locationId=43073"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Bordei Verde"
-          href="/#/location/?county=BR&locationId=42913"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Romanu"
-          href="/#/location/?county=BR&locationId=43787"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Scorțaru Nou"
-          href="/#/location/?county=BR&locationId=43929"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Cireșu"
-          href="/#/location/?county=BR&locationId=43019"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Surdila-Găiseanca"
-          href="/#/location/?county=BR&locationId=44113"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Mircea Vodă"
-          href="/#/location/?county=BR&locationId=43625"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Stăncuța"
-          href="/#/location/?county=BR&locationId=44060"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Vișani"
-          href="/#/location/?county=BR&locationId=44462"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Galbenu"
-          href="/#/location/?county=BR&locationId=43180"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Chișcani"
-          href="/#/location/?county=BR&locationId=42708"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Braila = props => {
         </a>
         <a
           data-original-title="Brăila"
-          href="/#/location/?county=BR&locationId=42682"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

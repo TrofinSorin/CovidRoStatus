@@ -12,7 +12,8 @@ const Mehedinti = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Salcia"
-          href="/#/location/?county=MH&locationId=113493"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Obîrșia de Cîmp"
-          href="/#/location/?county=MH&locationId=112744"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Cujmir"
-          href="/#/location/?county=MH&locationId=111444"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Vrata"
-          href="/#/location/?county=MH&locationId=114079"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Dîrvari"
-          href="/#/location/?county=MH&locationId=111550"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Braniștea"
-          href="/#/location/?county=MH&locationId=114060"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Gârla Mare"
-          href="/#/location/?county=MH&locationId=111783"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Vânători"
-          href="/#/location/?county=MH&locationId=113849"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Oprișor"
-          href="/#/location/?county=MH&locationId=112771"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Gruia"
-          href="/#/location/?county=MH&locationId=112030"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Punghina"
-          href="/#/location/?county=MH&locationId=113395"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Pătulele"
-          href="/#/location/?county=MH&locationId=112879"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Vlădaia"
-          href="/#/location/?county=MH&locationId=113929"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Corlățel"
-          href="/#/location/?county=MH&locationId=111417"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Bălăcița"
-          href="/#/location/?county=MH&locationId=110535"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Gogoșu"
-          href="/#/location/?county=MH&locationId=111863"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Jiana"
-          href="/#/location/?county=MH&locationId=112548"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Vînju Mare"
-          href="/#/location/?county=MH&locationId=110232"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Pădina"
-          href="/#/location/?county=MH&locationId=112806"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Poroina Mare"
-          href="/#/location/?county=MH&locationId=113153"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Devesel"
-          href="/#/location/?county=MH&locationId=111480"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Burila Mare"
-          href="/#/location/?county=MH&locationId=110946"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Greci"
-          href="/#/location/?county=MH&locationId=111916"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Livezile"
-          href="/#/location/?county=MH&locationId=112600"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Hinova"
-          href="/#/location/?county=MH&locationId=112076"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Voloiac"
-          href="/#/location/?county=MH&locationId=113974"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Strehaia"
-          href="/#/location/?county=MH&locationId=110116"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Husnicioara"
-          href="/#/location/?county=MH&locationId=112129"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Corcova"
-          href="/#/location/?county=MH&locationId=111275"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Căzănești"
-          href="/#/location/?county=MH&locationId=111097"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Malovăț"
-          href="/#/location/?county=MH&locationId=112664"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Orșova"
-          href="/#/location/?county=MH&locationId=110063"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Broșteni"
-          href="/#/location/?county=MH&locationId=110875"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Șișești"
-          href="/#/location/?county=MH&locationId=113625"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Florești"
-          href="/#/location/?county=MH&locationId=111685"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Bîlvănești"
-          href="/#/location/?county=MH&locationId=110688"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Ilovăț"
-          href="/#/location/?county=MH&locationId=112263"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Șovarna"
-          href="/#/location/?county=MH&locationId=113698"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Podeni"
-          href="/#/location/?county=MH&locationId=112959"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Bala"
-          href="/#/location/?county=MH&locationId=110296"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Ponoarele"
-          href="/#/location/?county=MH&locationId=112995"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Baia de Aramă"
-          href="/#/location/?county=MH&locationId=109924"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Obîrșia-Cloșani"
-          href="/#/location/?county=MH&locationId=110027"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Dubova"
-          href="/#/location/?county=MH&locationId=112904"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Eșelnița"
-          href="/#/location/?county=MH&locationId=112245"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Godeanu"
-          href="/#/location/?county=MH&locationId=111818"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Ilovița"
-          href="/#/location/?county=MH&locationId=112334"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Cireșu"
-          href="/#/location/?county=MH&locationId=111220"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Isverna"
-          href="/#/location/?county=MH&locationId=112370"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Balta"
-          href="/#/location/?county=MH&locationId=110456"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Pristol"
-          href="/#/location/?county=MH&locationId=113206"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Bîcleș"
-          href="/#/location/?county=MH&locationId=110571"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Dumbrava"
-          href="/#/location/?county=MH&locationId=111587"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Izvoru Bîrzii"
-          href="/#/location/?county=MH&locationId=112469"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Drobeta-Turnu Severin"
-          href="/#/location/?county=MH&locationId=109773"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Șimian"
-          href="/#/location/?county=MH&locationId=109826"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Breznița-Ocol"
-          href="/#/location/?county=MH&locationId=110820"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Breznița-Motru"
-          href="/#/location/?county=MH&locationId=110740"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Butoiești"
-          href="/#/location/?county=MH&locationId=111006"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Stîngăceaua"
-          href="/#/location/?county=MH&locationId=113518"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Grozești"
-          href="/#/location/?county=MH&locationId=111989"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Prunișor"
-          href="/#/location/?county=MH&locationId=113233"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Tîmna"
-          href="/#/location/?county=MH&locationId=113732"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Svinița"
-          href="/#/location/?county=MH&locationId=113607"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Vînjuleț"
-          href="/#/location/?county=MH&locationId=113894"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Mehedinti = props => {
         </a>
         <a
           data-original-title="Rogova"
-          href="/#/location/?county=MH&locationId=113466"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

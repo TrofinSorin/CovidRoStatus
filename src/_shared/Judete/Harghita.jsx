@@ -12,7 +12,8 @@ const Harghita = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Băile Tușnad"
-          href="/#/location/?county=HR&locationId=83428"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Ocland"
-          href="/#/location/?county=HR&locationId=85243"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Dîrjiu"
-          href="/#/location/?county=HR&locationId=84380"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Cozmeni"
-          href="/#/location/?county=HR&locationId=86446"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Ulieș"
-          href="/#/location/?county=HR&locationId=86222"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Sînsimion"
-          href="/#/location/?county=HR&locationId=85840"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Sântimbru"
-          href="/#/location/?county=HR&locationId=86519"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Porumbeni"
-          href="/#/location/?county=HR&locationId=86487"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Secuieni"
-          href="/#/location/?county=HR&locationId=85582"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Merești"
-          href="/#/location/?county=HR&locationId=85056"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Mugeni"
-          href="/#/location/?county=HR&locationId=85127"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Cristuru Secuiesc"
-          href="/#/location/?county=HR&locationId=83525"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Mărtiniș"
-          href="/#/location/?county=HR&locationId=84923"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Sâncrăieni"
-          href="/#/location/?county=HR&locationId=85680"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Lueta"
-          href="/#/location/?county=HR&locationId=84629"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Feliceni"
-          href="/#/location/?county=HR&locationId=83197"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Odorheiu Secuiesc"
-          href="/#/location/?county=HR&locationId=83133"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Leliceni"
-          href="/#/location/?county=HR&locationId=86479"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Brădești"
-          href="/#/location/?county=HR&locationId=83151"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Satu Mare"
-          href="/#/location/?county=HR&locationId=86501"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Săcel"
-          href="/#/location/?county=HR&locationId=85467"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Miercurea Ciuc"
-          href="/#/location/?county=HR&locationId=83320"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Șimonești"
-          href="/#/location/?county=HR&locationId=85984"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Avrămești"
-          href="/#/location/?county=HR&locationId=83847"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Ciucsîngeorgiu"
-          href="/#/location/?county=HR&locationId=83981"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Ciceu"
-          href="/#/location/?county=HR&locationId=86461"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Vlăhița"
-          href="/#/location/?county=HR&locationId=83749"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Siculeni"
-          href="/#/location/?county=HR&locationId=85626"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Căpîlnița"
-          href="/#/location/?county=HR&locationId=83963"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Racu"
-          href="/#/location/?county=HR&locationId=86495"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Frumoasa"
-          href="/#/location/?county=HR&locationId=84415"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Dealu"
-          href="/#/location/?county=HR&locationId=84264"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Lupeni"
-          href="/#/location/?county=HR&locationId=84825"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Mădăraș"
-          href="/#/location/?county=HR&locationId=86438"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Dănești"
-          href="/#/location/?county=HR&locationId=84237"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Atid"
-          href="/#/location/?county=HR&locationId=83785"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Corund"
-          href="/#/location/?county=HR&locationId=84175"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Zetea"
-          href="/#/location/?county=HR&locationId=86366"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Lunca de Sus"
-          href="/#/location/?county=HR&locationId=84754"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Vărșag"
-          href="/#/location/?county=HR&locationId=86311"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Mihăileni"
-          href="/#/location/?county=HR&locationId=85074"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Cârța"
-          href="/#/location/?county=HR&locationId=84102"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Tomești"
-          href="/#/location/?county=HR&locationId=86453"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Voșlăbeni"
-          href="/#/location/?county=HR&locationId=86339"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Praid"
-          href="/#/location/?county=HR&locationId=85341"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Bălan"
-          href="/#/location/?county=HR&locationId=83464"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Ciumani"
-          href="/#/location/?county=HR&locationId=84086"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Lunca de Jos"
-          href="/#/location/?county=HR&locationId=84656"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Suseni"
-          href="/#/location/?county=HR&locationId=85920"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Sîndominic"
-          href="/#/location/?county=HR&locationId=85760"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Joseni"
-          href="/#/location/?county=HR&locationId=84558"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Lăzarea"
-          href="/#/location/?county=HR&locationId=84594"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Remetea"
-          href="/#/location/?county=HR&locationId=85412"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Gheorgheni"
-          href="/#/location/?county=HR&locationId=83561"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Subcetate"
-          href="/#/location/?county=HR&locationId=85877"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Ditrău"
-          href="/#/location/?county=HR&locationId=84344"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Gălăuțaș"
-          href="/#/location/?county=HR&locationId=84460"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Sărmaș"
-          href="/#/location/?county=HR&locationId=85528"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Tulgheș"
-          href="/#/location/?county=HR&locationId=86133"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Corbu"
-          href="/#/location/?county=HR&locationId=84148"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Toplița"
-          href="/#/location/?county=HR&locationId=83632"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Borsec"
-          href="/#/location/?county=HR&locationId=83491"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Bilbor"
-          href="/#/location/?county=HR&locationId=83936"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Tușnad"
-          href="/#/location/?county=HR&locationId=86188"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Sânmartin"
-          href="/#/location/?county=HR&locationId=85788"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Plăieșii de Jos"
-          href="/#/location/?county=HR&locationId=85289"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Harghita = props => {
         </a>
         <a
           data-original-title="Păuleni-Ciuc"
-          href="/#/location/?county=HR&locationId=83375"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

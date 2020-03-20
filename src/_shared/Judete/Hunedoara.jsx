@@ -12,7 +12,8 @@ const Hunedoara = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Aninoasa"
-          href="/#/location/?county=HD&locationId=87219"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Vulcan"
-          href="/#/location/?county=HD&locationId=87175"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Bănița"
-          href="/#/location/?county=HD&locationId=87246"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Sarmizegetusa"
-          href="/#/location/?county=HD&locationId=91054"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Totești"
-          href="/#/location/?county=HD&locationId=91624"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Sântămăria-Orlea"
-          href="/#/location/?county=HD&locationId=91232"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Densuș"
-          href="/#/location/?county=HD&locationId=89348"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Răchitova"
-          href="/#/location/?county=HD&locationId=90725"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Lunca Cernii de Jos"
-          href="/#/location/?county=HD&locationId=90119"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Bretea Română"
-          href="/#/location/?county=HD&locationId=88644"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Teliucu Inferior"
-          href="/#/location/?county=HD&locationId=86936"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Bunila"
-          href="/#/location/?county=HD&locationId=89026"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Orăștioara de Sus"
-          href="/#/location/?county=HD&locationId=90342"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Călan"
-          href="/#/location/?county=HD&locationId=87424"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Mărtinești"
-          href="/#/location/?county=HD&locationId=90262"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Bătrîna"
-          href="/#/location/?county=HD&locationId=88216"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Turdaș"
-          href="/#/location/?county=HD&locationId=91688"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Orăștie"
-          href="/#/location/?county=HD&locationId=87638"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Cârjiți"
-          href="/#/location/?county=HD&locationId=86749"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Vețel"
-          href="/#/location/?county=HD&locationId=91982"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Lăpugiu de Jos"
-          href="/#/location/?county=HD&locationId=89954"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Ilia"
-          href="/#/location/?county=HD&locationId=89856"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Certeju de Sus"
-          href="/#/location/?county=HD&locationId=89240"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Burjuc"
-          href="/#/location/?county=HD&locationId=89080"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Brănișca"
-          href="/#/location/?county=HD&locationId=88546"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Vălișoara"
-          href="/#/location/?county=HD&locationId=91937"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Gurasada"
-          href="/#/location/?county=HD&locationId=89687"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Băița"
-          href="/#/location/?county=HD&locationId=88092"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Vorța"
-          href="/#/location/?county=HD&locationId=92097"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Luncoiu de Jos"
-          href="/#/location/?county=HD&locationId=90208"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Zam"
-          href="/#/location/?county=HD&locationId=92177"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Bucureșci"
-          href="/#/location/?county=HD&locationId=88868"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Buceș"
-          href="/#/location/?county=HD&locationId=88788"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Vața de Jos"
-          href="/#/location/?county=HD&locationId=91795"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Baia de Criș"
-          href="/#/location/?county=HD&locationId=87745"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Blăjeni"
-          href="/#/location/?county=HD&locationId=88350"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Tomești"
-          href="/#/location/?county=HD&locationId=91447"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Bulzeștii de Sus"
-          href="/#/location/?county=HD&locationId=88920"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Balșa"
-          href="/#/location/?county=HD&locationId=87843"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Râu de Mori"
-          href="/#/location/?county=HD&locationId=90878"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Crișcior"
-          href="/#/location/?county=HD&locationId=87362"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Dobra"
-          href="/#/location/?county=HD&locationId=89428"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Pestișu Mic"
-          href="/#/location/?county=HD&locationId=90431"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Hunedoara"
-          href="/#/location/?county=HD&locationId=86810"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Ribița"
-          href="/#/location/?county=HD&locationId=90805"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Brad"
-          href="/#/location/?county=HD&locationId=87291"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Toplița"
-          href="/#/location/?county=HD&locationId=91535"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Baru"
-          href="/#/location/?county=HD&locationId=87996"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Boșorod"
-          href="/#/location/?county=HD&locationId=88449"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Beriu"
-          href="/#/location/?county=HD&locationId=88261"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Deva"
-          href="/#/location/?county=HD&locationId=86687"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Hărău"
-          href="/#/location/?county=HD&locationId=89801"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Șoimuș"
-          href="/#/location/?county=HD&locationId=91330"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Lupeni"
-          href="/#/location/?county=HD&locationId=87059"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Uricani"
-          href="/#/location/?county=HD&locationId=87139"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="General Berthelot"
-          href="/#/location/?county=HD&locationId=91731"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Hațeg"
-          href="/#/location/?county=HD&locationId=87576"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Rapoltu Mare"
-          href="/#/location/?county=HD&locationId=90663"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Ghelari"
-          href="/#/location/?county=HD&locationId=86883"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Simeria"
-          href="/#/location/?county=HD&locationId=87665"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Băcia"
-          href="/#/location/?county=HD&locationId=88047"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Sălașu de Sus"
-          href="/#/location/?county=HD&locationId=91116"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Pui"
-          href="/#/location/?county=HD&locationId=90538"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Petrila"
-          href="/#/location/?county=HD&locationId=87077"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Petroșani"
-          href="/#/location/?county=HD&locationId=86990"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Geoagiu"
-          href="/#/location/?county=HD&locationId=89561"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Romos"
-          href="/#/location/?county=HD&locationId=90994"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Cerbăl"
-          href="/#/location/?county=HD&locationId=89151"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Hunedoara = props => {
         </a>
         <a
           data-original-title="Lelese"
-          href="/#/location/?county=HD&locationId=90066"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

@@ -12,7 +12,8 @@ const Tulcea = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Ceatalchioi"
-          href="/#/location/?county=TL&locationId=160047"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Grindu"
-          href="/#/location/?county=TL&locationId=160458"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Maliuc"
-          href="/#/location/?county=TL&locationId=160779"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Pardina"
-          href="/#/location/?county=TL&locationId=161133"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Chilia Veche"
-          href="/#/location/?county=TL&locationId=160172"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Crișan"
-          href="/#/location/?county=TL&locationId=160261"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Sfîntu Gheorghe"
-          href="/#/location/?county=TL&locationId=161231"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Murighiol"
-          href="/#/location/?county=TL&locationId=160911"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Valea Nucarilor"
-          href="/#/location/?county=TL&locationId=161482"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Tulcea"
-          href="/#/location/?county=TL&locationId=159614"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Nufăru"
-          href="/#/location/?county=TL&locationId=161053"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Somova"
-          href="/#/location/?county=TL&locationId=161302"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Mahmudia"
-          href="/#/location/?county=TL&locationId=160724"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Beștepe"
-          href="/#/location/?county=TL&locationId=161552"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Isaccea"
-          href="/#/location/?county=TL&locationId=159687"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Niculițel"
-          href="/#/location/?county=TL&locationId=161035"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Valea Teilor"
-          href="/#/location/?county=TL&locationId=161561"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Frecăței"
-          href="/#/location/?county=TL&locationId=160387"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Hamcearca"
-          href="/#/location/?county=TL&locationId=160476"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Cerna"
-          href="/#/location/?county=TL&locationId=160127"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Jijila"
-          href="/#/location/?county=TL&locationId=160617"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="I.C.Brătianu"
-          href="/#/location/?county=TL&locationId=161525"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Smîrdan"
-          href="/#/location/?county=TL&locationId=161286"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Turcoaia"
-          href="/#/location/?county=TL&locationId=161464"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Greci"
-          href="/#/location/?county=TL&locationId=160430"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Măcin"
-          href="/#/location/?county=TL&locationId=159730"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Carcaliu"
-          href="/#/location/?county=TL&locationId=159945"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Dorobanțu"
-          href="/#/location/?county=TL&locationId=160323"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Dăeni"
-          href="/#/location/?county=TL&locationId=160305"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Topolog"
-          href="/#/location/?county=TL&locationId=161384"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Horia"
-          href="/#/location/?county=TL&locationId=160528"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Izvoarele"
-          href="/#/location/?county=TL&locationId=160564"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Ciucurova"
-          href="/#/location/?county=TL&locationId=160225"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Babadag"
-          href="/#/location/?county=TL&locationId=159650"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Sarichioi"
-          href="/#/location/?county=TL&locationId=161179"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Baia"
-          href="/#/location/?county=TL&locationId=159785"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Stejaru"
-          href="/#/location/?county=TL&locationId=161348"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Casimcea"
-          href="/#/location/?county=TL&locationId=159963"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Beidaud"
-          href="/#/location/?county=TL&locationId=159847"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Slava Cercheză"
-          href="/#/location/?county=TL&locationId=161259"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Mihai Bravu"
-          href="/#/location/?county=TL&locationId=160831"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Văcăreni"
-          href="/#/location/?county=TL&locationId=161543"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Luncavița"
-          href="/#/location/?county=TL&locationId=160680"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Ceamurlia de Jos"
-          href="/#/location/?county=TL&locationId=160092"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Mihail Kogălniceanu"
-          href="/#/location/?county=TL&locationId=160877"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Jurilovca"
-          href="/#/location/?county=TL&locationId=160644"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Peceneaga"
-          href="/#/location/?county=TL&locationId=161151"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Ostrov"
-          href="/#/location/?county=TL&locationId=161106"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Sulina"
-          href="/#/location/?county=TL&locationId=159767"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="C.A. Rosetti"
-          href="/#/location/?county=TL&locationId=159883"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Tulcea = props => {
         </a>
         <a
           data-original-title="Nalbant"
-          href="/#/location/?county=TL&locationId=160993"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

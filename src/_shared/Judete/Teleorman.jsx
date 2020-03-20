@@ -12,7 +12,8 @@ const Teleorman = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Năsturelu"
-          href="/#/location/?county=TR&locationId=153400"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Bujoru"
-          href="/#/location/?county=TR&locationId=152314"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Zimnicea"
-          href="/#/location/?county=TR&locationId=151978"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Ciuperceni"
-          href="/#/location/?county=TR&locationId=151709"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Fântânele"
-          href="/#/location/?county=TR&locationId=155118"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Islaz"
-          href="/#/location/?county=TR&locationId=151736"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Bragadiru"
-          href="/#/location/?county=TR&locationId=152234"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Pietroșani"
-          href="/#/location/?county=TR&locationId=153589"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Suhaia"
-          href="/#/location/?county=TR&locationId=154460"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Cervenia"
-          href="/#/location/?county=TR&locationId=152500"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Piatra"
-          href="/#/location/?county=TR&locationId=153561"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Crângu"
-          href="/#/location/?county=TR&locationId=152662"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Dracea"
-          href="/#/location/?county=TR&locationId=155109"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Putineiu"
-          href="/#/location/?county=TR&locationId=153829"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Slobozia Mândra"
-          href="/#/location/?county=TR&locationId=154344"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Nanov"
-          href="/#/location/?county=TR&locationId=151816"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Răsmirești"
-          href="/#/location/?county=TR&locationId=153909"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Buzescu"
-          href="/#/location/?county=TR&locationId=152332"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Alexandria"
-          href="/#/location/?county=TR&locationId=151790"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Vitănești"
-          href="/#/location/?county=TR&locationId=153776"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Nenciulești"
-          href="/#/location/?county=TR&locationId=154996"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Mavrodin"
-          href="/#/location/?county=TR&locationId=153204"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Băbăița"
-          href="/#/location/?county=TR&locationId=152038"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Rădoiești"
-          href="/#/location/?county=TR&locationId=153865"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Orbeasca"
-          href="/#/location/?county=TR&locationId=153507"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Botoroaga"
-          href="/#/location/?county=TR&locationId=152172"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Stejaru"
-          href="/#/location/?county=TR&locationId=154415"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Sfințești"
-          href="/#/location/?county=TR&locationId=154166"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Olteni"
-          href="/#/location/?county=TR&locationId=153473"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Vîrtoape"
-          href="/#/location/?county=TR&locationId=154932"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Didești"
-          href="/#/location/?county=TR&locationId=152724"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Beuca"
-          href="/#/location/?county=TR&locationId=155092"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Necșești"
-          href="/#/location/?county=TR&locationId=153437"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Videle"
-          href="/#/location/?county=TR&locationId=151905"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Trivalea-Moșteni"
-          href="/#/location/?county=TR&locationId=154754"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Zîmbreasca"
-          href="/#/location/?county=TR&locationId=154978"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Balaci"
-          href="/#/location/?county=TR&locationId=151996"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Siliștea"
-          href="/#/location/?county=TR&locationId=154228"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Siliștea-Gumești"
-          href="/#/location/?county=TR&locationId=154282"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Scurtu Mare"
-          href="/#/location/?county=TR&locationId=154068"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Tătărăștii de Sus"
-          href="/#/location/?county=TR&locationId=154665"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Gratia"
-          href="/#/location/?county=TR&locationId=153062"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Poeni"
-          href="/#/location/?county=TR&locationId=153696"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Sîrbeni"
-          href="/#/location/?county=TR&locationId=154308"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Lunca"
-          href="/#/location/?county=TR&locationId=153151"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Dobrotești"
-          href="/#/location/?county=TR&locationId=152760"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Bogdana"
-          href="/#/location/?county=TR&locationId=152127"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Plosca"
-          href="/#/location/?county=TR&locationId=153605"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Furculești"
-          href="/#/location/?county=TR&locationId=152948"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Uda-Clocociov"
-          href="/#/location/?county=TR&locationId=155154"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Troianul"
-          href="/#/location/?county=TR&locationId=154790"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Vedea"
-          href="/#/location/?county=TR&locationId=154852"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Frăsinet"
-          href="/#/location/?county=TR&locationId=155127"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Măgura"
-          href="/#/location/?county=TR&locationId=153240"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Talpa"
-          href="/#/location/?county=TR&locationId=154521"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Gălăteni"
-          href="/#/location/?county=TR&locationId=153026"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Cosmești"
-          href="/#/location/?county=TR&locationId=152582"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Ciolănești"
-          href="/#/location/?county=TR&locationId=152528"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Tătărăștii de Jos"
-          href="/#/location/?county=TR&locationId=154585"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Măldăeni"
-          href="/#/location/?county=TR&locationId=153277"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Călmățuiu de Sus"
-          href="/#/location/?county=TR&locationId=152467"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Lisa"
-          href="/#/location/?county=TR&locationId=153124"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Călinești"
-          href="/#/location/?county=TR&locationId=152350"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Peretu"
-          href="/#/location/?county=TR&locationId=153543"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Mereni"
-          href="/#/location/?county=TR&locationId=153295"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Crevenicu"
-          href="/#/location/?county=TR&locationId=151932"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Moșteni"
-          href="/#/location/?county=TR&locationId=153384"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Conțești"
-          href="/#/location/?county=TR&locationId=152564"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Ștorobăneasa"
-          href="/#/location/?county=TR&locationId=154497"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Mîrzănești"
-          href="/#/location/?county=TR&locationId=153339"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Frumoasa"
-          href="/#/location/?county=TR&locationId=152993"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Poroschia"
-          href="/#/location/?county=TR&locationId=151834"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Viișoara"
-          href="/#/location/?county=TR&locationId=154914"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Drăcșenei"
-          href="/#/location/?county=TR&locationId=152797"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Săceni"
-          href="/#/location/?county=TR&locationId=153972"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Scrioaștea"
-          href="/#/location/?county=TR&locationId=154013"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Seaca"
-          href="/#/location/?county=TR&locationId=154139"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Drăgănești de Vede"
-          href="/#/location/?county=TR&locationId=152868"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Călmățuiu"
-          href="/#/location/?county=TR&locationId=152412"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Bujoreni"
-          href="/#/location/?county=TR&locationId=152270"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Purani"
-          href="/#/location/?county=TR&locationId=155136"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Blejești"
-          href="/#/location/?county=TR&locationId=152083"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Țigănești"
-          href="/#/location/?county=TR&locationId=154834"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Brînceni"
-          href="/#/location/?county=TR&locationId=152252"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Smîrdioasa"
-          href="/#/location/?county=TR&locationId=154380"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Izvoarele"
-          href="/#/location/?county=TR&locationId=153106"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Plopii-Slăvitești"
-          href="/#/location/?county=TR&locationId=153623"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Beciu"
-          href="/#/location/?county=TR&locationId=155083"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Crîngeni"
-          href="/#/location/?county=TR&locationId=152617"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1258,7 +1347,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Saelele"
-          href="/#/location/?county=TR&locationId=155145"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1272,7 +1362,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Segarcea-Vale"
-          href="/#/location/?county=TR&locationId=154184"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1286,7 +1377,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Roșiori de Vede"
-          href="/#/location/?county=TR&locationId=151870"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1300,7 +1392,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Salcia"
-          href="/#/location/?county=TR&locationId=153936"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1314,7 +1407,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Lița"
-          href="/#/location/?county=TR&locationId=151763"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1328,7 +1422,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Traian"
-          href="/#/location/?county=TR&locationId=154736"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1342,7 +1437,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Turnu Magurele"
-          href="/#/location/?county=TR&locationId=151683"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1356,7 +1452,8 @@ const Teleorman = props => {
         </a>
         <a
           data-original-title="Drăgănești-Vlașca"
-          href="/#/location/?county=TR&locationId=152902"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

@@ -12,7 +12,8 @@ const Vrancea = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Ciorăști"
-          href="/#/location/?county=VN&locationId=175590"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Bălești"
-          href="/#/location/?county=VN&locationId=175206"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Măicănești"
-          href="/#/location/?county=VN&locationId=176613"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Sihlea"
-          href="/#/location/?county=VN&locationId=177600"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Bordești"
-          href="/#/location/?county=VN&locationId=175439"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Dumbrăveni"
-          href="/#/location/?county=VN&locationId=175938"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Tătăranu"
-          href="/#/location/?county=VN&locationId=177986"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Popești"
-          href="/#/location/?county=VN&locationId=178901"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Gugești"
-          href="/#/location/?county=VN&locationId=176301"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Jitia"
-          href="/#/location/?county=VN&locationId=176551"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Nănești"
-          href="/#/location/?county=VN&locationId=176855"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Gologanu"
-          href="/#/location/?county=VN&locationId=178938"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Vintileasca"
-          href="/#/location/?county=VN&locationId=178475"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Slobozia Ciorăști"
-          href="/#/location/?county=VN&locationId=177726"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Vulturu"
-          href="/#/location/?county=VN&locationId=178821"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Chiojdeni"
-          href="/#/location/?county=VN&locationId=175509"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Milcovul"
-          href="/#/location/?county=VN&locationId=176748"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Golești"
-          href="/#/location/?county=VN&locationId=174824"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Cîrligele"
-          href="/#/location/?county=VN&locationId=175732"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Poiana Cristei"
-          href="/#/location/?county=VN&locationId=177263"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Nereju"
-          href="/#/location/?county=VN&locationId=176944"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Cîmpineanca"
-          href="/#/location/?county=VN&locationId=174780"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Focșani"
-          href="/#/location/?county=VN&locationId=174744"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Biliești"
-          href="/#/location/?county=VN&locationId=178929"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Vîrteșcoiu"
-          href="/#/location/?county=VN&locationId=178689"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Spulber"
-          href="/#/location/?county=VN&locationId=178965"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Andreiașu de Jos"
-          href="/#/location/?county=VN&locationId=175126"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Odobești"
-          href="/#/location/?county=VN&locationId=175019"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Paltin"
-          href="/#/location/?county=VN&locationId=177101"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Broșteni"
-          href="/#/location/?county=VN&locationId=175466"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Jariștea"
-          href="/#/location/?county=VN&locationId=176506"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Nistorești"
-          href="/#/location/?county=VN&locationId=177003"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Năruja"
-          href="/#/location/?county=VN&locationId=176891"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Mera"
-          href="/#/location/?county=VN&locationId=176686"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Bolotești"
-          href="/#/location/?county=VN&locationId=175368"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Vrîncioaia"
-          href="/#/location/?county=VN&locationId=178750"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Valea Sării"
-          href="/#/location/?county=VN&locationId=178313"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Țifești"
-          href="/#/location/?county=VN&locationId=178180"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Păulești"
-          href="/#/location/?county=VN&locationId=178910"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Bârsești"
-          href="/#/location/?county=VN&locationId=175224"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Vidra"
-          href="/#/location/?county=VN&locationId=178377"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Negrilești"
-          href="/#/location/?county=VN&locationId=178885"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Vizantea-Livezi"
-          href="/#/location/?county=VN&locationId=178545"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Străoane"
-          href="/#/location/?county=VN&locationId=177799"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Tulnici"
-          href="/#/location/?county=VN&locationId=178117"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Răcoasa"
-          href="/#/location/?county=VN&locationId=177405"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Soveja"
-          href="/#/location/?county=VN&locationId=177762"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Pufești"
-          href="/#/location/?county=VN&locationId=177352"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Păunești"
-          href="/#/location/?county=VN&locationId=177236"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Fitionești"
-          href="/#/location/?county=VN&locationId=176150"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Cîmpuri"
-          href="/#/location/?county=VN&locationId=175670"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Ploscuțeni"
-          href="/#/location/?county=VN&locationId=178894"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Ruginești"
-          href="/#/location/?county=VN&locationId=177557"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Tănăsoaia"
-          href="/#/location/?county=VN&locationId=177879"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Adjud"
-          href="/#/location/?county=VN&locationId=174860"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Homocea"
-          href="/#/location/?county=VN&locationId=176445"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Corbița"
-          href="/#/location/?county=VN&locationId=175787"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Boghești"
-          href="/#/location/?county=VN&locationId=175260"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Panciu"
-          href="/#/location/?county=VN&locationId=175055"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Reghiu"
-          href="/#/location/?county=VN&locationId=177469"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Suraia"
-          href="/#/location/?county=VN&locationId=177842"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Răstoaca"
-          href="/#/location/?county=VN&locationId=178956"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Vînători"
-          href="/#/location/?county=VN&locationId=178607"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Garoafa"
-          href="/#/location/?county=VN&locationId=176212"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Tâmboești"
-          href="/#/location/?county=VN&locationId=178046"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Obrejița"
-          href="/#/location/?county=VN&locationId=178947"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Slobozia Bradului"
-          href="/#/location/?county=VN&locationId=177655"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Urechești"
-          href="/#/location/?county=VN&locationId=178279"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Cotești"
-          href="/#/location/?county=VN&locationId=175885"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Dumitrești"
-          href="/#/location/?county=VN&locationId=175983"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Gura Caliței"
-          href="/#/location/?county=VN&locationId=176338"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Mărășești"
-          href="/#/location/?county=VN&locationId=174922"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Vrancea = props => {
         </a>
         <a
           data-original-title="Movilița"
-          href="/#/location/?county=VN&locationId=176793"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

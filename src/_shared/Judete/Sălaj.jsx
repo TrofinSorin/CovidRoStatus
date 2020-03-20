@@ -12,7 +12,8 @@ const Salaj = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Fildu de Jos"
-          href="/#/location/?county=SJ&locationId=141081"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Almașu"
-          href="/#/location/?county=SJ&locationId=139982"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Cuzăplac"
-          href="/#/location/?county=SJ&locationId=140869"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Zimbor"
-          href="/#/location/?county=SJ&locationId=143147"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Sînmihaiu Almașului"
-          href="/#/location/?county=SJ&locationId=142676"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Dragu"
-          href="/#/location/?county=SJ&locationId=141027"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Agrij"
-          href="/#/location/?county=SJ&locationId=139937"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Sîg"
-          href="/#/location/?county=SJ&locationId=142612"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Treznea"
-          href="/#/location/?county=SJ&locationId=179631"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Bănișor"
-          href="/#/location/?county=SJ&locationId=140208"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Românași"
-          href="/#/location/?county=SJ&locationId=142426"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Plopiș"
-          href="/#/location/?county=SJ&locationId=142337"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Meseșenii de Jos"
-          href="/#/location/?county=SJ&locationId=142079"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Gîrbou"
-          href="/#/location/?county=SJ&locationId=141232"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Halmășd"
-          href="/#/location/?county=SJ&locationId=141312"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Zalha"
-          href="/#/location/?county=SJ&locationId=143067"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Zalău"
-          href="/#/location/?county=SJ&locationId=139704"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Vîrșolț"
-          href="/#/location/?county=SJ&locationId=143021"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Creaca"
-          href="/#/location/?county=SJ&locationId=140672"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Cristolț"
-          href="/#/location/?county=SJ&locationId=140770"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Șimișna"
-          href="/#/location/?county=SJ&locationId=179695"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Mirșid"
-          href="/#/location/?county=SJ&locationId=142122"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Ip"
-          href="/#/location/?county=SJ&locationId=141722"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Șimleu Silvaniei"
-          href="/#/location/?county=SJ&locationId=139884"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Crișeni"
-          href="/#/location/?county=SJ&locationId=140823"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Pericei"
-          href="/#/location/?county=SJ&locationId=142284"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Marca"
-          href="/#/location/?county=SJ&locationId=141946"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Rus"
-          href="/#/location/?county=SJ&locationId=142499"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Băbeni"
-          href="/#/location/?county=SJ&locationId=140084"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Hereclean"
-          href="/#/location/?county=SJ&locationId=141376"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Gîlgău"
-          href="/#/location/?county=SJ&locationId=141134"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Poiana Blenchii"
-          href="/#/location/?county=SJ&locationId=142373"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Dobrin"
-          href="/#/location/?county=SJ&locationId=140958"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Bocșa"
-          href="/#/location/?county=SJ&locationId=140324"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Lozna"
-          href="/#/location/?county=SJ&locationId=141884"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Măeriște"
-          href="/#/location/?county=SJ&locationId=142006"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Camăr"
-          href="/#/location/?county=SJ&locationId=140440"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Carastelec"
-          href="/#/location/?county=SJ&locationId=140477"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Coșeiu"
-          href="/#/location/?county=SJ&locationId=140583"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Șamșud"
-          href="/#/location/?county=SJ&locationId=142854"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Letca"
-          href="/#/location/?county=SJ&locationId=141786"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Șărmășag"
-          href="/#/location/?county=SJ&locationId=142881"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Ileanda"
-          href="/#/location/?county=SJ&locationId=141580"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Sălățig"
-          href="/#/location/?county=SJ&locationId=142550"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Năpradea"
-          href="/#/location/?county=SJ&locationId=142177"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Bobota"
-          href="/#/location/?county=SJ&locationId=140280"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Chieșd"
-          href="/#/location/?county=SJ&locationId=140501"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Benesat"
-          href="/#/location/?county=SJ&locationId=140244"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Buciumi"
-          href="/#/location/?county=SJ&locationId=140379"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Horoatu Crasnei"
-          href="/#/location/?county=SJ&locationId=141535"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Cizer"
-          href="/#/location/?county=SJ&locationId=140547"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Someș-Odorhei"
-          href="/#/location/?county=SJ&locationId=142710"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Jibou"
-          href="/#/location/?county=SJ&locationId=139811"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Surduc"
-          href="/#/location/?county=SJ&locationId=142774"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Valcău de Jos"
-          href="/#/location/?county=SJ&locationId=142952"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Crasna"
-          href="/#/location/?county=SJ&locationId=140627"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Cehu Silvaniei"
-          href="/#/location/?county=SJ&locationId=139740"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Boghiș"
-          href="/#/location/?county=SJ&locationId=180037"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Nușfalău"
-          href="/#/location/?county=SJ&locationId=142239"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Hida"
-          href="/#/location/?county=SJ&locationId=141447"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Salaj = props => {
         </a>
         <a
           data-original-title="Bălan"
-          href="/#/location/?county=SJ&locationId=140146"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

@@ -12,7 +12,8 @@ const Ilfov = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Copăceni"
-          href="/#/location/?county=IF&locationId=179588"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Vidra"
-          href="/#/location/?county=IF&locationId=105936"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Buftea"
-          href="/#/location/?county=IF&locationId=100576"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Domnești"
-          href="/#/location/?county=IF&locationId=102570"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Chiajna"
-          href="/#/location/?county=IF&locationId=179249"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Mogoșoaia"
-          href="/#/location/?county=IF&locationId=179463"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Cernica"
-          href="/#/location/?county=IF&locationId=101742"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Grădiștea"
-          href="/#/location/?county=IF&locationId=103443"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Dragomirești-Vale"
-          href="/#/location/?county=IF&locationId=102605"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Chitila"
-          href="/#/location/?county=IF&locationId=179285"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Ciolpani"
-          href="/#/location/?county=IF&locationId=101902"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Petrăchioaia"
-          href="/#/location/?county=IF&locationId=104582"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Dărăști-Ilfov"
-          href="/#/location/?county=IF&locationId=102525"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Nuci"
-          href="/#/location/?county=IF&locationId=104421"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Clinceni"
-          href="/#/location/?county=IF&locationId=102035"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Dobroești"
-          href="/#/location/?county=IF&locationId=179310"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="1 Decembrie"
-          href="/#/location/?county=IF&locationId=102543"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Jilava"
-          href="/#/location/?county=IF&locationId=179383"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Tunari"
-          href="/#/location/?county=IF&locationId=105570"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Brănești"
-          href="/#/location/?county=IF&locationId=101298"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Otopeni"
-          href="/#/location/?county=IF&locationId=179481"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Snagov"
-          href="/#/location/?county=IF&locationId=105160"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Balotești"
-          href="/#/location/?county=IF&locationId=100969"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Corbeanca"
-          href="/#/location/?county=IF&locationId=102160"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Periș"
-          href="/#/location/?county=IF&locationId=104546"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Dascălu"
-          href="/#/location/?county=IF&locationId=102473"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Găneasa"
-          href="/#/location/?county=IF&locationId=103130"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Ștefăneștii de Jos"
-          href="/#/location/?county=IF&locationId=105419"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Voluntari"
-          href="/#/location/?county=IF&locationId=179551"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Afumați"
-          href="/#/location/?county=IF&locationId=100834"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Ciorogîrla"
-          href="/#/location/?county=IF&locationId=101957"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Popești Leordeni"
-          href="/#/location/?county=IF&locationId=179533"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Berceni"
-          href="/#/location/?county=IF&locationId=101145"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Măgurele"
-          href="/#/location/?county=IF&locationId=179409"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Cornetu"
-          href="/#/location/?county=IF&locationId=102213"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Gruiu"
-          href="/#/location/?county=IF&locationId=103513"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Moara Vlăsiei"
-          href="/#/location/?county=IF&locationId=104243"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Glina"
-          href="/#/location/?county=IF&locationId=179347"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Pantelimon"
-          href="/#/location/?county=IF&locationId=179515"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Ilfov = props => {
         </a>
         <a
           data-original-title="Bragadiru"
-          href="/#/location/?county=IF&locationId=179221"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

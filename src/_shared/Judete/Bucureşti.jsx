@@ -12,7 +12,8 @@ const Bucuresti = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="București Sectorul 6"
-          href="/#/location/?county=B&locationId=179196"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Bucuresti = props => {
         </a>
         <a
           data-original-title="București Sectorul 2"
-          href="/#/location/?county=B&locationId=179150"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Bucuresti = props => {
         </a>
         <a
           data-original-title="București Sectorul 3"
-          href="/#/location/?county=B&locationId=179169"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Bucuresti = props => {
         </a>
         <a
           data-original-title="București Sectorul 1"
-          href="/#/location/?county=B&locationId=179141"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Bucuresti = props => {
         </a>
         <a
           data-original-title="București Sectorul 4"
-          href="/#/location/?county=B&locationId=179178"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Bucuresti = props => {
         </a>
         <a
           data-original-title="București Sectorul 5"
-          href="/#/location/?county=B&locationId=179187"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

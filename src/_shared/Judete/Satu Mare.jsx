@@ -12,7 +12,8 @@ const SatuMare = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Hodod"
-          href="/#/location/?county=SM&locationId=137844"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Bogdand"
-          href="/#/location/?county=SM&locationId=137130"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Pir"
-          href="/#/location/?county=SM&locationId=138538"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Săcășeni"
-          href="/#/location/?county=SM&locationId=138770"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Supur"
-          href="/#/location/?county=SM&locationId=138921"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Santău"
-          href="/#/location/?county=SM&locationId=138734"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Acîș"
-          href="/#/location/?county=SM&locationId=136713"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Andrid"
-          href="/#/location/?county=SM&locationId=136768"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Bîrsău"
-          href="/#/location/?county=SM&locationId=137103"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Petrești"
-          href="/#/location/?county=SM&locationId=138501"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Tiream"
-          href="/#/location/?county=SM&locationId=139107"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Căuaș"
-          href="/#/location/?county=SM&locationId=137292"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Crucișor"
-          href="/#/location/?county=SM&locationId=137504"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Homoroade"
-          href="/#/location/?county=SM&locationId=137899"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Sanislău"
-          href="/#/location/?county=SM&locationId=138663"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Pomi"
-          href="/#/location/?county=SM&locationId=138618"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Valea Vinului"
-          href="/#/location/?county=SM&locationId=139287"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Cămin"
-          href="/#/location/?county=SM&locationId=179677"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Urziceni"
-          href="/#/location/?county=SM&locationId=139250"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Culciu"
-          href="/#/location/?county=SM&locationId=137540"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Căpleni"
-          href="/#/location/?county=SM&locationId=136553"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Doba"
-          href="/#/location/?county=SM&locationId=137611"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Vetiș"
-          href="/#/location/?county=SM&locationId=139358"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Dorolț"
-          href="/#/location/?county=SM&locationId=137675"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Agriș"
-          href="/#/location/?county=SM&locationId=179873"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Micula"
-          href="/#/location/?county=SM&locationId=138164"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Lazuri"
-          href="/#/location/?county=SM&locationId=137960"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Certeze"
-          href="/#/location/?county=SM&locationId=137407"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Bixad"
-          href="/#/location/?county=SM&locationId=137069"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Porumbești"
-          href="/#/location/?county=SM&locationId=180028"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Cămărzana"
-          href="/#/location/?county=SM&locationId=137274"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Turț"
-          href="/#/location/?county=SM&locationId=139170"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Bătarci"
-          href="/#/location/?county=SM&locationId=136919"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Tarna Mare"
-          href="/#/location/?county=SM&locationId=139009"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Apa"
-          href="/#/location/?county=SM&locationId=136802"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Racșa"
-          href="/#/location/?county=SM&locationId=180091"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Medieșu Aurit"
-          href="/#/location/?county=SM&locationId=138084"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Orașu Nou"
-          href="/#/location/?county=SM&locationId=138351"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Beltiug"
-          href="/#/location/?county=SM&locationId=136964"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Berveni"
-          href="/#/location/?county=SM&locationId=137032"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Odoreu"
-          href="/#/location/?county=SM&locationId=138280"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Botiz"
-          href="/#/location/?county=SM&locationId=137185"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Ciumești"
-          href="/#/location/?county=SM&locationId=179882"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Moftin"
-          href="/#/location/?county=SM&locationId=138208"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Foieni"
-          href="/#/location/?county=SM&locationId=137728"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Carei"
-          href="/#/location/?county=SM&locationId=136526"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Gherța Mică"
-          href="/#/location/?county=SM&locationId=137746"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Halmeu"
-          href="/#/location/?county=SM&locationId=137764"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Negrești-Oaș"
-          href="/#/location/?county=SM&locationId=136599"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Vama"
-          href="/#/location/?county=SM&locationId=139330"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Păulești"
-          href="/#/location/?county=SM&locationId=138431"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Pișcolt"
-          href="/#/location/?county=SM&locationId=138574"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Satu Mare"
-          href="/#/location/?county=SM&locationId=136483"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Tîrșolț"
-          href="/#/location/?county=SM&locationId=139143"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Călinești-Oaș"
-          href="/#/location/?county=SM&locationId=137229"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Cehal"
-          href="/#/location/?county=SM&locationId=137363"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Săuca"
-          href="/#/location/?county=SM&locationId=138805"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Tășnad"
-          href="/#/location/?county=SM&locationId=136642"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Terebești"
-          href="/#/location/?county=SM&locationId=139054"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Livada"
-          href="/#/location/?county=SM&locationId=138039"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Turulung"
-          href="/#/location/?county=SM&locationId=139214"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Socond"
-          href="/#/location/?county=SM&locationId=138869"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Viile Satu Mare"
-          href="/#/location/?county=SM&locationId=139394"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Ardud"
-          href="/#/location/?county=SM&locationId=136848"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const SatuMare = props => {
         </a>
         <a
           data-original-title="Craidorolț"
-          href="/#/location/?county=SM&locationId=137443"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

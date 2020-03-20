@@ -12,7 +12,8 @@ const Dolj = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Bechet"
-          href="/#/location/?county=DJ&locationId=70879"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Călărași"
-          href="/#/location/?county=DJ&locationId=71607"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Dăbuleni"
-          href="/#/location/?county=DJ&locationId=72007"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Cârna"
-          href="/#/location/?county=DJ&locationId=74867"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Gighera"
-          href="/#/location/?county=DJ&locationId=72463"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Măceșu de Jos"
-          href="/#/location/?county=DJ&locationId=72980"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Desa"
-          href="/#/location/?county=DJ&locationId=72034"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Sadova"
-          href="/#/location/?county=DJ&locationId=73996"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Gîngiova"
-          href="/#/location/?county=DJ&locationId=72579"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Bistreț"
-          href="/#/location/?county=DJ&locationId=70897"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Negoi"
-          href="/#/location/?county=DJ&locationId=73460"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Goicea"
-          href="/#/location/?county=DJ&locationId=72640"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Catane"
-          href="/#/location/?county=DJ&locationId=74842"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Ciupercenii Noi"
-          href="/#/location/?county=DJ&locationId=71858"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Amărăștii de Jos"
-          href="/#/location/?county=DJ&locationId=70637"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Seaca de Cîmp"
-          href="/#/location/?county=DJ&locationId=74108"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Daneți"
-          href="/#/location/?county=DJ&locationId=71956"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Dobrotești"
-          href="/#/location/?county=DJ&locationId=74883"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Bîrca"
-          href="/#/location/?county=DJ&locationId=70940"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Poiana Mare"
-          href="/#/location/?county=DJ&locationId=73736"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Amărăștii de Sus"
-          href="/#/location/?county=DJ&locationId=70673"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Dobrești"
-          href="/#/location/?county=DJ&locationId=72098"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Valea Stanciului"
-          href="/#/location/?county=DJ&locationId=74581"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Calafat"
-          href="/#/location/?county=DJ&locationId=70352"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Urzicuța"
-          href="/#/location/?county=DJ&locationId=74554"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Afumați"
-          href="/#/location/?county=DJ&locationId=70520"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Giurgița"
-          href="/#/location/?county=DJ&locationId=72533"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Siliștea Crucii"
-          href="/#/location/?county=DJ&locationId=74224"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Băilești"
-          href="/#/location/?county=DJ&locationId=70316"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Maglavit"
-          href="/#/location/?county=DJ&locationId=73031"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Cerăt"
-          href="/#/location/?county=DJ&locationId=71698"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Celaru"
-          href="/#/location/?county=DJ&locationId=71634"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Cioroiași"
-          href="/#/location/?county=DJ&locationId=71812"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Galiciuica"
-          href="/#/location/?county=DJ&locationId=74891"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Drănic"
-          href="/#/location/?county=DJ&locationId=72221"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Apele Vii"
-          href="/#/location/?county=DJ&locationId=70726"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Galicea Mare"
-          href="/#/location/?county=DJ&locationId=72383"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Moțăței"
-          href="/#/location/?county=DJ&locationId=73335"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Segarcea"
-          href="/#/location/?county=DJ&locationId=70502"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Cetate"
-          href="/#/location/?county=DJ&locationId=71787"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Dioști"
-          href="/#/location/?county=DJ&locationId=72052"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Izvoare"
-          href="/#/location/?county=DJ&locationId=72882"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Giubega"
-          href="/#/location/?county=DJ&locationId=72506"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Perișor"
-          href="/#/location/?county=DJ&locationId=73594"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Calopăr"
-          href="/#/location/?county=DJ&locationId=71457"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Teasc"
-          href="/#/location/?county=DJ&locationId=74322"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Caraula"
-          href="/#/location/?county=DJ&locationId=71518"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Ghindeni"
-          href="/#/location/?county=DJ&locationId=74915"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Țuglui"
-          href="/#/location/?county=DJ&locationId=74509"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Teslui"
-          href="/#/location/?county=DJ&locationId=74411"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Vîrtop"
-          href="/#/location/?county=DJ&locationId=74732"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Leu"
-          href="/#/location/?county=DJ&locationId=72926"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Vîrvoru de Jos"
-          href="/#/location/?county=DJ&locationId=74750"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Coșoveni"
-          href="/#/location/?county=DJ&locationId=71885"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Malu Mare"
-          href="/#/location/?county=DJ&locationId=73068"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Sălcuța"
-          href="/#/location/?county=DJ&locationId=74028"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Drăgotești"
-          href="/#/location/?county=DJ&locationId=72150"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Cârcea"
-          href="/#/location/?county=DJ&locationId=74859"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Orodel"
-          href="/#/location/?county=DJ&locationId=73503"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Terpezița"
-          href="/#/location/?county=DJ&locationId=74359"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Verbița"
-          href="/#/location/?county=DJ&locationId=74705"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Vela"
-          href="/#/location/?county=DJ&locationId=74616"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Robănești"
-          href="/#/location/?county=DJ&locationId=73923"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Pleșoi"
-          href="/#/location/?county=DJ&locationId=74931"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Craiova"
-          href="/#/location/?county=DJ&locationId=69900"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Breasta"
-          href="/#/location/?county=DJ&locationId=71260"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Carpen"
-          href="/#/location/?county=DJ&locationId=71536"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Pielești"
-          href="/#/location/?county=DJ&locationId=73629"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Seaca de Pădure"
-          href="/#/location/?county=DJ&locationId=74135"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Brabova"
-          href="/#/location/?county=DJ&locationId=70986"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Ghercești"
-          href="/#/location/?county=DJ&locationId=72409"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Ișalnița"
-          href="/#/location/?county=DJ&locationId=70094"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Predești"
-          href="/#/location/?county=DJ&locationId=73772"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Sopot"
-          href="/#/location/?county=DJ&locationId=74242"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Botoșești-Paia"
-          href="/#/location/?county=DJ&locationId=70968"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Gogoșu"
-          href="/#/location/?county=DJ&locationId=72604"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Coțofenii din Dos"
-          href="/#/location/?county=DJ&locationId=71910"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Șimnicu de Sus"
-          href="/#/location/?county=DJ&locationId=70174"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Cernătești"
-          href="/#/location/?county=DJ&locationId=71723"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Coțofenii din Față"
-          href="/#/location/?county=DJ&locationId=74875"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Almăj"
-          href="/#/location/?county=DJ&locationId=70566"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Grecești"
-          href="/#/location/?county=DJ&locationId=72819"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Scăești"
-          href="/#/location/?county=DJ&locationId=74073"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Secu"
-          href="/#/location/?county=DJ&locationId=74171"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Goiești"
-          href="/#/location/?county=DJ&locationId=72677"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Argetoaia"
-          href="/#/location/?county=DJ&locationId=70744"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Brădești"
-          href="/#/location/?county=DJ&locationId=71055"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Melinești"
-          href="/#/location/?county=DJ&locationId=73102"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Filiași"
-          href="/#/location/?county=DJ&locationId=70414"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1258,7 +1347,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Murgași"
-          href="/#/location/?county=DJ&locationId=73371"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1272,7 +1362,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Bulzești"
-          href="/#/location/?county=DJ&locationId=71340"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1286,7 +1377,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Bucovăț"
-          href="/#/location/?county=DJ&locationId=69964"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1300,7 +1392,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Braloștița"
-          href="/#/location/?county=DJ&locationId=71126"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1314,7 +1407,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Mischii"
-          href="/#/location/?county=DJ&locationId=73246"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1328,7 +1422,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Măceșu de Sus"
-          href="/#/location/?county=DJ&locationId=73013"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1342,7 +1437,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Mîrșani"
-          href="/#/location/?county=DJ&locationId=73317"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1356,7 +1452,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Rojiște"
-          href="/#/location/?county=DJ&locationId=74949"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1370,7 +1467,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Bratovoești"
-          href="/#/location/?county=DJ&locationId=71199"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1384,7 +1482,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Castranova"
-          href="/#/location/?county=DJ&locationId=71572"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1398,7 +1497,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Radovan"
-          href="/#/location/?county=DJ&locationId=73852"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1412,7 +1512,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Lipovu"
-          href="/#/location/?county=DJ&locationId=72953"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1426,7 +1527,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Întorsura"
-          href="/#/location/?county=DJ&locationId=74923"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1440,7 +1542,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Piscu Vechi"
-          href="/#/location/?county=DJ&locationId=73665"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1454,7 +1557,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Rast"
-          href="/#/location/?county=DJ&locationId=73905"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1468,7 +1572,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Plenița"
-          href="/#/location/?county=DJ&locationId=73709"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1482,7 +1587,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Unirea"
-          href="/#/location/?county=DJ&locationId=74536"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1496,7 +1602,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Ostroveni"
-          href="/#/location/?county=DJ&locationId=73567"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1510,7 +1617,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Podari"
-          href="/#/location/?county=DJ&locationId=70110"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1524,7 +1632,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Tălpaș"
-          href="/#/location/?county=DJ&locationId=74956"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1538,7 +1647,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Fărcaș"
-          href="/#/location/?county=DJ&locationId=72276"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1552,7 +1662,8 @@ const Dolj = props => {
         </a>
         <a
           data-original-title="Ghidici"
-          href="/#/location/?county=DJ&locationId=74907"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

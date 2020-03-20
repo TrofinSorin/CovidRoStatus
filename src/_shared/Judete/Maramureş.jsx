@@ -12,7 +12,8 @@ const Maramures = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Coroieni"
-          href="/#/location/?county=MM&locationId=107868"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Boiu Mare"
-          href="/#/location/?county=MM&locationId=107430"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Valea Chioarului"
-          href="/#/location/?county=MM&locationId=109354"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Vima Mică"
-          href="/#/location/?county=MM&locationId=109425"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Suciu de Sus"
-          href="/#/location/?county=MM&locationId=109041"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Oarța de Jos"
-          href="/#/location/?county=MM&locationId=108366"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Bicaz"
-          href="/#/location/?county=MM&locationId=107234"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Ulmeni"
-          href="/#/location/?county=MM&locationId=109265"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Băsești"
-          href="/#/location/?county=MM&locationId=107190"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Coaș"
-          href="/#/location/?county=MM&locationId=179837"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Tîrgu Lăpuș"
-          href="/#/location/?county=MM&locationId=106817"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Șomcuta Mare"
-          href="/#/location/?county=MM&locationId=109176"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Sălsig"
-          href="/#/location/?county=MM&locationId=108918"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Mireșu Mare"
-          href="/#/location/?county=MM&locationId=108268"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Remetea Chioarului"
-          href="/#/location/?county=MM&locationId=108491"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Gârdani"
-          href="/#/location/?county=MM&locationId=179855"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Băița de sub Codru"
-          href="/#/location/?county=MM&locationId=107118"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Copalnic-Mănăștur"
-          href="/#/location/?county=MM&locationId=107733"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Groșii Țibleșului"
-          href="/#/location/?county=MM&locationId=179622"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Săcălășeni"
-          href="/#/location/?county=MM&locationId=108794"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Cupșeni"
-          href="/#/location/?county=MM&locationId=107920"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Lăpuș"
-          href="/#/location/?county=MM&locationId=108222"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Satulung"
-          href="/#/location/?county=MM&locationId=108712"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Coltău"
-          href="/#/location/?county=MM&locationId=179846"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Asuaju de Sus"
-          href="/#/location/?county=MM&locationId=107083"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Groși"
-          href="/#/location/?county=MM&locationId=106363"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Dumbrăvița"
-          href="/#/location/?county=MM&locationId=108035"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Fărcașa"
-          href="/#/location/?county=MM&locationId=108106"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Cernești"
-          href="/#/location/?county=MM&locationId=107582"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Băiuț"
-          href="/#/location/?county=MM&locationId=107154"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Săcel"
-          href="/#/location/?county=MM&locationId=108874"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Ardusat"
-          href="/#/location/?county=MM&locationId=107001"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Dragomirești"
-          href="/#/location/?county=MM&locationId=108017"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Moisei"
-          href="/#/location/?county=MM&locationId=108348"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Botiza"
-          href="/#/location/?county=MM&locationId=107485"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Săliștea de Sus"
-          href="/#/location/?county=MM&locationId=108892"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Cavnic"
-          href="/#/location/?county=MM&locationId=106782"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Șisești"
-          href="/#/location/?county=MM&locationId=109096"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Ieud"
-          href="/#/location/?county=MM&locationId=108204"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Poienile Izei"
-          href="/#/location/?county=MM&locationId=179604"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Borșa"
-          href="/#/location/?county=MM&locationId=106746"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Șieu"
-          href="/#/location/?county=MM&locationId=179613"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Bogdan Vodă"
-          href="/#/location/?county=MM&locationId=107403"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Baia Sprie"
-          href="/#/location/?county=MM&locationId=106684"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Rozavlea"
-          href="/#/location/?county=MM&locationId=108669"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Vișeu de Jos"
-          href="/#/location/?county=MM&locationId=109504"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Leordina"
-          href="/#/location/?county=MM&locationId=108240"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Desești"
-          href="/#/location/?county=MM&locationId=107975"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Strîmtura"
-          href="/#/location/?county=MM&locationId=109005"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Călinești"
-          href="/#/location/?county=MM&locationId=107546"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Ocna Șugatag"
-          href="/#/location/?county=MM&locationId=108400"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Ruscova"
-          href="/#/location/?county=MM&locationId=108696"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Bârsana"
-          href="/#/location/?county=MM&locationId=107314"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Vișeu de Sus"
-          href="/#/location/?county=MM&locationId=106979"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Giulești"
-          href="/#/location/?county=MM&locationId=108151"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Petrova"
-          href="/#/location/?county=MM&locationId=108455"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Oncești"
-          href="/#/location/?county=MM&locationId=179864"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Vadu Izei"
-          href="/#/location/?county=MM&locationId=106648"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Bistra"
-          href="/#/location/?county=MM&locationId=107270"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Rona de Sus"
-          href="/#/location/?county=MM&locationId=108632"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Rona de Jos"
-          href="/#/location/?county=MM&locationId=108614"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Poienile de sub Munte"
-          href="/#/location/?county=MM&locationId=108473"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Repedea"
-          href="/#/location/?county=MM&locationId=108598"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Bocicoiu Mare"
-          href="/#/location/?county=MM&locationId=107350"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Săpînța"
-          href="/#/location/?county=MM&locationId=108945"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Cîmpulung la Tisa"
-          href="/#/location/?county=MM&locationId=107715"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Remeți"
-          href="/#/location/?county=MM&locationId=108552"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Seini"
-          href="/#/location/?county=MM&locationId=108963"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Cicîrlău"
-          href="/#/location/?county=MM&locationId=107662"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Ariniș"
-          href="/#/location/?county=MM&locationId=107047"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Budești"
-          href="/#/location/?county=MM&locationId=107519"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Sighetu Marmației"
-          href="/#/location/?county=MM&locationId=106559"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Sarasău"
-          href="/#/location/?county=MM&locationId=106620"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Tăuții-Măgherăuș"
-          href="/#/location/?county=MM&locationId=106461"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Baia Mare"
-          href="/#/location/?county=MM&locationId=106318"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Maramures = props => {
         </a>
         <a
           data-original-title="Recea"
-          href="/#/location/?county=MM&locationId=106407"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

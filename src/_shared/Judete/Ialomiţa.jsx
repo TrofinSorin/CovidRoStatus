@@ -12,7 +12,8 @@ const Ialomita = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Stelnica"
-          href="/#/location/?county=IL&locationId=94492"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Fetești"
-          href="/#/location/?county=IL&locationId=92701"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Bordușani"
-          href="/#/location/?county=IL&locationId=92989"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Buești"
-          href="/#/location/?county=IL&locationId=179793"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Albești"
-          href="/#/location/?county=IL&locationId=92783"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Drăgoești"
-          href="/#/location/?county=IL&locationId=102641"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Sudiți"
-          href="/#/location/?county=IL&locationId=94535"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Roșiori"
-          href="/#/location/?county=IL&locationId=179828"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Andrășești"
-          href="/#/location/?county=IL&locationId=92872"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Săveni"
-          href="/#/location/?county=IL&locationId=94376"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Axintele"
-          href="/#/location/?county=IL&locationId=100923"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Platonești"
-          href="/#/location/?county=IL&locationId=180000"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Perieți"
-          href="/#/location/?county=IL&locationId=94161"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Movilița"
-          href="/#/location/?county=IL&locationId=104270"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Bărcănești"
-          href="/#/location/?county=IL&locationId=101056"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Gheorghe Lazăr"
-          href="/#/location/?county=IL&locationId=93628"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Amara"
-          href="/#/location/?county=IL&locationId=92836"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Bucu"
-          href="/#/location/?county=IL&locationId=93021"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Căzănești"
-          href="/#/location/?county=IL&locationId=93067"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Gheorghe Doja"
-          href="/#/location/?county=IL&locationId=93600"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Fierbinți-Târg"
-          href="/#/location/?county=IL&locationId=102749"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Ograda"
-          href="/#/location/?county=IL&locationId=179819"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Vlădeni"
-          href="/#/location/?county=IL&locationId=94795"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Ion Roată"
-          href="/#/location/?county=IL&locationId=103862"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Sfântu Gheorghe"
-          href="/#/location/?county=IL&locationId=94456"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Munteni-Buzău"
-          href="/#/location/?county=IL&locationId=94107"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Mihail Kogălniceanu"
-          href="/#/location/?county=IL&locationId=93995"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Alexeni"
-          href="/#/location/?county=IL&locationId=100852"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Reviga"
-          href="/#/location/?county=IL&locationId=94269"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Maia"
-          href="/#/location/?county=IL&locationId=179800"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Manasia"
-          href="/#/location/?county=IL&locationId=100736"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Bărbulești"
-          href="/#/location/?county=IL&locationId=180064"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Urziceni"
-          href="/#/location/?county=IL&locationId=100683"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Balaciu"
-          href="/#/location/?county=IL&locationId=92907"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Radulești"
-          href="/#/location/?county=IL&locationId=101243"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Miloșești"
-          href="/#/location/?county=IL&locationId=94045"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Țăndărei"
-          href="/#/location/?county=IL&locationId=92765"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Valea Ciorii"
-          href="/#/location/?county=IL&locationId=94688"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Adâncata"
-          href="/#/location/?county=IL&locationId=100754"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Cocora"
-          href="/#/location/?county=IL&locationId=93209"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Grindu"
-          href="/#/location/?county=IL&locationId=93717"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Scânteia"
-          href="/#/location/?county=IL&locationId=94429"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Valea Măcrișului"
-          href="/#/location/?county=IL&locationId=105794"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Ciocârlia"
-          href="/#/location/?county=IL&locationId=100709"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Gârbovi"
-          href="/#/location/?county=IL&locationId=103283"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Gura Ialomiței"
-          href="/#/location/?county=IL&locationId=180046"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Colelia"
-          href="/#/location/?county=IL&locationId=179971"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Armășești"
-          href="/#/location/?county=IL&locationId=100870"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Giurgeni"
-          href="/#/location/?county=IL&locationId=93646"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Jilavele"
-          href="/#/location/?county=IL&locationId=103960"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Făcăeni"
-          href="/#/location/?county=IL&locationId=93575"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Sălcioara"
-          href="/#/location/?county=IL&locationId=94330"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Ciochina"
-          href="/#/location/?county=IL&locationId=93101"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Movila"
-          href="/#/location/?county=IL&locationId=94081"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Slobozia"
-          href="/#/location/?county=IL&locationId=92658"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Ciulnița"
-          href="/#/location/?county=IL&locationId=93156"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Grivița"
-          href="/#/location/?county=IL&locationId=93735"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Traian"
-          href="/#/location/?county=IL&locationId=179702"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Mărculești"
-          href="/#/location/?county=IL&locationId=179980"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Cosâmbești"
-          href="/#/location/?county=IL&locationId=93236"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Dridu"
-          href="/#/location/?county=IL&locationId=102703"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Sărățeni"
-          href="/#/location/?county=IL&locationId=180019"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Borănești"
-          href="/#/location/?county=IL&locationId=179784"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Coșereni"
-          href="/#/location/?county=IL&locationId=102240"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Sinești"
-          href="/#/location/?county=IL&locationId=105026"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Ialomita = props => {
         </a>
         <a
           data-original-title="Moldoveni"
-          href="/#/location/?county=IL&locationId=179999"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

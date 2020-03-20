@@ -12,7 +12,8 @@ const Botosani = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Flămânzi"
-          href="/#/location/?county=BT&locationId=37280"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Vorona"
-          href="/#/location/?county=BT&locationId=39872"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Copălău"
-          href="/#/location/?county=BT&locationId=36569"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Coșula"
-          href="/#/location/?county=BT&locationId=39975"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Cristești"
-          href="/#/location/?county=BT&locationId=36907"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Călărași"
-          href="/#/location/?county=BT&locationId=36499"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Lunca"
-          href="/#/location/?county=BT&locationId=37912"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Todireni"
-          href="/#/location/?county=BT&locationId=39266"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Corni"
-          href="/#/location/?county=BT&locationId=36756"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Santa Mare"
-          href="/#/location/?county=BT&locationId=38893"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Bălușeni"
-          href="/#/location/?county=BT&locationId=36300"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Curtești"
-          href="/#/location/?county=BT&locationId=35759"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Albești"
-          href="/#/location/?county=BT&locationId=36131"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Vlădeni"
-          href="/#/location/?county=BT&locationId=39738"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Blândești"
-          href="/#/location/?county=BT&locationId=39983"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Stăuceni"
-          href="/#/location/?county=BT&locationId=35884"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Românești"
-          href="/#/location/?county=BT&locationId=38848"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Botoșani"
-          href="/#/location/?county=BT&locationId=35731"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Bucecea"
-          href="/#/location/?county=BT&locationId=36453"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Durnești"
-          href="/#/location/?county=BT&locationId=37217"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Mihai Eminescu"
-          href="/#/location/?county=BT&locationId=38063"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Gorbănești"
-          href="/#/location/?county=BT&locationId=37459"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Leorda"
-          href="/#/location/?county=BT&locationId=37850"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Răchiți"
-          href="/#/location/?county=BT&locationId=35839"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Ștefănești"
-          href="/#/location/?county=BT&locationId=39168"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Unțeni"
-          href="/#/location/?county=BT&locationId=39532"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Roma"
-          href="/#/location/?county=BT&locationId=38811"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Dobârceni"
-          href="/#/location/?county=BT&locationId=37100"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Brăești"
-          href="/#/location/?county=BT&locationId=36373"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Dîngeni"
-          href="/#/location/?county=BT&locationId=37057"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Vârfu Câmpului"
-          href="/#/location/?county=BT&locationId=39694"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Nicșeni"
-          href="/#/location/?county=BT&locationId=38456"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Văculești"
-          href="/#/location/?county=BT&locationId=39612"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Dimăcheni"
-          href="/#/location/?county=BT&locationId=39959"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Mihălășeni"
-          href="/#/location/?county=BT&locationId=38241"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Lozna"
-          href="/#/location/?county=BT&locationId=39942"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Cândești"
-          href="/#/location/?county=BT&locationId=39967"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Ripiceni"
-          href="/#/location/?county=BT&locationId=38731"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Ungureni"
-          href="/#/location/?county=BT&locationId=39417"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Corlăteni"
-          href="/#/location/?county=BT&locationId=36676"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Mihăileni"
-          href="/#/location/?county=BT&locationId=38161"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Șendriceni"
-          href="/#/location/?county=BT&locationId=39122"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Vlăsinești"
-          href="/#/location/?county=BT&locationId=39792"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Hănești"
-          href="/#/location/?county=BT&locationId=37618"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Broscăuți"
-          href="/#/location/?county=BT&locationId=36426"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Săveni"
-          href="/#/location/?county=BT&locationId=36060"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Dorohoi"
-          href="/#/location/?county=BT&locationId=36006"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Dersca"
-          href="/#/location/?county=BT&locationId=37011"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Vorniceni"
-          href="/#/location/?county=BT&locationId=39836"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Știubieni"
-          href="/#/location/?county=BT&locationId=39220"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Cordăreni"
-          href="/#/location/?county=BT&locationId=36649"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Hilișeu-Horia"
-          href="/#/location/?county=BT&locationId=37672"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Avrămeni"
-          href="/#/location/?county=BT&locationId=36202"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="George Enescu"
-          href="/#/location/?county=BT&locationId=37397"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Drăgușeni"
-          href="/#/location/?county=BT&locationId=37173"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Manoleasa"
-          href="/#/location/?county=BT&locationId=37958"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Ibănești"
-          href="/#/location/?county=BT&locationId=37823"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Adășeni"
-          href="/#/location/?county=BT&locationId=40035"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Pomîrla"
-          href="/#/location/?county=BT&locationId=38544"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Havîrna"
-          href="/#/location/?county=BT&locationId=37547"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Mileanca"
-          href="/#/location/?county=BT&locationId=38321"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Cristinești"
-          href="/#/location/?county=BT&locationId=36952"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Mitoc"
-          href="/#/location/?county=BT&locationId=38376"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Concești"
-          href="/#/location/?county=BT&locationId=36532"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Suharău"
-          href="/#/location/?county=BT&locationId=38982"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Viișoara"
-          href="/#/location/?county=BT&locationId=39658"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Coțușca"
-          href="/#/location/?county=BT&locationId=36809"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Hudești"
-          href="/#/location/?county=BT&locationId=37770"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Darabani"
-          href="/#/location/?county=BT&locationId=35946"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Rădăuți-Prut"
-          href="/#/location/?county=BT&locationId=38633"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Păltiniș"
-          href="/#/location/?county=BT&locationId=38492"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Sulița"
-          href="/#/location/?county=BT&locationId=39051"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Trușești"
-          href="/#/location/?county=BT&locationId=39328"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Răușeni"
-          href="/#/location/?county=BT&locationId=38679"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Frumușica"
-          href="/#/location/?county=BT&locationId=37324"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Prăjeni"
-          href="/#/location/?county=BT&locationId=38580"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Hlipiceni"
-          href="/#/location/?county=BT&locationId=37734"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Botosani = props => {
         </a>
         <a
           data-original-title="Tudora"
-          href="/#/location/?county=BT&locationId=39391"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

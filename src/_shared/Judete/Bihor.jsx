@@ -12,7 +12,8 @@ const Bihor = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Cărpinet"
-          href="/#/location/?county=BH&locationId=28193"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Criștioru de Jos"
-          href="/#/location/?county=BH&locationId=28889"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Vașcău"
-          href="/#/location/?county=BH&locationId=27007"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Nucet"
-          href="/#/location/?county=BH&locationId=26920"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Cîmpani"
-          href="/#/location/?county=BH&locationId=28709"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Lunca"
-          href="/#/location/?county=BH&locationId=29948"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Ștei"
-          href="/#/location/?county=BH&locationId=26840"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Rieni"
-          href="/#/location/?county=BH&locationId=30773"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Lazuri de Beiuș"
-          href="/#/location/?county=BH&locationId=29760"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Tărcaia"
-          href="/#/location/?county=BH&locationId=31609"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Pietroasa"
-          href="/#/location/?county=BH&locationId=30336"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Buntești"
-          href="/#/location/?county=BH&locationId=27971"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Drăgănești"
-          href="/#/location/?county=BH&locationId=29243"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Finiș"
-          href="/#/location/?county=BH&locationId=29403"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Beiuș"
-          href="/#/location/?county=BH&locationId=26804"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Șoimi"
-          href="/#/location/?county=BH&locationId=31422"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Olcea"
-          href="/#/location/?county=BH&locationId=30229"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Pocola"
-          href="/#/location/?county=BH&locationId=30416"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Uileacu de Beiuș"
-          href="/#/location/?county=BH&locationId=31921"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Avram Iancu"
-          href="/#/location/?county=BH&locationId=27285"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Remetea"
-          href="/#/location/?county=BH&locationId=30719"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Ciumeghiu"
-          href="/#/location/?county=BH&locationId=28665"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Curățele"
-          href="/#/location/?county=BH&locationId=28941"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Cociuba Mare"
-          href="/#/location/?county=BH&locationId=28763"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Căpîlna"
-          href="/#/location/?county=BH&locationId=28139"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Batăr"
-          href="/#/location/?county=BH&locationId=27383"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Răbăgani"
-          href="/#/location/?county=BH&locationId=30648"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Budureasa"
-          href="/#/location/?county=BH&locationId=27846"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Căbești"
-          href="/#/location/?county=BH&locationId=28077"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Tulca"
-          href="/#/location/?county=BH&locationId=31841"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Pomezeu"
-          href="/#/location/?county=BH&locationId=30470"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Sîmbăta"
-          href="/#/location/?county=BH&locationId=31057"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Tinca"
-          href="/#/location/?county=BH&locationId=31789"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Holod"
-          href="/#/location/?county=BH&locationId=29573"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Roșia"
-          href="/#/location/?county=BH&locationId=30844"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Salonta"
-          href="/#/location/?county=BH&locationId=26975"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Mădăras"
-          href="/#/location/?county=BH&locationId=30014"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Lăzăreni"
-          href="/#/location/?county=BH&locationId=29813"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Husasău de Tinca"
-          href="/#/location/?county=BH&locationId=29662"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Dobrești"
-          href="/#/location/?county=BH&locationId=29154"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Ceica"
-          href="/#/location/?county=BH&locationId=28335"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Bulz"
-          href="/#/location/?county=BH&locationId=27935"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Cefa"
-          href="/#/location/?county=BH&locationId=28246"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Șuncuiuș"
-          href="/#/location/?county=BH&locationId=31510"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Gepiu"
-          href="/#/location/?county=BH&locationId=32195"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Bratca"
-          href="/#/location/?county=BH&locationId=27686"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Drăgești"
-          href="/#/location/?county=BH&locationId=29341"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Hidișelu de Sus"
-          href="/#/location/?county=BH&locationId=29519"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Vârciorog"
-          href="/#/location/?county=BH&locationId=32090"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Vadu Crișului"
-          href="/#/location/?county=BH&locationId=31976"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Sănnicolau Romăn"
-          href="/#/location/?county=BH&locationId=32179"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Sînmartin"
-          href="/#/location/?county=BH&locationId=26582"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Copăcel"
-          href="/#/location/?county=BH&locationId=28816"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Măgești"
-          href="/#/location/?county=BH&locationId=30069"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Aștileu"
-          href="/#/location/?county=BH&locationId=26742"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Nojorid"
-          href="/#/location/?county=BH&locationId=30149"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Țețchea"
-          href="/#/location/?county=BH&locationId=31878"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Borod"
-          href="/#/location/?county=BH&locationId=27560"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Oșorhei"
-          href="/#/location/?county=BH&locationId=30274"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Săcădat"
-          href="/#/location/?county=BH&locationId=30871"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Sîntandrei"
-          href="/#/location/?county=BH&locationId=26653"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Toboliu"
-          href="/#/location/?county=BH&locationId=32201"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Girișu de Criș"
-          href="/#/location/?county=BH&locationId=29467"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Lugașu de Jos"
-          href="/#/location/?county=BH&locationId=29902"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Ineu"
-          href="/#/location/?county=BH&locationId=29724"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Tileagd"
-          href="/#/location/?county=BH&locationId=31716"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Paleu"
-          href="/#/location/?county=BH&locationId=32161"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Oradea"
-          href="/#/location/?county=BH&locationId=26564"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Aleșd"
-          href="/#/location/?county=BH&locationId=26699"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Brusturi"
-          href="/#/location/?county=BH&locationId=27757"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Borș"
-          href="/#/location/?county=BH&locationId=27631"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Cetariu"
-          href="/#/location/?county=BH&locationId=28415"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Biharia"
-          href="/#/location/?county=BH&locationId=27436"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Sîrbi"
-          href="/#/location/?county=BH&locationId=31128"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Spinuș"
-          href="/#/location/?county=BH&locationId=31208"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Derna"
-          href="/#/location/?county=BH&locationId=29038"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Popești"
-          href="/#/location/?county=BH&locationId=30568"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Tămășeu"
-          href="/#/location/?county=BH&locationId=32153"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Suplacu de Barcău"
-          href="/#/location/?county=BH&locationId=31262"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Sălard"
-          href="/#/location/?county=BH&locationId=31011"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Roșiori"
-          href="/#/location/?county=BH&locationId=32187"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Sâniob"
-          href="/#/location/?county=BH&locationId=28610"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Chișlaz"
-          href="/#/location/?county=BH&locationId=28530"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Tăuteu"
-          href="/#/location/?county=BH&locationId=31654"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Balc"
-          href="/#/location/?county=BH&locationId=27329"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Abram"
-          href="/#/location/?county=BH&locationId=27070"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Abrămuț"
-          href="/#/location/?county=BH&locationId=27169"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Diosig"
-          href="/#/location/?county=BH&locationId=29092"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Săcueni"
-          href="/#/location/?county=BH&locationId=30915"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1258,7 +1347,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Boianu Mare"
-          href="/#/location/?county=BH&locationId=27506"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1272,7 +1362,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Viișoara"
-          href="/#/location/?county=BH&locationId=32045"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1286,7 +1377,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Buduslău"
-          href="/#/location/?county=BH&locationId=27908"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1300,7 +1392,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Marghita"
-          href="/#/location/?county=BH&locationId=26877"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1314,7 +1407,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Cherechiu"
-          href="/#/location/?county=BH&locationId=28497"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1328,7 +1422,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Sălacea"
-          href="/#/location/?county=BH&locationId=30988"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1342,7 +1437,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Tarcea"
-          href="/#/location/?county=BH&locationId=31565"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1356,7 +1452,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Șimian"
-          href="/#/location/?county=BH&locationId=31333"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1370,7 +1467,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Valea lui Mihai"
-          href="/#/location/?county=BH&locationId=32027"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1384,7 +1482,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Curtuișeni"
-          href="/#/location/?county=BH&locationId=29001"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1398,7 +1497,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Șinteu"
-          href="/#/location/?county=BH&locationId=31379"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1412,7 +1512,8 @@ const Bihor = props => {
         </a>
         <a
           data-original-title="Aușeu"
-          href="/#/location/?county=BH&locationId=27212"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

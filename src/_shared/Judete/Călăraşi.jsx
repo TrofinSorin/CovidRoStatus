@@ -12,7 +12,8 @@ const Calarasi = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Căscioarele"
-          href="/#/location/?county=CL&locationId=101724"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Chirnogi"
-          href="/#/location/?county=CL&locationId=101804"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Oltenița"
-          href="/#/location/?county=CL&locationId=100610"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Spanțov"
-          href="/#/location/?county=CL&locationId=105259"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Crivăț"
-          href="/#/location/?county=CL&locationId=180055"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Radovanu"
-          href="/#/location/?county=CL&locationId=104751"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Ulmeni"
-          href="/#/location/?county=CL&locationId=105605"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Curcani"
-          href="/#/location/?county=CL&locationId=102419"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Mitreni"
-          href="/#/location/?county=CL&locationId=100638"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Șoldanu"
-          href="/#/location/?county=CL&locationId=105384"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Luica"
-          href="/#/location/?county=CL&locationId=104083"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Vasilați"
-          href="/#/location/?county=CL&locationId=105829"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Călărași"
-          href="/#/location/?county=CL&locationId=92569"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Dichiseni"
-          href="/#/location/?county=CL&locationId=93325"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Dorobanțu"
-          href="/#/location/?county=CL&locationId=93441"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Roseți"
-          href="/#/location/?county=CL&locationId=94312"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Ciocănești"
-          href="/#/location/?county=CL&locationId=93085"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Modelu"
-          href="/#/location/?county=CL&locationId=92587"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Nana"
-          href="/#/location/?county=CL&locationId=104323"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Gălbinași"
-          href="/#/location/?county=CL&locationId=179962"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Ulmu"
-          href="/#/location/?county=CL&locationId=94606"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Grădiștea"
-          href="/#/location/?county=CL&locationId=93664"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Alexandru Odobescu"
-          href="/#/location/?county=CL&locationId=94125"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Unirea"
-          href="/#/location/?county=CL&locationId=94651"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Frăsinet"
-          href="/#/location/?county=CL&locationId=102838"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Ștefan Vodă"
-          href="/#/location/?county=CL&locationId=94580"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Independența"
-          href="/#/location/?county=CL&locationId=93771"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Jegălia"
-          href="/#/location/?county=CL&locationId=93815"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Sohatu"
-          href="/#/location/?county=CL&locationId=105222"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Valea Argovei"
-          href="/#/location/?county=CL&locationId=105712"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Plătărești"
-          href="/#/location/?county=CL&locationId=104635"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Cuza Voda"
-          href="/#/location/?county=CL&locationId=93281"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Lupșanu"
-          href="/#/location/?county=CL&locationId=93931"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Vîlcelele"
-          href="/#/location/?county=CL&locationId=94731"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Vlad Țepeș"
-          href="/#/location/?county=CL&locationId=94768"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Nicolae Bălcescu"
-          href="/#/location/?county=CL&locationId=104341"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Dragoș Vodă"
-          href="/#/location/?county=CL&locationId=93539"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Tămădău Mare"
-          href="/#/location/?county=CL&locationId=105455"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Fundulea"
-          href="/#/location/?county=CL&locationId=103032"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Lehliu"
-          href="/#/location/?county=CL&locationId=93851"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Belciugatele"
-          href="/#/location/?county=CL&locationId=101083"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Perișoru"
-          href="/#/location/?county=CL&locationId=94223"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Ileana"
-          href="/#/location/?county=CL&locationId=103764"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Chiselet"
-          href="/#/location/?county=CL&locationId=101822"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Mânăstirea"
-          href="/#/location/?county=CL&locationId=104181"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Gurbănești"
-          href="/#/location/?county=CL&locationId=103568"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Sărulești"
-          href="/#/location/?county=CL&locationId=104886"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Lehliu-Gară"
-          href="/#/location/?county=CL&locationId=93888"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Dor Mărunt"
-          href="/#/location/?county=CL&locationId=93370"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Budești"
-          href="/#/location/?county=CL&locationId=101458"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Frumușani"
-          href="/#/location/?county=CL&locationId=102945"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Borcea"
-          href="/#/location/?county=CL&locationId=92961"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Ștefan cel Mare"
-          href="/#/location/?county=CL&locationId=94562"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Dragalina"
-          href="/#/location/?county=CL&locationId=93487"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Calarasi = props => {
         </a>
         <a
           data-original-title="Fundeni"
-          href="/#/location/?county=CL&locationId=103014"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

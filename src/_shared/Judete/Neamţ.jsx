@@ -12,7 +12,8 @@ const Neamt = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Cîndești"
-          href="/#/location/?county=NT&locationId=122061"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Tazlău"
-          href="/#/location/?county=NT&locationId=124616"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Rediu"
-          href="/#/location/?county=NT&locationId=124028"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Costișa"
-          href="/#/location/?county=NT&locationId=122132"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Bahna"
-          href="/#/location/?county=NT&locationId=121153"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Dămuc"
-          href="/#/location/?county=NT&locationId=122249"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Borlești"
-          href="/#/location/?county=NT&locationId=121732"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Oniceni"
-          href="/#/location/?county=NT&locationId=123255"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Valea Ursului"
-          href="/#/location/?county=NT&locationId=124885"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Podoleni"
-          href="/#/location/?county=NT&locationId=123674"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Moldoveni"
-          href="/#/location/?county=NT&locationId=123228"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Bicaz-Chei"
-          href="/#/location/?county=NT&locationId=121297"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Piatra Șoimului"
-          href="/#/location/?county=NT&locationId=123479"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Săvinești"
-          href="/#/location/?county=NT&locationId=120824"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Tarcău"
-          href="/#/location/?county=NT&locationId=124493"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Dumbrava Roșie"
-          href="/#/location/?county=NT&locationId=120771"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Tașca"
-          href="/#/location/?county=NT&locationId=124563"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Bicazu Ardelean"
-          href="/#/location/?county=NT&locationId=121340"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Dochia"
-          href="/#/location/?county=NT&locationId=125098"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Girov"
-          href="/#/location/?county=NT&locationId=122702"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Dobreni"
-          href="/#/location/?county=NT&locationId=122285"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Bicaz"
-          href="/#/location/?county=NT&locationId=120968"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Dragomirești"
-          href="/#/location/?county=NT&locationId=122392"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Ștefan cel Mare"
-          href="/#/location/?county=NT&locationId=124411"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Ceahlău"
-          href="/#/location/?county=NT&locationId=122025"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Grințieș"
-          href="/#/location/?county=NT&locationId=122864"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Războieni"
-          href="/#/location/?county=NT&locationId=123969"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Hangu"
-          href="/#/location/?county=NT&locationId=122953"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Poiana Teiului"
-          href="/#/location/?county=NT&locationId=123790"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Urecheni"
-          href="/#/location/?county=NT&locationId=124849"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Farcașa"
-          href="/#/location/?county=NT&locationId=122551"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Pipirig"
-          href="/#/location/?county=NT&locationId=123521"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Borca"
-          href="/#/location/?county=NT&locationId=121652"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Brusturi"
-          href="/#/location/?county=NT&locationId=121938"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Drăgănești"
-          href="/#/location/?county=NT&locationId=125132"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Roznov"
-          href="/#/location/?county=NT&locationId=124117"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Zănești"
-          href="/#/location/?county=NT&locationId=125061"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Mărgineni"
-          href="/#/location/?county=NT&locationId=123175"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Români"
-          href="/#/location/?county=NT&locationId=124073"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Icușești"
-          href="/#/location/?county=NT&locationId=123013"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Bozieni"
-          href="/#/location/?county=NT&locationId=121876"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Ion Creangă"
-          href="/#/location/?county=NT&locationId=123102"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Secuieni"
-          href="/#/location/?county=NT&locationId=124233"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Poienari"
-          href="/#/location/?county=NT&locationId=123709"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Gâdinți"
-          href="/#/location/?county=NT&locationId=125150"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Roman"
-          href="/#/location/?county=NT&locationId=120860"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Făurei"
-          href="/#/location/?county=NT&locationId=122613"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Ruginoasa"
-          href="/#/location/?county=NT&locationId=125105"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Sagna"
-          href="/#/location/?county=NT&locationId=124153"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Cordun"
-          href="/#/location/?county=NT&locationId=120888"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Tămășeni"
-          href="/#/location/?county=NT&locationId=124634"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Negrești"
-          href="/#/location/?county=NT&locationId=125169"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Bîrgăuani"
-          href="/#/location/?county=NT&locationId=121466"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Văleni"
-          href="/#/location/?county=NT&locationId=125123"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Gherăești"
-          href="/#/location/?county=NT&locationId=122668"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Bodești"
-          href="/#/location/?county=NT&locationId=121607"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Stănița"
-          href="/#/location/?county=NT&locationId=124331"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Botești"
-          href="/#/location/?county=NT&locationId=121796"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Tupilați"
-          href="/#/location/?county=NT&locationId=124750"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Ghindăoani"
-          href="/#/location/?county=NT&locationId=125114"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Crăcăoani"
-          href="/#/location/?county=NT&locationId=122187"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Țibucani"
-          href="/#/location/?county=NT&locationId=124803"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Grumăzești"
-          href="/#/location/?county=NT&locationId=122908"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Agapia"
-          href="/#/location/?county=NT&locationId=121108"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Păstrăveni"
-          href="/#/location/?county=NT&locationId=123371"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Petricani"
-          href="/#/location/?county=NT&locationId=123424"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Tîrgu Neamț"
-          href="/#/location/?county=NT&locationId=121055"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Timișești"
-          href="/#/location/?county=NT&locationId=124661"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Vînători-Neamț"
-          href="/#/location/?county=NT&locationId=125016"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Alexandru cel Bun"
-          href="/#/location/?county=NT&locationId=124938"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Pîngărați"
-          href="/#/location/?county=NT&locationId=123601"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Bălțătești"
-          href="/#/location/?county=NT&locationId=121242"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Piatra-Neamț"
-          href="/#/location/?county=NT&locationId=120726"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Gîrcina"
-          href="/#/location/?county=NT&locationId=122828"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Răucești"
-          href="/#/location/?county=NT&locationId=123914"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Pâncești"
-          href="/#/location/?county=NT&locationId=125141"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Bira"
-          href="/#/location/?county=NT&locationId=121386"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Doljești"
-          href="/#/location/?county=NT&locationId=122347"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Boghicea"
-          href="/#/location/?county=NT&locationId=125178"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Horia"
-          href="/#/location/?county=NT&locationId=120922"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Trifești"
-          href="/#/location/?county=NT&locationId=124723"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Dulcești"
-          href="/#/location/?county=NT&locationId=122463"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Neamt = props => {
         </a>
         <a
           data-original-title="Săbăoani"
-          href="/#/location/?county=NT&locationId=124206"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

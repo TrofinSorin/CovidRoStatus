@@ -12,7 +12,8 @@ const Brasov = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Fundata"
-          href="/#/location/?county=BV&locationId=40991"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Predeal"
-          href="/#/location/?county=BV&locationId=40303"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Moieciu"
-          href="/#/location/?county=BV&locationId=41471"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Bran"
-          href="/#/location/?county=BV&locationId=40633"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Zărnești"
-          href="/#/location/?county=BV&locationId=40492"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Vama Buzăului"
-          href="/#/location/?county=BV&locationId=42183"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Cristian"
-          href="/#/location/?county=BV&locationId=40900"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Poiana Mărului"
-          href="/#/location/?county=BV&locationId=41621"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Săcele"
-          href="/#/location/?county=BV&locationId=40438"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Vulcan"
-          href="/#/location/?county=BV&locationId=42398"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Tărlungeni"
-          href="/#/location/?county=BV&locationId=42003"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Budila"
-          href="/#/location/?county=BV&locationId=40688"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Holbav"
-          href="/#/location/?county=BV&locationId=42472"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Ghimbav"
-          href="/#/location/?county=BV&locationId=40214"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Teliu"
-          href="/#/location/?county=BV&locationId=42058"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Șinca Nouă"
-          href="/#/location/?county=BV&locationId=42449"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Victoria"
-          href="/#/location/?county=BV&locationId=40465"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Sînpetru"
-          href="/#/location/?county=BV&locationId=41925"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Brașov"
-          href="/#/location/?county=BV&locationId=40198"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Lisa"
-          href="/#/location/?county=BV&locationId=41346"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Prejmer"
-          href="/#/location/?county=BV&locationId=41667"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Codlea"
-          href="/#/location/?county=BV&locationId=40241"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Hârseni"
-          href="/#/location/?county=BV&locationId=41113"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Sambata de Sus"
-          href="/#/location/?county=BV&locationId=42464"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Recea"
-          href="/#/location/?county=BV&locationId=41738"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Drăguș"
-          href="/#/location/?county=BV&locationId=42480"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Bod"
-          href="/#/location/?county=BV&locationId=40606"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Șinca"
-          href="/#/location/?county=BV&locationId=41854"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Ucea"
-          href="/#/location/?county=BV&locationId=42101"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Viștea"
-          href="/#/location/?county=BV&locationId=42236"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Dumbrăvița"
-          href="/#/location/?county=BV&locationId=40928"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Voila"
-          href="/#/location/?county=BV&locationId=42307"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Mândra"
-          href="/#/location/?county=BV&locationId=41417"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Făgăraș"
-          href="/#/location/?county=BV&locationId=40278"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Șercaia"
-          href="/#/location/?county=BV&locationId=41818"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Părău"
-          href="/#/location/?county=BV&locationId=41578"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Măieruș"
-          href="/#/location/?county=BV&locationId=41382"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Comana"
-          href="/#/location/?county=BV&locationId=40857"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Ticușu"
-          href="/#/location/?county=BV&locationId=42076"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Apața"
-          href="/#/location/?county=BV&locationId=40526"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Hoghiz"
-          href="/#/location/?county=BV&locationId=41177"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Ungra"
-          href="/#/location/?county=BV&locationId=42156"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Ormeniș"
-          href="/#/location/?county=BV&locationId=41541"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Jibert"
-          href="/#/location/?county=BV&locationId=41284"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Rupea"
-          href="/#/location/?county=BV&locationId=40394"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Homorod"
-          href="/#/location/?county=BV&locationId=41248"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Cața"
-          href="/#/location/?county=BV&locationId=40768"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Hălchiu"
-          href="/#/location/?county=BV&locationId=41033"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Crizbav"
-          href="/#/location/?county=BV&locationId=42456"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Feldioara"
-          href="/#/location/?county=BV&locationId=40955"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Beclean"
-          href="/#/location/?county=BV&locationId=40544"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Râșnov"
-          href="/#/location/?county=BV&locationId=40367"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Hărman"
-          href="/#/location/?county=BV&locationId=41088"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Cincu"
-          href="/#/location/?county=BV&locationId=40820"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Șoarș"
-          href="/#/location/?county=BV&locationId=41943"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Racoș"
-          href="/#/location/?county=BV&locationId=41701"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Augustin"
-          href="/#/location/?county=BV&locationId=42498"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Brasov = props => {
         </a>
         <a
           data-original-title="Bunești"
-          href="/#/location/?county=BV&locationId=40704"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

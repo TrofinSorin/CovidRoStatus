@@ -12,7 +12,8 @@ const CarasSeverin = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Coronini"
-          href="/#/location/?county=CS&locationId=53489"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Sichevița"
-          href="/#/location/?county=CS&locationId=53853"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Gîrnic"
-          href="/#/location/?county=CS&locationId=52909"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Moldova Nouă"
-          href="/#/location/?county=CS&locationId=51056"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Topleț"
-          href="/#/location/?county=CS&locationId=54387"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Șopotu Nou"
-          href="/#/location/?county=CS&locationId=54163"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Pojejena"
-          href="/#/location/?county=CS&locationId=53513"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Cărbunari"
-          href="/#/location/?county=CS&locationId=51840"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Socol"
-          href="/#/location/?county=CS&locationId=54109"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Dalboșeț"
-          href="/#/location/?county=CS&locationId=52570"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Eftimie Murgu"
-          href="/#/location/?county=CS&locationId=53700"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Bănia"
-          href="/#/location/?county=CS&locationId=51305"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Naidăș"
-          href="/#/location/?county=CS&locationId=53345"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Băile Herculane"
-          href="/#/location/?county=CS&locationId=50923"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Lăpușnicu Mare"
-          href="/#/location/?county=CS&locationId=53103"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Iablanița"
-          href="/#/location/?county=CS&locationId=53023"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Mehadia"
-          href="/#/location/?county=CS&locationId=53274"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Ciclova Română"
-          href="/#/location/?county=CS&locationId=51948"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Răcășdia"
-          href="/#/location/?county=CS&locationId=53675"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Berliște"
-          href="/#/location/?county=CS&locationId=51387"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Cornea"
-          href="/#/location/?county=CS&locationId=52115"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Lăpușnicel"
-          href="/#/location/?county=CS&locationId=53069"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Vrani"
-          href="/#/location/?county=CS&locationId=54573"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Domașnea"
-          href="/#/location/?county=CS&locationId=52721"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Bozovici"
-          href="/#/location/?county=CS&locationId=51573"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Oravița"
-          href="/#/location/?county=CS&locationId=51118"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Cornereva"
-          href="/#/location/?county=CS&locationId=52160"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Anina"
-          href="/#/location/?county=CS&locationId=50889"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Mehadica"
-          href="/#/location/?county=CS&locationId=53327"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Luncavița"
-          href="/#/location/?county=CS&locationId=53130"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Vărădia"
-          href="/#/location/?county=CS&locationId=54500"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Ciudanovița"
-          href="/#/location/?county=CS&locationId=52035"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Prigor"
-          href="/#/location/?county=CS&locationId=53577"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Grădinari"
-          href="/#/location/?county=CS&locationId=52990"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Goruia"
-          href="/#/location/?county=CS&locationId=52954"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Carașova"
-          href="/#/location/?county=CS&locationId=51804"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Ticvaniu Mare"
-          href="/#/location/?county=CS&locationId=54305"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Armeniș"
-          href="/#/location/?county=CS&locationId=51243"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Teregova"
-          href="/#/location/?county=CS&locationId=54270"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Slatina-Timiș"
-          href="/#/location/?county=CS&locationId=54056"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Lupac"
-          href="/#/location/?county=CS&locationId=53167"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Dognecea"
-          href="/#/location/?county=CS&locationId=52696"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Bolvașnița"
-          href="/#/location/?county=CS&locationId=51546"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Tîrnova"
-          href="/#/location/?county=CS&locationId=54350"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Ocna de Fier"
-          href="/#/location/?county=CS&locationId=50987"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Reșița"
-          href="/#/location/?county=CS&locationId=50790"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Turnu Ruieni"
-          href="/#/location/?county=CS&locationId=54412"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Păltiniș"
-          href="/#/location/?county=CS&locationId=53425"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Brebu"
-          href="/#/location/?county=CS&locationId=51626"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Bocșa"
-          href="/#/location/?county=CS&locationId=50969"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Ezeriș"
-          href="/#/location/?county=CS&locationId=52758"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Caransebeș"
-          href="/#/location/?county=CS&locationId=51010"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Berzovia"
-          href="/#/location/?county=CS&locationId=51500"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Măureni"
-          href="/#/location/?county=CS&locationId=53247"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Zorlențu Mare"
-          href="/#/location/?county=CS&locationId=54699"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Ramna"
-          href="/#/location/?county=CS&locationId=53639"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Zăvoi"
-          href="/#/location/?county=CS&locationId=54617"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Marga"
-          href="/#/location/?county=CS&locationId=53210"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Băuțar"
-          href="/#/location/?county=CS&locationId=51332"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Oțelu Roșu"
-          href="/#/location/?county=CS&locationId=51207"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Glimboca"
-          href="/#/location/?county=CS&locationId=52936"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Obreja"
-          href="/#/location/?county=CS&locationId=53372"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Vermeș"
-          href="/#/location/?county=CS&locationId=54537"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Rusca Montană"
-          href="/#/location/?county=CS&locationId=53728"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Constantin Daicoviciu"
-          href="/#/location/?county=CS&locationId=51877"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Văliug"
-          href="/#/location/?county=CS&locationId=54485"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Buchin"
-          href="/#/location/?county=CS&locationId=51699"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Brebu Nou"
-          href="/#/location/?county=CS&locationId=51662"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Bucoșnița"
-          href="/#/location/?county=CS&locationId=51751"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Sasca Montană"
-          href="/#/location/?county=CS&locationId=53791"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Ciuchici"
-          href="/#/location/?county=CS&locationId=51984"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Sacu"
-          href="/#/location/?county=CS&locationId=53755"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Copăcele"
-          href="/#/location/?county=CS&locationId=52062"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Fîrliug"
-          href="/#/location/?county=CS&locationId=52785"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Forotic"
-          href="/#/location/?county=CS&locationId=52856"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Doclin"
-          href="/#/location/?county=CS&locationId=52650"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const CarasSeverin = props => {
         </a>
         <a
           data-original-title="Berzasca"
-          href="/#/location/?county=CS&locationId=51449"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

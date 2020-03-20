@@ -12,7 +12,8 @@ const Iasi = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Moșna"
-          href="/#/location/?county=IS&locationId=98202"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Ipatele"
-          href="/#/location/?county=IS&locationId=97553"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Horlești"
-          href="/#/location/?county=IS&locationId=97517"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Ungheni"
-          href="/#/location/?county=IS&locationId=96003"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Lețcani"
-          href="/#/location/?county=IS&locationId=97679"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Moțca"
-          href="/#/location/?county=IS&locationId=98220"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Aroneanu"
-          href="/#/location/?county=IS&locationId=95747"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Movileni"
-          href="/#/location/?county=IS&locationId=98257"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Ceplenița"
-          href="/#/location/?county=IS&locationId=96147"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Andrieșeni"
-          href="/#/location/?county=IS&locationId=95667"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Popricani"
-          href="/#/location/?county=IS&locationId=98505"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Rediu"
-          href="/#/location/?county=IS&locationId=95239"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Valea Lupului"
-          href="/#/location/?county=IS&locationId=100353"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Mircești"
-          href="/#/location/?county=IS&locationId=97811"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Mădîrjac"
-          href="/#/location/?county=IS&locationId=97777"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Butea"
-          href="/#/location/?county=IS&locationId=96110"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Ciohorăni"
-          href="/#/location/?county=IS&locationId=100362"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Alexandru I. Cuza"
-          href="/#/location/?county=IS&locationId=95612"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Miroslovești"
-          href="/#/location/?county=IS&locationId=98051"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Sinești"
-          href="/#/location/?county=IS&locationId=99058"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Ion Neculce"
-          href="/#/location/?county=IS&locationId=95499"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Hărmănești"
-          href="/#/location/?county=IS&locationId=100326"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Todirești"
-          href="/#/location/?county=IS&locationId=99539"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Focuri"
-          href="/#/location/?county=IS&locationId=97063"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Vînători"
-          href="/#/location/?county=IS&locationId=100086"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Cotnari"
-          href="/#/location/?county=IS&locationId=96478"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Fântânele"
-          href="/#/location/?county=IS&locationId=100317"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Trifești"
-          href="/#/location/?county=IS&locationId=99600"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Roșcani"
-          href="/#/location/?county=IS&locationId=100344"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Bivolari"
-          href="/#/location/?county=IS&locationId=95943"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Gorban"
-          href="/#/location/?county=IS&locationId=97189"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Mogoșești-Siret"
-          href="/#/location/?county=IS&locationId=98168"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Grozești"
-          href="/#/location/?county=IS&locationId=97394"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Hălăucești"
-          href="/#/location/?county=IS&locationId=97438"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Drăgușeni"
-          href="/#/location/?county=IS&locationId=100308"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Cozmești"
-          href="/#/location/?county=IS&locationId=96593"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Grajduri"
-          href="/#/location/?county=IS&locationId=97241"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Răducăneni"
-          href="/#/location/?county=IS&locationId=98685"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Mironeasa"
-          href="/#/location/?county=IS&locationId=97875"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Costuleni"
-          href="/#/location/?county=IS&locationId=96423"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Mogoșești"
-          href="/#/location/?county=IS&locationId=98113"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Comarna"
-          href="/#/location/?county=IS&locationId=96370"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Bîrnova"
-          href="/#/location/?county=IS&locationId=95088"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Ciurea"
-          href="/#/location/?county=IS&locationId=96254"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Tomești"
-          href="/#/location/?county=IS&locationId=95293"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Țuțora"
-          href="/#/location/?county=IS&locationId=99922"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Podu Iloaiei"
-          href="/#/location/?county=IS&locationId=98373"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Dumești"
-          href="/#/location/?county=IS&locationId=96940"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Valea Seacă"
-          href="/#/location/?county=IS&locationId=99968"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Cristești"
-          href="/#/location/?county=IS&locationId=96637"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Golăiești"
-          href="/#/location/?county=IS&locationId=97090"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Românești"
-          href="/#/location/?county=IS&locationId=98738"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Erbiceni"
-          href="/#/location/?county=IS&locationId=97009"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Scobinți"
-          href="/#/location/?county=IS&locationId=98998"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Sirețel"
-          href="/#/location/?county=IS&locationId=99101"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Vlădeni"
-          href="/#/location/?county=IS&locationId=100148"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Țigănăși"
-          href="/#/location/?county=IS&locationId=99879"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Miroslava"
-          href="/#/location/?county=IS&locationId=97919"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Popești"
-          href="/#/location/?county=IS&locationId=98435"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Strunga"
-          href="/#/location/?county=IS&locationId=99209"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Stolniceni-Prăjescu"
-          href="/#/location/?county=IS&locationId=99165"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Lungani"
-          href="/#/location/?county=IS&locationId=97722"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Bălțați"
-          href="/#/location/?county=IS&locationId=95792"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Pașcani"
-          href="/#/location/?county=IS&locationId=95391"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Cucuteni"
-          href="/#/location/?county=IS&locationId=96664"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Balș"
-          href="/#/location/?county=IS&locationId=100273"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Belcești"
-          href="/#/location/?county=IS&locationId=95872"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Lespezi"
-          href="/#/location/?county=IS&locationId=97606"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Coarnele Caprei"
-          href="/#/location/?county=IS&locationId=96334"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Costești"
-          href="/#/location/?county=IS&locationId=100282"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Gropnița"
-          href="/#/location/?county=IS&locationId=97321"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Schitu Duca"
-          href="/#/location/?county=IS&locationId=98827"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Holboca"
-          href="/#/location/?county=IS&locationId=95159"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Tătăruși"
-          href="/#/location/?county=IS&locationId=99478"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Heleșteni"
-          href="/#/location/?county=IS&locationId=97465"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Iași"
-          href="/#/location/?county=IS&locationId=95060"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Hîrlău"
-          href="/#/location/?county=IS&locationId=95355"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Scânteia"
-          href="/#/location/?county=IS&locationId=98916"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Ciortești"
-          href="/#/location/?county=IS&locationId=96192"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Șcheia"
-          href="/#/location/?county=IS&locationId=99290"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Dobrovăț"
-          href="/#/location/?county=IS&locationId=96888"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Victoria"
-          href="/#/location/?county=IS&locationId=100004"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Dagîța"
-          href="/#/location/?county=IS&locationId=96717"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Oțeleni"
-          href="/#/location/?county=IS&locationId=98300"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Brăești"
-          href="/#/location/?county=IS&locationId=96058"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Plugari"
-          href="/#/location/?county=IS&locationId=98337"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Dolhești"
-          href="/#/location/?county=IS&locationId=96904"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Șipote"
-          href="/#/location/?county=IS&locationId=99370"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Probota"
-          href="/#/location/?county=IS&locationId=98649"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1258,7 +1347,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Tansa"
-          href="/#/location/?county=IS&locationId=99441"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1272,7 +1362,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Deleni"
-          href="/#/location/?county=IS&locationId=96815"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1286,7 +1377,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Voinești"
-          href="/#/location/?county=IS&locationId=100219"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1300,7 +1392,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Țibana"
-          href="/#/location/?county=IS&locationId=99673"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1314,7 +1407,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Țibănești"
-          href="/#/location/?county=IS&locationId=99780"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1328,7 +1422,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Ruginoasa"
-          href="/#/location/?county=IS&locationId=98774"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1342,7 +1437,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Prisăcani"
-          href="/#/location/?county=IS&locationId=98603"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1356,7 +1452,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Târgu Frumos"
-          href="/#/location/?county=IS&locationId=95471"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1370,7 +1467,8 @@ const Iasi = props => {
         </a>
         <a
           data-original-title="Răchiteni"
-          href="/#/location/?county=IS&locationId=100335"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

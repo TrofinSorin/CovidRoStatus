@@ -12,7 +12,8 @@ const Suceava = props => {
         <rect style={{ fill: "none" }} width="500" height="600" />
         <a
           data-original-title="Panaci"
-          href="/#/location/?county=SV&locationId=149682"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Șaru Dornei"
-          href="/#/location/?county=SV&locationId=150445"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Broșteni"
-          href="/#/location/?county=SV&locationId=147358"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Poiana Stampei"
-          href="/#/location/?county=SV&locationId=149851"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Boroaia"
-          href="/#/location/?county=SV&locationId=147072"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Bogdănești"
-          href="/#/location/?county=SV&locationId=147054"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Rîșca"
-          href="/#/location/?county=SV&locationId=150114"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Ostra"
-          href="/#/location/?county=SV&locationId=149655"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Dorna Candrenilor"
-          href="/#/location/?county=SV&locationId=148202"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Vatra Dornei"
-          href="/#/location/?county=SV&locationId=146744"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Vadu Moldovei"
-          href="/#/location/?county=SV&locationId=150766"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Dorna-Arini"
-          href="/#/location/?county=SV&locationId=148131"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Fântâna Mare"
-          href="/#/location/?county=SV&locationId=151488"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Crucea"
-          href="/#/location/?county=SV&locationId=147884"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Baia"
-          href="/#/location/?county=SV&locationId=146904"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Mălini"
-          href="/#/location/?county=SV&locationId=149316"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Slatina"
-          href="/#/location/?county=SV&locationId=150258"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Fălticeni"
-          href="/#/location/?county=SV&locationId=146539"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Stulpicani"
-          href="/#/location/?county=SV&locationId=150356"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Preutești"
-          href="/#/location/?county=SV&locationId=149968"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Coșna"
-          href="/#/location/?county=SV&locationId=151497"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Valea Moldovei"
-          href="/#/location/?county=SV&locationId=150891"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Hârtop"
-          href="/#/location/?county=SV&locationId=151549"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Cornu Luncii"
-          href="/#/location/?county=SV&locationId=147786"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Rădășeni"
-          href="/#/location/?county=SV&locationId=150070"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Ciocănești"
-          href="/#/location/?county=SV&locationId=151451"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Capu Câmpului"
-          href="/#/location/?county=SV&locationId=151503"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Bunești"
-          href="/#/location/?county=SV&locationId=147465"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Berchișești"
-          href="/#/location/?county=SV&locationId=151576"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Vulturești"
-          href="/#/location/?county=SV&locationId=151157"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Liteni"
-          href="/#/location/?county=SV&locationId=149227"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Horodniceni"
-          href="/#/location/?county=SV&locationId=149049"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Drăgoiești"
-          href="/#/location/?county=SV&locationId=148328"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Câmpulung Moldovenesc"
-          href="/#/location/?county=SV&locationId=146502"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Frasin"
-          href="/#/location/?county=SV&locationId=148612"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Gura Humorului"
-          href="/#/location/?county=SV&locationId=146584"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Păltinoasa"
-          href="/#/location/?county=SV&locationId=149753"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Ciprian Porumbescu"
-          href="/#/location/?county=SV&locationId=151567"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Udești"
-          href="/#/location/?county=SV&locationId=150588"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Fundu Moldovei"
-          href="/#/location/?county=SV&locationId=148765"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Bosanci"
-          href="/#/location/?county=SV&locationId=147134"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Sadova"
-          href="/#/location/?county=SV&locationId=150178"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Moara"
-          href="/#/location/?county=SV&locationId=149414"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Ilișești"
-          href="/#/location/?county=SV&locationId=147660"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Vama"
-          href="/#/location/?county=SV&locationId=150935"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Ipotești"
-          href="/#/location/?county=SV&locationId=146281"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Fîntînele"
-          href="/#/location/?county=SV&locationId=148453"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Stroiești"
-          href="/#/location/?county=SV&locationId=150310"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Pîrteștii de Jos"
-          href="/#/location/?county=SV&locationId=149780"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Breaza"
-          href="/#/location/?county=SV&locationId=147205"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Bălăceana"
-          href="/#/location/?county=SV&locationId=151530"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Comănești"
-          href="/#/location/?county=SV&locationId=151433"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Șcheia"
-          href="/#/location/?county=SV&locationId=146432"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Botoșana"
-          href="/#/location/?county=SV&locationId=147161"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Mănăstirea Humorului"
-          href="/#/location/?county=SV&locationId=149370"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Frumosu"
-          href="/#/location/?county=SV&locationId=148729"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Suceava"
-          href="/#/location/?county=SV&locationId=146263"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Todirești"
-          href="/#/location/?county=SV&locationId=150524"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Cîrlibaba"
-          href="/#/location/?county=SV&locationId=147713"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Solca"
-          href="/#/location/?county=SV&locationId=146708"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Cajvana"
-          href="/#/location/?county=SV&locationId=147633"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Vatra Moldoviței"
-          href="/#/location/?county=SV&locationId=150980"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Arbore"
-          href="/#/location/?county=SV&locationId=146860"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Iaslovăț"
-          href="/#/location/?county=SV&locationId=151442"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Pătrăuți"
-          href="/#/location/?county=SV&locationId=149833"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Hănțești"
-          href="/#/location/?county=SV&locationId=151512"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Dărmănești"
-          href="/#/location/?county=SV&locationId=147937"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Mitocu Dragomirnei"
-          href="/#/location/?county=SV&locationId=146325"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Burla"
-          href="/#/location/?county=SV&locationId=151521"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Moldovița"
-          href="/#/location/?county=SV&locationId=149539"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Milișăuți"
-          href="/#/location/?county=SV&locationId=146931"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Volovăț"
-          href="/#/location/?county=SV&locationId=151120"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Sucevița"
-          href="/#/location/?county=SV&locationId=150418"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Șerbăuți"
-          href="/#/location/?county=SV&locationId=151460"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Grănicești"
-          href="/#/location/?county=SV&locationId=148970"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Satu Mare"
-          href="/#/location/?county=SV&locationId=150196"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Zvoriștea"
-          href="/#/location/?county=SV&locationId=151344"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Rădăuți"
-          href="/#/location/?county=SV&locationId=146628"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Calafindești"
-          href="/#/location/?county=SV&locationId=147580"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Horodnic de Jos"
-          href="/#/location/?county=SV&locationId=149101"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Zamostea"
-          href="/#/location/?county=SV&locationId=151246"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Voitinel"
-          href="/#/location/?county=SV&locationId=151558"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Putna"
-          href="/#/location/?county=SV&locationId=150043"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Gălănești"
-          href="/#/location/?county=SV&locationId=148872"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Brodina"
-          href="/#/location/?county=SV&locationId=147241"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Frătăuții Vechi"
-          href="/#/location/?county=SV&locationId=148694"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Straja"
-          href="/#/location/?county=SV&locationId=150294"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Grămești"
-          href="/#/location/?county=SV&locationId=148916"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Bilca"
-          href="/#/location/?county=SV&locationId=147036"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1258,7 +1347,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Frătăuții Noi"
-          href="/#/location/?county=SV&locationId=148667"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1272,7 +1362,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Mușenița"
-          href="/#/location/?county=SV&locationId=149584"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1286,7 +1377,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Vicovu de Jos"
-          href="/#/location/?county=SV&locationId=151077"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1300,7 +1392,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Vicovu de Sus"
-          href="/#/location/?county=SV&locationId=151095"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1314,7 +1407,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Ulma"
-          href="/#/location/?county=SV&locationId=150702"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1328,7 +1422,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Iacobeni"
-          href="/#/location/?county=SV&locationId=149138"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1342,7 +1437,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Pojorîta"
-          href="/#/location/?county=SV&locationId=149931"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1356,7 +1452,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Dornești"
-          href="/#/location/?county=SV&locationId=148293"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1370,7 +1467,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Moldova-Sulița"
-          href="/#/location/?county=SV&locationId=149502"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1384,7 +1482,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Cacica"
-          href="/#/location/?county=SV&locationId=147526"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1398,7 +1497,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Poieni-Solca"
-          href="/#/location/?county=SV&locationId=151585"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1412,7 +1512,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Verești"
-          href="/#/location/?county=SV&locationId=151022"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1426,7 +1527,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Salcea"
-          href="/#/location/?county=SV&locationId=146370"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1440,7 +1542,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Dumbrăveni"
-          href="/#/location/?county=SV&locationId=148426"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1454,7 +1557,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Siminicea"
-          href="/#/location/?county=SV&locationId=150221"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1468,7 +1572,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Adâncata"
-          href="/#/location/?county=SV&locationId=146799"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1482,7 +1587,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Marginea"
-          href="/#/location/?county=SV&locationId=149290"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1496,7 +1602,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Horodnic de Sus"
-          href="/#/location/?county=SV&locationId=151479"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1510,7 +1617,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Bălcăuți"
-          href="/#/location/?county=SV&locationId=146995"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1524,7 +1632,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Siret"
-          href="/#/location/?county=SV&locationId=146655"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1538,7 +1647,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Izvoarele Sucevei"
-          href="/#/location/?county=SV&locationId=149183"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1552,7 +1662,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Dolhasca"
-          href="/#/location/?county=SV&locationId=148006"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1566,7 +1677,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Dolhești"
-          href="/#/location/?county=SV&locationId=148097"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1580,7 +1692,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Forăști"
-          href="/#/location/?county=SV&locationId=148514"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1594,7 +1707,8 @@ const Suceava = props => {
         </a>
         <a
           data-original-title="Drăgușeni"
-          href="/#/location/?county=SV&locationId=148382"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

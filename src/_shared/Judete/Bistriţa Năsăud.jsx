@@ -12,7 +12,8 @@ const BistritaNasaud = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Silivașu de Cîmpie"
-          href="/#/location/?county=BN&locationId=34422"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Urmeniș"
-          href="/#/location/?county=BN&locationId=35312"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Milaș"
-          href="/#/location/?county=BN&locationId=33881"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Miceștii de Cîmpie"
-          href="/#/location/?county=BN&locationId=33845"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Sînmihaiu de Cîmpie"
-          href="/#/location/?county=BN&locationId=34477"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Monor"
-          href="/#/location/?county=BN&locationId=33952"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Șieuț"
-          href="/#/location/?county=BN&locationId=34850"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Chiochiș"
-          href="/#/location/?county=BN&locationId=33015"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Șieu"
-          href="/#/location/?county=BN&locationId=34645"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Matei"
-          href="/#/location/?county=BN&locationId=33658"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Lechința"
-          href="/#/location/?county=BN&locationId=33435"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Dumitrița"
-          href="/#/location/?county=BN&locationId=179686"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Budacu de Jos"
-          href="/#/location/?county=BN&locationId=32704"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Cetate"
-          href="/#/location/?county=BN&locationId=32884"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Nușeni"
-          href="/#/location/?county=BN&locationId=34075"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Șieu-Odorhei"
-          href="/#/location/?county=BN&locationId=34770"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Braniștea"
-          href="/#/location/?county=BN&locationId=32660"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Beclean"
-          href="/#/location/?county=BN&locationId=32483"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Livezile"
-          href="/#/location/?county=BN&locationId=33541"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Petru Rareș"
-          href="/#/location/?county=BN&locationId=34173"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Josenii Bîrgăului"
-          href="/#/location/?county=BN&locationId=33382"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Dumitra"
-          href="/#/location/?county=BN&locationId=33202"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Uriu"
-          href="/#/location/?county=BN&locationId=35269"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Prundu Bîrgăului"
-          href="/#/location/?county=BN&locationId=34235"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Ciceu - Mihăiești"
-          href="/#/location/?county=BN&locationId=179953"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Chiuza"
-          href="/#/location/?county=BN&locationId=33122"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Nimigea"
-          href="/#/location/?county=BN&locationId=33989"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Ciceu-Giurgești"
-          href="/#/location/?county=BN&locationId=32955"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Ilva Mica"
-          href="/#/location/?county=BN&locationId=33364"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Căianu Mic"
-          href="/#/location/?county=BN&locationId=32811"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Leșu"
-          href="/#/location/?county=BN&locationId=33514"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Năsăud"
-          href="/#/location/?county=BN&locationId=32544"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Spermezeu"
-          href="/#/location/?county=BN&locationId=34547"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Feldru"
-          href="/#/location/?county=BN&locationId=33248"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Poiana  Ilvei"
-          href="/#/location/?county=BN&locationId=179720"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Măgura Ilvei"
-          href="/#/location/?county=BN&locationId=33729"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Rebra"
-          href="/#/location/?county=BN&locationId=34262"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Negrilești"
-          href="/#/location/?county=BN&locationId=179659"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Runcu Salvei"
-          href="/#/location/?county=BN&locationId=179944"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Ilva Mare"
-          href="/#/location/?county=BN&locationId=33337"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Coșbuc"
-          href="/#/location/?county=BN&locationId=33177"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Lunca Ilvei"
-          href="/#/location/?county=BN&locationId=33603"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Parva"
-          href="/#/location/?county=BN&locationId=34155"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Tîrlișua"
-          href="/#/location/?county=BN&locationId=35152"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Sîngeorz-Băi"
-          href="/#/location/?county=BN&locationId=32599"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Zagra"
-          href="/#/location/?county=BN&locationId=35429"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Rebrișoara"
-          href="/#/location/?county=BN&locationId=34280"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Maieru"
-          href="/#/location/?county=BN&locationId=33621"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Telciu"
-          href="/#/location/?county=BN&locationId=35054"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Rodna"
-          href="/#/location/?county=BN&locationId=34333"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Șanț"
-          href="/#/location/?county=BN&locationId=34618"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Romuli"
-          href="/#/location/?county=BN&locationId=34360"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Bistrița Bîrgăului"
-          href="/#/location/?county=BN&locationId=32633"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Tiha Bîrgăului"
-          href="/#/location/?county=BN&locationId=35090"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Salva"
-          href="/#/location/?county=BN&locationId=34397"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Budești"
-          href="/#/location/?county=BN&locationId=32768"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Teaca"
-          href="/#/location/?county=BN&locationId=34985"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Șintereag"
-          href="/#/location/?county=BN&locationId=34903"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Bistrița"
-          href="/#/location/?county=BN&locationId=32394"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Șieu-Măgheruș"
-          href="/#/location/?county=BN&locationId=34690"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Galații Bistriței"
-          href="/#/location/?county=BN&locationId=33275"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const BistritaNasaud = props => {
         </a>
         <a
           data-original-title="Mărișelu"
-          href="/#/location/?county=BN&locationId=33765"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

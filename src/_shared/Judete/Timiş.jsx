@@ -12,7 +12,8 @@ const Timis = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Moravița"
-          href="/#/location/?county=TM&locationId=157781"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Denta"
-          href="/#/location/?county=TM&locationId=156669"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Deta"
-          href="/#/location/?county=TM&locationId=155458"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Giera"
-          href="/#/location/?county=TM&locationId=157273"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Birda"
-          href="/#/location/?county=TM&locationId=159366"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Gătaia"
-          href="/#/location/?county=TM&locationId=157086"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Ghilad"
-          href="/#/location/?county=TM&locationId=159400"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Voiteg"
-          href="/#/location/?county=TM&locationId=159339"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Foeni"
-          href="/#/location/?county=TM&locationId=157004"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Tormac"
-          href="/#/location/?county=TM&locationId=159035"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Jebel"
-          href="/#/location/?county=TM&locationId=157424"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Ciacova"
-          href="/#/location/?county=TM&locationId=156357"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Nițchidorf"
-          href="/#/location/?county=TM&locationId=157923"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Giulvăz"
-          href="/#/location/?county=TM&locationId=157317"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Liebling"
-          href="/#/location/?county=TM&locationId=157497"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Otelec"
-          href="/#/location/?county=TM&locationId=159525"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Gavojdia"
-          href="/#/location/?county=TM&locationId=157031"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Pădureni"
-          href="/#/location/?county=TM&locationId=159446"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Darova"
-          href="/#/location/?county=TM&locationId=156623"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Criciova"
-          href="/#/location/?county=TM&locationId=156534"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Nădrag"
-          href="/#/location/?county=TM&locationId=157898"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Buziaș"
-          href="/#/location/?county=TM&locationId=155403"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Sacoșu Turcesc"
-          href="/#/location/?county=TM&locationId=158449"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Peciu Nou"
-          href="/#/location/?county=TM&locationId=158065"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Șag"
-          href="/#/location/?county=TM&locationId=158779"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Chevereșu Mare"
-          href="/#/location/?county=TM&locationId=156311"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Boldur"
-          href="/#/location/?county=TM&locationId=156106"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Giroc"
-          href="/#/location/?county=TM&locationId=155314"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Uivar"
-          href="/#/location/?county=TM&locationId=159142"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Lugoj"
-          href="/#/location/?county=TM&locationId=155350"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Racovița"
-          href="/#/location/?county=TM&locationId=158243"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Sînmihaiu Român"
-          href="/#/location/?county=TM&locationId=158699"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Bîrna"
-          href="/#/location/?county=TM&locationId=155957"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Fîrdea"
-          href="/#/location/?county=TM&locationId=156927"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Moșnița Nouă"
-          href="/#/location/?county=TM&locationId=157834"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Coșteiu"
-          href="/#/location/?county=TM&locationId=156473"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Bucovăț"
-          href="/#/location/?county=TM&locationId=159516"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Cenei"
-          href="/#/location/?county=TM&locationId=156277"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Tomești"
-          href="/#/location/?county=TM&locationId=158895"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Checea"
-          href="/#/location/?county=TM&locationId=159375"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Traian Vuia"
-          href="/#/location/?county=TM&locationId=159071"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Belinț"
-          href="/#/location/?county=TM&locationId=155797"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Ghiroda"
-          href="/#/location/?county=TM&locationId=155289"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Dumbrăvița"
-          href="/#/location/?county=TM&locationId=155261"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Pietroasa"
-          href="/#/location/?county=TM&locationId=158136"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Săcălaz"
-          href="/#/location/?county=TM&locationId=158564"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Timișoara"
-          href="/#/location/?county=TM&locationId=155243"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Topolovățu Mare"
-          href="/#/location/?county=TM&locationId=158966"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Dumbrava"
-          href="/#/location/?county=TM&locationId=156767"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Curtea"
-          href="/#/location/?county=TM&locationId=156589"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Balinț"
-          href="/#/location/?county=TM&locationId=155546"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Cărpiniș"
-          href="/#/location/?county=TM&locationId=156213"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Jimbolia"
-          href="/#/location/?county=TM&locationId=155494"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Bethausen"
-          href="/#/location/?county=TM&locationId=155840"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Ghizela"
-          href="/#/location/?county=TM&locationId=157193"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Remetea Mare"
-          href="/#/location/?county=TM&locationId=158396"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Giarmata"
-          href="/#/location/?county=TM&locationId=157246"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Mănăștiur"
-          href="/#/location/?county=TM&locationId=157736"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Becicherecu Mic"
-          href="/#/location/?county=TM&locationId=155760"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Dudeștii Noi"
-          href="/#/location/?county=TM&locationId=159384"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Iecea Mare"
-          href="/#/location/?county=TM&locationId=159428"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Făget"
-          href="/#/location/?county=TM&locationId=156801"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Recaș"
-          href="/#/location/?county=TM&locationId=158314"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Biled"
-          href="/#/location/?county=TM&locationId=155911"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Bara"
-          href="/#/location/?county=TM&locationId=155662"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Margina"
-          href="/#/location/?county=TM&locationId=157585"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Sînandrei"
-          href="/#/location/?county=TM&locationId=158653"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Pișchia"
-          href="/#/location/?county=TM&locationId=158181"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Secaș"
-          href="/#/location/?county=TM&locationId=158608"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Lenauheim"
-          href="/#/location/?county=TM&locationId=157451"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Comloșu Mare"
-          href="/#/location/?county=TM&locationId=156437"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Ohaba Lungă"
-          href="/#/location/?county=TM&locationId=157969"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Brestovăț"
-          href="/#/location/?county=TM&locationId=156151"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Șandra"
-          href="/#/location/?county=TM&locationId=159464"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Bogda"
-          href="/#/location/?county=TM&locationId=156035"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Gottlob"
-          href="/#/location/?county=TM&locationId=159419"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Satchinez"
-          href="/#/location/?county=TM&locationId=158528"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Fibiș"
-          href="/#/location/?county=TM&locationId=159393"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Orțișoara"
-          href="/#/location/?county=TM&locationId=158010"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Teremia Mare"
-          href="/#/location/?county=TM&locationId=158859"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Lovrin"
-          href="/#/location/?county=TM&locationId=157530"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Pesac"
-          href="/#/location/?county=TM&locationId=159507"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Tomnatic"
-          href="/#/location/?county=TM&locationId=159473"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Variaș"
-          href="/#/location/?county=TM&locationId=159213"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Mașloc"
-          href="/#/location/?county=TM&locationId=157683"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Vălcani"
-          href="/#/location/?county=TM&locationId=159482"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Periam"
-          href="/#/location/?county=TM&locationId=158109"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Sânnicolau Mare"
-          href="/#/location/?county=TM&locationId=155528"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Saravale"
-          href="/#/location/?county=TM&locationId=159455"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1258,7 +1347,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Dudeștii Vechi"
-          href="/#/location/?county=TM&locationId=156712"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1272,7 +1362,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Sânpetru Mare"
-          href="/#/location/?county=TM&locationId=158733"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1286,7 +1377,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Beba Veche"
-          href="/#/location/?county=TM&locationId=155724"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1300,7 +1392,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Cenad"
-          href="/#/location/?county=TM&locationId=156259"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1314,7 +1407,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Victor Vlad Delamarina"
-          href="/#/location/?county=TM&locationId=159259"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1328,7 +1422,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Știuca"
-          href="/#/location/?county=TM&locationId=158804"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1342,7 +1437,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Jamu Mare"
-          href="/#/location/?county=TM&locationId=157362"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1356,7 +1452,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Banloc"
-          href="/#/location/?county=TM&locationId=155591"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1370,7 +1467,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Livezile"
-          href="/#/location/?county=TM&locationId=159491"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1384,7 +1482,8 @@ const Timis = props => {
         </a>
         <a
           data-original-title="Parța"
-          href="/#/location/?county=TM&locationId=159437"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

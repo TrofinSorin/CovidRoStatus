@@ -12,7 +12,8 @@ const Buzau = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Glodeanu-Siliștea"
-          href="/#/location/?county=BZ&locationId=46910"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Scutelnici"
-          href="/#/location/?county=BZ&locationId=49439"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Glodeanu Sărat"
-          href="/#/location/?county=BZ&locationId=46867"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Padina"
-          href="/#/location/?county=BZ&locationId=48138"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Mihăilești"
-          href="/#/location/?county=BZ&locationId=47578"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Florica"
-          href="/#/location/?county=BZ&locationId=50564"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Brădeanu"
-          href="/#/location/?county=BZ&locationId=45496"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Pogoanele"
-          href="/#/location/?county=BZ&locationId=48744"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Amaru"
-          href="/#/location/?county=BZ&locationId=44863"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Largu"
-          href="/#/location/?county=BZ&locationId=47159"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Luciu"
-          href="/#/location/?county=BZ&locationId=47300"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Movila Banului"
-          href="/#/location/?county=BZ&locationId=47774"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Rușețu"
-          href="/#/location/?county=BZ&locationId=49046"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Smeeni"
-          href="/#/location/?county=BZ&locationId=49545"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Gherăseni"
-          href="/#/location/?county=BZ&locationId=46803"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Săhăteni"
-          href="/#/location/?county=BZ&locationId=49153"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Cilibia"
-          href="/#/location/?county=BZ&locationId=46251"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Costești"
-          href="/#/location/?county=BZ&locationId=46484"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Țintești"
-          href="/#/location/?county=BZ&locationId=49849"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="C.A. Rosetti"
-          href="/#/location/?county=BZ&locationId=45815"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Gălbinași"
-          href="/#/location/?county=BZ&locationId=46769"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Stîlpu"
-          href="/#/location/?county=BZ&locationId=49625"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Năeni"
-          href="/#/location/?county=BZ&locationId=47854"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Breaza"
-          href="/#/location/?county=BZ&locationId=45619"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Robeasca"
-          href="/#/location/?county=BZ&locationId=49019"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Pietroasele"
-          href="/#/location/?county=BZ&locationId=48487"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Merei"
-          href="/#/location/?county=BZ&locationId=47453"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Buzău"
-          href="/#/location/?county=BZ&locationId=44818"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Săgeata"
-          href="/#/location/?county=BZ&locationId=49073"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Vadu Pașii"
-          href="/#/location/?county=BZ&locationId=49956"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Mărăcineni"
-          href="/#/location/?county=BZ&locationId=47373"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Cochirleanca"
-          href="/#/location/?county=BZ&locationId=46377"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Tisău"
-          href="/#/location/?county=BZ&locationId=49643"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Cislău"
-          href="/#/location/?county=BZ&locationId=46313"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Săpoca"
-          href="/#/location/?county=BZ&locationId=49206"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Vernești"
-          href="/#/location/?county=BZ&locationId=50102"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Calvini"
-          href="/#/location/?county=BZ&locationId=45753"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Măgura"
-          href="/#/location/?county=BZ&locationId=47337"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Bălăceanu"
-          href="/#/location/?county=BZ&locationId=44989"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Unguriu"
-          href="/#/location/?county=BZ&locationId=50549"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Viperești"
-          href="/#/location/?county=BZ&locationId=50326"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Poșta Cîlnău"
-          href="/#/location/?county=BZ&locationId=48771"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Ziduri"
-          href="/#/location/?county=BZ&locationId=50479"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Blăjani"
-          href="/#/location/?county=BZ&locationId=45334"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Ghergheasa"
-          href="/#/location/?county=BZ&locationId=46830"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Cernătești"
-          href="/#/location/?county=BZ&locationId=46019"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Pîrscov"
-          href="/#/location/?county=BZ&locationId=48557"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Berca"
-          href="/#/location/?county=BZ&locationId=45101"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Cozieni"
-          href="/#/location/?county=BZ&locationId=46554"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Balta Albă"
-          href="/#/location/?county=BZ&locationId=44934"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Boldu"
-          href="/#/location/?county=BZ&locationId=45361"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Pătârlagele"
-          href="/#/location/?county=BZ&locationId=48325"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Zărnești"
-          href="/#/location/?county=BZ&locationId=50415"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Racovițeni"
-          href="/#/location/?county=BZ&locationId=48922"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Valea Rîmnicului"
-          href="/#/location/?county=BZ&locationId=50022"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Cănești"
-          href="/#/location/?county=BZ&locationId=45888"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Odăile"
-          href="/#/location/?county=BZ&locationId=48021"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Colți"
-          href="/#/location/?county=BZ&locationId=46439"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Rîmnicelu"
-          href="/#/location/?county=BZ&locationId=48968"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Beceni"
-          href="/#/location/?county=BZ&locationId=45003"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Murgești"
-          href="/#/location/?county=BZ&locationId=47818"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Grebănu"
-          href="/#/location/?county=BZ&locationId=47006"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Bozioru"
-          href="/#/location/?county=BZ&locationId=45389"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Scorțoasa"
-          href="/#/location/?county=BZ&locationId=49313"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Mărgăritești"
-          href="/#/location/?county=BZ&locationId=47417"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Chiliile"
-          href="/#/location/?county=BZ&locationId=46108"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Pardoși"
-          href="/#/location/?county=BZ&locationId=48165"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Brăești"
-          href="/#/location/?county=BZ&locationId=45539"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Nehoiu"
-          href="/#/location/?county=BZ&locationId=47916"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Topliceni"
-          href="/#/location/?county=BZ&locationId=49769"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Vintilă Vodă"
-          href="/#/location/?county=BZ&locationId=50228"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Sărulești"
-          href="/#/location/?county=BZ&locationId=49233"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Buda"
-          href="/#/location/?county=BZ&locationId=45673"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Valea Salciei"
-          href="/#/location/?county=BZ&locationId=50068"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Bisoca"
-          href="/#/location/?county=BZ&locationId=45245"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Mînzălești"
-          href="/#/location/?county=BZ&locationId=47630"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Lopătari"
-          href="/#/location/?county=BZ&locationId=47186"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Gura Teghii"
-          href="/#/location/?county=BZ&locationId=47079"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Ulmeni"
-          href="/#/location/?county=BZ&locationId=49894"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Râmnicu Sărat"
-          href="/#/location/?county=BZ&locationId=44845"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Vîlcelele"
-          href="/#/location/?county=BZ&locationId=50399"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Puiești"
-          href="/#/location/?county=BZ&locationId=48842"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Podgoria"
-          href="/#/location/?county=BZ&locationId=48682"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Chiojdu"
-          href="/#/location/?county=BZ&locationId=46180"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Pănătău"
-          href="/#/location/?county=BZ&locationId=48227"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Cătina"
-          href="/#/location/?county=BZ&locationId=45959"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Buzau = props => {
         </a>
         <a
           data-original-title="Siriu"
-          href="/#/location/?county=BZ&locationId=49484"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

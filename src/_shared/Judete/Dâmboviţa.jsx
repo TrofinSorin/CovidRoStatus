@@ -12,7 +12,8 @@ const Dambovita = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Șelaru"
-          href="/#/location/?county=DB&locationId=68887"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Poiana"
-          href="/#/location/?county=DB&locationId=68431"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Corbii Mari"
-          href="/#/location/?county=DB&locationId=66857"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Slobozia Moară"
-          href="/#/location/?county=DB&locationId=105142"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Potlogi"
-          href="/#/location/?county=DB&locationId=68468"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Vișina"
-          href="/#/location/?county=DB&locationId=69330"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Odobești"
-          href="/#/location/?county=DB&locationId=68342"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Lungulețu"
-          href="/#/location/?county=DB&locationId=67906"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Ciocănești"
-          href="/#/location/?county=DB&locationId=101840"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Costeștii din Vale"
-          href="/#/location/?county=DB&locationId=67121"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Titu"
-          href="/#/location/?county=DB&locationId=66081"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Morteni"
-          href="/#/location/?county=DB&locationId=68253"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Braniștea"
-          href="/#/location/?county=DB&locationId=66152"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Mogoșani"
-          href="/#/location/?county=DB&locationId=68128"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Petrești"
-          href="/#/location/?county=DB&locationId=65752"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Conțești"
-          href="/#/location/?county=DB&locationId=66768"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Răcari"
-          href="/#/location/?county=DB&locationId=68627"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Butimanu"
-          href="/#/location/?county=DB&locationId=101564"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Produlești"
-          href="/#/location/?county=DB&locationId=68529"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Cojasca"
-          href="/#/location/?county=DB&locationId=66697"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Găești"
-          href="/#/location/?county=DB&locationId=65681"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Mătăsaru"
-          href="/#/location/?county=DB&locationId=68048"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Cornățelu"
-          href="/#/location/?county=DB&locationId=66955"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Bilciurești"
-          href="/#/location/?county=DB&locationId=66401"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Gura Șuții"
-          href="/#/location/?county=DB&locationId=67648"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Sălcioara"
-          href="/#/location/?county=DB&locationId=68789"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Gura Foii"
-          href="/#/location/?county=DB&locationId=65707"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Perșinari"
-          href="/#/location/?county=DB&locationId=179935"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Valea Mare"
-          href="/#/location/?county=DB&locationId=69170"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Crîngurile"
-          href="/#/location/?county=DB&locationId=67167"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Cornești"
-          href="/#/location/?county=DB&locationId=67014"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Nucet"
-          href="/#/location/?county=DB&locationId=68280"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Finta"
-          href="/#/location/?county=DB&locationId=67470"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Dobra"
-          href="/#/location/?county=DB&locationId=67292"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Băleni"
-          href="/#/location/?county=DB&locationId=66198"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Văcărești"
-          href="/#/location/?county=DB&locationId=69250"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Cobia"
-          href="/#/location/?county=DB&locationId=66580"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Comișani"
-          href="/#/location/?county=DB&locationId=66731"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Bucșani"
-          href="/#/location/?county=DB&locationId=66474"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Vlădeni"
-          href="/#/location/?county=DB&locationId=179711"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Ulmi"
-          href="/#/location/?county=DB&locationId=65501"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Hulubești"
-          href="/#/location/?county=DB&locationId=67675"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Dragomirești"
-          href="/#/location/?county=DB&locationId=67407"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Dărmănești"
-          href="/#/location/?county=DB&locationId=67256"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Tîrgoviște"
-          href="/#/location/?county=DB&locationId=65342"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="I. L. Caragiale"
-          href="/#/location/?county=DB&locationId=67737"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Mănești"
-          href="/#/location/?county=DB&locationId=68002"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Gura Ocniței"
-          href="/#/location/?county=DB&locationId=67595"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Răzvad"
-          href="/#/location/?county=DB&locationId=65431"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Aninoasa"
-          href="/#/location/?county=DB&locationId=65379"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Șotînga"
-          href="/#/location/?county=DB&locationId=65477"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Doicești"
-          href="/#/location/?county=DB&locationId=65413"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Moreni"
-          href="/#/location/?county=DB&locationId=65841"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Ocnița"
-          href="/#/location/?county=DB&locationId=68324"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Tătărani"
-          href="/#/location/?county=DB&locationId=68921"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Glodeni"
-          href="/#/location/?county=DB&locationId=67522"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Vulcana-Pandele"
-          href="/#/location/?county=DB&locationId=179640"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Brănești"
-          href="/#/location/?county=DB&locationId=66009"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Iedera"
-          href="/#/location/?county=DB&locationId=65869"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Cîndești"
-          href="/#/location/?county=DB&locationId=66526"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Valea Lungă"
-          href="/#/location/?county=DB&locationId=69063"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Pietrari"
-          href="/#/location/?county=DB&locationId=179908"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Pucioasa"
-          href="/#/location/?county=DB&locationId=65921"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Vîrfuri"
-          href="/#/location/?county=DB&locationId=69447"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Voinești"
-          href="/#/location/?county=DB&locationId=69526"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Fieni"
-          href="/#/location/?county=DB&locationId=65609"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Vișinești"
-          href="/#/location/?county=DB&locationId=69394"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Bărbulețu"
-          href="/#/location/?county=DB&locationId=66223"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Malu cu Flori"
-          href="/#/location/?county=DB&locationId=67942"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Râu Alb"
-          href="/#/location/?county=DB&locationId=179917"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Buciumeni"
-          href="/#/location/?county=DB&locationId=66438"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Văleni-Dîmbovița"
-          href="/#/location/?county=DB&locationId=69303"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Bezdead"
-          href="/#/location/?county=DB&locationId=66330"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Pucheni"
-          href="/#/location/?county=DB&locationId=68565"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Pietroșița"
-          href="/#/location/?county=DB&locationId=68404"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Runcu"
-          href="/#/location/?county=DB&locationId=68716"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Moroeni"
-          href="/#/location/?county=DB&locationId=68182"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Moțăieni"
-          href="/#/location/?county=DB&locationId=65645"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Vulcana-Băi"
-          href="/#/location/?county=DB&locationId=69615"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Răscăeți"
-          href="/#/location/?county=DB&locationId=179926"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Uliești"
-          href="/#/location/?county=DB&locationId=68976"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Dragodana"
-          href="/#/location/?county=DB&locationId=67327"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Raciu"
-          href="/#/location/?county=DB&locationId=179891"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Lucieni"
-          href="/#/location/?county=DB&locationId=67773"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Ludești"
-          href="/#/location/?county=DB&locationId=67835"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Crevedia"
-          href="/#/location/?county=DB&locationId=102286"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Niculești"
-          href="/#/location/?county=DB&locationId=104387"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Brezoaele"
-          href="/#/location/?county=DB&locationId=101341"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Dambovita = props => {
         </a>
         <a
           data-original-title="Tărtășești"
-          href="/#/location/?county=DB&locationId=105534"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

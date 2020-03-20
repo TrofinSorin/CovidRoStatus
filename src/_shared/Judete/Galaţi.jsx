@@ -7,7 +7,8 @@ const Galati = props => {
         <rect width="600" height="800" style={{ fill: "none" }}></rect>
 
         <a
-          href="/#/location/?county=GL&locationId=76585"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Independența"
@@ -21,7 +22,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76996"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Piscu"
@@ -35,7 +37,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76353"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Fundeni"
@@ -49,7 +52,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75098"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Galați"
@@ -63,7 +67,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76969"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Pechea"
@@ -77,7 +82,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76558"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Grivița"
@@ -91,7 +97,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76282"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Foltești"
@@ -105,7 +112,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76718"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Măstăcani"
@@ -119,7 +127,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77536"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Vlădești"
@@ -133,7 +142,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77475"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Valea Mărului"
@@ -147,7 +157,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75258"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Munteni"
@@ -161,7 +172,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77377"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Țepu"
@@ -175,7 +187,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77509"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Vîrlezi"
@@ -189,7 +202,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76497"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Gohor"
@@ -203,7 +217,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75864"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cavadinești"
@@ -217,7 +232,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77028"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Priponești"
@@ -231,7 +247,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75150"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Vînători"
@@ -245,7 +262,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77331"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Tulucești"
@@ -259,7 +277,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75114"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Șendreni"
@@ -273,7 +292,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77180"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Slobozia Conachi"
@@ -287,7 +307,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77153"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Schela"
@@ -301,7 +322,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77313"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Tudor Vladimirescu"
@@ -315,7 +337,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76763"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Nămoloasa"
@@ -329,7 +352,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76601"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Ivești"
@@ -343,7 +367,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76674"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Liești"
@@ -357,7 +382,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77082"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Rediu"
@@ -371,7 +397,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75203"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Tecuci"
@@ -385,7 +412,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76932"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Oancea"
@@ -399,7 +427,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77288"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Suceveni"
@@ -413,7 +442,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76004"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Corni"
@@ -427,7 +457,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77260"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Smulți"
@@ -441,7 +472,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76692"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Matca"
@@ -455,7 +487,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75515"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Barcea"
@@ -469,7 +502,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77126"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Scînteiești"
@@ -483,7 +517,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75686"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Băneasa"
@@ -497,7 +532,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76638"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Jorăști"
@@ -511,7 +547,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76317"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Frumușița"
@@ -525,7 +562,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75711"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Braniștea"
@@ -539,7 +577,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76111"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Costache Negri"
@@ -553,7 +592,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77402"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Umbrărești"
@@ -567,7 +607,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76139"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cuca"
@@ -581,7 +622,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76040"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cosmești"
@@ -595,7 +637,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75819"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Buciumeni"
@@ -609,7 +652,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76807"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Nicorești"
@@ -623,7 +667,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75766"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Brăhășești"
@@ -637,7 +682,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76406"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Ghidigeni"
@@ -651,7 +697,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75917"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cerțești"
@@ -665,7 +712,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77579"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Negrilești"
@@ -679,7 +727,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76175"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Drăgușeni"
@@ -693,7 +742,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75953"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Corod"
@@ -707,7 +757,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76157"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cudalbi"
@@ -721,7 +772,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75542"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Bălăbănești"
@@ -735,7 +787,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75338"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Berești"
@@ -749,7 +802,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77561"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Rădești"
@@ -763,7 +817,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75356"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Berești-Meria"
@@ -777,7 +832,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75613"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Bălășești"
@@ -791,7 +847,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77587"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Poiana"
@@ -805,7 +862,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76255"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Fîrțănești"
@@ -819,7 +877,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75472"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Tîrgu Bujor"
@@ -833,7 +892,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75221"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Drăgănești"
@@ -847,7 +907,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=75668"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Băleni"
@@ -861,7 +922,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77601"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Suhurlui"
@@ -875,7 +937,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=76745"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Movileni"
@@ -889,7 +952,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77595"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cuza Vodă"
@@ -903,7 +967,8 @@ const Galati = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=GL&locationId=77224"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Smîrdan"

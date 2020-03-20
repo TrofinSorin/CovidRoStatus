@@ -12,7 +12,8 @@ const Alba = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Gîrbova"
-          href="/#/location/?county=AB&locationId=4482"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Săsciori"
-          href="/#/location/?county=AB&locationId=7099"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Câlnic"
-          href="/#/location/?county=AB&locationId=4106"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Săliștea"
-          href="/#/location/?county=AB&locationId=7044"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Pianu"
-          href="/#/location/?county=AB&locationId=6217"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Cut"
-          href="/#/location/?county=AB&locationId=9019"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Șibot"
-          href="/#/location/?county=AB&locationId=7810"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Doștat"
-          href="/#/location/?county=AB&locationId=4268"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Sebeș"
-          href="/#/location/?county=AB&locationId=1874"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Daia Română"
-          href="/#/location/?county=AB&locationId=4240"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Ceru-Băcăinți"
-          href="/#/location/?county=AB&locationId=3841"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Șpring"
-          href="/#/location/?county=AB&locationId=7945"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Blandiana"
-          href="/#/location/?county=AB&locationId=3397"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Vințu de Jos"
-          href="/#/location/?county=AB&locationId=8826"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Roșia de Secaș"
-          href="/#/location/?county=AB&locationId=6930"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Cenade"
-          href="/#/location/?county=AB&locationId=3761"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Ciugud"
-          href="/#/location/?county=AB&locationId=1071"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Cergău"
-          href="/#/location/?county=AB&locationId=3805"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Berghin"
-          href="/#/location/?county=AB&locationId=2988"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Ohaba"
-          href="/#/location/?county=AB&locationId=6164"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Valea Lungă"
-          href="/#/location/?county=AB&locationId=8354"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Sîntimbru"
-          href="/#/location/?county=AB&locationId=7384"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Crăciunelu de Jos"
-          href="/#/location/?county=AB&locationId=4188"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Meteș"
-          href="/#/location/?county=AB&locationId=5577"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Mihalț"
-          href="/#/location/?county=AB&locationId=5700"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Blaj"
-          href="/#/location/?county=AB&locationId=1348"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Cricău"
-          href="/#/location/?county=AB&locationId=4142"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Zlatna"
-          href="/#/location/?county=AB&locationId=1936"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Teiuș"
-          href="/#/location/?county=AB&locationId=8096"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Galda de Jos"
-          href="/#/location/?county=AB&locationId=4366"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Cetatea de Baltă"
-          href="/#/location/?county=AB&locationId=3958"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Rădești"
-          href="/#/location/?county=AB&locationId=6547"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Ciuruleasa"
-          href="/#/location/?county=AB&locationId=4008"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Jidvei"
-          href="/#/location/?county=AB&locationId=5103"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Întregalde"
-          href="/#/location/?county=AB&locationId=4981"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Stremț"
-          href="/#/location/?county=AB&locationId=7767"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Abrud"
-          href="/#/location/?county=AB&locationId=1151"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Șona"
-          href="/#/location/?county=AB&locationId=7865"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Bucium"
-          href="/#/location/?county=AB&locationId=3459"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Lopadea Nouă"
-          href="/#/location/?county=AB&locationId=5210"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Mogoș"
-          href="/#/location/?county=AB&locationId=5826"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Roșia Montană"
-          href="/#/location/?county=AB&locationId=6761"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Hopîrta"
-          href="/#/location/?county=AB&locationId=4703"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Aiud"
-          href="/#/location/?county=AB&locationId=1213"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Ponor"
-          href="/#/location/?county=AB&locationId=6397"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Sohodol"
-          href="/#/location/?county=AB&locationId=7446"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Fărău"
-          href="/#/location/?county=AB&locationId=4302"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Rîmeț"
-          href="/#/location/?county=AB&locationId=6627"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Vidra"
-          href="/#/location/?county=AB&locationId=8425"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Mirăslău"
-          href="/#/location/?county=AB&locationId=5755"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Livezile"
-          href="/#/location/?county=AB&locationId=5167"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Baia de Arieș"
-          href="/#/location/?county=AB&locationId=2915"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Poiana Vadului"
-          href="/#/location/?county=AB&locationId=6271"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Avram Iancu"
-          href="/#/location/?county=AB&locationId=2577"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Sălciua"
-          href="/#/location/?county=AB&locationId=6976"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Vadu Moților"
-          href="/#/location/?county=AB&locationId=8229"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Ocna Mureș"
-          href="/#/location/?county=AB&locationId=1794"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Noșlac"
-          href="/#/location/?county=AB&locationId=6048"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Lupșa"
-          href="/#/location/?county=AB&locationId=5336"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Lunca Mureșului"
-          href="/#/location/?county=AB&locationId=5309"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Unirea"
-          href="/#/location/?county=AB&locationId=8158"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Rîmetea"
-          href="/#/location/?county=AB&locationId=6592"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Cîmpeni"
-          href="/#/location/?county=AB&locationId=1455"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Bistra"
-          href="/#/location/?county=AB&locationId=3039"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Poșaga"
-          href="/#/location/?county=AB&locationId=6468"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Albac"
-          href="/#/location/?county=AB&locationId=2130"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Ocoliș"
-          href="/#/location/?county=AB&locationId=6119"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Scărișoara"
-          href="/#/location/?county=AB&locationId=7197"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Horea"
-          href="/#/location/?county=AB&locationId=4767"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Gîrda de Sus"
-          href="/#/location/?county=AB&locationId=4525"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Arieșeni"
-          href="/#/location/?county=AB&locationId=2381"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Almașu Mare"
-          href="/#/location/?county=AB&locationId=2309"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Bucerdea Grânoasă"
-          href="/#/location/?county=AB&locationId=9026"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Sîncel"
-          href="/#/location/?county=AB&locationId=7348"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Șugag"
-          href="/#/location/?county=AB&locationId=8014"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Ighiu"
-          href="/#/location/?county=AB&locationId=4927"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Alba Iulia"
-          href="/#/location/?county=AB&locationId=1017"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Alba = props => {
         </a>
         <a
           data-original-title="Cugir"
-          href="/#/location/?county=AB&locationId=1696"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

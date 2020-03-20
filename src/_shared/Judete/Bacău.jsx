@@ -14,7 +14,8 @@ const Bacau = props => {
           county-region-status
           locations="vm.countyLocations"
           data-original-title="Mănăstirea Cașin"
-          href="/#/location/?county=BC&locationId=23449"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -28,7 +29,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Urechești"
-          href="/#/location/?county=BC&locationId=26029"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -42,7 +44,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Oituz"
-          href="/#/location/?county=BC&locationId=23797"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -56,7 +59,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Cașin"
-          href="/#/location/?county=BC&locationId=21720"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -70,7 +74,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Bogdănești"
-          href="/#/location/?county=BC&locationId=21560"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -84,7 +89,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Podu Turcului"
-          href="/#/location/?county=BC&locationId=24524"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -98,7 +104,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Ștefan cel Mare"
-          href="/#/location/?county=BC&locationId=20670"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -112,7 +119,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Pîrgărești"
-          href="/#/location/?county=BC&locationId=24276"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -126,7 +134,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Slănic-Moldova"
-          href="/#/location/?county=BC&locationId=20910"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -140,7 +149,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Tîrgu Trotuș"
-          href="/#/location/?county=BC&locationId=25825"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -154,7 +164,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Orbeni"
-          href="/#/location/?county=BC&locationId=23948"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -168,7 +179,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Tîrgu Ocna"
-          href="/#/location/?county=BC&locationId=20965"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -182,7 +194,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Glăvănești"
-          href="/#/location/?county=BC&locationId=22834"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -196,7 +209,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Parava"
-          href="/#/location/?county=BC&locationId=24034"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -210,7 +224,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Corbasca"
-          href="/#/location/?county=BC&locationId=21971"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -224,7 +239,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Dealu Morii"
-          href="/#/location/?county=BC&locationId=22237"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -238,7 +254,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Răcăciuni"
-          href="/#/location/?county=BC&locationId=24766"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -252,7 +269,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Cleja"
-          href="/#/location/?county=BC&locationId=21855"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -266,7 +284,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Berzunți"
-          href="/#/location/?county=BC&locationId=21418"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -280,7 +299,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Găiceana"
-          href="/#/location/?county=BC&locationId=22665"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -294,7 +314,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Pîncești"
-          href="/#/location/?county=BC&locationId=24187"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -308,7 +329,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Comănești"
-          href="/#/location/?county=BC&locationId=20821"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -322,7 +344,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Livezi"
-          href="/#/location/?county=BC&locationId=23289"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -336,7 +359,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Faraoani"
-          href="/#/location/?county=BC&locationId=22460"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -350,7 +374,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Motoșeni"
-          href="/#/location/?county=BC&locationId=23494"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -364,7 +389,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Horgești"
-          href="/#/location/?county=BC&locationId=22941"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -378,7 +404,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Vultureni"
-          href="/#/location/?county=BC&locationId=26118"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -392,7 +419,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Sănduleni"
-          href="/#/location/?county=BC&locationId=25148"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -406,7 +434,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Poduri"
-          href="/#/location/?county=BC&locationId=24631"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -420,7 +449,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Berești-Tazlău"
-          href="/#/location/?county=BC&locationId=21338"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -434,7 +464,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Ardeoani"
-          href="/#/location/?county=BC&locationId=21098"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -448,7 +479,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Măgirești"
-          href="/#/location/?county=BC&locationId=23387"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -462,7 +494,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Stănișești"
-          href="/#/location/?county=BC&locationId=25521"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -476,7 +509,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Strugari"
-          href="/#/location/?county=BC&locationId=25629"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -490,7 +524,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Măgura"
-          href="/#/location/?county=BC&locationId=20411"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -504,7 +539,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Răchitoasa"
-          href="/#/location/?county=BC&locationId=24837"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -518,7 +554,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Solonț"
-          href="/#/location/?county=BC&locationId=25488"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -532,7 +569,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Ungureni"
-          href="/#/location/?county=BC&locationId=25932"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -546,7 +584,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Buhoci"
-          href="/#/location/?county=BC&locationId=21668"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -560,7 +599,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Scorțeni"
-          href="/#/location/?county=BC&locationId=25291"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -574,7 +614,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Pârjol"
-          href="/#/location/?county=BC&locationId=24338"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -588,7 +629,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Brusturoasa"
-          href="/#/location/?county=BC&locationId=21597"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -602,7 +644,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Hemeiuș"
-          href="/#/location/?county=BC&locationId=20313"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -616,7 +659,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Gîrleni"
-          href="/#/location/?county=BC&locationId=22781"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -630,7 +674,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Traian"
-          href="/#/location/?county=BC&locationId=25861"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -644,7 +689,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Balcani"
-          href="/#/location/?county=BC&locationId=21196"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -658,7 +704,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Prăjești"
-          href="/#/location/?county=BC&locationId=26361"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -672,7 +719,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Asău"
-          href="/#/location/?county=BC&locationId=21123"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -686,7 +734,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Itești"
-          href="/#/location/?county=BC&locationId=26379"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -700,7 +749,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Ghimeș-Făget"
-          href="/#/location/?county=BC&locationId=22718"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -714,7 +764,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Odobești"
-          href="/#/location/?county=BC&locationId=26353"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -728,7 +779,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Blăgești"
-          href="/#/location/?county=BC&locationId=21506"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -742,7 +794,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Săucești"
-          href="/#/location/?county=BC&locationId=25228"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -756,7 +809,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Berești-Bistrița"
-          href="/#/location/?county=BC&locationId=21249"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -770,7 +824,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Negri"
-          href="/#/location/?county=BC&locationId=23644"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -784,7 +839,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Racova"
-          href="/#/location/?county=BC&locationId=24711"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -798,7 +854,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Buhuși"
-          href="/#/location/?county=BC&locationId=20778"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -812,7 +869,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Lipova"
-          href="/#/location/?county=BC&locationId=23207"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -826,7 +884,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Filipești"
-          href="/#/location/?county=BC&locationId=22576"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -840,7 +899,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Filipeni"
-          href="/#/location/?county=BC&locationId=22488"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -854,7 +914,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Oncești"
-          href="/#/location/?county=BC&locationId=23868"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -868,7 +929,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Huruiești"
-          href="/#/location/?county=BC&locationId=23047"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -882,7 +944,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Coțofănești"
-          href="/#/location/?county=BC&locationId=22059"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -896,7 +959,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Căiuți"
-          href="/#/location/?county=BC&locationId=21757"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -910,7 +974,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Bîrsănești"
-          href="/#/location/?county=BC&locationId=21454"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -924,7 +989,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Gura Văii"
-          href="/#/location/?county=BC&locationId=20607"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -938,7 +1004,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Helegiu"
-          href="/#/location/?county=BC&locationId=22898"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -952,7 +1019,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Agăș"
-          href="/#/location/?county=BC&locationId=21007"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -966,7 +1034,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Palanca"
-          href="/#/location/?county=BC&locationId=23975"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -980,7 +1049,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Gioseni"
-          href="/#/location/?county=BC&locationId=26346"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -994,7 +1064,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Buciumi"
-          href="/#/location/?county=BC&locationId=26338"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1008,7 +1079,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Roșiori"
-          href="/#/location/?county=BC&locationId=24999"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1022,7 +1094,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Izvoru Berheciului"
-          href="/#/location/?county=BC&locationId=23127"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1036,7 +1109,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Colonești"
-          href="/#/location/?county=BC&locationId=21891"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1050,7 +1124,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Secuieni"
-          href="/#/location/?county=BC&locationId=25362"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1064,7 +1139,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Plopana"
-          href="/#/location/?county=BC&locationId=24427"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1078,7 +1154,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Parincea"
-          href="/#/location/?county=BC&locationId=24089"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1092,7 +1169,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Dofteana"
-          href="/#/location/?county=BC&locationId=22380"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1106,7 +1184,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Tamași"
-          href="/#/location/?county=BC&locationId=25692"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1120,7 +1199,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Nicolae Bălcescu"
-          href="/#/location/?county=BC&locationId=23715"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1134,7 +1214,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Dărmănești"
-          href="/#/location/?county=BC&locationId=22166"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1148,7 +1229,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Onești"
-          href="/#/location/?county=BC&locationId=20563"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1162,7 +1244,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Luizi-Călugăra"
-          href="/#/location/?county=BC&locationId=23350"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1176,7 +1259,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Sărata"
-          href="/#/location/?county=BC&locationId=26320"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1190,7 +1274,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Mărgineni"
-          href="/#/location/?county=BC&locationId=20466"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1204,7 +1289,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Bacău"
-          href="/#/location/?county=BC&locationId=20297"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1218,7 +1304,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Letea Veche"
-          href="/#/location/?county=BC&locationId=20359"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1232,7 +1319,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Zemeș"
-          href="/#/location/?county=BC&locationId=26289"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1246,7 +1334,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Moinești"
-          href="/#/location/?county=BC&locationId=20876"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1260,7 +1349,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Valea Seacă"
-          href="/#/location/?county=BC&locationId=26083"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1274,7 +1364,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Sascut"
-          href="/#/location/?county=BC&locationId=25068"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1288,7 +1379,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Tătărăști"
-          href="/#/location/?county=BC&locationId=25745"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1302,7 +1394,8 @@ const Bacau = props => {
         </a>
         <a
           data-original-title="Dămienești"
-          href="/#/location/?county=BC&locationId=22111"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >

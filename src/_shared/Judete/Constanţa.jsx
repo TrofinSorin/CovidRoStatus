@@ -6,7 +6,8 @@ const Constanta = props => {
       <svg width="600" height="800" viewBox="-15 50 700 800">
         <rect width="600" height="800" style={{ fill: "none" }}></rect>
         <a
-          href="/#/location/?county=CT&locationId=62486"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Oltina"
@@ -20,7 +21,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60883"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Adamclisi"
@@ -34,7 +36,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62020"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Istria"
@@ -48,7 +51,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62823"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Saraiu"
@@ -62,7 +66,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62538"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Ostrov"
@@ -76,7 +81,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62057"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Lipnița"
@@ -90,7 +96,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63286"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Costinești"
@@ -104,7 +111,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62798"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Rasova"
@@ -118,7 +126,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60801"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Hârșova"
@@ -132,7 +141,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63334"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Fîntînele"
@@ -146,7 +156,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63300"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cuza Voda"
@@ -160,7 +171,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61069"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Băneasa"
@@ -174,7 +186,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61737"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Dobromir"
@@ -188,7 +201,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63161"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Dumbrăveni"
@@ -202,7 +216,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61318"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cobadin"
@@ -216,7 +231,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61372"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cogealac"
@@ -230,7 +246,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62878"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Săcele"
@@ -244,7 +261,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62191"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Mihail Kogălniceanu"
@@ -258,7 +276,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63125"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Valu lui Traian"
@@ -272,7 +291,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61675"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Deleni"
@@ -286,7 +306,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62949"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Siliștea"
@@ -300,7 +321,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60455"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Eforie"
@@ -314,7 +336,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61452"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Comana"
@@ -328,7 +351,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62360"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Murfatlar"
@@ -342,7 +366,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63045"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Topalu"
@@ -356,7 +381,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63278"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Horia"
@@ -370,7 +396,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61871"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Independența"
@@ -384,7 +411,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61283"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Ciocîrlia"
@@ -398,7 +426,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62985"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Târgușor"
@@ -412,7 +441,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61005"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Aliman"
@@ -426,7 +456,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61951"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Ion Corvin"
@@ -440,7 +471,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61256"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Ciobanu"
@@ -454,7 +486,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61808"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Gârliciu"
@@ -468,7 +501,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63294"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Bărăganu"
@@ -482,7 +516,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62761"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Poarta Albă"
@@ -496,7 +531,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60847"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Medgidia"
@@ -510,7 +546,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63170"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Vulturu"
@@ -524,7 +561,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61559"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Crucea"
@@ -538,7 +576,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61620"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cumpăna"
@@ -552,7 +591,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63326"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Grădina"
@@ -566,7 +606,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62609"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Pantelimon"
@@ -580,7 +621,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61513"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Corbu"
@@ -594,7 +636,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60507"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Năvodari"
@@ -608,7 +651,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62253"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Mihai Viteazu"
@@ -622,7 +666,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62397"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Negru Vodă"
@@ -636,7 +681,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60945"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Albești"
@@ -650,7 +696,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62707"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Peștera"
@@ -664,7 +711,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63318"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Saligny"
@@ -678,7 +726,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60776"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cernavodă"
@@ -692,7 +741,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62903"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Seimeni"
@@ -706,7 +756,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62280"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Mircea Vodă"
@@ -720,7 +771,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61826"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Ghindărești"
@@ -734,7 +786,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63152"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Lumina"
@@ -748,7 +801,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63072"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Topraisar"
@@ -762,7 +816,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60721"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Tuzla"
@@ -776,7 +831,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60534"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Techirghiol"
@@ -790,7 +846,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63189"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Tortoman"
@@ -804,7 +861,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62440"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Nicolae Bălcescu"
@@ -818,7 +876,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61167"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Cerchezu"
@@ -832,7 +891,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61210"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Chirnogeni"
@@ -846,7 +906,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=61121"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Castelu"
@@ -860,7 +921,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60687"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Ovidiu"
@@ -874,7 +936,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62137"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Mereni"
@@ -888,7 +951,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60632"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Limanu"
@@ -902,7 +966,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60482"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Mangalia"
@@ -916,7 +981,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60598"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="23 August"
@@ -930,7 +996,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60419"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Constanța"
@@ -944,7 +1011,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=60570"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Agigea"
@@ -958,7 +1026,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=62672"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Pecineaga"
@@ -972,7 +1041,8 @@ const Constanta = props => {
           </g>
         </a>
         <a
-          href="/#/location/?county=CT&locationId=63198"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
           data-original-title="Amzacea"

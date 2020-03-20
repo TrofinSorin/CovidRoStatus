@@ -12,7 +12,8 @@ const Mures = props => {
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
           data-original-title="Daneș"
-          href="/#/location/?county=MS&locationId=116493"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -26,7 +27,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sighișoara"
-          href="/#/location/?county=MS&locationId=114514"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -40,7 +42,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Albești"
-          href="/#/location/?county=MS&locationId=114603"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -54,7 +57,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Viișoara"
-          href="/#/location/?county=MS&locationId=120218"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -68,7 +72,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Nadeș"
-          href="/#/location/?county=MS&locationId=118469"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -82,7 +87,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Vețca"
-          href="/#/location/?county=MS&locationId=120174"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -96,7 +102,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Bahnea"
-          href="/#/location/?county=MS&locationId=115307"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -110,7 +117,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Gănești"
-          href="/#/location/?county=MS&locationId=116938"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -124,7 +132,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Zagăr"
-          href="/#/location/?county=MS&locationId=120343"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -138,7 +147,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Bichiș"
-          href="/#/location/?county=MS&locationId=115771"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -152,7 +162,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Mica"
-          href="/#/location/?county=MS&locationId=118209"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -166,7 +177,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Coroisînmărtin"
-          href="/#/location/?county=MS&locationId=116171"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -180,7 +192,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Cucerdea"
-          href="/#/location/?county=MS&locationId=116395"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -194,7 +207,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Suplac"
-          href="/#/location/?county=MS&locationId=119661"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -208,7 +222,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Ațintiș"
-          href="/#/location/?county=MS&locationId=115236"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -222,7 +237,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Fîntînele"
-          href="/#/location/?county=MS&locationId=116796"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -236,7 +252,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sângeorgiu de Pădure"
-          href="/#/location/?county=MS&locationId=119331"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -250,7 +267,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sînpaul"
-          href="/#/location/?county=MS&locationId=119466"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -264,7 +282,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Acățari"
-          href="/#/location/?county=MS&locationId=114970"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -278,7 +297,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Ogra"
-          href="/#/location/?county=MS&locationId=118575"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -292,7 +312,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Cuci"
-          href="/#/location/?county=MS&locationId=116439"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -306,7 +327,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Iernut"
-          href="/#/location/?county=MS&locationId=117827"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -320,7 +342,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Ungheni"
-          href="/#/location/?county=MS&locationId=119894"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -334,7 +357,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Bogata"
-          href="/#/location/?county=MS&locationId=115824"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -348,7 +372,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Neaua"
-          href="/#/location/?county=MS&locationId=118511"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -362,7 +387,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Corunca"
-          href="/#/location/?county=MS&locationId=120487"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -376,7 +402,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Ghindari"
-          href="/#/location/?county=MS&locationId=117042"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -390,7 +417,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Chețani"
-          href="/#/location/?county=MS&locationId=116046"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -404,7 +432,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Luduș"
-          href="/#/location/?county=MS&locationId=114710"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -418,7 +447,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Livezeni"
-          href="/#/location/?county=MS&locationId=117925"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -432,7 +462,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Chibed"
-          href="/#/location/?county=MS&locationId=120478"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -446,7 +477,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Miercurea Nirajului"
-          href="/#/location/?county=MS&locationId=118281"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -460,7 +492,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sânger"
-          href="/#/location/?county=MS&locationId=119386"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -474,7 +507,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Iclănzel"
-          href="/#/location/?county=MS&locationId=117667"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -488,7 +522,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Papiu Ilarian"
-          href="/#/location/?county=MS&locationId=118637"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -502,7 +537,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Tăureni"
-          href="/#/location/?county=MS&locationId=119858"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -516,7 +552,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sărățeni"
-          href="/#/location/?county=MS&locationId=120496"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -530,7 +567,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Bereni"
-          href="/#/location/?county=MS&locationId=120511"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -544,7 +582,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sîngeorgiu de Mureș"
-          href="/#/location/?county=MS&locationId=114417"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -558,7 +597,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Vărgata"
-          href="/#/location/?county=MS&locationId=120076"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -572,7 +612,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Pănet"
-          href="/#/location/?county=MS&locationId=118691"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -586,7 +627,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Grebenișu de Cîmpie"
-          href="/#/location/?county=MS&locationId=117275"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -600,7 +642,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sîntana de Mureș"
-          href="/#/location/?county=MS&locationId=114453"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -614,7 +657,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Mădăraș"
-          href="/#/location/?county=MS&locationId=120502"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -628,7 +672,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Șăulia"
-          href="/#/location/?county=MS&locationId=119750"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -642,7 +687,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Zau de Cîmpie"
-          href="/#/location/?county=MS&locationId=120370"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -656,7 +702,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Ernei"
-          href="/#/location/?county=MS&locationId=116652"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -670,7 +717,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Valea Largă"
-          href="/#/location/?county=MS&locationId=119974"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -684,7 +732,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Band"
-          href="/#/location/?county=MS&locationId=115389"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -698,7 +747,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Hodoșa"
-          href="/#/location/?county=MS&locationId=117505"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -712,7 +762,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Șincai"
-          href="/#/location/?county=MS&locationId=119803"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -726,7 +777,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sovata"
-          href="/#/location/?county=MS&locationId=114854"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -740,7 +792,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Ceuașu de Cîmpie"
-          href="/#/location/?county=MS&locationId=115959"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -754,7 +807,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Pogăceaua"
-          href="/#/location/?county=MS&locationId=118824"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -768,7 +822,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Glodeni"
-          href="/#/location/?county=MS&locationId=117113"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -782,7 +837,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Miheșu de Cîmpie"
-          href="/#/location/?county=MS&locationId=118370"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -796,7 +852,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Gornești"
-          href="/#/location/?county=MS&locationId=117177"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -810,7 +867,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Chiheru de Jos"
-          href="/#/location/?county=MS&locationId=116126"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -824,7 +882,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Voivodeni"
-          href="/#/location/?county=MS&locationId=120316"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -838,7 +897,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Băla"
-          href="/#/location/?county=MS&locationId=115600"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -852,7 +912,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Beica de Jos"
-          href="/#/location/?county=MS&locationId=115708"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -866,7 +927,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Petelea"
-          href="/#/location/?county=MS&locationId=118799"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -880,7 +942,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Rîciu"
-          href="/#/location/?county=MS&locationId=118995"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -894,7 +957,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Crăiești"
-          href="/#/location/?county=MS&locationId=116340"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -908,7 +972,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sînpetru de Cîmpie"
-          href="/#/location/?county=MS&locationId=119527"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -922,7 +987,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Breaza"
-          href="/#/location/?county=MS&locationId=115851"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -936,7 +1002,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Fărăgău"
-          href="/#/location/?county=MS&locationId=116723"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -950,7 +1017,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sarmașu"
-          href="/#/location/?county=MS&locationId=119242"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -964,7 +1032,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Ibănești"
-          href="/#/location/?county=MS&locationId=117550"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -978,7 +1047,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Ideciu de Jos"
-          href="/#/location/?county=MS&locationId=117783"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -992,7 +1062,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Suseni"
-          href="/#/location/?county=MS&locationId=119723"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1006,7 +1077,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Hodac"
-          href="/#/location/?county=MS&locationId=117426"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1020,7 +1092,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Gurghiu"
-          href="/#/location/?county=MS&locationId=117319"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1034,7 +1107,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Aluniș"
-          href="/#/location/?county=MS&locationId=115147"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1048,7 +1122,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Brîncovenești"
-          href="/#/location/?county=MS&locationId=115897"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1062,7 +1137,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Rușii-Munți"
-          href="/#/location/?county=MS&locationId=119153"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1076,7 +1152,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Deda"
-          href="/#/location/?county=MS&locationId=116545"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1090,7 +1167,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Stînceni"
-          href="/#/location/?county=MS&locationId=119625"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1104,7 +1182,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Vătava"
-          href="/#/location/?county=MS&locationId=120138"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1118,7 +1197,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Lunca Bradului"
-          href="/#/location/?county=MS&locationId=118058"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1132,7 +1212,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Răstolița"
-          href="/#/location/?county=MS&locationId=118931"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1146,7 +1227,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Cozma"
-          href="/#/location/?county=MS&locationId=116224"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1160,7 +1242,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Tîrgu Mureș"
-          href="/#/location/?county=MS&locationId=114319"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1174,7 +1257,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Eremitu"
-          href="/#/location/?county=MS&locationId=116590"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1188,7 +1272,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Măgherani"
-          href="/#/location/?county=MS&locationId=118094"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1202,7 +1287,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Sîncraiu de Mureș"
-          href="/#/location/?county=MS&locationId=114382"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1216,7 +1302,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Cristești"
-          href="/#/location/?county=MS&locationId=114355"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1230,7 +1317,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Gheorghe Doja"
-          href="/#/location/?county=MS&locationId=116983"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1244,7 +1332,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Crăciunești"
-          href="/#/location/?county=MS&locationId=116288"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1258,7 +1347,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Păsăreni"
-          href="/#/location/?county=MS&locationId=118753"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1272,7 +1362,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Gălești"
-          href="/#/location/?county=MS&locationId=116867"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1286,7 +1377,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Băgaciu"
-          href="/#/location/?county=MS&locationId=115575"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1300,7 +1392,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Târnăveni"
-          href="/#/location/?county=MS&locationId=114925"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1314,7 +1407,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Adămuș"
-          href="/#/location/?county=MS&locationId=115076"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1328,7 +1422,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Batoș"
-          href="/#/location/?county=MS&locationId=115520"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1342,7 +1437,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Lunca"
-          href="/#/location/?county=MS&locationId=117998"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1356,7 +1452,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Reghin"
-          href="/#/location/?county=MS&locationId=114809"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1370,7 +1467,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Solovăstru"
-          href="/#/location/?county=MS&locationId=119590"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1384,7 +1482,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Apold"
-          href="/#/location/?county=MS&locationId=115183"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1398,7 +1497,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Vînători"
-          href="/#/location/?county=MS&locationId=120254"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1412,7 +1512,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Saschiz"
-          href="/#/location/?county=MS&locationId=119206"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
@@ -1426,7 +1527,8 @@ const Mures = props => {
         </a>
         <a
           data-original-title="Bălăușeri"
-          href="/#/location/?county=MS&locationId=115637"
+          onClick={e => e.preventDefault()}
+          href="true"
           data-toggle="tooltip"
           data-placement="bottom"
         >
