@@ -5,6 +5,7 @@ import HartaRomania from "../../_shared/HartaRomania/HartaRomania";
 import { Spin } from "antd";
 import { CoffeeOutlined } from "@ant-design/icons";
 import Footer from "../Footer/Footer";
+import { Button } from "antd";
 
 class Home extends Component {
   constructor(props) {
@@ -82,7 +83,7 @@ class Home extends Component {
 
     return (
       <div className="HomeWrapper">
-        {/* <Button
+        <Button
           style={{
             fontSize: "10px",
             color: "white",
@@ -94,20 +95,43 @@ class Home extends Component {
           }}
         >
           Mobile Install Info
-        </Button> */}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          className="donate"
-          href="https://www.patreon.com/trofinSorin"
+        </Button>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between"
+          }}
         >
-          <CoffeeOutlined />
-          <span
-            style={{ marginLeft: "0.3rem", marginTop: "5px", color: "white" }}
+          <a
+            href="https://www.daruiesteviata.ro/?fbclid=IwAR1ap3Wk6CiAFkf0Y5Kfhc_HRsAb9mFrgE8GxJ7FlNlsHX6dpKxqYPs4W7Y"
+            rel="noopener noreferrer"
+            target="_blank"
+            style={{
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              color: "white"
+            }}
           >
-            Doneaza pentru sustinerea site-ului
-          </span>
-        </a>
+            Sprijina ONG pentru Coronavirus
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="donate"
+            href="https://www.patreon.com/trofinSorin"
+          >
+            <CoffeeOutlined />
+            <span
+              style={{ marginLeft: "0.3rem", marginTop: "5px", color: "white" }}
+            >
+              Doneaza pentru sustinerea site-ului
+            </span>
+          </a>
+        </div>
+
         <h1 style={{ textAlign: "center", fontSize: "50px", marginTop: "0" }}>
           Covid19RoStatus Monitorizare Coronavirus in Romania
         </h1>
