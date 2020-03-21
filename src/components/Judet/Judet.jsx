@@ -5,28 +5,9 @@ import { useHistory } from "react-router-dom";
 import "./Judet.scss";
 import { Spin } from "antd";
 
-function retry(fn, retriesLeft = 5, interval = 1000) {
-  return new Promise((resolve, reject) => {
-    fn()
-      .then(resolve)
-      .catch(error => {
-        setTimeout(() => {
-          if (retriesLeft === 1) {
-            // reject('maximum retries exceeded');
-            reject(error);
-            return;
-          }
-
-          // Passing on "reject" is the important part
-          retry(fn, retriesLeft - 1, interval).then(resolve, reject);
-        }, interval);
-      });
-  });
-}
-
 function loadCounty(name) {
   const Component = React.lazy(() =>
-    retry(() => import(`../../_shared/Judete/${name}.jsx`))
+    import(`../../_shared/Judete/${name}.jsx`)
   );
 
   return Component;
