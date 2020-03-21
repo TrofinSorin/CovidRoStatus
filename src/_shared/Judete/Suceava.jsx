@@ -7,7 +7,7 @@ const Suceava = props => {
         xmlns="http://www.w3.org/2000/svg"
         width="500"
         height="800"
-        viewBox="0 200 550 600"
+        viewBox="-50 200 700 600"
       >
         <rect style={{ fill: "none" }} width="500" height="600" />
         <a

@@ -3,7 +3,7 @@
 const Galati = props => {
   return (
     <div id="map">
-      <svg width="600" height="800" viewBox="-100 200 800 700">
+      <svg width="600" height="800" viewBox="-200 200 1250 700">
         <rect width="600" height="800" style={{ fill: "none" }}></rect>
 
         <a

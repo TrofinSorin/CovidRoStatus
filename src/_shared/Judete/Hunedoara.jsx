@@ -7,7 +7,7 @@ const Hunedoara = props => {
         xmlns="http://www.w3.org/2000/svg"
         width="500"
         height="800"
-        viewBox="30 100 500 630"
+        viewBox="-150 100 850 630"
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a

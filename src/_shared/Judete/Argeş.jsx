@@ -7,7 +7,7 @@ const Arges = props => {
         xmlns="http://www.w3.org/2000/svg"
         width="500"
         height="600"
-        viewBox="-150 0 1000 700"
+        viewBox="-150 0 1100 700"
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a

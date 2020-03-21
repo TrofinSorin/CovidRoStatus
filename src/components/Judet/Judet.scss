@@ -32,6 +32,26 @@
   }
 }
 
+@media only screen and (max-width: 1400px) {
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 700px !important;
+      height: 700px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .JudetWrapper {
+    .county-map,
+    svg {
+      width: 600px !important;
+      height: 700px !important;
+    }
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .JudetWrapper {
     .county-map,
@@ -47,7 +67,7 @@
     .county-map,
     svg {
       width: 500px !important;
-      height: 700px !important;
+      height: 600px !important;
     }
   }
 }
@@ -57,7 +77,7 @@
     .county-map,
     svg {
       width: 450px !important;
-      height: 700px !important;
+      height: 500px !important;
     }
   }
 }
@@ -67,7 +87,7 @@
     .county-map,
     svg {
       width: 500px !important;
-      height: 1000px !important;
+      height: 630px !important;
     }
   }
 }
@@ -77,7 +97,7 @@
     .county-map,
     svg {
       width: 450px !important;
-      height: 700px !important;
+      height: 600px !important;
     }
   }
 }
