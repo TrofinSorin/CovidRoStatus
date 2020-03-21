@@ -1,5 +1,5 @@
 var CACHE_NAME = "pwa-task-manager";
-var urlsToCache = ["/", "/home"];
+var urlsToCache = ["/"];
 
 // Install a service worker
 // eslint-disable-next-line no-restricted-globals
