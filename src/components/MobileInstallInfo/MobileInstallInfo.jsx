@@ -24,20 +24,21 @@ const MobileInstallInfo = props => {
           className="first-method"
           style={{ display: "flex", flexDirection: "column" }}
         >
+          <h2>Prima metoda</h2>
+
+          <img
+            src={require("../../assets/gifs/mobile-install.gif")}
+            alt="loading..."
+          />
+        </div>
+
+        <div className="second-method">
+          <h2>A doua metoda</h2>
           <p>1. Deschideti Google Chrome</p>
           <p>
             2. Apasati pe <MoreOutlined />
           </p>
           <p>3. Add to Home screen</p>
-        </div>
-
-        <h3 style={{ margin: "3rem" }}>Sau</h3>
-
-        <div className="second-method">
-          <img
-            src={require("../../assets/gifs/mobile-install.gif")}
-            alt="loading..."
-          />
         </div>
       </div>
     </div>
