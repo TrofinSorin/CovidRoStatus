@@ -23,6 +23,8 @@ class Home extends Component {
   }
 
   componentDidMount() {
+    window.scrollTo(0, 0);
+
     axios
       .get("https://coronavirus-19-api.herokuapp.com/countries")
       .then(response => {
