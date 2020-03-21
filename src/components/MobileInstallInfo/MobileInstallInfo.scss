@@ -1,0 +1,27 @@
+.MobileInstallInfoWrapper {
+  .anticon {
+    svg {
+      fill: "white";
+      width: 20px !important;
+      height: 20px !important;
+    }
+  }
+
+  .info-wrapper {
+    justify-content: space-around;
+  }
+
+  img {
+    max-height: 45rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .MobileInstallInfoWrapper {
+    .info-wrapper {
+      align-items: center;
+      flex-direction: column !important;
+      justify-content: center;
+    }
+  }
+}
