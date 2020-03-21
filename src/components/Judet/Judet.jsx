@@ -35,7 +35,10 @@ const Judet = props => {
   return (
     <div className="JudetWrapper">
       <div className="county-container">
-        <h3 onClick={() => history.push("/")} style={{ cursor: "pointer" }}>
+        <h3
+          onClick={() => history.push("/")}
+          style={{ cursor: "pointer", fontSize: "2rem" }}
+        >
           {"<< Inapoi la harta"}
         </h3>
         <h1 style={{ fontSize: "55px" }}>Judet: {countyData.Judete}</h1>

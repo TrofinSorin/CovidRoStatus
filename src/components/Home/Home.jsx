@@ -109,7 +109,7 @@ class Home extends Component {
           </span>
         </a>
         <h1 style={{ textAlign: "center", fontSize: "50px", marginTop: "0" }}>
-          Covid19RoStatus, Monitorizare Coronavirus in Romania
+          Covid19RoStatus Monitorizare Coronavirus in Romania
         </h1>
         <div className="wrapper">
           <div className="info-wrapper" style={{ position: "relative" }}>
