@@ -35,10 +35,11 @@ const MobileInstallInfo = props => {
         <div className="second-method">
           <h2>A doua metoda</h2>
           <p>1. Deschideti Google Chrome</p>
+          <p>2. Intrati pe www.covid19rostatus.ro</p>
           <p>
-            2. Apasati pe <MoreOutlined />
+            3. Apasati pe <MoreOutlined />
           </p>
-          <p>3. Add to Home screen</p>
+          <p>4. Add to Home screen</p>
         </div>
       </div>
     </div>
