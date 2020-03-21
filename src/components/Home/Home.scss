@@ -63,6 +63,10 @@
   margin-top: 2.5rem;
 }
 
+.top-donate {
+  margin-top: 10px;
+}
+
 .map,
 svg {
   width: 800px;
@@ -218,6 +222,14 @@ svg {
   h1 {
     margin: 2rem 0 !important;
     font-size: 30px !important;
+  }
+
+  .top-donate {
+    margin-top: 1rem;
+
+    a {
+      font-size: 12px;
+    }
   }
 
   .mobile-install-info {

@@ -30,6 +30,10 @@ class Home extends Component {
     this.redirectToCountry(value);
   };
 
+  redirectToMobileInstallInfo = () => {
+    this.props.history.push(`/mobile-install-info`);
+  };
+
   redirectToCountry = name => {
     const getObj = this.state.countyData.filter(item => item.Judete === name)[0]
       ? this.state.countyData.filter(item => item.Judete === name)[0]
@@ -108,6 +112,7 @@ class Home extends Component {
       <div className="HomeWrapper">
         <Button
           className="mobile-install-info"
+          onClick={() => this.redirectToMobileInstallInfo()}
           style={{
             fontSize: "10px",
             color: "white",
@@ -121,6 +126,7 @@ class Home extends Component {
           Mobile Install Info
         </Button>
         <div
+          className="top-donate"
           style={{
             display: "flex",
             flexDirection: "row",
