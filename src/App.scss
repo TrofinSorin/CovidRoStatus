@@ -11,6 +11,13 @@ body {
   height: 100%;
 }
 
+.anticon-close {
+  svg {
+    max-height: 3rem;
+    max-width: 2rem;
+  }
+}
+
 .App-logo {
   pointer-events: none;
 }
