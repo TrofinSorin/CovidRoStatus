@@ -7,7 +7,7 @@ const Bucuresti = props => {
         xmlns="http://www.w3.org/2000/svg"
         width="500"
         height="800"
-        viewBox="-50 150 600 800"
+        viewBox="-100 150 800 800"
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a

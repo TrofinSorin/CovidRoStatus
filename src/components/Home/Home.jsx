@@ -6,6 +6,10 @@ import { Spin } from "antd";
 import { CoffeeOutlined } from "@ant-design/icons";
 import Footer from "../Footer/Footer";
 import { Button } from "antd";
+import { Select } from "antd";
+import { JUDETE } from "../../constants/counties";
+
+const { Option } = Select;
 
 class Home extends Component {
   constructor(props) {
@@ -21,6 +25,23 @@ class Home extends Component {
       isolatedPeople: {}
     };
   }
+
+  handleChange = value => {
+    this.redirectToCountry(value);
+  };
+
+  redirectToCountry = name => {
+    const getObj = this.state.countyData.filter(item => item.Judete === name)[0]
+      ? this.state.countyData.filter(item => item.Judete === name)[0]
+      : {};
+    const siruta = getObj.SIRUTA_judet;
+
+    if (siruta) {
+      this.props.history.push(`/judet/${siruta}/${getObj.Judete}`);
+    } else {
+      this.props.history.push(`/`);
+    }
+  };
 
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -86,6 +107,7 @@ class Home extends Component {
     return (
       <div className="HomeWrapper">
         <Button
+          className="mobile-install-info"
           style={{
             fontSize: "10px",
             color: "white",
@@ -200,6 +222,20 @@ class Home extends Component {
                 </span>
               </h2>
             ) : null}
+          </div>
+
+          <div className="county-selector">
+            <Select
+              placeholder="Selectati un judet"
+              style={{ width: 120 }}
+              onChange={this.handleChange}
+            >
+              {JUDETE.sort((a, b) => a.name.localeCompare(b.name)).map(item => (
+                <Option key={item.name} value={item.name}>
+                  {item.name}
+                </Option>
+              ))}
+            </Select>
           </div>
 
           <div className="map">
