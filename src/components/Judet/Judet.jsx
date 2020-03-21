@@ -24,19 +24,19 @@ function retry(fn, retriesLeft = 5, interval = 1000) {
   });
 }
 
-// function loadCounty(name) {
-//   const Component = React.lazy(() =>
-//     retry(() => import(`../../_shared/Judete/${name}.jsx`))
-//   );
+function loadCounty(name) {
+  const Component = React.lazy(() =>
+    retry(() => import(`../../_shared/Judete/${name}.jsx`))
+  );
 
-//   return Component;
-// }
+  return Component;
+}
 
 const Judet = props => {
   let { id, countyName } = useParams();
   let history = useHistory();
   const [countyData, setCountyData] = useState({});
-  // let MapComponent = loadCounty(countyName);
+  let MapComponent = loadCounty(countyName);
 
   useLayoutEffect(() => {
     axios
@@ -98,11 +98,11 @@ const Judet = props => {
         </h2> */}
       </div>
 
-      {/* <Suspense fallback={<Spin size="large" />}>
+      <Suspense fallback={<Spin size="large" />}>
         <div className="county-map" style={{ pointerEvents: "none" }}>
           <MapComponent />
         </div>
-      </Suspense> */}
+      </Suspense>
     </div>
   );
 };
