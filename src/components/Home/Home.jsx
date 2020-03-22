@@ -114,11 +114,7 @@ class Home extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);
-    console.log("CLEAR CACHE WORKS PART 333333");
-    console.log("CLEAR CACHE WORKS PART 333333");
-    console.log("CLEAR CACHE WORKS PART 333333");
-    console.log("CLEAR CACHE WORKS PART 333333");
-    console.log("CLEAR CACHE WORKS PART 333333");
+    console.log("CLEAR CACHEEEEEEEEEEEEEEEE");
     this.getCountryData();
     this.getCountyData();
     this.getIsolatedAndQuarantinePeople();
