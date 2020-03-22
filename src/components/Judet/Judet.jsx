@@ -87,7 +87,9 @@ const Judet = props => {
           </h2>
           <h2 style={{ fontSize: "32px" }}>
             Cazuri confirmate:
-            <span style={{ color: "red" }}>{countyData.total_county}</span>
+            <span style={{ color: "red" }}>
+              {countyData ? countyData.total_county : "N/A"}
+            </span>
           </h2>
           <h2 style={{ fontSize: "32px" }}>
             Persoane in carantina:
@@ -103,11 +105,15 @@ const Judet = props => {
           </h2>
           <h2 style={{ fontSize: "32px" }}>
             Persoane recuperate:
-            <span style={{ color: "red" }}>{countyData.total_healed}</span>
+            <span style={{ color: "red" }}>
+              {countyData ? countyData.total_healed : "N/A"}
+            </span>
           </h2>
           <h2 style={{ fontSize: "32px" }}>
             Persoane decedate:
-            <span style={{ color: "red" }}>{countyData.total_dead}</span>
+            <span style={{ color: "red" }}>
+              {countyData ? countyData.total_dead : "N/A"}
+            </span>
           </h2>
         </span>
 
