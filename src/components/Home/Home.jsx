@@ -38,13 +38,18 @@ class Home extends Component {
   };
 
   redirectToCountry = name => {
-    const getObj = this.state.countyData.filter(item => item.Judete === name)[0]
-      ? this.state.countyData.filter(item => item.Judete === name)[0]
+    const judet = JUDETE.filter(item => item.name === name)[0];
+    const getObj = this.state.arcGisCountyData.filter(
+      item => item.Judete === name
+    )[0]
+      ? this.state.arcGisCountyData.filter(item => item.Judete === name)[0]
       : {};
     const siruta = getObj.SIRUTA_judet;
 
     if (siruta) {
-      this.props.history.push(`/judet/${siruta}/${getObj.Judete}`);
+      this.props.history.push(
+        `/judet/${siruta}/${getObj.Judete}/${judet.countyCode}`
+      );
     } else {
       this.props.history.push(`/`);
     }
@@ -274,7 +279,7 @@ class Home extends Component {
             <Select
               placeholder="Selectati un judet"
               style={{ width: 120 }}
-              onChange={this.handleChange}
+              onChange={event => this.handleChange(event)}
             >
               {JUDETE.sort((a, b) => a.name.localeCompare(b.name)).map(item => (
                 <Option key={item.name} value={item.name}>
