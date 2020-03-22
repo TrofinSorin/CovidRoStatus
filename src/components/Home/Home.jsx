@@ -8,7 +8,6 @@ import Footer from "../Footer/Footer";
 import { Button } from "antd";
 import { Select } from "antd";
 import { JUDETE } from "../../constants/counties";
-import moment from "moment";
 
 const { Option } = Select;
 
@@ -18,13 +17,15 @@ class Home extends Component {
 
     this.state = {
       hasError: false,
-      data: {},
-      countyData: [],
-      countyLoader: true,
-      infoLoader: true,
-      quarantinePeople: {},
-      isolatedPeople: {},
-      latestChangeDate: ""
+      arcGisNationalData: {}, // date romania arcGIS
+      arcGisCountyData: [], // judete arcGIS
+      countyData: [], // date judete
+      nationalData: {}, // date romania geo spatial
+      countyLoader: true, // loader pentru judete
+      infoLoader: true, // loader pentru tara
+      quarantinePeople: {}, // persoane in carantina
+      isolatedPeople: {}, // persoane izolate
+      latestChangeDate: "" // ultima actualizare
     };
   }
 
@@ -51,40 +52,11 @@ class Home extends Component {
 
   getCountryData = () => {
     axios
-      .get("https://coronavirus-19-api.herokuapp.com/countries")
-      .then(response => {
-        const dataForRomania = response.data.filter(
-          item => item.country === "Romania"
-        )[0];
-
-        this.setState({
-          data: dataForRomania,
-          infoLoader: false
-        });
-      });
-  };
-
-  getCountyData = () => {
-    axios
-      .get(
-        "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
-      )
-      .then(response => {
-        const mappedArray = response.data.features.map(item => item.attributes);
-
-        this.setState({
-          countyData: mappedArray,
-          countyLoader: false,
-          latestChangeDate: moment(response.headers["last-modified"]).format(
-            "YYYY-MM-DD h:mm:ss"
-          )
-        });
-      });
-  };
-
-  getIsolatedAndQuarantinePeople = () => {
-    axios
       .all([
+        axios.get("https://coronavirus-19-api.herokuapp.com/countries"),
+        axios.get(
+          "https://covid19.geo-spatial.org/api/dashboard/getGlobalStat"
+        ),
         axios.get(
           "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22sum%22%2C%22onStatisticField%22%3A%22Persoane_in_carantina%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&cacheHint=true"
         ),
@@ -93,20 +65,52 @@ class Home extends Component {
         )
       ])
       .then(
-        axios.spread((quarantinePeople, isolatedPeople) => {
-          console.log("isolatedPeople:", isolatedPeople);
-          console.log("quarantinePeople:", quarantinePeople);
+        axios.spread(
+          (countries, romaniaData, quarantinePeople, isolatedPeople) => {
+            const geospatialRomaniaData = romaniaData.data.data.data[0];
+            const dataForRomania = countries.data.filter(
+              item => item.country === "Romania"
+            )[0];
+
+            this.setState({
+              arcGisNationalData: dataForRomania,
+              infoLoader: false,
+              nationalData: geospatialRomaniaData,
+              latestChangeDate: geospatialRomaniaData["to_char"],
+              quarantinePeople:
+                quarantinePeople.data.features[0] &&
+                quarantinePeople.data.features[0].attributes
+                  ? quarantinePeople.data.features[0].attributes.value
+                  : null,
+              isolatedPeople:
+                isolatedPeople.data.features[0] &&
+                isolatedPeople.data.features[0].attributes
+                  ? isolatedPeople.data.features[0].attributes.value
+                  : null
+            });
+          }
+        )
+      );
+  };
+
+  getCountyData = () => {
+    axios
+      .all([
+        axios.get("https://api-covid19.herokuapp.com/sorin"),
+        axios.get(
+          "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
+        )
+      ])
+      .then(
+        axios.spread((countyData, arcGisCountydata) => {
+          const mappedArray = arcGisCountydata.data.features.map(
+            item => item.attributes
+          );
+
           this.setState({
-            quarantinePeople:
-              quarantinePeople.data.features[0] &&
-              quarantinePeople.data.features[0].attributes
-                ? quarantinePeople.data.features[0].attributes.value
-                : null,
-            isolatedPeople:
-              isolatedPeople.data.features[0] &&
-              isolatedPeople.data.features[0].attributes
-                ? isolatedPeople.data.features[0].attributes.value
-                : null
+            countyData: countyData.data.data.data,
+            arcGisCountyData: mappedArray,
+            countyLoader: false
           });
         })
       );
@@ -114,22 +118,25 @@ class Home extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);
-    console.log("CLEAR CACHEEEEEEEEEEEEEEEE");
+
     this.getCountryData();
     this.getCountyData();
-    this.getIsolatedAndQuarantinePeople();
 
     setInterval(() => {
       this.getCountryData();
       this.getCountyData();
-      this.getIsolatedAndQuarantinePeople();
     }, 60000);
   }
 
   componentWillUnmount() {}
 
   render() {
-    const { data, quarantinePeople, isolatedPeople } = this.state;
+    const {
+      nationalData,
+      arcGisNationalData,
+      quarantinePeople,
+      isolatedPeople
+    } = this.state;
 
     return (
       <div className="HomeWrapper">
@@ -191,7 +198,8 @@ class Home extends Component {
         <div className="wrapper">
           <div className="info-wrapper" style={{ position: "relative" }}>
             {!this.state.infoLoader ? (
-              !Object.keys(data ? data : {}).length ? (
+              !Object.keys(arcGisNationalData ? arcGisNationalData : {})
+                .length ? (
                 <h1>
                   No data for the moment. Please check again in a few moments!
                 </h1>
@@ -199,31 +207,40 @@ class Home extends Component {
                 <div className="info">
                   <h2 style={{ fontSize: "32px" }}>
                     Total Cazuri:
-                    <span style={{ color: "red" }}>{data.cases}</span>
+                    <span style={{ color: "red" }}>
+                      {nationalData.total_case}
+                    </span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
-                    Activi: <span style={{ color: "red" }}>{data.active}</span>
+                    Activi:
+                    <span style={{ color: "red" }}>
+                      {nationalData.total_case - nationalData.total_healed}
+                    </span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Cazuri aparute astazi:
-                    <span style={{ color: "red" }}>{data.todayCases}</span>
+                    <span style={{ color: "red" }}>
+                      {arcGisNationalData.todayCases}
+                    </span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Cazuri Recuperate:
-                    <span style={{ color: "red" }}>{data.recovered}</span>
-                  </h2>
-                  <h2 style={{ fontSize: "32px" }}>
-                    Cazuri Critice:
-                    <span style={{ color: "red" }}>{data.critical}</span>
+                    <span style={{ color: "red" }}>
+                      {nationalData.total_healed}
+                    </span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Total Decese:
-                    <span style={{ color: "red" }}>{data.deaths}</span>
+                    <span style={{ color: "red" }}>
+                      {nationalData.total_dead}
+                    </span>
                   </h2>
-                  <h2 style={{ fontSize: "32px" }}>
+                  {/* <h2 style={{ fontSize: "32px" }}>
                     Total Decese Astazi:
-                    <span style={{ color: "red" }}>{data.todayDeaths}</span>
-                  </h2>
+                    <span style={{ color: "red" }}>
+                      {arcGisNationalData.todayDeaths}
+                    </span>
+                  </h2> */}
                 </div>
               )
             ) : (
@@ -236,7 +253,7 @@ class Home extends Component {
                 <span style={{ color: "red" }}>
                   {typeof quarantinePeople === "number"
                     ? quarantinePeople.toString()
-                    : null}
+                    : "N/A"}
                 </span>
               </h2>
             ) : null}
@@ -247,7 +264,7 @@ class Home extends Component {
                 <span style={{ color: "red" }}>
                   {typeof isolatedPeople === "number"
                     ? isolatedPeople.toString()
-                    : null}
+                    : "N/A"}
                 </span>
               </h2>
             ) : null}
@@ -270,7 +287,12 @@ class Home extends Component {
           <div className="map">
             {!this.state.countyLoader ? (
               this.state.countyData.length > 0 ? (
-                <HartaRomania countyData={this.state.countyData}></HartaRomania>
+                <>
+                  <HartaRomania
+                    countyData={this.state.countyData}
+                    arcGisCountyData={this.state.arcGisCountyData}
+                  ></HartaRomania>
+                </>
               ) : (
                 <h1>
                   No data available for the moment, please check again in a few
@@ -288,13 +310,5 @@ class Home extends Component {
     );
   }
 }
-
-Home.propTypes = {
-  // bla: PropTypes.string,
-};
-
-Home.defaultProps = {
-  // bla: 'test',
-};
 
 export default Home;

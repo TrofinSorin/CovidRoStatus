@@ -1,26 +1,31 @@
 import React from "react";
-import { withParentSize } from "@vx/responsive";
 import { useHistory } from "react-router-dom";
 
-const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
+const HartaRomania = ({
+  parentWidth,
+  parentHeight,
+  countyData,
+  arcGisCountyData
+}) => {
   let history = useHistory();
 
-  const showNumberOfCases = name => {
-    const getObj = countyData.filter(item => item.Judete === name)[0]
-      ? countyData.filter(item => item.Judete === name)[0]
-      : { Cazuri_confirmate: 0 };
+  const showNumberOfCases = (name, countyCode) => {
+    const getObj = countyData.filter(item => item.county_code === countyCode)[0]
+      ? countyData.filter(item => item.county_code === countyCode)[0]
+      : { total_county: "N/A" };
 
-    return getObj.Cazuri_confirmate;
+    return getObj.total_county;
   };
 
-  const redirectToCountry = name => {
-    const getObj = countyData.filter(item => item.Judete === name)[0]
-      ? countyData.filter(item => item.Judete === name)[0]
-      : {};
-    const siruta = getObj.SIRUTA_judet;
+  const redirectToCountry = (name, countyCode) => {
+    const arcGisObj = arcGisCountyData.filter(item => item.Judete === name)[0]
+      ? arcGisCountyData.filter(item => item.Judete === name)[0]
+      : { Cazuri_confirmate: 0 };
+
+    const siruta = arcGisObj.SIRUTA_judet;
 
     if (siruta) {
-      history.push(`/judet/${siruta}/${getObj.Judete}`);
+      history.push(`/judet/${siruta}/${arcGisObj.Judete}/${countyCode}`);
     } else {
       history.push(`/`);
     }
@@ -45,7 +50,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
         <g>
           <path
             className="Arad"
-            onClick={() => redirectToCountry("Arad")}
+            onClick={() => redirectToCountry("Arad", "AR")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -60,7 +65,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Argeş"
-            onClick={() => redirectToCountry("Argeş")}
+            onClick={() => redirectToCountry("Argeş", "AG")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -75,7 +80,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Bacău"
-            onClick={() => redirectToCountry("Bacău")}
+            onClick={() => redirectToCountry("Bacău", "BC")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -90,7 +95,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Bihor"
-            onClick={() => redirectToCountry("Bihor")}
+            onClick={() => redirectToCountry("Bihor", "BH")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -105,7 +110,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Bistriţa Năsăud"
-            onClick={() => redirectToCountry("Bistriţa Năsăud")}
+            onClick={() => redirectToCountry("Bistriţa Năsăud", "BN")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -120,7 +125,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Botoşani"
-            onClick={() => redirectToCountry("Botoşani")}
+            onClick={() => redirectToCountry("Botoşani", "BT")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -135,7 +140,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Braşov"
-            onClick={() => redirectToCountry("Braşov")}
+            onClick={() => redirectToCountry("Braşov", "BV")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -150,7 +155,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Brăila"
-            onClick={() => redirectToCountry("Brăila")}
+            onClick={() => redirectToCountry("Brăila", "BR")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -165,7 +170,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Buzău"
-            onClick={() => redirectToCountry("Buzău")}
+            onClick={() => redirectToCountry("Buzău", "BZ")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -180,7 +185,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Caraş Severin"
-            onClick={() => redirectToCountry("Caraş Severin")}
+            onClick={() => redirectToCountry("Caraş Severin", "CS")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -195,7 +200,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Constanţa"
-            onClick={() => redirectToCountry("Constanţa")}
+            onClick={() => redirectToCountry("Constanţa", "CT")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -210,7 +215,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Covasna"
-            onClick={() => redirectToCountry("Covasna")}
+            onClick={() => redirectToCountry("Covasna", "CV")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -225,7 +230,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Dolj"
-            onClick={() => redirectToCountry("Dolj")}
+            onClick={() => redirectToCountry("Dolj", "DJ")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -240,7 +245,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Galaţi"
-            onClick={() => redirectToCountry("Galaţi")}
+            onClick={() => redirectToCountry("Galaţi", "GL")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -255,7 +260,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Harghita"
-            onClick={() => redirectToCountry("Harghita")}
+            onClick={() => redirectToCountry("Harghita", "HR")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -270,7 +275,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Ialomiţa"
-            onClick={() => redirectToCountry("Ialomiţa")}
+            onClick={() => redirectToCountry("Ialomiţa", "IL")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -285,7 +290,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Maramureş"
-            onClick={() => redirectToCountry("Maramureş")}
+            onClick={() => redirectToCountry("Maramureş", "MM")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -300,7 +305,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Mehedinţi"
-            onClick={() => redirectToCountry("Mehedinţi")}
+            onClick={() => redirectToCountry("Mehedinţi", "MH")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -315,7 +320,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Mureş"
-            onClick={() => redirectToCountry("Mureş")}
+            onClick={() => redirectToCountry("Mureş", "MS")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -330,7 +335,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Olt"
-            onClick={() => redirectToCountry("Olt")}
+            onClick={() => redirectToCountry("Olt", "OT")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -345,7 +350,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Prahova"
-            onClick={() => redirectToCountry("Prahova")}
+            onClick={() => redirectToCountry("Prahova", "PH")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -360,7 +365,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Satu Mare"
-            onClick={() => redirectToCountry("Satu Mare")}
+            onClick={() => redirectToCountry("Satu Mare", "SM")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -375,7 +380,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Sibiu"
-            onClick={() => redirectToCountry("Sibiu")}
+            onClick={() => redirectToCountry("Sibiu", "SB")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -390,7 +395,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Suceava"
-            onClick={() => redirectToCountry("Suceava")}
+            onClick={() => redirectToCountry("Suceava", "SV")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -405,7 +410,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Teleorman"
-            onClick={() => redirectToCountry("Teleorman")}
+            onClick={() => redirectToCountry("Teleorman", "TR")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -420,7 +425,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Timiş"
-            onClick={() => redirectToCountry("Timiş")}
+            onClick={() => redirectToCountry("Timiş", "TM")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -435,7 +440,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Vaslui"
-            onClick={() => redirectToCountry("Vaslui")}
+            onClick={() => redirectToCountry("Vaslui", "VS")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -450,7 +455,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Vâlcea"
-            onClick={() => redirectToCountry("Vâlcea")}
+            onClick={() => redirectToCountry("Vâlcea", "VL")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -465,7 +470,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Vrancea"
-            onClick={() => redirectToCountry("Vrancea")}
+            onClick={() => redirectToCountry("Vrancea", "VN")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -480,7 +485,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Bucureşti"
-            onClick={() => redirectToCountry("Bucureşti")}
+            onClick={() => redirectToCountry("Bucureşti", "B")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -495,7 +500,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Giurgiu"
-            onClick={() => redirectToCountry("Giurgiu")}
+            onClick={() => redirectToCountry("Giurgiu", "GR")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -510,7 +515,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Dâmboviţa"
-            onClick={() => redirectToCountry("Dâmboviţa")}
+            onClick={() => redirectToCountry("Dâmboviţa", "DB")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -525,7 +530,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Gorj"
-            onClick={() => redirectToCountry("Gorj")}
+            onClick={() => redirectToCountry("Gorj", "GJ")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -540,7 +545,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Hunedoara"
-            onClick={() => redirectToCountry("Hunedoara")}
+            onClick={() => redirectToCountry("Hunedoara", "HD")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -555,7 +560,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Alba"
-            onClick={() => redirectToCountry("Alba")}
+            onClick={() => redirectToCountry("Alba", "AB")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -570,7 +575,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Cluj"
-            onClick={() => redirectToCountry("Cluj")}
+            onClick={() => redirectToCountry("Cluj", "CJ")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -585,7 +590,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Sălaj"
-            onClick={() => redirectToCountry("Sălaj")}
+            onClick={() => redirectToCountry("Sălaj", "SJ")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -600,7 +605,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Călăraşi"
-            onClick={() => redirectToCountry("Călăraşi")}
+            onClick={() => redirectToCountry("Călăraşi", "CL")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -615,7 +620,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Iaşi"
-            onClick={() => redirectToCountry("Iaşi")}
+            onClick={() => redirectToCountry("Iaşi", "IS")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -630,7 +635,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Neamţ"
-            onClick={() => redirectToCountry("Neamţ")}
+            onClick={() => redirectToCountry("Neamţ", "NT")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -652,7 +657,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
         <g>
           <path
             className="Ilfov"
-            onClick={() => redirectToCountry("Ilfov")}
+            onClick={() => redirectToCountry("Ilfov", "IF")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -667,7 +672,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           ></path>
           <path
             className="Tulcea"
-            onClick={() => redirectToCountry("Tulcea")}
+            onClick={() => redirectToCountry("Tulcea", "TL")}
             fill="none"
             stroke="rgb(153, 153, 153)"
             strokeOpacity="1"
@@ -710,7 +715,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Constanţa {showNumberOfCases("Constanţa")}
+          Constanţa {showNumberOfCases("Constanţa", "CT")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -737,7 +742,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Tulcea {showNumberOfCases("Tulcea")}
+          Tulcea {showNumberOfCases("Tulcea", "TL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -764,7 +769,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Neamţ {showNumberOfCases("Neamţ")}
+          Neamţ {showNumberOfCases("Neamţ", "NT")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -791,7 +796,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Iaşi {showNumberOfCases("Iaşi")}
+          Iaşi {showNumberOfCases("Iaşi", "IS")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -818,7 +823,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Călăraşi {showNumberOfCases("Călăraşi")}
+          Călăraşi {showNumberOfCases("Călăraşi", "CL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -845,7 +850,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Sălaj {showNumberOfCases("Sălaj")}
+          Sălaj {showNumberOfCases("Sălaj", "SJ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -872,7 +877,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Cluj {showNumberOfCases("Cluj")}
+          Cluj {showNumberOfCases("Cluj", "CJ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -899,7 +904,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Alba {showNumberOfCases("Alba")}
+          Alba {showNumberOfCases("Alba", "AB")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -926,7 +931,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Hunedoara {showNumberOfCases("Hunedoara")}
+          Hunedoara {showNumberOfCases("Hunedoara", "HD")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -953,7 +958,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Gorj {showNumberOfCases("Gorj")}
+          Gorj {showNumberOfCases("Gorj", "GJ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -980,7 +985,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Dâmboviţa {showNumberOfCases("Dâmboviţa")}
+          Dâmboviţa {showNumberOfCases("Dâmboviţa", "DB")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1007,7 +1012,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Giurgiu {showNumberOfCases("Giurgiu")}
+          Giurgiu {showNumberOfCases("Giurgiu", "GR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1034,7 +1039,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Bucureşti {showNumberOfCases("Bucureşti")}
+          Bucureşti {showNumberOfCases("Bucureşti", "B")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1061,7 +1066,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Vrancea {showNumberOfCases("Vrancea")}
+          Vrancea {showNumberOfCases("Vrancea", "VN")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1088,7 +1093,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Vâlcea {showNumberOfCases("Vâlcea")}
+          Vâlcea {showNumberOfCases("Vâlcea", "VL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1115,7 +1120,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Timiş {showNumberOfCases("Timiş")}
+          Timiş {showNumberOfCases("Timiş", "TM")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1142,7 +1147,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Teleorman {showNumberOfCases("Teleorman")}
+          Teleorman {showNumberOfCases("Teleorman", "TR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1169,7 +1174,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Suceava {showNumberOfCases("Suceava")}
+          Suceava {showNumberOfCases("Suceava", "SV")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1196,7 +1201,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Sibiu {showNumberOfCases("Sibiu")}
+          Sibiu {showNumberOfCases("Sibiu", "SB")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1223,7 +1228,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Satu Mare {showNumberOfCases("Satu Mare")}
+          Satu Mare {showNumberOfCases("Satu Mare", "SM")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1250,7 +1255,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Prahova {showNumberOfCases("Prahova")}
+          Prahova {showNumberOfCases("Prahova", "PH")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1277,7 +1282,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Olt {showNumberOfCases("Olt")}
+          Olt {showNumberOfCases("Olt", "OT")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1304,7 +1309,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Mureş {showNumberOfCases("Mureş")}
+          Mureş {showNumberOfCases("Mureş", "MS")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1331,7 +1336,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Mehedinţi {showNumberOfCases("Mehedinţi")}
+          Mehedinţi {showNumberOfCases("Mehedinţi", "MH")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1358,7 +1363,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Maramureş {showNumberOfCases("Maramureş")}
+          Maramureş {showNumberOfCases("Maramureş", "MM")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1385,7 +1390,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Ialomiţa {showNumberOfCases("Ialomiţa")}
+          Ialomiţa {showNumberOfCases("Ialomiţa", "IL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1412,7 +1417,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Harghita {showNumberOfCases("Harghita")}
+          Harghita {showNumberOfCases("Harghita", "HR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1439,7 +1444,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Dolj {showNumberOfCases("Dolj")}
+          Dolj {showNumberOfCases("Dolj", "DJ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1466,7 +1471,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Covasna {showNumberOfCases("Covasna")}
+          Covasna {showNumberOfCases("Covasna", "CV")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1493,7 +1498,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Caraş Severin {showNumberOfCases("Caraş Severin")}
+          Caraş Severin {showNumberOfCases("Caraş Severin", "CS")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1520,7 +1525,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Buzău {showNumberOfCases("Buzău")}
+          Buzău {showNumberOfCases("Buzău", "BZ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1547,7 +1552,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Braşov {showNumberOfCases("Braşov")}
+          Braşov {showNumberOfCases("Braşov", "BV")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1574,7 +1579,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Botoşani {showNumberOfCases("Botoşani")}
+          Botoşani {showNumberOfCases("Botoşani", "BT")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1601,7 +1606,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Bistriţa Năsăud {showNumberOfCases("Bistriţa Năsăud")}
+          Bistriţa Năsăud {showNumberOfCases("Bistriţa Năsăud", "BN")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1628,7 +1633,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Bihor {showNumberOfCases("Bihor")}
+          Bihor {showNumberOfCases("Bihor", "BH")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1655,7 +1660,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Bacău {showNumberOfCases("Bacău")}
+          Bacău {showNumberOfCases("Bacău", "BC")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1682,7 +1687,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Argeş {showNumberOfCases("Argeş")}
+          Argeş {showNumberOfCases("Argeş", "AG")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1709,7 +1714,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Arad {showNumberOfCases("Arad")}
+          Arad {showNumberOfCases("Arad", "AR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1736,7 +1741,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Brăila {showNumberOfCases("Brăila")}
+          Brăila {showNumberOfCases("Brăila", "BR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1763,7 +1768,7 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Galaţi {showNumberOfCases("Galaţi")}
+          Galaţi {showNumberOfCases("Galaţi", "GL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1790,7 +1795,37 @@ const HartaRomania = ({ parentWidth, parentHeight, countyData }) => {
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Vaslui {showNumberOfCases("Vaslui")}
+          Vaslui {showNumberOfCases("Vaslui", "VS")}
+        </text>
+        <text
+          fill="rgb(211, 211, 211)"
+          fillOpacity="1"
+          stroke="none"
+          strokeOpacity="0"
+          strokeWidth="1"
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          strokeMiterlimit="4"
+          x="600"
+          y="25"
+          textAnchor="middle"
+          textDecoration="none"
+          rotate="0"
+          kerning="auto"
+          textRendering="auto"
+          fontStyle="italic"
+          fontVariant="normal"
+          fontWeight="normal"
+          fontSize="20"
+          fontFamily="Arial"
+          dominantBaseline="alphabetic"
+          transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
+          fillRule="evenodd"
+        >
+          INSP nu mai comunica datele la nivel de judet, aceste date sunt
+          aproximative.
+          <br />
+          Cazuri necunoscute: {showNumberOfCases("NECUNOSCUT", "NA")}
         </text>
       </g>
       <defs></defs>

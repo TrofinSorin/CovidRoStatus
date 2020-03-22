@@ -14,22 +14,38 @@ function loadCounty(name) {
 }
 
 const Judet = props => {
-  let { id, countyName } = useParams();
+  let { id, countyName, countyCode } = useParams();
   let history = useHistory();
   const [countyData, setCountyData] = useState({});
+  const [arcGisCountydata, setArcGisCountydata] = useState({});
+
   let MapComponent = loadCounty(countyName);
 
   const getCountyData = () => {
     axios
-      .get(
-        "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
-      )
-      .then(response => {
-        const mappedArray = response.data.features.map(item => item.attributes);
-        const county = mappedArray.filter(item => item.SIRUTA_judet == id)[0];
+      .all([
+        axios.get("https://api-covid19.herokuapp.com/sorin"),
+        axios.get(
+          "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
+        )
+      ])
+      .then(
+        axios.spread((countyData, arcGisCountydata) => {
+          const mappedArray = arcGisCountydata.data.features.map(
+            item => item.attributes
+          );
+          const arcGiscounty = mappedArray.filter(
+            item => item.SIRUTA_judet == id
+          )[0];
 
-        setCountyData(county);
-      });
+          const countyDataItem = countyData.data.data.data.filter(
+            item => item.county_code === countyCode
+          )[0];
+
+          setCountyData(countyDataItem);
+          setArcGisCountydata(arcGiscounty);
+        })
+      );
   };
 
   useLayoutEffect(() => {
@@ -58,34 +74,40 @@ const Judet = props => {
           >
             {"<< Inapoi la harta"}
           </h3>
-          <h1 style={{ fontSize: "55px" }}>Judet: {countyData.Judete}</h1>
+          <h1 style={{ fontSize: "55px" }}>Judet: {arcGisCountydata.Judete}</h1>
           <h2 style={{ fontSize: "32px" }}>
-            Regiune dezvoltare:{" "}
+            Regiune dezvoltare:
             <span style={{ color: "red" }}>
-              {countyData.Regiune_dezvoltare}
+              {arcGisCountydata.Regiune_dezvoltare}
             </span>
           </h2>
           <h2 style={{ fontSize: "32px" }}>
-            Populatie:{" "}
-            <span style={{ color: "red" }}>{countyData.Populatie}</span>
+            Populatie:
+            <span style={{ color: "red" }}>{arcGisCountydata.Populatie}</span>
           </h2>
           <h2 style={{ fontSize: "32px" }}>
-            Cazuri confirmate:{" "}
-            <span style={{ color: "red" }}>{countyData.Cazuri_confirmate}</span>
+            Cazuri confirmate:
+            <span style={{ color: "red" }}>{countyData.total_county}</span>
           </h2>
           <h2 style={{ fontSize: "32px" }}>
-            Persoane in carantina:{" "}
+            Persoane in carantina:
             <span style={{ color: "red" }}>
-              {countyData.Persoane_in_carantina}
+              {arcGisCountydata.Persoane_in_carantina}
             </span>
           </h2>
           <h2 style={{ fontSize: "32px" }}>
-            Persoane izolate:{" "}
-            <span style={{ color: "red" }}>{countyData.Persoane_izolate}</span>
+            Persoane izolate:
+            <span style={{ color: "red" }}>
+              {arcGisCountydata.Persoane_izolate}
+            </span>
           </h2>
           <h2 style={{ fontSize: "32px" }}>
-            Persoane decedate:{" "}
-            <span style={{ color: "red" }}>{countyData.Persoane_decedate}</span>
+            Persoane recuperate:
+            <span style={{ color: "red" }}>{countyData.total_healed}</span>
+          </h2>
+          <h2 style={{ fontSize: "32px" }}>
+            Persoane decedate:
+            <span style={{ color: "red" }}>{countyData.total_dead}</span>
           </h2>
         </span>
 

@@ -9,7 +9,7 @@ const Router = props => (
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/judet/:id/:countyName" component={Judet} />
+        <Route path="/judet/:id/:countyName/:countyCode" component={Judet} />
         <Route path="/mobile-install-info" component={MobileInstallInfo} />
         <Redirect to="/" />
       </Switch>
