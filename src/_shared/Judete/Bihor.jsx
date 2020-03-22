@@ -11,7 +11,6 @@ const Bihor = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="Cărpinet"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Criștioru de Jos"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Vașcău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Nucet"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Cîmpani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Lunca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -101,7 +95,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Ștei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -116,7 +109,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Rieni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -131,7 +123,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Lazuri de Beiuș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -146,7 +137,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Tărcaia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -161,7 +151,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Pietroasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -176,7 +165,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Buntești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -191,7 +179,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Drăgănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -206,7 +193,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Finiș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -221,7 +207,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Beiuș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -236,7 +221,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Șoimi"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -251,7 +235,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Olcea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -266,7 +249,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Pocola"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -281,7 +263,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Uileacu de Beiuș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -296,7 +277,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Avram Iancu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -311,7 +291,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Remetea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -326,7 +305,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciumeghiu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -341,7 +319,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Curățele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -356,7 +333,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Cociuba Mare"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -371,7 +347,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Căpîlna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -386,7 +361,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Batăr"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -401,7 +375,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Răbăgani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -416,7 +389,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Budureasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -431,7 +403,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Căbești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -446,7 +417,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Tulca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -461,7 +431,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Pomezeu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -476,7 +445,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Sîmbăta"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -491,7 +459,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Tinca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -506,7 +473,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Holod"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -521,7 +487,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Roșia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -536,7 +501,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Salonta"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -551,7 +515,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Mădăras"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -566,7 +529,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Lăzăreni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -581,7 +543,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Husasău de Tinca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -596,7 +557,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Dobrești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -611,7 +571,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Ceica"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -626,7 +585,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Bulz"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -641,7 +599,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Cefa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -656,7 +613,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Șuncuiuș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -671,7 +627,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Gepiu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -686,7 +641,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Bratca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -701,7 +655,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Drăgești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -716,7 +669,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Hidișelu de Sus"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -731,7 +683,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Vârciorog"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -746,7 +697,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Vadu Crișului"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -761,7 +711,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Sănnicolau Romăn"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -776,7 +725,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Sînmartin"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -791,7 +739,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Copăcel"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -806,7 +753,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Măgești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -821,7 +767,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Aștileu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -836,7 +781,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Nojorid"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -851,7 +795,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Țețchea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -866,7 +809,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Borod"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -881,7 +823,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Oșorhei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -896,7 +837,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Săcădat"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -911,7 +851,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Sîntandrei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -926,7 +865,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Toboliu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -941,7 +879,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Girișu de Criș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -956,7 +893,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Lugașu de Jos"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -971,7 +907,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Ineu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -986,7 +921,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Tileagd"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1001,7 +935,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Paleu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1016,7 +949,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Oradea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1031,7 +963,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Aleșd"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1046,7 +977,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Brusturi"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1061,7 +991,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Borș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1076,7 +1005,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Cetariu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1091,7 +1019,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Biharia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1106,7 +1033,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Sîrbi"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1121,7 +1047,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Spinuș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1136,7 +1061,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Derna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1151,7 +1075,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Popești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1166,7 +1089,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Tămășeu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1181,7 +1103,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Suplacu de Barcău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1196,7 +1117,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Sălard"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1211,7 +1131,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Roșiori"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1226,7 +1145,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Sâniob"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1241,7 +1159,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Chișlaz"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1256,7 +1173,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Tăuteu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1271,7 +1187,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Balc"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1286,7 +1201,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Abram"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1301,7 +1215,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Abrămuț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1316,7 +1229,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Diosig"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1331,7 +1243,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Săcueni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1346,7 +1257,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Boianu Mare"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1361,7 +1271,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Viișoara"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1376,7 +1285,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Buduslău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1391,7 +1299,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Marghita"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1406,7 +1313,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Cherechiu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1421,7 +1327,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Sălacea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1436,7 +1341,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Tarcea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1451,7 +1355,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Șimian"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1466,7 +1369,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Valea lui Mihai"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1481,7 +1383,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Curtuișeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1496,7 +1397,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Șinteu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1511,7 +1411,6 @@ const Bihor = props => {
           </g>
         </a>
         <a
-          data-original-title="Aușeu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"

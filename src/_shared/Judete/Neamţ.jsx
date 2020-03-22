@@ -11,7 +11,6 @@ const Neamt = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="Cîndești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Tazlău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Rediu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Costișa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Bahna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Dămuc"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -101,7 +95,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Borlești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -116,7 +109,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Oniceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -131,7 +123,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Valea Ursului"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -146,7 +137,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Podoleni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -161,7 +151,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Moldoveni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -176,7 +165,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Bicaz-Chei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -191,7 +179,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Piatra Șoimului"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -206,7 +193,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Săvinești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -221,7 +207,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Tarcău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -236,7 +221,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Dumbrava Roșie"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -251,7 +235,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Tașca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -266,7 +249,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Bicazu Ardelean"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -281,7 +263,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Dochia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -296,7 +277,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Girov"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -311,7 +291,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Dobreni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -326,7 +305,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Bicaz"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -341,7 +319,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Dragomirești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -356,7 +333,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Ștefan cel Mare"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -371,7 +347,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Ceahlău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -386,7 +361,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Grințieș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -401,7 +375,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Războieni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -416,7 +389,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Hangu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -431,7 +403,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Poiana Teiului"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -446,7 +417,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Urecheni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -461,7 +431,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Farcașa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -476,7 +445,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Pipirig"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -491,7 +459,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Borca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -506,7 +473,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Brusturi"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -521,7 +487,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Drăgănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -536,7 +501,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Roznov"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -551,7 +515,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Zănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -566,7 +529,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Mărgineni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -581,7 +543,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Români"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -596,7 +557,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Icușești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -611,7 +571,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Bozieni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -626,7 +585,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Ion Creangă"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -641,7 +599,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Secuieni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -656,7 +613,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Poienari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -671,7 +627,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Gâdinți"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -686,7 +641,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Roman"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -701,7 +655,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Făurei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -716,7 +669,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Ruginoasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -731,7 +683,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Sagna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -746,7 +697,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Cordun"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -761,7 +711,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Tămășeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -776,7 +725,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Negrești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -791,7 +739,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Bîrgăuani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -806,7 +753,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Văleni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -821,7 +767,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Gherăești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -836,7 +781,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Bodești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -851,7 +795,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Stănița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -866,7 +809,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Botești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -881,7 +823,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Tupilați"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -896,7 +837,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Ghindăoani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -911,7 +851,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Crăcăoani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -926,7 +865,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Țibucani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -941,7 +879,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Grumăzești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -956,7 +893,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Agapia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -971,7 +907,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Păstrăveni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -986,7 +921,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Petricani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1001,7 +935,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Tîrgu Neamț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1016,7 +949,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Timișești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1031,7 +963,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Vînători-Neamț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1046,7 +977,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Alexandru cel Bun"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1061,7 +991,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Pîngărați"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1076,7 +1005,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Bălțătești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1091,7 +1019,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Piatra-Neamț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1106,7 +1033,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Gîrcina"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1121,7 +1047,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Răucești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1136,7 +1061,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Pâncești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1151,7 +1075,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Bira"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1166,7 +1089,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Doljești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1181,7 +1103,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Boghicea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1196,7 +1117,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Horia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1211,7 +1131,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Trifești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1226,7 +1145,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Dulcești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1241,7 +1159,6 @@ const Neamt = props => {
           </g>
         </a>
         <a
-          data-original-title="Săbăoani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"

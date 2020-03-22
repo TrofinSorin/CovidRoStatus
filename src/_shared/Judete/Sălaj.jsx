@@ -11,7 +11,6 @@ const Salaj = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="Fildu de Jos"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Almașu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Cuzăplac"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Zimbor"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Sînmihaiu Almașului"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Dragu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -101,7 +95,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Agrij"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -116,7 +109,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Sîg"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -131,7 +123,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Treznea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -146,7 +137,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Bănișor"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -161,7 +151,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Românași"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -176,7 +165,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Plopiș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -191,7 +179,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Meseșenii de Jos"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -206,7 +193,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Gîrbou"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -221,7 +207,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Halmășd"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -236,7 +221,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Zalha"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -251,7 +235,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Zalău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -266,7 +249,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Vîrșolț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -281,7 +263,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Creaca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -296,7 +277,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Cristolț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -311,7 +291,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Șimișna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -326,7 +305,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Mirșid"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -341,7 +319,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Ip"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -356,7 +333,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Șimleu Silvaniei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -371,7 +347,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Crișeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -386,7 +361,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Pericei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -401,7 +375,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Marca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -416,7 +389,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Rus"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -431,7 +403,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Băbeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -446,7 +417,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Hereclean"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -461,7 +431,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Gîlgău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -476,7 +445,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Poiana Blenchii"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -491,7 +459,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Dobrin"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -506,7 +473,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Bocșa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -521,7 +487,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Lozna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -536,7 +501,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Măeriște"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -551,7 +515,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Camăr"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -566,7 +529,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Carastelec"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -581,7 +543,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Coșeiu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -596,7 +557,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Șamșud"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -611,7 +571,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Letca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -626,7 +585,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Șărmășag"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -641,7 +599,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Ileanda"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -656,7 +613,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Sălățig"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -671,7 +627,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Năpradea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -686,7 +641,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Bobota"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -701,7 +655,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Chieșd"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -716,7 +669,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Benesat"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -731,7 +683,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Buciumi"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -746,7 +697,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Horoatu Crasnei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -761,7 +711,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Cizer"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -776,7 +725,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Someș-Odorhei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -791,7 +739,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Jibou"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -806,7 +753,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Surduc"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -821,7 +767,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Valcău de Jos"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -836,7 +781,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Crasna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -851,7 +795,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Cehu Silvaniei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -866,7 +809,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Boghiș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -881,7 +823,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Nușfalău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -896,7 +837,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Hida"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -911,7 +851,6 @@ const Salaj = props => {
           </g>
         </a>
         <a
-          data-original-title="Bălan"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"

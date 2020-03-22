@@ -11,7 +11,6 @@ const Teleorman = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="Năsturelu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Bujoru"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Zimnicea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciuperceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Fântânele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Islaz"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -101,7 +95,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Bragadiru"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -116,7 +109,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Pietroșani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -131,7 +123,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Suhaia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -146,7 +137,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Cervenia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -161,7 +151,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Piatra"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -176,7 +165,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Crângu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -191,7 +179,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Dracea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -206,7 +193,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Putineiu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -221,7 +207,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Slobozia Mândra"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -236,7 +221,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Nanov"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -251,7 +235,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Răsmirești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -266,7 +249,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Buzescu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -281,7 +263,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Alexandria"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -296,7 +277,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Vitănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -311,7 +291,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Nenciulești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -326,7 +305,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Mavrodin"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -341,7 +319,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Băbăița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -356,7 +333,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Rădoiești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -371,7 +347,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Orbeasca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -386,7 +361,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Botoroaga"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -401,7 +375,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Stejaru"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -416,7 +389,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Sfințești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -431,7 +403,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Olteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -446,7 +417,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Vîrtoape"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -461,7 +431,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Didești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -476,7 +445,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Beuca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -491,7 +459,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Necșești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -506,7 +473,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Videle"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -521,7 +487,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Trivalea-Moșteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -536,7 +501,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Zîmbreasca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -551,7 +515,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Balaci"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -566,7 +529,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Siliștea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -581,7 +543,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Siliștea-Gumești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -596,7 +557,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Scurtu Mare"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -611,7 +571,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Tătărăștii de Sus"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -626,7 +585,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Gratia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -641,7 +599,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Poeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -656,7 +613,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Sîrbeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -671,7 +627,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Lunca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -686,7 +641,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Dobrotești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -701,7 +655,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Bogdana"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -716,7 +669,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Plosca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -731,7 +683,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Furculești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -746,7 +697,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Uda-Clocociov"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -761,7 +711,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Troianul"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -776,7 +725,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Vedea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -791,7 +739,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Frăsinet"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -806,7 +753,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Măgura"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -821,7 +767,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Talpa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -836,7 +781,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Gălăteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -851,7 +795,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Cosmești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -866,7 +809,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciolănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -881,7 +823,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Tătărăștii de Jos"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -896,7 +837,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Măldăeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -911,7 +851,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Călmățuiu de Sus"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -926,7 +865,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Lisa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -941,7 +879,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Călinești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -956,7 +893,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Peretu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -971,7 +907,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Mereni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -986,7 +921,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Crevenicu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1001,7 +935,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Moșteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1016,7 +949,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Conțești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1031,7 +963,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Ștorobăneasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1046,7 +977,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Mîrzănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1061,7 +991,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Frumoasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1076,7 +1005,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Poroschia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1091,7 +1019,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Viișoara"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1106,7 +1033,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Drăcșenei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1121,7 +1047,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Săceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1136,7 +1061,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Scrioaștea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1151,7 +1075,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Seaca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1166,7 +1089,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Drăgănești de Vede"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1181,7 +1103,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Călmățuiu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1196,7 +1117,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Bujoreni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1211,7 +1131,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Purani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1226,7 +1145,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Blejești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1241,7 +1159,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Țigănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1256,7 +1173,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Brînceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1271,7 +1187,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Smîrdioasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1286,7 +1201,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Izvoarele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1301,7 +1215,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Plopii-Slăvitești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1316,7 +1229,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Beciu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1331,7 +1243,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Crîngeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1346,7 +1257,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Saelele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1361,7 +1271,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Segarcea-Vale"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1376,7 +1285,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Roșiori de Vede"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1391,7 +1299,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Salcia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1406,7 +1313,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Lița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1421,7 +1327,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Traian"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1436,7 +1341,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Turnu Magurele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1451,7 +1355,6 @@ const Teleorman = props => {
           </g>
         </a>
         <a
-          data-original-title="Drăgănești-Vlașca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"

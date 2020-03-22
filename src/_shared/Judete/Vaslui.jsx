@@ -11,7 +11,6 @@ const Vaslui = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="Pochidia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Tutova"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Blăgești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Vinderei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Ivești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Fruntișeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -101,7 +95,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Bîrlad"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -116,7 +109,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciocani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -131,7 +123,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Epureni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -146,7 +137,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Murgeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -161,7 +151,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Zorleni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -176,7 +165,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Perieni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -191,7 +179,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Șuletea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -206,7 +193,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Coroiești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -221,7 +207,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Băcani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -236,7 +221,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Fălciu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -251,7 +235,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Dodești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -266,7 +249,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Pogana"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -281,7 +263,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Găgești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -296,7 +277,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Viișoara"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -311,7 +291,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Banca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -326,7 +305,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Iana"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -341,7 +319,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Berezeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -356,7 +333,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Ibănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -371,7 +347,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Roșiești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -386,7 +361,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Bogdănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -401,7 +375,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Vetrișoaia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -416,7 +389,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Bogdănița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -431,7 +403,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Puiești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -446,7 +417,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Alexandru Vlahuță"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -461,7 +431,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Vutcani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -476,7 +445,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Costești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -491,7 +459,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Deleni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -506,7 +473,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Bogdana"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -521,7 +487,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Gherghești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -536,7 +501,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Voinești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -551,7 +515,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Lipovăț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -566,7 +529,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Hoceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -581,7 +543,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Lunca Banului"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -596,7 +557,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Dimitrie Cantemir"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -611,7 +571,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Poienești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -626,7 +585,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Pușcași"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -641,7 +599,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Oltenești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -656,7 +613,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Laza"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -671,7 +627,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Dragomirești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -686,7 +641,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Crețești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -701,7 +655,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Bălteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -716,7 +669,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Vaslui"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -731,7 +683,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Ivănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -746,7 +697,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Muntenii de Sus"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -761,7 +711,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Tanacu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -776,7 +725,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Delești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -791,7 +739,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Stănilești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -806,7 +753,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Cozmești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -821,7 +767,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Pungești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -836,7 +781,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Tătărăni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -851,7 +795,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Gîrceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -866,7 +809,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Duda-Epureni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -881,7 +823,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Ștefan cel Mare"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -896,7 +837,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Oșești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -911,7 +851,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Văleni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -926,7 +865,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Rafaila"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -941,7 +879,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Ferești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -956,7 +893,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Vulturești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -971,7 +907,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Zăpodeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -986,7 +921,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Solești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1001,7 +935,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Arsura"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1016,7 +949,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Drînceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1031,7 +963,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Dumești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1046,7 +977,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Negrești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1061,7 +991,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Huși"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1076,7 +1005,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Pădureni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1091,7 +1019,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Pogonești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1106,7 +1033,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Albești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1121,7 +1047,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Muntenii de Jos"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1136,7 +1061,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Mălușteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1151,7 +1075,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Grivița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1166,7 +1089,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Todirești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1181,7 +1103,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Miclești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1196,7 +1117,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Boțești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1211,7 +1131,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Bunești-Averești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1226,7 +1145,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Dănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1241,7 +1159,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Rebricea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1256,7 +1173,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Codăești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1271,7 +1187,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Băcești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1286,7 +1201,6 @@ const Vaslui = props => {
           </g>
         </a>
         <a
-          data-original-title="Tăcuta"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"

@@ -11,7 +11,6 @@ const Bucuresti = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="București Sectorul 6"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Bucuresti = props => {
           </g>
         </a>
         <a
-          data-original-title="București Sectorul 2"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Bucuresti = props => {
           </g>
         </a>
         <a
-          data-original-title="București Sectorul 3"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Bucuresti = props => {
           </g>
         </a>
         <a
-          data-original-title="București Sectorul 1"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Bucuresti = props => {
           </g>
         </a>
         <a
-          data-original-title="București Sectorul 4"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Bucuresti = props => {
           </g>
         </a>
         <a
-          data-original-title="București Sectorul 5"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"

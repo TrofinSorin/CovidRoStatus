@@ -11,7 +11,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Independența"
         >
           <g>
             <path
@@ -26,7 +25,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Piscu"
         >
           <g>
             <path
@@ -41,7 +39,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Fundeni"
         >
           <g>
             <path
@@ -56,7 +53,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Galați"
         >
           <g>
             <path
@@ -71,7 +67,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Pechea"
         >
           <g>
             <path
@@ -86,7 +81,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Grivița"
         >
           <g>
             <path
@@ -101,7 +95,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Foltești"
         >
           <g>
             <path
@@ -116,7 +109,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Măstăcani"
         >
           <g>
             <path
@@ -131,7 +123,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Vlădești"
         >
           <g>
             <path
@@ -146,7 +137,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Valea Mărului"
         >
           <g>
             <path
@@ -161,7 +151,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Munteni"
         >
           <g>
             <path
@@ -176,7 +165,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Țepu"
         >
           <g>
             <path
@@ -191,7 +179,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Vîrlezi"
         >
           <g>
             <path
@@ -206,7 +193,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Gohor"
         >
           <g>
             <path
@@ -221,7 +207,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cavadinești"
         >
           <g>
             <path
@@ -236,7 +221,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Priponești"
         >
           <g>
             <path
@@ -251,7 +235,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Vînători"
         >
           <g>
             <path
@@ -266,7 +249,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Tulucești"
         >
           <g>
             <path
@@ -281,7 +263,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Șendreni"
         >
           <g>
             <path
@@ -296,7 +277,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Slobozia Conachi"
         >
           <g>
             <path
@@ -311,7 +291,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Schela"
         >
           <g>
             <path
@@ -326,7 +305,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Tudor Vladimirescu"
         >
           <g>
             <path
@@ -341,7 +319,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Nămoloasa"
         >
           <g>
             <path
@@ -356,7 +333,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Ivești"
         >
           <g>
             <path
@@ -371,7 +347,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Liești"
         >
           <g>
             <path
@@ -386,7 +361,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Rediu"
         >
           <g>
             <path
@@ -401,7 +375,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Tecuci"
         >
           <g>
             <path
@@ -416,7 +389,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Oancea"
         >
           <g>
             <path
@@ -431,7 +403,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Suceveni"
         >
           <g>
             <path
@@ -446,7 +417,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Corni"
         >
           <g>
             <path
@@ -461,7 +431,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Smulți"
         >
           <g>
             <path
@@ -476,7 +445,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Matca"
         >
           <g>
             <path
@@ -491,7 +459,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Barcea"
         >
           <g>
             <path
@@ -506,7 +473,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Scînteiești"
         >
           <g>
             <path
@@ -521,7 +487,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Băneasa"
         >
           <g>
             <path
@@ -536,7 +501,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Jorăști"
         >
           <g>
             <path
@@ -551,7 +515,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Frumușița"
         >
           <g>
             <path
@@ -566,7 +529,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Braniștea"
         >
           <g>
             <path
@@ -581,7 +543,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Costache Negri"
         >
           <g>
             <path
@@ -596,7 +557,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Umbrărești"
         >
           <g>
             <path
@@ -611,7 +571,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cuca"
         >
           <g>
             <path
@@ -626,7 +585,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cosmești"
         >
           <g>
             <path
@@ -641,7 +599,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Buciumeni"
         >
           <g>
             <path
@@ -656,7 +613,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Nicorești"
         >
           <g>
             <path
@@ -671,7 +627,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Brăhășești"
         >
           <g>
             <path
@@ -686,7 +641,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Ghidigeni"
         >
           <g>
             <path
@@ -701,7 +655,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cerțești"
         >
           <g>
             <path
@@ -716,7 +669,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Negrilești"
         >
           <g>
             <path
@@ -731,7 +683,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Drăgușeni"
         >
           <g>
             <path
@@ -746,7 +697,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Corod"
         >
           <g>
             <path
@@ -761,7 +711,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cudalbi"
         >
           <g>
             <path
@@ -776,7 +725,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Bălăbănești"
         >
           <g>
             <path
@@ -791,7 +739,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Berești"
         >
           <g>
             <path
@@ -806,7 +753,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Rădești"
         >
           <g>
             <path
@@ -821,7 +767,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Berești-Meria"
         >
           <g>
             <path
@@ -836,7 +781,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Bălășești"
         >
           <g>
             <path
@@ -851,7 +795,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Poiana"
         >
           <g>
             <path
@@ -866,7 +809,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Fîrțănești"
         >
           <g>
             <path
@@ -881,7 +823,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Tîrgu Bujor"
         >
           <g>
             <path
@@ -896,7 +837,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Drăgănești"
         >
           <g>
             <path
@@ -911,7 +851,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Băleni"
         >
           <g>
             <path
@@ -926,7 +865,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Suhurlui"
         >
           <g>
             <path
@@ -941,7 +879,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Movileni"
         >
           <g>
             <path
@@ -956,7 +893,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cuza Vodă"
         >
           <g>
             <path
@@ -971,7 +907,6 @@ const Galati = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Smîrdan"
         >
           <g>
             <path

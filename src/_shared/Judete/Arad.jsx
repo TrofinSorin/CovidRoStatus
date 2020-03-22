@@ -11,7 +11,6 @@ const Arad = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="Birchiș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Bata"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Șiștarovăț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Ususău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Vinga"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Șagu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -101,7 +95,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Zăbrani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -116,7 +109,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Vărădia de Mureș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -131,7 +123,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Frumușeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -146,7 +137,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Săvîrșin"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -161,7 +151,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Fântânele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -176,7 +165,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Secusigiu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -191,7 +179,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Bîrzava"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -206,7 +193,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Ghioroc"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -221,7 +207,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Păuliș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -236,7 +221,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Brazii"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -251,7 +235,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Covăsinț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -266,7 +249,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Semlac"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -281,7 +263,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Livada"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -296,7 +277,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Șeitin"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -311,7 +291,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Vladimirescu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -326,7 +305,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Arad"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -341,7 +319,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Almaș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -356,7 +333,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Peregu Mare"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -371,7 +347,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Chisindia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -386,7 +361,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Pleșcuța"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -401,7 +375,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Șofronea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -416,7 +389,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Nădlac"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -431,7 +403,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Tauț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -446,7 +417,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Pecica"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -461,7 +431,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Zimandu Nou"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -476,7 +445,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Șiria"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -491,7 +459,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Buteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -506,7 +473,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Iratoșu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -521,7 +487,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Tîrnova"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -536,7 +501,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Hălmagiu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -551,7 +515,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Hălmăgel"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -566,7 +529,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Pîncota"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -581,7 +543,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Șilindia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -596,7 +557,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Vîrfurile"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -611,7 +571,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Dorobanți"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -626,7 +585,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Bîrsa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -641,7 +599,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Dieci"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -656,7 +613,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Gurahonț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -671,7 +627,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Sântana"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -686,7 +641,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Seleuș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -701,7 +655,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Curtici"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -716,7 +669,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Olari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -731,7 +683,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Zărand"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -746,7 +697,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Bocsig"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -761,7 +711,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Macea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -776,7 +725,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Șimand"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -791,7 +739,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Dezna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -806,7 +753,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Ignești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -821,7 +767,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Moneasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -836,7 +781,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Ineu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -851,7 +795,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Archiș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -866,7 +809,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Șicula"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -881,7 +823,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Grăniceri"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -896,7 +837,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Chișineu-Criș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -911,7 +851,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Cermei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -926,7 +865,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Șepreuș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -941,7 +879,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Socodor"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -956,7 +893,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Craiva"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -971,7 +907,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Pilu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -986,7 +921,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Mișca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1001,7 +935,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Zerind"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1016,7 +949,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Apateu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1031,7 +963,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Cărand"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1046,7 +977,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Sebiș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1061,7 +991,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Lipova"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1076,7 +1005,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Petriș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1091,7 +1019,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Beliu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1106,7 +1033,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Hășmaș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1121,7 +1047,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Sintea Mare"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1136,7 +1061,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Zădăreni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1151,7 +1075,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Felnac"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1166,7 +1089,6 @@ const Arad = props => {
           </g>
         </a>
         <a
-          data-original-title="Conop"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"

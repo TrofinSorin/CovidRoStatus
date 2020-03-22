@@ -10,7 +10,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Oltina"
         >
           <g>
             <path
@@ -25,7 +24,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Adamclisi"
         >
           <g>
             <path
@@ -40,7 +38,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Istria"
         >
           <g>
             <path
@@ -55,7 +52,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Saraiu"
         >
           <g>
             <path
@@ -70,7 +66,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Ostrov"
         >
           <g>
             <path
@@ -85,7 +80,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Lipnița"
         >
           <g>
             <path
@@ -100,7 +94,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Costinești"
         >
           <g>
             <path
@@ -115,7 +108,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Rasova"
         >
           <g>
             <path
@@ -130,7 +122,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Hârșova"
         >
           <g>
             <path
@@ -145,7 +136,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Fîntînele"
         >
           <g>
             <path
@@ -160,7 +150,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cuza Voda"
         >
           <g>
             <path
@@ -175,7 +164,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Băneasa"
         >
           <g>
             <path
@@ -190,7 +178,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Dobromir"
         >
           <g>
             <path
@@ -205,7 +192,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Dumbrăveni"
         >
           <g>
             <path
@@ -220,7 +206,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cobadin"
         >
           <g>
             <path
@@ -235,7 +220,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cogealac"
         >
           <g>
             <path
@@ -250,7 +234,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Săcele"
         >
           <g>
             <path
@@ -265,7 +248,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Mihail Kogălniceanu"
         >
           <g>
             <path
@@ -280,7 +262,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Valu lui Traian"
         >
           <g>
             <path
@@ -295,7 +276,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Deleni"
         >
           <g>
             <path
@@ -310,7 +290,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Siliștea"
         >
           <g>
             <path
@@ -325,7 +304,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Eforie"
         >
           <g>
             <path
@@ -340,7 +318,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Comana"
         >
           <g>
             <path
@@ -355,7 +332,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Murfatlar"
         >
           <g>
             <path
@@ -370,7 +346,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Topalu"
         >
           <g>
             <path
@@ -385,7 +360,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Horia"
         >
           <g>
             <path
@@ -400,7 +374,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Independența"
         >
           <g>
             <path
@@ -415,7 +388,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Ciocîrlia"
         >
           <g>
             <path
@@ -430,7 +402,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Târgușor"
         >
           <g>
             <path
@@ -445,7 +416,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Aliman"
         >
           <g>
             <path
@@ -460,7 +430,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Ion Corvin"
         >
           <g>
             <path
@@ -475,7 +444,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Ciobanu"
         >
           <g>
             <path
@@ -490,7 +458,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Gârliciu"
         >
           <g>
             <path
@@ -505,7 +472,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Bărăganu"
         >
           <g>
             <path
@@ -520,7 +486,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Poarta Albă"
         >
           <g>
             <path
@@ -535,7 +500,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Medgidia"
         >
           <g>
             <path
@@ -550,7 +514,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Vulturu"
         >
           <g>
             <path
@@ -565,7 +528,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Crucea"
         >
           <g>
             <path
@@ -580,7 +542,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cumpăna"
         >
           <g>
             <path
@@ -595,7 +556,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Grădina"
         >
           <g>
             <path
@@ -610,7 +570,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Pantelimon"
         >
           <g>
             <path
@@ -625,7 +584,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Corbu"
         >
           <g>
             <path
@@ -640,7 +598,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Năvodari"
         >
           <g>
             <path
@@ -655,7 +612,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Mihai Viteazu"
         >
           <g>
             <path
@@ -670,7 +626,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Negru Vodă"
         >
           <g>
             <path
@@ -685,7 +640,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Albești"
         >
           <g>
             <path
@@ -700,7 +654,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Peștera"
         >
           <g>
             <path
@@ -715,7 +668,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Saligny"
         >
           <g>
             <path
@@ -730,7 +682,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cernavodă"
         >
           <g>
             <path
@@ -745,7 +696,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Seimeni"
         >
           <g>
             <path
@@ -760,7 +710,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Mircea Vodă"
         >
           <g>
             <path
@@ -775,7 +724,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Ghindărești"
         >
           <g>
             <path
@@ -790,7 +738,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Lumina"
         >
           <g>
             <path
@@ -805,7 +752,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Topraisar"
         >
           <g>
             <path
@@ -820,7 +766,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Tuzla"
         >
           <g>
             <path
@@ -835,7 +780,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Techirghiol"
         >
           <g>
             <path
@@ -850,7 +794,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Tortoman"
         >
           <g>
             <path
@@ -865,7 +808,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Nicolae Bălcescu"
         >
           <g>
             <path
@@ -880,7 +822,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Cerchezu"
         >
           <g>
             <path
@@ -895,7 +836,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Chirnogeni"
         >
           <g>
             <path
@@ -910,7 +850,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Castelu"
         >
           <g>
             <path
@@ -925,7 +864,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Ovidiu"
         >
           <g>
             <path
@@ -940,7 +878,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Mereni"
         >
           <g>
             <path
@@ -955,7 +892,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Limanu"
         >
           <g>
             <path
@@ -970,7 +906,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Mangalia"
         >
           <g>
             <path
@@ -985,7 +920,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="23 August"
         >
           <g>
             <path
@@ -1000,7 +934,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Constanța"
         >
           <g>
             <path
@@ -1015,7 +948,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Agigea"
         >
           <g>
             <path
@@ -1030,7 +962,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Pecineaga"
         >
           <g>
             <path
@@ -1045,7 +976,6 @@ const Constanta = props => {
           href="true"
           data-toggle="tooltip"
           data-placement="bottom"
-          data-original-title="Amzacea"
         >
           <g>
             <path

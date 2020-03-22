@@ -11,7 +11,6 @@ const Dambovita = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="Șelaru"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Poiana"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Corbii Mari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Slobozia Moară"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Potlogi"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Vișina"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -101,7 +95,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Odobești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -116,7 +109,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Lungulețu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -131,7 +123,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciocănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -146,7 +137,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Costeștii din Vale"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -161,7 +151,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Titu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -176,7 +165,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Morteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -191,7 +179,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Braniștea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -206,7 +193,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Mogoșani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -221,7 +207,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Petrești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -236,7 +221,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Conțești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -251,7 +235,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Răcari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -266,7 +249,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Butimanu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -281,7 +263,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Produlești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -296,7 +277,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Cojasca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -311,7 +291,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Găești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -326,7 +305,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Mătăsaru"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -341,7 +319,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Cornățelu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -356,7 +333,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Bilciurești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -371,7 +347,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Gura Șuții"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -386,7 +361,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Sălcioara"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -401,7 +375,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Gura Foii"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -416,7 +389,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Perșinari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -431,7 +403,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Valea Mare"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -446,7 +417,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Crîngurile"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -461,7 +431,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Cornești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -476,7 +445,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Nucet"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -491,7 +459,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Finta"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -506,7 +473,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Dobra"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -521,7 +487,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Băleni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -536,7 +501,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Văcărești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -551,7 +515,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Cobia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -566,7 +529,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Comișani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -581,7 +543,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Bucșani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -596,7 +557,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Vlădeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -611,7 +571,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Ulmi"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -626,7 +585,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Hulubești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -641,7 +599,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Dragomirești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -656,7 +613,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Dărmănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -671,7 +627,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Tîrgoviște"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -686,7 +641,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="I. L. Caragiale"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -701,7 +655,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Mănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -716,7 +669,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Gura Ocniței"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -731,7 +683,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Răzvad"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -746,7 +697,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Aninoasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -761,7 +711,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Șotînga"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -776,7 +725,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Doicești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -791,7 +739,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Moreni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -806,7 +753,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Ocnița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -821,7 +767,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Tătărani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -836,7 +781,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Glodeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -851,7 +795,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Vulcana-Pandele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -866,7 +809,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Brănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -881,7 +823,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Iedera"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -896,7 +837,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Cîndești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -911,7 +851,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Valea Lungă"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -926,7 +865,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Pietrari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -941,7 +879,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Pucioasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -956,7 +893,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Vîrfuri"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -971,7 +907,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Voinești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -986,7 +921,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Fieni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1001,7 +935,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Vișinești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1016,7 +949,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Bărbulețu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1031,7 +963,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Malu cu Flori"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1046,7 +977,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Râu Alb"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1061,7 +991,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Buciumeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1076,7 +1005,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Văleni-Dîmbovița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1091,7 +1019,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Bezdead"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1106,7 +1033,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Pucheni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1121,7 +1047,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Pietroșița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1136,7 +1061,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Runcu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1151,7 +1075,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Moroeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1166,7 +1089,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Moțăieni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1181,7 +1103,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Vulcana-Băi"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1196,7 +1117,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Răscăeți"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1211,7 +1131,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Uliești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1226,7 +1145,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Dragodana"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1241,7 +1159,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Raciu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1256,7 +1173,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Lucieni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1271,7 +1187,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Ludești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1286,7 +1201,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Crevedia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1301,7 +1215,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Niculești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1316,7 +1229,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Brezoaele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1331,7 +1243,6 @@ const Dambovita = props => {
           </g>
         </a>
         <a
-          data-original-title="Tărtășești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"

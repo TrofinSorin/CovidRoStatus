@@ -11,7 +11,6 @@ const Ilfov = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="Copăceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Vidra"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Buftea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Domnești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Chiajna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Mogoșoaia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -101,7 +95,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Cernica"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -116,7 +109,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Grădiștea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -131,7 +123,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Dragomirești-Vale"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -146,7 +137,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Chitila"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -161,7 +151,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciolpani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -176,7 +165,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Petrăchioaia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -191,7 +179,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Dărăști-Ilfov"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -206,7 +193,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Nuci"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -221,7 +207,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Clinceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -236,7 +221,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Dobroești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -251,7 +235,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="1 Decembrie"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -266,7 +249,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Jilava"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -281,7 +263,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Tunari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -296,7 +277,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Brănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -311,7 +291,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Otopeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -326,7 +305,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Snagov"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -341,7 +319,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Balotești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -356,7 +333,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Corbeanca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -371,7 +347,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Periș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -386,7 +361,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Dascălu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -401,7 +375,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Găneasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -416,7 +389,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Ștefăneștii de Jos"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -431,7 +403,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Voluntari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -446,7 +417,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Afumați"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -461,7 +431,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciorogîrla"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -476,7 +445,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Popești Leordeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -491,7 +459,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Berceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -506,7 +473,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Măgurele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -521,7 +487,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Cornetu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -536,7 +501,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Gruiu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -551,7 +515,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Moara Vlăsiei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -566,7 +529,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Glina"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -581,7 +543,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Pantelimon"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -596,7 +557,6 @@ const Ilfov = props => {
           </g>
         </a>
         <a
-          data-original-title="Bragadiru"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"

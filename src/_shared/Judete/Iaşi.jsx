@@ -11,7 +11,6 @@ const Iasi = props => {
       >
         <rect style={{ fill: "none" }} width="500" height="800" />
         <a
-          data-original-title="Moșna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -26,7 +25,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Ipatele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -41,7 +39,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Horlești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -56,7 +53,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Ungheni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -71,7 +67,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Lețcani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -86,7 +81,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Moțca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -101,7 +95,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Aroneanu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -116,7 +109,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Movileni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -131,7 +123,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Ceplenița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -146,7 +137,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Andrieșeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -161,7 +151,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Popricani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -176,7 +165,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Rediu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -191,7 +179,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Valea Lupului"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -206,7 +193,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Mircești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -221,7 +207,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Mădîrjac"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -236,7 +221,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Butea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -251,7 +235,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciohorăni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -266,7 +249,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Alexandru I. Cuza"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -281,7 +263,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Miroslovești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -296,7 +277,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Sinești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -311,7 +291,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Ion Neculce"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -326,7 +305,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Hărmănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -341,7 +319,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Todirești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -356,7 +333,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Focuri"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -371,7 +347,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Vînători"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -386,7 +361,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Cotnari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -401,7 +375,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Fântânele"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -416,7 +389,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Trifești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -431,7 +403,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Roșcani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -446,7 +417,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Bivolari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -461,7 +431,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Gorban"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -476,7 +445,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Mogoșești-Siret"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -491,7 +459,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Grozești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -506,7 +473,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Hălăucești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -521,7 +487,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Drăgușeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -536,7 +501,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Cozmești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -551,7 +515,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Grajduri"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -566,7 +529,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Răducăneni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -581,7 +543,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Mironeasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -596,7 +557,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Costuleni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -611,7 +571,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Mogoșești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -626,7 +585,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Comarna"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -641,7 +599,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Bîrnova"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -656,7 +613,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciurea"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -671,7 +627,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Tomești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -686,7 +641,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Țuțora"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -701,7 +655,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Podu Iloaiei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -716,7 +669,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Dumești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -731,7 +683,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Valea Seacă"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -746,7 +697,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Cristești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -761,7 +711,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Golăiești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -776,7 +725,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Românești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -791,7 +739,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Erbiceni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -806,7 +753,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Scobinți"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -821,7 +767,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Sirețel"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -836,7 +781,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Vlădeni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -851,7 +795,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Țigănăși"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -866,7 +809,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Miroslava"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -881,7 +823,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Popești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -896,7 +837,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Strunga"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -911,7 +851,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Stolniceni-Prăjescu"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -926,7 +865,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Lungani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -941,7 +879,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Bălțați"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -956,7 +893,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Pașcani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -971,7 +907,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Cucuteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -986,7 +921,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Balș"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1001,7 +935,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Belcești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1016,7 +949,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Lespezi"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1031,7 +963,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Coarnele Caprei"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1046,7 +977,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Costești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1061,7 +991,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Gropnița"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1076,7 +1005,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Schitu Duca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1091,7 +1019,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Holboca"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1106,7 +1033,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Tătăruși"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1121,7 +1047,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Heleșteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1136,7 +1061,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Iași"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1151,7 +1075,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Hîrlău"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1166,7 +1089,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Scânteia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1181,7 +1103,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Ciortești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1196,7 +1117,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Șcheia"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1211,7 +1131,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Dobrovăț"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1226,7 +1145,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Victoria"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1241,7 +1159,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Dagîța"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1256,7 +1173,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Oțeleni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1271,7 +1187,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Brăești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1286,7 +1201,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Plugari"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1301,7 +1215,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Dolhești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1316,7 +1229,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Șipote"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1331,7 +1243,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Probota"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1346,7 +1257,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Tansa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1361,7 +1271,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Deleni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1376,7 +1285,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Voinești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1391,7 +1299,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Țibana"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1406,7 +1313,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Țibănești"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1421,7 +1327,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Ruginoasa"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1436,7 +1341,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Prisăcani"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1451,7 +1355,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Târgu Frumos"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
@@ -1466,7 +1369,6 @@ const Iasi = props => {
           </g>
         </a>
         <a
-          data-original-title="Răchiteni"
           onClick={e => e.preventDefault()}
           href="true"
           data-toggle="tooltip"
