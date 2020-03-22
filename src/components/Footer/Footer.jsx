@@ -22,6 +22,12 @@ const Footer = props => {
     <div className="FooterWrapper">
       <footer>
         <div className="footer-container">
+          <p>
+            Ultima actualizare de date:
+            <span style={{ marginLeft: "0.2rem" }}>
+              {props.latestChangeDate ? props.latestChangeDate : "N/A"}
+            </span>
+          </p>
           <p>{date.toString()}</p>
           {window.location.pathname.includes("/judet/") ? null : (
             <Button onClick={showModal} type="dashed">

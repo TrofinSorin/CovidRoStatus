@@ -19,9 +19,7 @@ const Judet = props => {
   const [countyData, setCountyData] = useState({});
   let MapComponent = loadCounty(countyName);
 
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-
+  const getCountyData = () => {
     axios
       .get(
         "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
@@ -32,6 +30,15 @@ const Judet = props => {
 
         setCountyData(county);
       });
+  };
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+    getCountyData();
+
+    setInterval(() => {
+      getCountyData();
+    }, 60000);
   }, []);
 
   return (

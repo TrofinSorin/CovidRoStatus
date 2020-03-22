@@ -8,6 +8,7 @@ import Footer from "../Footer/Footer";
 import { Button } from "antd";
 import { Select } from "antd";
 import { JUDETE } from "../../constants/counties";
+import moment from "moment";
 
 const { Option } = Select;
 
@@ -22,7 +23,8 @@ class Home extends Component {
       countyLoader: true,
       infoLoader: true,
       quarantinePeople: {},
-      isolatedPeople: {}
+      isolatedPeople: {},
+      latestChangeDate: ""
     };
   }
 
@@ -47,9 +49,7 @@ class Home extends Component {
     }
   };
 
-  componentDidMount() {
-    window.scrollTo(0, 0);
-
+  getCountryData = () => {
     axios
       .get("https://coronavirus-19-api.herokuapp.com/countries")
       .then(response => {
@@ -62,7 +62,9 @@ class Home extends Component {
           infoLoader: false
         });
       });
+  };
 
+  getCountyData = () => {
     axios
       .get(
         "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
@@ -72,10 +74,15 @@ class Home extends Component {
 
         this.setState({
           countyData: mappedArray,
-          countyLoader: false
+          countyLoader: false,
+          latestChangeDate: moment(response.headers["last-modified"]).format(
+            "YYYY-MM-DD h:mm:ss"
+          )
         });
       });
+  };
 
+  getIsolatedAndQuarantinePeople = () => {
     axios
       .all([
         axios.get(
@@ -87,6 +94,8 @@ class Home extends Component {
       ])
       .then(
         axios.spread((quarantinePeople, isolatedPeople) => {
+          console.log("isolatedPeople:", isolatedPeople);
+          console.log("quarantinePeople:", quarantinePeople);
           this.setState({
             quarantinePeople:
               quarantinePeople.data.features[0] &&
@@ -101,6 +110,20 @@ class Home extends Component {
           });
         })
       );
+  };
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+
+    this.getCountryData();
+    this.getCountyData();
+    this.getIsolatedAndQuarantinePeople();
+
+    setInterval(() => {
+      this.getCountryData();
+      this.getCountyData();
+      this.getIsolatedAndQuarantinePeople();
+    }, 60000);
   }
 
   componentWillUnmount() {}
@@ -260,7 +283,7 @@ class Home extends Component {
           </div>
         </div>
 
-        <Footer></Footer>
+        <Footer latestChangeDate={this.state.latestChangeDate}></Footer>
       </div>
     );
   }
