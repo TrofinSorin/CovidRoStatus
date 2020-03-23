@@ -52,9 +52,11 @@ const Judet = props => {
     window.scrollTo(0, 0);
     getCountyData();
 
-    setInterval(() => {
+    let interval = setInterval(() => {
       getCountyData();
     }, 60000);
+
+    return () => clearInterval(interval);
   }, []);
 
   return (

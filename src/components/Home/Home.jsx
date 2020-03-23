@@ -25,7 +25,8 @@ class Home extends Component {
       infoLoader: true, // loader pentru tara
       quarantinePeople: {}, // persoane in carantina
       isolatedPeople: {}, // persoane izolate
-      latestChangeDate: "" // ultima actualizare
+      latestChangeDate: "", // ultima actualizare,
+      interval: null
     };
   }
 
@@ -127,13 +128,19 @@ class Home extends Component {
     this.getCountryData();
     this.getCountyData();
 
-    setInterval(() => {
+    let intervalId = setInterval(() => {
       this.getCountryData();
       this.getCountyData();
     }, 60000);
+
+    this.setState({
+      interval: intervalId
+    });
   }
 
-  componentWillUnmount() {}
+  componentWillUnmount() {
+    clearInterval(this.state.interval);
+  }
 
   render() {
     const {
