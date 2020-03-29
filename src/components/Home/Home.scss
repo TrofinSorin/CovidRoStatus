@@ -6,267 +6,273 @@
   h2 {
     margin: 0;
   }
-}
 
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.county-selector {
-  display: flex;
-  flex-direction: column;
-  display: none;
-
-  .ant-select {
-    height: 32px;
-    margin-top: 3rem !important;
-    width: 100% !important;
-
-    .ant-select-arrow {
-      svg {
-        width: 15px;
-        height: 15px;
-      }
-    }
-  }
-}
-
-.donate {
-  align-items: center;
-  display: flex;
-  justify-content: flex-end;
-  color: white;
-  font-size: 1rem;
-  font-family: "Baloo Chettan 2", cursive;
-  width: 95%;
-
-  span {
-    color: white;
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
-  svg {
-    max-height: 2rem;
-    max-width: 2rem;
-  }
-}
-
-.info-wrapper {
-  .ant-spin {
+  .global-redirect-button {
     position: absolute;
-    left: 50%;
-    top: 50%;
-  }
-}
-.info {
-  margin-top: 2.5rem;
-}
-
-.top-donate {
-  margin-top: 10px;
-}
-
-.map,
-svg {
-  width: 800px;
-  height: 700px;
-
-  .ant-spin {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-  }
-
-  path {
-    fill: #7c7c7c;
-    stroke: red;
-    stroke-width: 0.2 !important;
-
-    &:hover {
-      fill: brown;
-      cursor: pointer;
-    }
-  }
-
-  text {
-    fill: white;
-    pointer-events: none;
-  }
-}
-
-@media only screen and (max-width: 1500px) {
-  h2 {
-    font-size: 2.2rem !important;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  h2 {
-    font-size: 1.8rem !important;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  h2 {
-    font-size: 1.6rem !important;
-  }
-
-  svg,
-  .map {
-    width: 810px;
-    height: 600px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  h2 {
-    font-size: 1.6rem !important;
-  }
-
-  svg,
-  .map {
-    width: 700px;
-    height: 600px;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  h1 {
-    font-size: 40px !important;
-  }
-
-  h2 {
-    font-size: 1.6rem !important;
-  }
-
-  svg,
-  .map {
-    width: 570px;
-    height: 600px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  h1 {
-    font-size: 30px !important;
-  }
-
-  .wrapper {
-    flex-direction: column;
-  }
-
-  .info {
-    margin-top: 0;
-  }
-
-  h2 {
-    font-size: 1.8rem !important;
-  }
-
-  svg,
-  .map {
-    width: 650px;
-    height: 650px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  h1 {
-    margin: 2rem 0 !important;
-    font-size: 37px !important;
-    width: 100%;
-  }
-
-  .wrapper {
-    flex-direction: column;
-  }
-
-  .info {
-    margin-top: 0;
-  }
-
-  svg,
-  .map {
-    width: 600px;
-    height: 600px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  h1 {
-    margin: 2rem 0 !important;
-    font-size: 33px !important;
-  }
-
-  .wrapper {
-    flex-direction: column;
-  }
-
-  .info {
-    margin-top: 0;
-  }
-
-  h2 {
-    font-size: 1.5rem !important;
-  }
-
-  svg,
-  .map {
-    width: 500px;
-    height: 500px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  h1 {
-    margin: 2rem 0 !important;
-    font-size: 30px !important;
-  }
-
-  .top-donate {
-    margin-top: 1rem;
-
-    a {
-      font-size: 12px;
-    }
+    top: 0;
+    left: 20%;
   }
 
   .county-selector {
-    display: block;
-  }
-
-  .wrapper {
+    display: flex;
     flex-direction: column;
+    display: none;
+
+    .ant-select {
+      height: 32px;
+      margin-top: 3rem !important;
+      width: 100% !important;
+
+      .ant-select-arrow {
+        svg {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
   }
 
+  .donate {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 1rem;
+    font-family: "Baloo Chettan 2", cursive;
+    width: 95%;
+
+    span {
+      color: white;
+    }
+
+    svg {
+      max-height: 2rem;
+      max-width: 2rem;
+    }
+  }
+
+  .info-wrapper {
+    .ant-spin {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    }
+  }
   .info {
-    margin-top: 0;
+    margin-top: 2.5rem;
   }
 
-  text {
-    font-size: 1.3rem;
+  .top-donate {
+    margin-top: 10px;
   }
 
-  svg,
-  .map {
-    width: 390px;
-    height: 360px;
-  }
-}
+  .map,
+  svg {
+    width: 800px;
+    height: 700px;
 
-@media only screen and (max-width: 400px) {
-  .wrapper {
-    flex-direction: column;
+    .ant-spin {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    }
+
+    path {
+      fill: #7c7c7c;
+      stroke: red;
+      stroke-width: 0.2 !important;
+
+      &:hover {
+        fill: brown;
+        cursor: pointer;
+      }
+    }
+
+    text {
+      fill: white;
+      pointer-events: none;
+    }
   }
 
-  .info {
-    margin-top: 0;
+  @media only screen and (max-width: 1500px) {
+    h2 {
+      font-size: 2.2rem !important;
+    }
   }
 
-  svg,
-  .map {
-    width: 300px;
-    height: 300px;
+  @media only screen and (max-width: 1400px) {
+    h2 {
+      font-size: 1.8rem !important;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    h2 {
+      font-size: 1.6rem !important;
+    }
+
+    svg,
+    .map {
+      width: 810px;
+      height: 600px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    h2 {
+      font-size: 1.6rem !important;
+    }
+
+    svg,
+    .map {
+      width: 700px;
+      height: 600px;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    h1 {
+      font-size: 40px !important;
+    }
+
+    h2 {
+      font-size: 1.6rem !important;
+    }
+
+    svg,
+    .map {
+      width: 570px;
+      height: 600px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 30px !important;
+    }
+
+    .wrapper {
+      flex-direction: column;
+    }
+
+    .info {
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 1.8rem !important;
+    }
+
+    svg,
+    .map {
+      width: 650px;
+      height: 650px;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    h1 {
+      margin: 2rem 0 !important;
+      font-size: 37px !important;
+      width: 100%;
+    }
+
+    .wrapper {
+      flex-direction: column;
+    }
+
+    .info {
+      margin-top: 0;
+    }
+
+    svg,
+    .map {
+      width: 600px;
+      height: 600px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      margin: 2rem 0 !important;
+      font-size: 33px !important;
+    }
+
+    .wrapper {
+      flex-direction: column;
+    }
+
+    .info {
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 1.5rem !important;
+    }
+
+    svg,
+    .map {
+      width: 500px;
+      height: 500px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    h1 {
+      margin: 2rem 0 !important;
+      font-size: 30px !important;
+    }
+
+    .top-donate {
+      margin-top: 1rem;
+
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .county-selector {
+      display: block;
+    }
+
+    .wrapper {
+      flex-direction: column;
+    }
+
+    .info {
+      margin-top: 0;
+    }
+
+    text {
+      font-size: 1.3rem;
+    }
+
+    svg,
+    .map {
+      width: 390px;
+      height: 360px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .wrapper {
+      flex-direction: column;
+    }
+
+    .info {
+      margin-top: 0;
+    }
+
+    svg,
+    .map {
+      width: 300px;
+      height: 300px;
+    }
   }
 }

@@ -24,7 +24,9 @@ const Judet = props => {
   const getCountyData = () => {
     axios
       .all([
-        axios.get("https://api-covid19.herokuapp.com/sorin"),
+        axios.get(
+          "https://covid19.geo-spatial.org/api/dashboard/getCasesByCounty"
+        ),
         axios.get(
           "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
         )
@@ -69,7 +71,7 @@ const Judet = props => {
           />
         }
       >
-        <span className="county-container">
+        <div className="county-container">
           <h3
             onClick={() => history.push("/")}
             style={{ cursor: "pointer", fontSize: "2rem" }}
@@ -87,12 +89,12 @@ const Judet = props => {
             Populatie:
             <span style={{ color: "red" }}>{arcGisCountydata.Populatie}</span>
           </h2>
-          <h2 style={{ fontSize: "32px" }}>
+          {/* <h2 style={{ fontSize: "32px" }}>
             Cazuri confirmate:
             <span style={{ color: "red" }}>
               {countyData ? countyData.total_county : "N/A"}
             </span>
-          </h2>
+          </h2> */}
           <h2 style={{ fontSize: "32px" }}>
             Persoane in carantina:
             <span style={{ color: "red" }}>
@@ -117,7 +119,7 @@ const Judet = props => {
               {countyData ? countyData.total_dead : "N/A"}
             </span>
           </h2>
-        </span>
+        </div>
 
         <div className="county-map" style={{ pointerEvents: "none" }}>
           <MapComponent />

@@ -15,12 +15,15 @@
     "craco-alias": "^2.1.0",
     "cross-env": "^6.0.3",
     "d3": "^5.15.0",
+    "d3-scale": "^3.2.1",
     "moment": "^2.24.0",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "react-simple-maps": "^2.0.0",
+    "react-tooltip": "^4.1.2"
   },
   "scripts": {
     "start": "cross-env CLIENT_ENV=local craco start",

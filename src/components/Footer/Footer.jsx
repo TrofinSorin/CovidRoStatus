@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Button, Modal } from "antd";
+import { useHistory } from "react-router-dom";
 
 const Footer = props => {
   const [visible, setVisible] = useState(false);
+  let history = useHistory();
 
   const date = new Date();
 
@@ -22,7 +24,10 @@ const Footer = props => {
     <div className="FooterWrapper">
       <footer>
         <div className="footer-container">
-          <p>
+          <Button onClick={() => history.push("plan-mondial")} type="dashed">
+            PLAN MONDIAL
+          </Button>
+          <p style={{ marginTop: ".5rem " }}>
             Ultima actualizare de date:
             <span style={{ marginLeft: "0.2rem" }}>
               {props.latestChangeDate ? props.latestChangeDate : "N/A"}
@@ -35,7 +40,17 @@ const Footer = props => {
             </Button>
           )}
 
-          <p>Sursa: ArcGIS</p>
+          <p>
+            Sursa: ArcGIS si
+            <a
+              style={{ marginLeft: ".2rem" }}
+              href="https://covid19.geo-spatial.org/dashboard/main"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              geo-spatial.org
+            </a>
+          </p>
         </div>
       </footer>
 

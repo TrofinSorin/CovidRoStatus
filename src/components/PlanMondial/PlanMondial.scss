@@ -1,0 +1,23 @@
+.PlanMondialWrapper {
+  svg {
+    width: 100%;
+    height: 40rem;
+  }
+  .countries-table {
+    position: relative;
+
+    .ant-spin {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .PlanMondialWrapper {
+    svg {
+      height: 26rem !important;
+    }
+  }
+}

@@ -102,7 +102,9 @@ class Home extends Component {
   getCountyData = () => {
     axios
       .all([
-        axios.get("https://api-covid19.herokuapp.com/sorin"),
+        axios.get(
+          "https://covid19.geo-spatial.org/api/dashboard/getCasesByCounty"
+        ),
         axios.get(
           "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
         )
@@ -247,12 +249,12 @@ class Home extends Component {
                       {nationalData.total_dead}
                     </span>
                   </h2>
-                  {/* <h2 style={{ fontSize: "32px" }}>
+                  <h2 style={{ fontSize: "32px" }}>
                     Total Decese Astazi:
                     <span style={{ color: "red" }}>
                       {arcGisNationalData.todayDeaths}
                     </span>
-                  </h2> */}
+                  </h2>
                 </div>
               )
             ) : (

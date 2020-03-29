@@ -1,0 +1,68 @@
+.CountriesTableWrapper {
+  table {
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: left;
+    position: relative;
+
+    thead {
+      tr {
+        th {
+          background: white;
+          position: sticky;
+          top: 0;
+        }
+      }
+    }
+
+    th {
+      text-align: center;
+    }
+
+    .labels {
+      font-weight: bold;
+      font-size: 1.4rem;
+      color: #3232ff;
+
+      .anticon {
+        svg {
+          height: 1rem !important;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .CountriesTableWrapper {
+    .labels {
+      font-size: 1.2rem !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .CountriesTableWrapper {
+    .labels {
+      font-size: 0.9rem !important;
+    }
+
+    .anticon {
+      height: 1rem !important;
+      width: 1rem !important;
+
+      svg {
+        height: 1rem !important;
+      }
+    }
+
+    table {
+      font-size: 0.9rem;
+
+      th {
+        padding: 0.25rem;
+      }
+    }
+  }
+}
