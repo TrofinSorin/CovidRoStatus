@@ -34,6 +34,10 @@
 
 @media only screen and (max-width: 1400px) {
   .JudetWrapper {
+    h2 {
+      font-size: 1.8rem !important;
+    }
+
     .county-map,
     svg {
       width: 700px !important;
@@ -44,6 +48,10 @@
 
 @media only screen and (max-width: 1300px) {
   .JudetWrapper {
+    h2 {
+      font-size: 1.6rem !important;
+    }
+
     .county-map,
     svg {
       width: 600px !important;
@@ -54,6 +62,10 @@
 
 @media only screen and (max-width: 1200px) {
   .JudetWrapper {
+    h2 {
+      font-size: 1.6rem !important;
+    }
+
     .county-map,
     svg {
       width: 550px !important;
@@ -64,6 +76,14 @@
 
 @media only screen and (max-width: 1100px) {
   .JudetWrapper {
+    h1 {
+      font-size: 40px !important;
+    }
+
+    h2 {
+      font-size: 1.6rem !important;
+    }
+
     .county-map,
     svg {
       width: 500px !important;
@@ -84,6 +104,14 @@
 
 @media only screen and (max-width: 800px) {
   .JudetWrapper {
+    h1 {
+      font-size: 30px !important;
+    }
+
+    h2 {
+      font-size: 1.8rem !important;
+    }
+
     .county-map,
     svg {
       width: 500px !important;
@@ -94,6 +122,12 @@
 
 @media only screen and (max-width: 700px) {
   .JudetWrapper {
+    h1 {
+      margin: 2rem 0 !important;
+      font-size: 37px !important;
+      width: 100%;
+    }
+
     .county-map,
     svg {
       width: 450px !important;
@@ -104,6 +138,15 @@
 
 @media only screen and (max-width: 600px) {
   .JudetWrapper {
+    h1 {
+      margin: 2rem 0 !important;
+      font-size: 33px !important;
+    }
+
+    h2 {
+      font-size: 1.5rem !important;
+    }
+
     .county-map,
     svg {
       width: 400px !important;
@@ -114,6 +157,11 @@
 
 @media only screen and (max-width: 500px) {
   .JudetWrapper {
+    h1 {
+      margin: 2rem 0 !important;
+      font-size: 30px !important;
+    }
+
     .county-map,
     svg {
       width: 300px !important;
