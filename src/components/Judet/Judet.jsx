@@ -4,6 +4,7 @@ import { useParams } from "react-router";
 import { useHistory } from "react-router-dom";
 import "./Judet.scss";
 import { Spin } from "antd";
+import { Button } from "antd";
 
 function loadCounty(name) {
   const Component = React.lazy(() =>
@@ -13,7 +14,7 @@ function loadCounty(name) {
   return Component;
 }
 
-const Judet = props => {
+const Judet = (props) => {
   let { id, countyName, countyCode } = useParams();
   let history = useHistory();
   const [countyData, setCountyData] = useState({});
@@ -21,27 +22,32 @@ const Judet = props => {
 
   let MapComponent = loadCounty(countyName);
 
+  const openCountyRefference = (url) => {
+    console.log("url:", url);
+    window.open(url);
+  };
+
   const getCountyData = () => {
     axios
       .all([
         axios.get(
-          "https://covid19.geo-spatial.org/api/dashboard/getCasesByCounty"
+          "https://covid19.geo-spatial.org/api/dashboard/v2/getCasesByCounty"
         ),
         axios.get(
           "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
-        )
+        ),
       ])
       .then(
         axios.spread((countyData, arcGisCountydata) => {
           const mappedArray = arcGisCountydata.data.features.map(
-            item => item.attributes
+            (item) => item.attributes
           );
           const arcGiscounty = mappedArray.filter(
-            item => item.SIRUTA_judet == id
+            (item) => item.SIRUTA_judet == id
           )[0];
 
           const countyDataItem = countyData.data.data.data.filter(
-            item => item.county_code === countyCode
+            (item) => item.county_code === countyCode
           )[0];
 
           setCountyData(countyDataItem);
@@ -89,12 +95,12 @@ const Judet = props => {
             Populatie:
             <span style={{ color: "red" }}>{arcGisCountydata.Populatie}</span>
           </h2>
-          {/* <h2 style={{ fontSize: "32px" }}>
+          <h2 style={{ fontSize: "32px" }}>
             Cazuri confirmate:
             <span style={{ color: "red" }}>
-              {countyData ? countyData.total_county : "N/A"}
+              {countyData ? countyData.total_case : "N/A"}
             </span>
-          </h2> */}
+          </h2>
           <h2 style={{ fontSize: "32px" }}>
             Persoane in carantina:
             <span style={{ color: "red" }}>
@@ -119,6 +125,20 @@ const Judet = props => {
               {countyData ? countyData.total_dead : "N/A"}
             </span>
           </h2>
+
+          <Button
+            onClick={() => openCountyRefference(countyData.referinta)}
+            style={{
+              fontSize: "15px",
+              color: "white",
+              background: "transparent",
+              padding: "5px",
+              height: "35px",
+              width: "250px",
+            }}
+          >
+            Referinta Cazuri
+          </Button>
         </div>
 
         <div className="county-map" style={{ pointerEvents: "none" }}>

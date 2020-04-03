@@ -5,21 +5,23 @@ const HartaRomania = ({
   parentWidth,
   parentHeight,
   countyData,
-  arcGisCountyData
+  arcGisCountyData,
 }) => {
   let history = useHistory();
 
-  // const showNumberOfCases = (name, countyCode) => {
-  //   const getObj = countyData.filter(item => item.county_code === countyCode)[0]
-  //     ? countyData.filter(item => item.county_code === countyCode)[0]
-  //     : { total_county: "N/A" };
+  const showNumberOfCases = (name, countyCode) => {
+    const getObj = countyData.filter(
+      (item) => item.county_code === countyCode
+    )[0]
+      ? countyData.filter((item) => item.county_code === countyCode)[0]
+      : { total_case: "N/A" };
 
-  //   return getObj.total_county;
-  // };
+    return getObj.total_case;
+  };
 
   const redirectToCountry = (name, countyCode) => {
-    const arcGisObj = arcGisCountyData.filter(item => item.Judete === name)[0]
-      ? arcGisCountyData.filter(item => item.Judete === name)[0]
+    const arcGisObj = arcGisCountyData.filter((item) => item.Judete === name)[0]
+      ? arcGisCountyData.filter((item) => item.Judete === name)[0]
       : { Cazuri_confirmate: 0 };
 
     const siruta = arcGisObj.SIRUTA_judet;
@@ -715,8 +717,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Constanţa
-          {/* {showNumberOfCases("Constanţa", "CT")} */}
+          Constanţa {showNumberOfCases("Constanţa", "CT")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -743,8 +744,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Tulcea
-          {/* {showNumberOfCases("Tulcea", "TL")} */}
+          Tulcea {showNumberOfCases("Tulcea", "TL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -771,8 +771,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Neamţ
-          {/* {showNumberOfCases("Neamţ", "NT")} */}
+          Neamţ {showNumberOfCases("Neamţ", "NT")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -799,8 +798,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Iaşi
-          {/* {showNumberOfCases("Iaşi", "IS")} */}
+          Iaşi {showNumberOfCases("Iaşi", "IS")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -827,8 +825,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Călăraşi
-          {/* {showNumberOfCases("Călăraşi", "CL")} */}
+          Călăraşi {showNumberOfCases("Călăraşi", "CL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -855,8 +852,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Sălaj
-          {/* {showNumberOfCases("Sălaj", "SJ")} */}
+          Sălaj {showNumberOfCases("Sălaj", "SJ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -883,8 +879,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Cluj
-          {/* {showNumberOfCases("Cluj", "CJ")} */}
+          Cluj {showNumberOfCases("Cluj", "CJ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -911,8 +906,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Alba
-          {/* {showNumberOfCases("Alba", "AB")} */}
+          Alba {showNumberOfCases("Alba", "AB")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -939,8 +933,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Hunedoara
-          {/* {showNumberOfCases("Hunedoara", "HD")} */}
+          Hunedoara {showNumberOfCases("Hunedoara", "HD")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -967,8 +960,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Gorj
-          {/* {showNumberOfCases("Gorj", "GJ")} */}
+          Gorj {showNumberOfCases("Gorj", "GJ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -995,8 +987,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Dâmboviţa
-          {/* {showNumberOfCases("Dâmboviţa", "DB")} */}
+          Dâmboviţa {showNumberOfCases("Dâmboviţa", "DB")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1023,8 +1014,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Giurgiu
-          {/* {showNumberOfCases("Giurgiu", "GR")} */}
+          Giurgiu {showNumberOfCases("Giurgiu", "GR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1051,8 +1041,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Bucureşti
-          {/* {showNumberOfCases("Bucureşti", "B")} */}
+          Bucureşti {showNumberOfCases("Bucureşti", "B")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1079,8 +1068,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Vrancea
-          {/* {showNumberOfCases("Vrancea", "VN")} */}
+          Vrancea {showNumberOfCases("Vrancea", "VN")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1107,8 +1095,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Vâlcea
-          {/* {showNumberOfCases("Vâlcea", "VL")} */}
+          Vâlcea {showNumberOfCases("Vâlcea", "VL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1135,8 +1122,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Timiş
-          {/* {showNumberOfCases("Timiş", "TM")} */}
+          Timiş {showNumberOfCases("Timiş", "TM")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1163,8 +1149,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Teleorman
-          {/* {showNumberOfCases("Teleorman", "TR")} */}
+          Teleorman {showNumberOfCases("Teleorman", "TR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1191,8 +1176,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Suceava
-          {/* {showNumberOfCases("Suceava", "SV")} */}
+          Suceava {showNumberOfCases("Suceava", "SV")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1219,8 +1203,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Sibiu
-          {/* {showNumberOfCases("Sibiu", "SB")} */}
+          Sibiu {showNumberOfCases("Sibiu", "SB")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1247,8 +1230,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Satu Mare
-          {/* {showNumberOfCases("Satu Mare", "SM")} */}
+          Satu Mare {showNumberOfCases("Satu Mare", "SM")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1275,8 +1257,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Prahova
-          {/* {showNumberOfCases("Prahova", "PH")} */}
+          Prahova {showNumberOfCases("Prahova", "PH")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1303,8 +1284,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Olt
-          {/* {showNumberOfCases("Olt", "OT")} */}
+          Olt {showNumberOfCases("Olt", "OT")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1331,8 +1311,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Mureş
-          {/* {showNumberOfCases("Mureş", "MS")} */}
+          Mureş {showNumberOfCases("Mureş", "MS")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1359,8 +1338,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Mehedinţi
-          {/* {showNumberOfCases("Mehedinţi", "MH")} */}
+          Mehedinţi {showNumberOfCases("Mehedinţi", "MH")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1387,8 +1365,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Maramureş
-          {/* {showNumberOfCases("Maramureş", "MM")} */}
+          Maramureş {showNumberOfCases("Maramureş", "MM")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1415,8 +1392,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Ialomiţa
-          {/* {showNumberOfCases("Ialomiţa", "IL")} */}
+          Ialomiţa {showNumberOfCases("Ialomiţa", "IL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1443,8 +1419,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Harghita
-          {/* {showNumberOfCases("Harghita", "HR")} */}
+          Harghita {showNumberOfCases("Harghita", "HR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1471,8 +1446,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Dolj
-          {/* {showNumberOfCases("Dolj", "DJ")} */}
+          Dolj {showNumberOfCases("Dolj", "DJ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1499,8 +1473,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Covasna
-          {/* {showNumberOfCases("Covasna", "CV")} */}
+          Covasna {showNumberOfCases("Covasna", "CV")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1527,8 +1500,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Caraş Severin
-          {/* {showNumberOfCases("Caraş Severin", "CS")} */}
+          Caraş Severin {showNumberOfCases("Caraş Severin", "CS")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1555,8 +1527,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Buzău
-          {/* {showNumberOfCases("Buzău", "BZ")} */}
+          Buzău {showNumberOfCases("Buzău", "BZ")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1583,8 +1554,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Braşov
-          {/* {showNumberOfCases("Braşov", "BV")} */}
+          Braşov {showNumberOfCases("Braşov", "BV")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1611,8 +1581,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Botoşani
-          {/* {showNumberOfCases("Botoşani", "BT")} */}
+          Botoşani {showNumberOfCases("Botoşani", "BT")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1639,8 +1608,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Bistriţa Năsăud
-          {/* {showNumberOfCases("Bistriţa Năsăud", "BN")} */}
+          Bistriţa Năsăud {showNumberOfCases("Bistriţa Năsăud", "BN")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1667,8 +1635,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Bihor
-          {/* {showNumberOfCases("Bihor", "BH")} */}
+          Bihor {showNumberOfCases("Bihor", "BH")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1695,8 +1662,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Bacău
-          {/* {showNumberOfCases("Bacău", "BC")} */}
+          Bacău {showNumberOfCases("Bacău", "BC")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1723,8 +1689,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Argeş
-          {/* {showNumberOfCases("Argeş", "AG")} */}
+          Argeş {showNumberOfCases("Argeş", "AG")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1751,8 +1716,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Arad
-          {/* {showNumberOfCases("Arad", "AR")} */}
+          Arad {showNumberOfCases("Arad", "AR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1779,8 +1743,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Brăila
-          {/* {showNumberOfCases("Brăila", "BR")} */}
+          Brăila {showNumberOfCases("Brăila", "BR")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1807,8 +1770,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Galaţi
-          {/* {showNumberOfCases("Galaţi", "GL")} */}
+          Galaţi {showNumberOfCases("Galaţi", "GL")}
         </text>
         <text
           fill="rgb(211, 211, 211)"
@@ -1835,8 +1797,7 @@ const HartaRomania = ({
           transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)"
           fillRule="evenodd"
         >
-          Vaslui
-          {/* {showNumberOfCases("Vaslui", "VS")} */}
+          Vaslui {showNumberOfCases("Vaslui", "VS")}
         </text>
         {/* <text
           fill="rgb(211, 211, 211)"

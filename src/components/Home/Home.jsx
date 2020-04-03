@@ -26,11 +26,12 @@ class Home extends Component {
       quarantinePeople: {}, // persoane in carantina
       isolatedPeople: {}, // persoane izolate
       latestChangeDate: "", // ultima actualizare,
-      interval: null
+      interval: null,
+      healthData: {},
     };
   }
 
-  handleChange = value => {
+  handleChange = (value) => {
     this.redirectToCountry(value);
   };
 
@@ -38,12 +39,12 @@ class Home extends Component {
     this.props.history.push(`/mobile-install-info`);
   };
 
-  redirectToCountry = name => {
-    const judet = JUDETE.filter(item => item.name === name)[0];
+  redirectToCountry = (name) => {
+    const judet = JUDETE.filter((item) => item.name === name)[0];
     const getObj = this.state.arcGisCountyData.filter(
-      item => item.Judete === name
+      (item) => item.Judete === name
     )[0]
-      ? this.state.arcGisCountyData.filter(item => item.Judete === name)[0]
+      ? this.state.arcGisCountyData.filter((item) => item.Judete === name)[0]
       : {};
     const siruta = getObj.SIRUTA_judet;
 
@@ -68,14 +69,14 @@ class Home extends Component {
         ),
         axios.get(
           "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22sum%22%2C%22onStatisticField%22%3A%22Persoane_izolate%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&cacheHint=true"
-        )
+        ),
       ])
       .then(
         axios.spread(
           (countries, romaniaData, quarantinePeople, isolatedPeople) => {
             const geospatialRomaniaData = romaniaData.data.data.data[0];
             const dataForRomania = countries.data.filter(
-              item => item.country === "Romania"
+              (item) => item.country === "Romania"
             )[0];
 
             this.setState({
@@ -92,7 +93,7 @@ class Home extends Component {
                 isolatedPeople.data.features[0] &&
                 isolatedPeople.data.features[0].attributes
                   ? isolatedPeople.data.features[0].attributes.value
-                  : null
+                  : null,
             });
           }
         )
@@ -103,22 +104,26 @@ class Home extends Component {
     axios
       .all([
         axios.get(
-          "https://covid19.geo-spatial.org/api/dashboard/getCasesByCounty"
+          "https://covid19.geo-spatial.org/api/dashboard/v2/getCasesByCounty"
         ),
         axios.get(
           "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
-        )
+        ),
+        axios.get(
+          "https://covid19.geo-spatial.org/api/dashboard/v2/getHealthCasesByCounty"
+        ),
       ])
       .then(
-        axios.spread((countyData, arcGisCountydata) => {
+        axios.spread((countyData, arcGisCountydata, healthData) => {
           const mappedArray = arcGisCountydata.data.features.map(
-            item => item.attributes
+            (item) => item.attributes
           );
 
           this.setState({
             countyData: countyData.data.data.data,
             arcGisCountyData: mappedArray,
-            countyLoader: false
+            countyLoader: false,
+            healthData: healthData.data.data,
           });
         })
       );
@@ -136,7 +141,7 @@ class Home extends Component {
     }, 60000);
 
     this.setState({
-      interval: intervalId
+      interval: intervalId,
     });
   }
 
@@ -149,7 +154,8 @@ class Home extends Component {
       nationalData,
       arcGisNationalData,
       quarantinePeople,
-      isolatedPeople
+      isolatedPeople,
+      healthData,
     } = this.state;
 
     return (
@@ -164,7 +170,7 @@ class Home extends Component {
             padding: "1px",
             position: "absolute",
             right: "35px",
-            top: "4px"
+            top: "4px",
           }}
         >
           Mobile Install Info
@@ -174,7 +180,7 @@ class Home extends Component {
           style={{
             display: "flex",
             flexDirection: "row",
-            justifyContent: "space-between"
+            justifyContent: "space-between",
           }}
         >
           <a
@@ -185,7 +191,7 @@ class Home extends Component {
               width: "100%",
               display: "flex",
               alignItems: "center",
-              color: "white"
+              color: "white",
             }}
           >
             Sprijina ONG pentru Coronavirus
@@ -239,9 +245,7 @@ class Home extends Component {
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Cazuri Recuperate:
-                    <span style={{ color: "red" }}>
-                      {nationalData.total_healed}
-                    </span>
+                    <span style={{ color: "red" }}>{healthData.total}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Total Decese:
@@ -288,13 +292,15 @@ class Home extends Component {
             <Select
               placeholder="Selectati un judet"
               style={{ width: 120 }}
-              onChange={event => this.handleChange(event)}
+              onChange={(event) => this.handleChange(event)}
             >
-              {JUDETE.sort((a, b) => a.name.localeCompare(b.name)).map(item => (
-                <Option key={item.name} value={item.name}>
-                  {item.name}
-                </Option>
-              ))}
+              {JUDETE.sort((a, b) => a.name.localeCompare(b.name)).map(
+                (item) => (
+                  <Option key={item.name} value={item.name}>
+                    {item.name}
+                  </Option>
+                )
+              )}
             </Select>
           </div>
 
