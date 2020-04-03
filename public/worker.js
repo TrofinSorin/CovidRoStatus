@@ -29,16 +29,17 @@ self.addEventListener("fetch", (event) => {
 
 // Update a service worker
 // eslint-disable-next-line no-restricted-globals
-self.addEventListener("activate", (event) => {
-  var cacheWhitelist = ["pwa-task-manager"];
+self.addEventListener("activate", function (event) {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
+    caches.keys().then(function (cacheNames) {
       return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheWhitelist.indexOf(cacheName) === -1) {
+        cacheNames
+          .filter(function (cacheName) {
+            return cacheName.startsWith(CACHE_NAME) && cacheName !== CACHE_NAME;
+          })
+          .map(function (cacheName) {
             return caches.delete(cacheName);
-          }
-        })
+          })
       );
     })
   );
