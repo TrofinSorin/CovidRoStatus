@@ -27,8 +27,8 @@
   },
   "scripts": {
     "start": "cross-env CLIENT_ENV=local craco start",
-    "build-prod": "GENERATE_SOURCEMAP=false cross-env CLIENT_ENV=production craco build --profile",
-    "build-staging": "GENERATE_SOURCEMAP=false cross-env CLIENT_ENV=staging craco build --profile",
+    "build-prod": "cross-env CLIENT_ENV=production GENERATE_SOURCEMAP=false craco build --profile",
+    "build-staging": "cross-env CLIENT_ENV=staging GENERATE_SOURCEMAP=false craco build --profile",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

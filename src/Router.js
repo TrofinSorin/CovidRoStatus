@@ -4,9 +4,8 @@ import Home from "./components/Home";
 import Judet from "./components/Judet/Judet";
 import MobileInstallInfo from "./components/MobileInstallInfo";
 import PlanMondial from "./components/PlanMondial";
-import NivelJudete from "./components/NivelJudete";
 
-const Router = props => (
+const Router = (props) => (
   <React.Fragment>
     <BrowserRouter>
       <Switch>
