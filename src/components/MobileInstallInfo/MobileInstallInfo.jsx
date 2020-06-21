@@ -1,10 +1,52 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { MoreOutlined } from "@ant-design/icons";
 import "./MobileInstallInfo.scss";
 import { useHistory } from "react-router-dom";
 
-const MobileInstallInfo = props => {
+const MobileInstallInfo = (props) => {
   let history = useHistory();
+
+  const [showInstaller, setShowInstaller] = useState(false);
+  const [defferedPromt, setDefferedPrompt] = useState(null);
+
+  useEffect(() => {
+    window.addEventListener("beforeinstallprompt", (e) => {
+      // Prevent the mini-infobar from appearing on mobile
+
+      // Stash the event so it can be triggered later.
+      setShowInstaller(true);
+      setDefferedPrompt(e);
+      // Update UI notify the user they can install the PWA
+    });
+  }, []);
+
+  useEffect(() => {
+    if (showInstaller && defferedPromt) {
+      let buttonInstall = document.getElementById("pwa-installer-button");
+
+      const clickLogicForPWA = (e) => {
+        // Show the install prompt
+        defferedPromt.prompt();
+        // Wait for the user to respond to the prompt
+        defferedPromt.userChoice.then((choiceResult) => {
+          if (choiceResult.outcome === "accepted") {
+            setShowInstaller(false);
+            console.log("User accepted the install prompt");
+          } else {
+            buttonInstall.addEventListener(
+              "click",
+              buttonInstall.removeEventListener("click", clickLogicForPWA)
+            );
+            console.log("User dismissed the install prompt");
+          }
+
+          setDefferedPrompt(null);
+        });
+      };
+
+      buttonInstall.addEventListener("click", clickLogicForPWA);
+    }
+  }, [showInstaller, defferedPromt]);
 
   return (
     <div className="MobileInstallInfoWrapper">
@@ -14,6 +56,10 @@ const MobileInstallInfo = props => {
       >
         {"<< Inapoi la harta"}
       </h3>
+
+      {showInstaller ? (
+        <button id="pwa-installer-button">Install PWA</button>
+      ) : null}
 
       <h1>Mobile Install Info</h1>
       <div
