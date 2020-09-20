@@ -114,61 +114,80 @@
     -->
 
     <script>
-      let newWorker;
-
-      function showUpdateBar() {
+      const showRefreshUI = (registration) => {
         let snackbar = document.getElementById("snackbar");
         snackbar.className = "show";
-      }
 
-      // The click event on the pop up notification
-      document.getElementById("reload").addEventListener("click", function () {
-        console.log("newWorker:", newWorker);
-        newWorker.postMessage({ action: "skipWaiting" });
-      });
+        const button = document.querySelector("#reload");
 
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("worker.js")
-          .then((reg) => {
-            console.log("reg:", reg);
-            reg.addEventListener("updatefound", () => {
-              // A wild service worker has appeared in reg.installing!
-              console.log("reg.installing:", reg.installing);
-              newWorker = reg.installing;
-              console.log("newWorker:", newWorker);
+        button.addEventListener("click", () => {
+          console.log("button:", button);
+          button.disabled = true;
 
-              newWorker.addEventListener("statechange", () => {
-                // Has network.state changed?
-                switch (newWorker.state) {
-                  case "installed":
-                    if (navigator.serviceWorker.controller) {
-                      // new update available
-                      showUpdateBar();
-                    }
-                    // No update available
-                    break;
-                }
-              });
-            });
-          })
-          .catch(function (err) {
-            console.log(err);
+          registration.waiting.postMessage("force-activate");
+        });
+      };
+
+      const onNewServiceWorker = (registration, callback) => {
+        if (registration.waiting) {
+          // SW is waiting to activate. Can occur if multiple clients open and
+          // one of the clients is refreshed.
+          return callback();
+        }
+
+        const listenInstalledStateChange = () => {
+          registration.installing.addEventListener("statechange", () => {
+            if (event.target.state === "installed") {
+              // A new service worker is available, inform the user
+              callback();
+            }
           });
+        };
 
-        let refreshing;
-        navigator.serviceWorker.addEventListener(
-          "controllerchange",
-          function () {
-            console.log("refreshing INTRA AICIIII??:", refreshing);
-            if (refreshing) return;
-            window.location.reload();
-            refreshing = true;
-          }
+        if (registration.installing) {
+          return listenInstalledStateChange();
+        }
+
+        // We are currently controlled so a new SW may be found...
+        // Add a listener in case a new SW is found,
+        registration.addEventListener(
+          "updatefound",
+          listenInstalledStateChange
         );
-      } else {
-        console.log("Service Worker is not supported by browser.");
-      }
+      };
+
+      window.addEventListener("load", () => {
+        // When the user asks to refresh the UI, we'll need to reload the window
+        navigator.serviceWorker.addEventListener("message", (event) => {
+          if (!event.data) {
+            return;
+          }
+
+          switch (event.data) {
+            case "reload-window":
+              window.location.reload();
+              break;
+            default:
+              // NOOP
+              break;
+          }
+        });
+
+        navigator.serviceWorker
+          .register("/worker.js")
+          .then(function (registration) {
+            // Track updates to the Service Worker.
+            if (!navigator.serviceWorker.controller) {
+              // The window client isn't currently controlled so it's a new service
+              // worker that will activate immediately
+              return;
+            }
+
+            onNewServiceWorker(registration, () => {
+              showRefreshUI(registration);
+            });
+          });
+      });
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.min.js"></script>
