@@ -13,6 +13,16 @@ self.addEventListener("install", (event) => {
   );
 });
 
+// eslint-disable-next-line no-restricted-globals
+self.addEventListener("message", function (e) {
+  console.log("e:", e);
+  console.log("e.data:", e.data);
+  if (e.data === "skipWaiting") {
+    // eslint-disable-next-line no-restricted-globals
+    self.skipWaiting();
+  }
+});
+
 // Cache and return requests
 // eslint-disable-next-line no-restricted-globals
 self.addEventListener("fetch", (event) => {
@@ -43,29 +53,6 @@ self.addEventListener("activate", function (event) {
       );
     })
   );
-});
-
-// eslint-disable-next-line no-restricted-globals
-self.addEventListener("message", (event) => {
-  if (!event.data) {
-    return;
-  }
-
-  switch (event.data) {
-    case "force-activate":
-      // eslint-disable-next-line no-restricted-globals
-      self.skipWaiting();
-      // eslint-disable-next-line no-restricted-globals
-      self.clients.claim();
-      // eslint-disable-next-line no-restricted-globals
-      self.clients.matchAll().then((clients) => {
-        clients.forEach((client) => client.postMessage("reload-window"));
-      });
-      break;
-    default:
-      // NOOP
-      break;
-  }
 });
 
 // Detects if device is on iOS

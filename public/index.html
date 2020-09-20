@@ -113,30 +113,12 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.min.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-161540769-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-161540769-1");
-    </script>
-
     <script>
       const showRefreshUI = (registration) => {
         let snackbar = document.getElementById("snackbar");
         snackbar.className = "show";
 
         const button = document.querySelector("#reload");
-        console.log("button:", button);
 
         button.addEventListener("click", () => {
           console.log("button:", button);
@@ -192,7 +174,7 @@
         });
 
         navigator.serviceWorker
-          .register("./worker.js")
+          .register("/worker.js")
           .then(function (registration) {
             // Track updates to the Service Worker.
             if (!navigator.serviceWorker.controller) {
@@ -208,11 +190,28 @@
       });
     </script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-161540769-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-161540769-1");
+    </script>
+
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
           navigator.serviceWorker
-            .register("./worker.js")
+            .register("worker.js")
             .then(
               function (registration) {
                 console.log(
