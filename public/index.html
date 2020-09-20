@@ -78,6 +78,8 @@
           "This site has updated. Please click here to see changes.";
 
         button.addEventListener("click", function () {
+          console.log("registration:", registration);
+          console.log("registration.waiting:", registration.waiting);
           if (!registration.waiting) {
             // Just to ensure registration.waiting is available before
             // calling postMessage()
