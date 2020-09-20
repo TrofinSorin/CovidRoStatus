@@ -231,7 +231,12 @@ class Home extends Component {
                       {nationalData.total_case}
                     </span>
                   </h2>
-
+                  <h2 style={{ fontSize: "32px" }}>
+                    Activi:
+                    <span style={{ color: "red" }}>
+                      {nationalData.total_case - nationalData.total_healed}
+                    </span>
+                  </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Cazuri aparute astazi:
                     <span style={{ color: "red" }}>
