@@ -124,6 +124,7 @@
           console.log("button:", button);
           button.disabled = true;
 
+          console.log("registration:", registration);
           registration.waiting.postMessage("force-activate");
         });
       };
