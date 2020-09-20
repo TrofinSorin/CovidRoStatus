@@ -14,7 +14,7 @@ self.addEventListener("install", (event) => {
 });
 
 // eslint-disable-next-line no-restricted-globals
-self.addEventListener("message", function (e) {
+self.addEventListener("message", (e) => {
   console.log("e:", e);
   console.log("e.data:", e.data);
   if (e.data === "skipWaiting") {

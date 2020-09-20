@@ -47,60 +47,10 @@
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     ></script>
     <title>Covid19RoStatus</title>
-    <style>
-      #snackbar {
-        min-width: 300px;
-        margin-left: -125px;
-        background-color: white;
-        color: black;
-        font-weight: bold;
-        font-size: 18px;
-        text-align: center;
-        border-radius: 2px;
-        padding: 16px;
-        position: fixed;
-        z-index: 1;
-        left: 85%;
-        transform: translate(-50%, -50%);
-        bottom: 0px;
-      }
-
-      #snackbar.show {
-        visibility: visible;
-        -webkit-animation: fadein 0.5s;
-        animation: fadein 0.5s;
-      }
-
-      @-webkit-keyframes fadein {
-        from {
-          bottom: 0;
-          opacity: 0;
-        }
-        to {
-          bottom: 30px;
-          opacity: 1;
-        }
-      }
-
-      @keyframes fadein {
-        from {
-          bottom: 0;
-          opacity: 0;
-        }
-        to {
-          bottom: 30px;
-          opacity: 1;
-        }
-      }
-    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <div id="snackbar">
-      O noua versiune de aplicatie este disponobila. Click
-      <a id="reload">aici</a> pentru a actualiza.
-    </div>
 
     <!--
       This HTML file is a template.
@@ -114,36 +64,51 @@
     -->
 
     <script>
-      const showRefreshUI = (registration) => {
-        let snackbar = document.getElementById("snackbar");
-        snackbar.className = "show";
+      function showRefreshUI(registration) {
+        console.log("registration:", registration);
+        // TODO: Display a toast or refresh UI.
 
-        const button = document.querySelector("#reload");
+        // This demo creates and injects a button.
 
-        button.addEventListener("click", () => {
-          console.log("button:", button);
+        var button = document.createElement("button");
+        button.style.position = "absolute";
+        button.style.bottom = "24px";
+        button.style.left = "24px";
+        button.textContent =
+          "This site has updated. Please click here to see changes.";
+
+        button.addEventListener("click", function () {
+          if (!registration.waiting) {
+            // Just to ensure registration.waiting is available before
+            // calling postMessage()
+            return;
+          }
+
           button.disabled = true;
 
-          console.log("registration:", registration);
-          registration.waiting.postMessage("force-activate");
+          registration.waiting.postMessage("skipWaiting");
         });
-      };
 
-      const onNewServiceWorker = (registration, callback) => {
+        document.body.appendChild(button);
+      }
+
+      function onNewServiceWorker(registration, callback) {
         if (registration.waiting) {
           // SW is waiting to activate. Can occur if multiple clients open and
           // one of the clients is refreshed.
           return callback();
         }
 
-        const listenInstalledStateChange = () => {
-          registration.installing.addEventListener("statechange", () => {
+        function listenInstalledStateChange() {
+          registration.installing.addEventListener("statechange", function (
+            event
+          ) {
             if (event.target.state === "installed") {
               // A new service worker is available, inform the user
               callback();
             }
           });
-        };
+        }
 
         if (registration.installing) {
           return listenInstalledStateChange();
@@ -155,27 +120,22 @@
           "updatefound",
           listenInstalledStateChange
         );
-      };
+      }
 
-      window.addEventListener("load", () => {
+      window.addEventListener("load", function () {
+        var refreshing;
         // When the user asks to refresh the UI, we'll need to reload the window
-        navigator.serviceWorker.addEventListener("message", (event) => {
-          if (!event.data) {
-            return;
-          }
-
-          switch (event.data) {
-            case "reload-window":
-              window.location.reload();
-              break;
-            default:
-              // NOOP
-              break;
-          }
+        navigator.serviceWorker.addEventListener("controllerchange", function (
+          event
+        ) {
+          if (refreshing) return; // prevent infinite refresh loop when you use "Update on Reload"
+          refreshing = true;
+          console.log("Controller loaded");
+          window.location.reload();
         });
 
         navigator.serviceWorker
-          .register("worker.js")
+          .register("/worker.js")
           .then(function (registration) {
             // Track updates to the Service Worker.
             if (!navigator.serviceWorker.controller) {
@@ -183,8 +143,9 @@
               // worker that will activate immediately
               return;
             }
+            registration.update();
 
-            onNewServiceWorker(registration, () => {
+            onNewServiceWorker(registration, function () {
               showRefreshUI(registration);
             });
           });
