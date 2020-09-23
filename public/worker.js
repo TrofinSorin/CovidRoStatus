@@ -68,6 +68,7 @@ self.addEventListener("install", function (event) {
     })
   );
 });
+
 // eslint-disable-next-line no-restricted-globals
 self.addEventListener("activate", function (event) {
   console.log("[Service Worker] Activating Service Worker ....", event);
@@ -87,6 +88,7 @@ self.addEventListener("activate", function (event) {
   // eslint-disable-next-line no-restricted-globals
   return self.clients.claim();
 });
+
 // eslint-disable-next-line no-restricted-globals
 self.addEventListener("fetch", function (event) {
   event.respondWith(
@@ -97,6 +99,10 @@ self.addEventListener("fetch", function (event) {
         return fetch(event.request)
           .then(function (res) {
             return caches.open(CACHE_DYNAMIC_NAME).then(function (cache) {
+              if (!/^https?:$/i.test(new URL(event.request.url).protocol)) {
+                return;
+              }
+
               cache.put(event.request.url, res.clone());
               return res;
             });
