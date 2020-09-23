@@ -1,15 +1,16 @@
-var CACHE_NAME = "pwa-task-manager";
-var urlsToCache = ["/", "/home"];
+const PRECACHE = "precache-v1";
+const RUNTIME = "runtime";
 
-// Install a service worker
+// A list of local resources we always want to be cached.
+const PRECACHE_URLS = [
+  "/", // Alias for index.html
+];
+
+// The install handler takes care of precaching the resources we always need.
 // eslint-disable-next-line no-restricted-globals
 self.addEventListener("install", (event) => {
-  // Perform install steps
   event.waitUntil(
-    caches.open(CACHE_NAME).then(function (cache) {
-      console.log("Opened cache");
-      return cache.addAll(urlsToCache);
-    })
+    caches.open(PRECACHE).then((cache) => cache.addAll(PRECACHE_URLS))
   );
 });
 
@@ -23,34 +24,54 @@ self.addEventListener("message", function (e) {
   }
 });
 
-// Cache and return requests
+// The activate handler takes care of cleaning up old caches.
 // eslint-disable-next-line no-restricted-globals
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches.match(event.request).then(function (response) {
-      // Cache hit - return response
-      if (response) {
-        return response;
-      }
-      return fetch(event.request);
-    })
+self.addEventListener("activate", (event) => {
+  const currentCaches = [PRECACHE, RUNTIME];
+  event.waitUntil(
+    caches
+      .keys()
+      .then((cacheNames) => {
+        return cacheNames.filter(
+          (cacheName) => !currentCaches.includes(cacheName)
+        );
+      })
+      .then((cachesToDelete) => {
+        return Promise.all(
+          cachesToDelete.map((cacheToDelete) => {
+            return caches.delete(cacheToDelete);
+          })
+        );
+        // eslint-disable-next-line no-restricted-globals
+      })
+      .then(() =>
+        // eslint-disable-next-line no-restricted-globals
+        self.clients.claim()
+      )
   );
 });
 
-// Update a service worker
+// The fetch handler serves responses for same-origin resources from a cache.
+// If no response is found, it populates the runtime cache with the response
+// from the network before returning it to the page.
 // eslint-disable-next-line no-restricted-globals
-self.addEventListener("activate", function (event) {
-  event.waitUntil(
-    caches.keys().then(function (cacheNames) {
-      return Promise.all(
-        cacheNames
-          .filter(function (cacheName) {
-            return cacheName.startsWith(CACHE_NAME) && cacheName !== CACHE_NAME;
-          })
-          .map(function (cacheName) {
-            return caches.delete(cacheName);
-          })
-      );
+self.addEventListener("fetch", (event) => {
+  // Skip cross-origin requests, like those for Google Analytics.
+  // eslint-disable-next-line no-restricted-globals
+  event.respondWith(
+    caches.match(event.request).then((cachedResponse) => {
+      if (cachedResponse) {
+        return cachedResponse;
+      }
+
+      return caches.open(RUNTIME).then((cache) => {
+        return fetch(event.request).then((response) => {
+          // Put a copy of the response in the runtime cache.
+          return cache.put(event.request, response.clone()).then(() => {
+            return response;
+          });
+        });
+      });
     })
   );
 });
