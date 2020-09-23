@@ -86,6 +86,7 @@
             return;
           }
 
+          console.log("button:", button);
           button.disabled = true;
 
           registration.waiting.postMessage("skipWaiting");
@@ -137,7 +138,7 @@
         });
 
         navigator.serviceWorker
-          .register("/worker.js")
+          .register("./worker.js")
           .then(function (registration) {
             // Track updates to the Service Worker.
             if (!navigator.serviceWorker.controller) {
