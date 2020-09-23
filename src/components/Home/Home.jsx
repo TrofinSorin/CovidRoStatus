@@ -227,35 +227,35 @@ class Home extends Component {
                 <div className="info">
                   <h2 style={{ fontSize: "32px" }}>
                     Total Cazuri:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {nationalData.total_case}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Activi:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {nationalData.total_case - nationalData.total_healed}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Cazuri aparute astazi:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.todayCases}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Cazuri Recuperate:
-                    <span style={{ color: "blue" }}>{healthData.total}</span>
+                    <span style={{ color: "red" }}>{healthData.total}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Total Decese:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {nationalData.total_dead}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Total Decese Astazi:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.todayDeaths}
                     </span>
                   </h2>
