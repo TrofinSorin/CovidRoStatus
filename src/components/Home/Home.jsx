@@ -231,7 +231,7 @@ class Home extends Component {
                       {nationalData.total_case}
                     </span>
                   </h2>
-                  <h2 style={{ fontSize: "32px" }}>
+                  <h2 style={{ fontSize: "30px" }}>
                     Activi:
                     <span style={{ color: "red" }}>
                       {nationalData.total_case - nationalData.total_healed}
