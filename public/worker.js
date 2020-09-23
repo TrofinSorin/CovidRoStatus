@@ -1,56 +1,108 @@
-var CACHE_NAME = "pwa-task-manager";
-var urlsToCache = ["/"];
+// var CACHE_NAME = "pwa-task-manager";
+// var urlsToCache = ["/"];
 
-// Install a service worker
+// // Install a service worker
+// // eslint-disable-next-line no-restricted-globals
+// self.addEventListener("install", (event) => {
+//   // Perform install steps
+//   event.waitUntil(
+//     caches.open(CACHE_NAME).then(function (cache) {
+//       console.log("Opened cache");
+//       return cache.addAll(urlsToCache);
+//     })
+//   );
+// });
+
+// // eslint-disable-next-line no-restricted-globals
+// self.addEventListener("message", (e) => {
+//   console.log("e:", e);
+//   console.log("e.data:", e.data);
+//   if (e.data === "skipWaiting") {
+//     // eslint-disable-next-line no-restricted-globals
+//     self.skipWaiting();
+//   }
+// });
+
+// // Cache and return requests
+// // eslint-disable-next-line no-restricted-globals
+// self.addEventListener("fetch", (event) => {
+//   event.respondWith(
+//     caches.match(event.request).then(function (response) {
+//       // Cache hit - return response
+//       if (response) {
+//         return response;
+//       }
+//       return fetch(event.request);
+//     })
+//   );
+// });
+
+// // Update a service worker
+// // eslint-disable-next-line no-restricted-globals
+// self.addEventListener("activate", function (event) {
+//   event.waitUntil(
+//     caches.keys().then(function (cacheNames) {
+//       return Promise.all(
+//         cacheNames
+//           .filter(function (cacheName) {
+//             return cacheName.startsWith(CACHE_NAME) && cacheName !== CACHE_NAME;
+//           })
+//           .map(function (cacheName) {
+//             return caches.delete(cacheName);
+//           })
+//       );
+//     })
+//   );
+// });
+
+var CACHE_STATIC_NAME = "static-v4";
+var CACHE_DYNAMIC_NAME = "dynamic-v2";
+
 // eslint-disable-next-line no-restricted-globals
-self.addEventListener("install", (event) => {
-  // Perform install steps
+self.addEventListener("install", function (event) {
+  console.log("[Service Worker] Installing Service Worker ...", event);
   event.waitUntil(
-    caches.open(CACHE_NAME).then(function (cache) {
-      console.log("Opened cache");
-      return cache.addAll(urlsToCache);
+    caches.open(CACHE_STATIC_NAME).then(function (cache) {
+      console.log("[Service Worker] Precaching App Shell");
+      cache.addAll(["/", "/index.html"]);
     })
   );
 });
-
-// eslint-disable-next-line no-restricted-globals
-self.addEventListener("message", (e) => {
-  console.log("e:", e);
-  console.log("e.data:", e.data);
-  if (e.data === "skipWaiting") {
-    // eslint-disable-next-line no-restricted-globals
-    self.skipWaiting();
-  }
-});
-
-// Cache and return requests
-// eslint-disable-next-line no-restricted-globals
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches.match(event.request).then(function (response) {
-      // Cache hit - return response
-      if (response) {
-        return response;
-      }
-      return fetch(event.request);
-    })
-  );
-});
-
-// Update a service worker
 // eslint-disable-next-line no-restricted-globals
 self.addEventListener("activate", function (event) {
+  console.log("[Service Worker] Activating Service Worker ....", event);
   event.waitUntil(
-    caches.keys().then(function (cacheNames) {
+    caches.keys().then(function (keyList) {
       return Promise.all(
-        cacheNames
-          .filter(function (cacheName) {
-            return cacheName.startsWith(CACHE_NAME) && cacheName !== CACHE_NAME;
-          })
-          .map(function (cacheName) {
-            return caches.delete(cacheName);
-          })
+        keyList.map(function (key) {
+          if (key !== CACHE_STATIC_NAME && key !== CACHE_DYNAMIC_NAME) {
+            console.log("[Service Worker] Removing old cache.", key);
+            return caches.delete(key);
+          }
+        })
       );
+    })
+  );
+
+  // eslint-disable-next-line no-restricted-globals
+  return self.clients.claim();
+});
+// eslint-disable-next-line no-restricted-globals
+self.addEventListener("fetch", function (event) {
+  event.respondWith(
+    caches.match(event.request).then(function (response) {
+      if (response) {
+        return response;
+      } else {
+        return fetch(event.request)
+          .then(function (res) {
+            return caches.open(CACHE_DYNAMIC_NAME).then(function (cache) {
+              cache.put(event.request.url, res.clone());
+              return res;
+            });
+          })
+          .catch(function (err) {});
+      }
     })
   );
 });
