@@ -233,7 +233,7 @@ class Home extends Component {
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Activi:
-                    <span style={{ color: "red" }}>
+                    <span style={{ color: "blue" }}>
                       {nationalData.total_case - nationalData.total_healed}
                     </span>
                   </h2>

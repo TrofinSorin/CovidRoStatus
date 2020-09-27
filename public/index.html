@@ -54,7 +54,7 @@
         if ("serviceWorker" in navigator) {
           // register service worker file
           navigator.serviceWorker
-            .register("./worker.js")
+            .register("worker.js")
             .then((reg) => {
               reg.onupdatefound = () => {
                 const installingWorker = reg.installing;
