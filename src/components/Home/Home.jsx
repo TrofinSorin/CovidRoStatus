@@ -245,7 +245,7 @@ class Home extends Component {
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Cazuri Recuperate:
-                    <span style={{ color: "red" }}>{healthData.total}</span>
+                    <span style={{ color: "blue" }}>{healthData.total}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Total Decese:
