@@ -63,7 +63,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-    <script>
+    <!-- <script>
       function showRefreshUI(registration) {
         // TODO: Display a toast or refresh UI.
 
@@ -152,6 +152,26 @@
               showRefreshUI(registration);
             });
           });
+      });
+    </script> -->
+
+    <script type="text/javascript">
+      window.isUpdateAvailable = new Promise(function (resolve) {
+        // lazy way of disabling service workers while developing, since no https
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("./worker.js")
+            .then((reg) => {
+              resolve(reg);
+              setTimeout(function update() {
+                reg.update().catch((err) => {
+                  console.log("[SW UPDATE ERROR]:" + err);
+                });
+                setTimeout(update, 120000);
+              }, 30000);
+            })
+            .catch((err) => console.error("[SW ERROR]", err));
+        });
       });
     </script>
 
