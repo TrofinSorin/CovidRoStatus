@@ -156,23 +156,36 @@
     </script> -->
 
     <script type="text/javascript">
-      window.isUpdateAvailable = new Promise(function (resolve) {
-        // lazy way of disabling service workers while developing, since no https
-        window.addEventListener("load", () => {
-          navigator.serviceWorker
-            .register("./worker.js")
-            .then((reg) => {
-              resolve(reg);
-              setTimeout(function update() {
-                reg.update().catch((err) => {
-                  console.log("[SW UPDATE ERROR]:" + err);
-                });
-                setTimeout(update, 120000);
-              }, 30000);
-            })
-            .catch((err) => console.error("[SW ERROR]", err));
-        });
-      });
+      if ("serviceWorker" in navigator) {
+        console.log("CLIENT: service worker registration in progress.");
+        navigator.serviceWorker.register("./worker.js").then(
+          function () {
+            console.log("CLIENT: service worker registration complete.");
+          },
+          function () {
+            console.log("CLIENT: service worker registration failure.");
+          }
+        );
+      } else {
+        console.log("CLIENT: service worker is not supported.");
+      }
+      // window.isUpdateAvailable = new Promise(function (resolve) {
+      //   // lazy way of disabling service workers while developing, since no https
+      //   window.addEventListener("load", () => {
+      //     navigator.serviceWorker
+      //       .register("./worker.js")
+      //       .then((reg) => {
+      //         resolve(reg);
+      //         setTimeout(function update() {
+      //           reg.update().catch((err) => {
+      //             console.log("[SW UPDATE ERROR]:" + err);
+      //           });
+      //           setTimeout(update, 120000);
+      //         }, 30000);
+      //       })
+      //       .catch((err) => console.error("[SW ERROR]", err));
+      //   });
+      // });
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.min.js"></script>

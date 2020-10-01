@@ -227,7 +227,7 @@ class Home extends Component {
                 <div className="info">
                   <h2 style={{ fontSize: "32px" }}>
                     Total Cazuri:
-                    <span style={{ color: "red" }}>
+                    <span style={{ color: "blue" }}>
                       {nationalData.total_case}
                     </span>
                   </h2>
@@ -245,17 +245,17 @@ class Home extends Component {
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Cazuri Recuperate:
-                    <span style={{ color: "red" }}>{healthData.total}</span>
+                    <span style={{ color: "blue" }}>{healthData.total}</span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Total Decese:
-                    <span style={{ color: "red" }}>
+                    <span style={{ color: "blue" }}>
                       {nationalData.total_dead}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "32px" }}>
                     Total Decese Astazi:
-                    <span style={{ color: "red" }}>
+                    <span style={{ color: "blue" }}>
                       {arcGisNationalData.todayDeaths}
                     </span>
                   </h2>

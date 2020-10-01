@@ -3,13 +3,13 @@ import "./App.scss";
 import Router from "./Router";
 
 function App(props) {
-  useEffect(() => {
-    window["isUpdateAvailable"].then((reg) => {
-      if (reg) {
-        setupListener(reg);
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   window["isUpdateAvailable"].then((reg) => {
+  //     if (reg) {
+  //       setupListener(reg);
+  //     }
+  //   });
+  // }, []);
 
   const setupListener = (reg) => {
     reg.onupdatefound = () => {
