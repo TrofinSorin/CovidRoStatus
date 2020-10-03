@@ -19,18 +19,21 @@
     "moment": "^2.27.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
+    "react-app-rewire-workbox": "^2.0.1",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
     "react-simple-maps": "^2.1.2",
-    "react-tooltip": "^4.2.7"
+    "react-tooltip": "^4.2.7",
+    "workbox-webpack-plugin": "^4.3.1"
   },
   "scripts": {
-    "start": "cross-env CLIENT_ENV=local craco start",
-    "build-prod": "cross-env CLIENT_ENV=production craco build --profile",
-    "build-staging": "cross-env CLIENT_ENV=staging craco build --profile",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build-sw": "node ./src/sw-build.js",
+    "start": "cross-env CLIENT_ENV=local craco start && npm run build-sw",
+    "build-prod": "cross-env CLIENT_ENV=production craco build --profile && npm run build-sw",
+    "build-staging": "cross-env CLIENT_ENV=staging craco build --profile && npm run build-sw",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "workbox-build": "^5.1.4"
   }
 }
