@@ -1,4 +1,5 @@
 if (typeof importScripts === "function") {
+  // eslint-disable-next-line
   importScripts(
     "https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js"
   );
@@ -8,6 +9,7 @@ if (typeof importScripts === "function") {
     workbox.core.skipWaiting();
 
     /* injection point for manifest files.  */
+    // eslint-disable-next-line
     workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
 
     /* custom cache rules */
