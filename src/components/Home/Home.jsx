@@ -225,38 +225,53 @@ class Home extends Component {
                 </h1>
               ) : (
                 <div className="info">
-                  <h2 style={{ fontSize: "32px" }}>
+                  <h2 style={{ fontSize: "28px" }}>
                     Total Cazuri:
                     <span style={{ color: "red" }}>
-                      {nationalData.total_case}
+                      {arcGisNationalData.cases}
                     </span>
                   </h2>
-                  <h2 style={{ fontSize: "32px" }}>
+                  <h2 style={{ fontSize: "28px" }}>
                     Activi:
                     <span style={{ color: "red" }}>
-                      {nationalData.total_case - nationalData.total_healed}
+                      {arcGisNationalData.active}
                     </span>
                   </h2>
-                  <h2 style={{ fontSize: "32px" }}>
+                  <h2 style={{ fontSize: "28px" }}>
                     Cazuri aparute astazi:
                     <span style={{ color: "red" }}>
                       {arcGisNationalData.todayCases}
                     </span>
                   </h2>
-                  <h2 style={{ fontSize: "32px" }}>
+                  <h2 style={{ fontSize: "28px" }}>
                     Cazuri Recuperate:
-                    <span style={{ color: "blue" }}>{healthData.total}</span>
-                  </h2>
-                  <h2 style={{ fontSize: "32px" }}>
-                    Total Decese:
-                    <span style={{ color: "blue" }}>
-                      {nationalData.total_dead}
+                    <span style={{ color: "red" }}>
+                      {arcGisNationalData.recovered}
                     </span>
                   </h2>
-                  <h2 style={{ fontSize: "32px" }}>
+                  <h2 style={{ fontSize: "28px" }}>
+                    Total Decese:
+                    <span style={{ color: "red" }}>
+                      {arcGisNationalData.deaths}
+                    </span>
+                  </h2>
+                  <h2 style={{ fontSize: "28px" }}>
+                    Cazuri Critice:
+                    <span style={{ color: "red" }}>
+                      {arcGisNationalData.critical}
+                    </span>
+                  </h2>
+                  <h2 style={{ fontSize: "28px" }}>
                     Total Decese Astazi:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.todayDeaths}
+                    </span>
+                  </h2>
+
+                  <h2 style={{ fontSize: "28px" }}>
+                    Total Teste:
+                    <span style={{ color: "red" }}>
+                      {arcGisNationalData.totalTests}
                     </span>
                   </h2>
                 </div>
@@ -265,7 +280,7 @@ class Home extends Component {
               <Spin size="large" />
             )}
 
-            {quarantinePeople && quarantinePeople.toString().length ? (
+            {/* {quarantinePeople && quarantinePeople.toString().length ? (
               <h2 style={{ fontSize: "32px" }}>
                 Persoane în carantină:
                 <span style={{ color: "red" }}>
@@ -285,7 +300,7 @@ class Home extends Component {
                     : "N/A"}
                 </span>
               </h2>
-            ) : null}
+            ) : null} */}
           </div>
 
           <div className="county-selector">
