@@ -61,26 +61,8 @@ if (typeof importScripts === "function") {
       new RegExp(
         "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22sum%22%2C%22onStatisticField%22%3A%22Persoane_in_carantina%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&cacheHint=true"
       ),
-      new workbox.strategies.CacheFirst({
+      new workbox.strategies.NetworkFirst({
         cacheName: "22Persoane_in_carantina",
-      })
-    );
-
-    workbox.routing.registerRoute(
-      new RegExp(
-        "https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap"
-      ),
-      new workbox.strategies.NetworkFirst({
-        cacheName: "googleapis",
-      })
-    );
-
-    workbox.routing.registerRoute(
-      new RegExp(
-        "https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap"
-      ),
-      new workbox.strategies.NetworkFirst({
-        cacheName: "googleapis fonts",
       })
     );
 
@@ -113,7 +95,7 @@ if (typeof importScripts === "function") {
       new RegExp(
         "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
       ),
-      new workbox.strategies.CacheFirst({
+      new workbox.strategies.NetworkFirst({
         cacheName: "arcgis services7",
       })
     );
@@ -122,7 +104,7 @@ if (typeof importScripts === "function") {
       new RegExp(
         "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22sum%22%2C%22onStatisticField%22%3A%22Persoane_izolate%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&cacheHint=true"
       ),
-      new workbox.strategies.CacheFirst({
+      new workbox.strategies.NetworkFirst({
         cacheName: "arcgis services8",
       })
     );
