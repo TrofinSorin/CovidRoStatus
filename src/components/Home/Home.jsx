@@ -233,7 +233,7 @@ class Home extends Component {
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Activi:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.active}
                     </span>
                   </h2>
