@@ -88,15 +88,15 @@ if (typeof importScripts === "function") {
       new RegExp(
         " https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       ),
-      new workbox.strategies.NetworkFirst({
+      new workbox.strategies.StaleWhileRevalidate({
         cacheName: "googlesyndication",
       })
     );
 
     workbox.routing.registerRoute(
-      new RegExp("https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.min.js"),
-      new workbox.strategies.NetworkFirst({
-        cacheName: "cloudflare",
+      new RegExp("https://www.googletagmanager.com/gtag/js?id=UA-161540769-1"),
+      new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "googletagmanager",
       })
     );
   } else {
