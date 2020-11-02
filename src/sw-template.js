@@ -24,7 +24,7 @@ if (typeof importScripts === "function") {
       new RegExp(
         "https://covid19.geo-spatial.org/api/dashboard/v2/getHealthCasesByCounty"
       ),
-      new workbox.strategies.NetworkFirst({
+      new workbox.strategies.StaleWhileRevalidate({
         cacheName: "getHealthCasesByCounty",
       })
     );
@@ -45,14 +45,14 @@ if (typeof importScripts === "function") {
 
     workbox.routing.registerRoute(
       new RegExp("https://coronavirus-19-api.herokuapp.com/countries"),
-      new workbox.strategies.NetworkFirst({
+      new workbox.strategies.StaleWhileRevalidate({
         cacheName: "herokuapp-countries",
       })
     );
 
     workbox.routing.registerRoute(
       new RegExp("https://covid19.geo-spatial.org/api/dashboard/getGlobalStat"),
-      new workbox.strategies.NetworkFirst({
+      new workbox.strategies.StaleWhileRevalidate({
         cacheName: "getGlobalStat",
       })
     );
@@ -61,7 +61,7 @@ if (typeof importScripts === "function") {
       new RegExp(
         "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22sum%22%2C%22onStatisticField%22%3A%22Persoane_in_carantina%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&cacheHint=true"
       ),
-      new workbox.strategies.NetworkFirst({
+      new workbox.strategies.StaleWhileRevalidate({
         cacheName: "22Persoane_in_carantina",
       })
     );

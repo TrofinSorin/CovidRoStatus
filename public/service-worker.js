@@ -290,14 +290,6 @@ if (typeof importScripts === "function") {
       new workbox.strategies.CacheFirst({
         // Use a custom cache name.
         cacheName: "image-cache",
-        plugins: [
-          new workbox.expiration.Plugin({
-            // Cache upto 50 images.
-            maxEntries: 50,
-            // Cache for a maximum of a week.
-            maxAgeSeconds: 7 * 24 * 60 * 60,
-          }),
-        ],
       })
     );
   } else {
