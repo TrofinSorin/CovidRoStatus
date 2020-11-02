@@ -7,6 +7,7 @@ if (typeof importScripts === "function") {
   if (workbox) {
     console.log("Workbox is loaded");
     workbox.core.skipWaiting();
+    workbox.core.clientsClaim();
 
     /* injection point for manifest files.  */
     // eslint-disable-next-line
