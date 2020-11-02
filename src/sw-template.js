@@ -10,13 +10,6 @@ if (typeof importScripts === "function") {
     console.log("Workbox is loaded");
     workbox.core.skipWaiting();
 
-    // cache name
-    workbox.core.setCacheNameDetails({
-      prefix: "My-awesome-cache",
-      precache: "precache",
-      runtime: "runtime",
-    });
-
     /* injection point for manifest files.  */
     // eslint-disable-next-line
     workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
