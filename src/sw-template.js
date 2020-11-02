@@ -118,14 +118,6 @@ if (typeof importScripts === "function") {
       })
     );
 
-    // js/css files
-    workbox.routing.registerRoute(
-      /\.(?:js|css)$/,
-      new workbox.strategies.StaleWhileRevalidate({
-        cacheName: "static-resources",
-      })
-    );
-
     // images
     workbox.routing.registerRoute(
       // Cache image files.
