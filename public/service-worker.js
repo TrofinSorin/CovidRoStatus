@@ -226,7 +226,7 @@ if (typeof importScripts === "function") {
       new RegExp(
         " https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       ),
-      new workbox.strategies.NetworkFirst({
+      new workbox.strategies.StaleWhileRevalidate({
         cacheName: "googlesyndication",
       })
     );
@@ -235,6 +235,69 @@ if (typeof importScripts === "function") {
       new RegExp("https://www.googletagmanager.com/gtag/js?id=UA-161540769-1"),
       new workbox.strategies.StaleWhileRevalidate({
         cacheName: "googletagmanager",
+      })
+    );
+
+    workbox.routing.registerRoute(
+      new RegExp(
+        "https://covid19.geo-spatial.org/api/dashboard/v2/getCasesByCounty"
+      ),
+      new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "getCasesByCounty",
+      })
+    );
+
+    workbox.routing.registerRoute(
+      new RegExp(
+        "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete%20asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
+      ),
+      new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "arcgis services7",
+      })
+    );
+
+    workbox.routing.registerRoute(
+      new RegExp(
+        "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=%5B%7B%22statisticType%22%3A%22sum%22%2C%22onStatisticField%22%3A%22Persoane_izolate%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&cacheHint=true"
+      ),
+      new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "arcgis services8",
+      })
+    );
+
+    workbox.routing.registerRoute(
+      new RegExp(
+        "https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap"
+      ),
+      new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "googleapis Baloo",
+      })
+    );
+
+    // js/css files
+    workbox.routing.registerRoute(
+      /\.(?:js|css)$/,
+      new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "static-resources",
+      })
+    );
+
+    // images
+    workbox.routing.registerRoute(
+      // Cache image files.
+      /\.(?:png|jpg|jpeg|svg|gif)$/,
+      // Use the cache if it's available.
+      new workbox.strategies.CacheFirst({
+        // Use a custom cache name.
+        cacheName: "image-cache",
+        plugins: [
+          new workbox.expiration.Plugin({
+            // Cache upto 50 images.
+            maxEntries: 50,
+            // Cache for a maximum of a week.
+            maxAgeSeconds: 7 * 24 * 60 * 60,
+          }),
+        ],
       })
     );
   } else {
