@@ -1,5 +1,3 @@
-import { registerRoute } from "workbox-routing";
-
 if (typeof importScripts === "function") {
   // eslint-disable-next-line
   importScripts(
@@ -14,15 +12,6 @@ if (typeof importScripts === "function") {
     // eslint-disable-next-line
     workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
 
-    registerRoute(
-      new RegExp(
-        "https://covid19.geo-spatial.org/api/dashboard/v2/getHealthCasesByCounty"
-      ),
-      new workbox.strategies.NetworkFirst({
-        cacheName: "getHealthCasesByCounty",
-      })
-    );
-
     /* custom cache rules */
     workbox.routing.registerRoute(
       new workbox.routing.NavigationRoute(
@@ -30,6 +19,15 @@ if (typeof importScripts === "function") {
           cacheName: "PRODUCTION",
         })
       )
+    );
+
+    workbox.routing.registerRoute(
+      new RegExp(
+        "https://covid19.geo-spatial.org/api/dashboard/v2/getHealthCasesByCounty"
+      ),
+      new workbox.strategies.NetworkFirst({
+        cacheName: "getHealthCasesByCounty",
+      })
     );
   } else {
     console.log("Workbox could not be loaded. No Offline support");
