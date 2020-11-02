@@ -1,3 +1,5 @@
+import { registerRoute } from "workbox-routing";
+
 if (typeof importScripts === "function") {
   // eslint-disable-next-line
   importScripts(
@@ -8,9 +10,25 @@ if (typeof importScripts === "function") {
     console.log("Workbox is loaded");
     workbox.core.skipWaiting();
 
+    // cache name
+    workbox.core.setCacheNameDetails({
+      prefix: "My-awesome-cache",
+      precache: "precache",
+      runtime: "runtime",
+    });
+
     /* injection point for manifest files.  */
     // eslint-disable-next-line
     workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
+
+    registerRoute(
+      new RegExp(
+        "https://covid19.geo-spatial.org/api/dashboard/v2/getHealthCasesByCounty"
+      ),
+      new workbox.strategies.NetworkFirst({
+        cacheName: "getHealthCasesByCounty",
+      })
+    );
 
     /* custom cache rules */
     workbox.routing.registerRoute(
@@ -21,6 +39,6 @@ if (typeof importScripts === "function") {
       )
     );
   } else {
-    // console.log('Workbox could not be loaded. No Offline support');
+    console.log("Workbox could not be loaded. No Offline support");
   }
 }
