@@ -8,9 +8,34 @@ if (typeof importScripts === "function") {
     console.log("Workbox is loaded");
     workbox.core.skipWaiting();
 
+    // cache name
+    workbox.core.setCacheNameDetails({
+      prefix: "My-awesome-cache",
+      precache: "precache",
+      runtime: "runtime",
+    });
+
     /* injection point for manifest files.  */
     // eslint-disable-next-line
-    workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
+    workbox.precaching.precacheAndRoute([]);
+
+    /* custom cache rules */
+    workbox.routing.registerRoute(
+      new workbox.routing.NavigationRoute(
+        new workbox.strategies.NetworkFirst({
+          cacheName: "PRODUCTION",
+        })
+      )
+    );
+
+    workbox.routing.registerRoute(
+      new RegExp(
+        "https://covid19.geo-spatial.org/api/dashboard/v2/getHealthCasesByCounty"
+      ),
+      new workbox.strategies.NetworkFirst({
+        cacheName: "getHealthCasesByCounty",
+      })
+    );
 
     /* custom cache rules */
     workbox.routing.registerRoute(
