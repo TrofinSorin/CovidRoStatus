@@ -251,7 +251,7 @@ class Home extends Component {
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Total Decese:
-                    <span style={{ color: "red" }}>
+                    <span style={{ color: "blue" }}>
                       {arcGisNationalData.deaths}
                     </span>
                   </h2>
