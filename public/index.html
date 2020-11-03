@@ -101,6 +101,7 @@
             // that will reload the page as soon as the previously waiting
             // service worker has taken control.
             wb.addEventListener("controlling", (event) => {
+              console.log("event:", event);
               window.location.reload();
             });
 
