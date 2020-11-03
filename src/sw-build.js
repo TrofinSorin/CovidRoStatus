@@ -7,7 +7,8 @@ const buildSW = () => {
       swSrc: "src/sw-template.js", // this is your sw template file
       swDest: "build/service-worker.js", // this will be created in the build step
       globDirectory: "build",
-      globPatterns: ["**/*.{js,css,html}"], // precaching jpg files
+      globPatterns: ["**/*.{js,css,html}"], // precaching jpg files,
+      maximumFileSizeToCacheInBytes: 5000000,
     })
     .then(({ count, size, warnings }) => {
       // Optionally, log any warnings and details.
