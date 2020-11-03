@@ -239,13 +239,13 @@ class Home extends Component {
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Cazuri aparute astazi:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.todayCases}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Cazuri Recuperate:
-                    <span style={{ color: "red" }}>
+                    <span style={{ color: "blue" }}>
                       {arcGisNationalData.recovered}
                     </span>
                   </h2>

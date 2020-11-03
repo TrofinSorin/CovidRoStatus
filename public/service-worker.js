@@ -6,7 +6,6 @@ if (typeof importScripts === "function") {
   /* global workbox */
   if (workbox) {
     console.log("Workbox is loaded");
-    workbox.core.skipWaiting();
 
     /* injection point for manifest files.  */
     // eslint-disable-next-line
@@ -45,6 +44,14 @@ if (typeof importScripts === "function") {
         url: "static/js/14.1abca933.chunk.js",
       },
       {
+        revision: "3c5a5e030f5ed29de081800f0f5701b3",
+        url: "static/js/15.c1791f00.chunk.js",
+      },
+      {
+        revision: "35cdc573f72b0383a3ed9cc9bc808312",
+        url: "static/js/16.fabf5b29.chunk.js",
+      },
+      {
         revision: "ff50a7a48ee4c91201dccbeba4ab9fa0",
         url: "static/js/17.1f2c530c.chunk.js",
       },
@@ -73,16 +80,32 @@ if (typeof importScripts === "function") {
         url: "static/js/22.506f0663.chunk.js",
       },
       {
+        revision: "ee6e31a084fd7e4fb1e5568c384e9a21",
+        url: "static/js/23.52b688ce.chunk.js",
+      },
+      {
         revision: "b3cd91ce4aa667cf9e330174c68e3c49",
         url: "static/js/24.313a12c1.chunk.js",
+      },
+      {
+        revision: "f91e81b3609c7be300369e2683a4a779",
+        url: "static/js/25.86ea2094.chunk.js",
       },
       {
         revision: "f74d6f187845c4cfb8b1f6357d1da76a",
         url: "static/js/26.2e1901c2.chunk.js",
       },
       {
+        revision: "2169fd28608a5e1e4b90242eb63fba26",
+        url: "static/js/27.676c2f08.chunk.js",
+      },
+      {
         revision: "6d18c6fd0182e764d5eebb714e8e802a",
         url: "static/js/28.8e6b79a4.chunk.js",
+      },
+      {
+        revision: "fb87f2f012f4508a2567b571b3404d45",
+        url: "static/js/29.58fad8fc.chunk.js",
       },
       {
         revision: "4c80605ab829ae350a678eca0b8a29b0",
@@ -93,12 +116,36 @@ if (typeof importScripts === "function") {
         url: "static/js/30.aeed530c.chunk.js",
       },
       {
+        revision: "a612657b0269e0216fb47b4cc0c0babc",
+        url: "static/js/31.cc793f04.chunk.js",
+      },
+      {
+        revision: "8a28a0e382b88aa920f5600e8e5b9bf1",
+        url: "static/js/32.e80bffbf.chunk.js",
+      },
+      {
+        revision: "e8cbde52a2e70561cd7fe0facb2dc764",
+        url: "static/js/33.685b978f.chunk.js",
+      },
+      {
+        revision: "c0c99311085619859589ebb838c17f97",
+        url: "static/js/34.3758a899.chunk.js",
+      },
+      {
         revision: "1e20dbf43faeeadd654c35648e989bf2",
         url: "static/js/35.2aa5a769.chunk.js",
       },
       {
+        revision: "aa34a6f5fd48742ee808aff248bedf61",
+        url: "static/js/36.2a31e9b9.chunk.js",
+      },
+      {
         revision: "a65d6a8668f378c970076eb4bda18302",
         url: "static/js/37.7fa2b0cc.chunk.js",
+      },
+      {
+        revision: "fa38ed496838f39d03b88c20a9d80fa9",
+        url: "static/js/38.866a397a.chunk.js",
       },
       {
         revision: "7dce365bfa7e4e0a58bfa5918ab4248a",
@@ -125,8 +172,16 @@ if (typeof importScripts === "function") {
         url: "static/js/43.bc865a39.chunk.js",
       },
       {
+        revision: "4acab5a637d6c693e719998389441e79",
+        url: "static/js/44.f998168f.chunk.js",
+      },
+      {
         revision: "c6ae552734245ae71f393e2c66f59e4d",
         url: "static/js/5.1b9d4ab9.chunk.js",
+      },
+      {
+        revision: "12ab5446475dc889d85410801b91c2e4",
+        url: "static/js/6.a008ed25.chunk.js",
       },
       {
         revision: "00b9b451554483524f575f8615dfd14e",
@@ -199,7 +254,7 @@ if (typeof importScripts === "function") {
       new RegExp(
         "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1=1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Judete asc&resultOffset=0&resultRecordCount=42&cacheHint=true"
       ),
-      new workbox.strategies.CacheFirst({
+      new workbox.strategies.NetworkFirst({
         cacheName: "22Persoane_in_carantina",
       })
     );
@@ -233,7 +288,7 @@ if (typeof importScripts === "function") {
       new RegExp(
         "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1=1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=[{'statisticType':'sum','onStatisticField':'Persoane_in_carantina','outStatisticFieldName':'value'}]&cacheHint=true"
       ),
-      new workbox.strategies.CacheFirst({
+      new workbox.strategies.NetworkFirst({
         cacheName: "arcgis services7",
       })
     );
@@ -242,7 +297,7 @@ if (typeof importScripts === "function") {
       new RegExp(
         "https://services7.arcgis.com/I8e17MZtXFDX9vvT/arcgis/rest/services/Coronavirus_romania/FeatureServer/0/query?f=json&where=1=1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=[{'statisticType':'sum','onStatisticField':'Persoane_izolate','outStatisticFieldName':'value'}]&cacheHint=true"
       ),
-      new workbox.strategies.CacheFirst({
+      new workbox.strategies.NetworkFirst({
         cacheName: "arcgis services8",
       })
     );
@@ -253,14 +308,6 @@ if (typeof importScripts === "function") {
       ),
       new workbox.strategies.CacheFirst({
         cacheName: "googleapis Baloo",
-      })
-    );
-
-    // js/css files
-    workbox.routing.registerRoute(
-      /\.(?:js|css)$/,
-      new workbox.strategies.StaleWhileRevalidate({
-        cacheName: "static-resources",
       })
     );
 
