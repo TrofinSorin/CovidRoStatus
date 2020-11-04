@@ -245,7 +245,7 @@ class Home extends Component {
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Cazuri Recuperate:
-                    <span style={{ color: "red" }}>
+                    <span style={{ color: "blue" }}>
                       {arcGisNationalData.recovered}
                     </span>
                   </h2>
