@@ -12,7 +12,6 @@ if (typeof importScripts === "function") {
       if (event.data && event.data.type === "SKIP_WAITING") {
         console.log("event.data.type:", event.data.type);
         workbox.core.skipWaiting();
-        workbox.core.clientsClaim();
       }
     });
 
