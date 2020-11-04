@@ -9,6 +9,7 @@ const buildSW = () => {
       globDirectory: "build",
       globPatterns: ["**/*.{js,css,html}"], // precaching jpg files,
       maximumFileSizeToCacheInBytes: 6000000,
+      inlineWorkboxRuntime: true,
     })
     .then(({ count, size, warnings }) => {
       // Optionally, log any warnings and details.
