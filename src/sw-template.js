@@ -7,6 +7,15 @@ if (typeof importScripts === "function") {
   if (workbox) {
     console.log("Workbox is loaded");
 
+    // eslint-disable-next-line
+    self.addEventListener("message", (event) => {
+      if (event.data && event.data.type === "SKIP_WAITING") {
+        console.log("event.data.type:", event.data.type);
+        workbox.core.skipWaiting();
+        workbox.core.clientsClaim();
+      }
+    });
+
     /* injection point for manifest files.  */
     // eslint-disable-next-line
     workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
@@ -130,12 +139,4 @@ if (typeof importScripts === "function") {
   } else {
     console.log("Workbox could not be loaded. No Offline support");
   }
-
-  // eslint-disable-next-line
-  self.addEventListener("message", (event) => {
-    if (event.data && event.data.type === "SKIP_WAITING") {
-      console.log("event.data.type:", event.data.type);
-      workbox.core.skipWaiting();
-    }
-  });
 }
