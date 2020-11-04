@@ -2,17 +2,18 @@
 importScripts(
   "https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js"
 );
+
+// eslint-disable-next-line
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    console.log("event.data.type:", event.data.type);
+    workbox.core.skipWaiting();
+  }
+});
+
 /* global workbox */
 if (workbox) {
   console.log("Workbox is loaded");
-
-  // eslint-disable-next-line
-  self.addEventListener("message", (event) => {
-    if (event.data && event.data.type === "SKIP_WAITING") {
-      console.log("event.data.type:", event.data.type);
-      workbox.core.skipWaiting();
-    }
-  });
 
   /* injection point for manifest files.  */
   // eslint-disable-next-line
