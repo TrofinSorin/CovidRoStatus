@@ -64,7 +64,6 @@
     -->
 
     <script type="module">
-      import { messageSW } from "https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-window.prod.mjs";
       import { Workbox } from "workbox-window";
 
       if ("serviceWorker" in navigator) {
@@ -108,7 +107,7 @@
               // instructing it to activate.
               // Note: for this to work, you have to add a message
               // listener in your service worker. See below.
-              messageSW(registration.waiting, { type: "SKIP_WAITING" });
+              wb.messageSW(registration.waiting, { type: "SKIP_WAITING" });
             }
           });
         };
