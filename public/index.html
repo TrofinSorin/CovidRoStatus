@@ -64,63 +64,65 @@
     -->
 
     <script type="module">
-      import {
-        Workbox,
-        messageSW,
-      } from "https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-window.prod.mjs";
+      import { Workbox } from "https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-window.prod.mjs";
+
+      const showButtonToReload = () => {
+        const button = document.createElement("button");
+        button.style.position = "fixed";
+        button.style.bottom = "2.1rem";
+        button.style.background = "white";
+        button.style.cursor = "pointer";
+        button.style.height = "10rem";
+        button.style.fontSize = "1.6rem";
+        button.style.borderRadius = "5rem";
+        button.style.fontWeight = "bold";
+        button.style.color = "#2794E4";
+        button.style.padding = "1rem";
+        button.style.transform = "translate(2rem, 1rem)";
+        button.style.boxShadow = "2px 4px 31px 0px rgba(0,0,0,0.75)";
+        button.style.width = "90%";
+        button.innerHTML = `<p style="margin-bottom:0">We've made some updates to our app!</p> <p style="margin-top:0">Click here to refresh.</p>`;
+        document.body.appendChild(button);
+
+        button.addEventListener("click", function () {
+          window.location.reload();
+        });
+      };
 
       if ("serviceWorker" in navigator) {
         const wb = new Workbox("/service-worker.js");
-        let registration;
 
-        const showSkipWaitingPrompt = (event) => {
-          // `event.wasWaitingBeforeRegister` will be false if this is
-          // the first time the updated service worker is waiting.
-          // When `event.wasWaitingBeforeRegister` is true, a previously
-          // updated service worker is still waiting.
-          // You may want to customize the UI prompt accordingly.
+        wb.addEventListener("installed", (event) => {
+          if (event.isUpdate) {
+            showButtonToReload();
+          }
+        });
 
-          // Assumes your app has some sort of prompt UI element
-          // that a user can either accept or reject.
+        wb.register().then((reg) => {
+          let newWorker;
 
-          var button = document.createElement("button");
-          button.style.position = "absolute";
-          button.style.bottom = "24px";
-          button.style.left = "40%";
-          button.style.background = "black";
-          button.style.cursor = "pointer";
-          button.style.height = "4rem";
-          button.style.color = "white";
-          button.textContent =
-            "This application has updates. Please click here to see changes.";
+          if (reg.waiting) {
+            newWorker = reg.waiting;
+          }
 
-          document.body.appendChild(button);
+          reg.onupdatefound = () => {
+            newWorker = reg.installing;
 
-          button.addEventListener("click", function () {
-            // Assuming the user accepted the update, set up a listener
-            // that will reload the page as soon as the previously waiting
-            // service worker has taken control.
-            wb.addEventListener("controlling", (event) => {
-              console.log("event:", event);
-              window.location.reload();
-            });
-
-            if (registration && registration.waiting) {
-              // Send a message to the waiting service worker,
-              // instructing it to activate.
-              // Note: for this to work, you have to add a message
-              // listener in your service worker. See below.
-              messageSW(registration.waiting, { type: "SKIP_WAITING" });
-            }
-          });
-        };
-
-        // Add an event listener to detect when the registered
-        // service worker has installed but is waiting to activate.
-        wb.addEventListener("waiting", showSkipWaitingPrompt);
-        wb.addEventListener("externalwaiting", showSkipWaitingPrompt);
-
-        wb.register().then((r) => (registration = r));
+            newWorker.onstatechange = () => {
+              if (newWorker.state === "installed") {
+                if (reg.active) {
+                  // a version of the SW already has control over the app
+                  showButtonToReload();
+                  /*
+                    same code omitted
+                  */
+                } else {
+                  // very first service worker registration, do nothing
+                }
+              }
+            };
+          };
+        });
       }
     </script>
 

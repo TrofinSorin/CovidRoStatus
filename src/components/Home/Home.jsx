@@ -227,7 +227,7 @@ class Home extends Component {
                 <div className="info">
                   <h2 style={{ fontSize: "28px" }}>
                     Total Cazuri:
-                    <span style={{ color: "red" }}>
+                    <span style={{ color: "blue" }}>
                       {arcGisNationalData.cases}
                     </span>
                   </h2>

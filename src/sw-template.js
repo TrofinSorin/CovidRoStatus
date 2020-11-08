@@ -4,12 +4,12 @@ importScripts(
 );
 
 // eslint-disable-next-line
-self.addEventListener("message", (event) => {
-  if (event.data && event.data.type === "SKIP_WAITING") {
-    console.log("event.data.type:", event.data.type);
-    workbox.core.skipWaiting();
-  }
-});
+// self.addEventListener("message", (event) => {
+//   if (event.data && event.data.type === "SKIP_WAITING") {
+//     console.log("event.data.type:", event.data.type);
+//     workbox.core.skipWaiting();
+//   }
+// });
 
 /* global workbox */
 if (workbox) {
