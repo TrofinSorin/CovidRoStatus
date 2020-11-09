@@ -99,6 +99,14 @@
           }
         });
 
+        navigator.serviceWorker
+          .getRegistrations()
+          .then(function (registrations) {
+            for (let registration of registrations) {
+              registration.update();
+            }
+          });
+
         wb.register().then((reg) => {
           let newWorker;
 
