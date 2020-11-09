@@ -128,6 +128,7 @@
             newWorker.onstatechange = () => {
               if (newWorker.state === "installed") {
                 if (reg.active) {
+                  wb.messageSW({ type: "SKIP_WAITING" });
                   // a version of the SW already has control over the app
                   showButtonToReload();
                   /*
