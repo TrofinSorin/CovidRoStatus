@@ -99,20 +99,28 @@
           }
         });
 
-        navigator.serviceWorker
-          .getRegistrations()
-          .then(function (registrations) {
-            for (let registration of registrations) {
-              registration.update();
-            }
-          });
-
         wb.register().then((reg) => {
           let newWorker;
 
           if (reg.waiting) {
             newWorker = reg.waiting;
             console.log("newWorker:", newWorker);
+
+            let isIOS =
+              /iPad|iPhone|iPod/.test(navigator.platform) ||
+              (navigator.platform === "MacIntel" &&
+                navigator.maxTouchPoints > 1);
+            // Updating SW lifecycle to update the app after user triggered refresh
+
+            if (isIOS) {
+              navigator.serviceWorker
+                .getRegistrations()
+                .then(function (registrations) {
+                  for (let registration of registrations) {
+                    registration.update();
+                  }
+                });
+            }
           }
 
           reg.onupdatefound = () => {
