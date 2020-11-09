@@ -74,6 +74,7 @@
         button.style.cursor = "pointer";
         button.style.height = "10rem";
         button.style.fontSize = "1.6rem";
+        button.style.color = "black";
         button.style.borderRadius = "5rem";
         button.style.fontWeight = "bold";
         button.style.color = "#2794E4";
@@ -81,7 +82,7 @@
         button.style.transform = "translate(2rem, 1rem)";
         button.style.boxShadow = "2px 4px 31px 0px rgba(0,0,0,0.75)";
         button.style.width = "90%";
-        button.innerHTML = `<p style="margin-bottom:0">We've made some updates to our app!</p> <p style="margin-top:0">Click here to refresh.</p>`;
+        button.innerHTML = `<span style="margin-bottom:0; color: black">We've made some updates to our app!</span> <span style="margin-top:0 color: black">Click here to refresh.</span>`;
         document.body.appendChild(button);
 
         button.addEventListener("click", function () {
