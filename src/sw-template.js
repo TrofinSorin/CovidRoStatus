@@ -15,9 +15,16 @@ importScripts(
 if (workbox) {
   console.log("Workbox is loaded");
 
+  let isIOS =
+    /iPad|iPhone|iPod/.test(navigator.platform) ||
+    (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
   // Updating SW lifecycle to update the app after user triggered refresh
-  workbox.core.skipWaiting();
-  workbox.core.clientsClaim();
+
+  console.log("isIOS:", isIOS);
+  if (!isIOS) {
+    workbox.core.skipWaiting();
+    workbox.core.clientsClaim();
+  }
 
   /* injection point for manifest files.  */
   // eslint-disable-next-line
