@@ -104,7 +104,6 @@
 
           if (reg.waiting) {
             newWorker = reg.waiting;
-            console.log("newWorker:", newWorker);
 
             let isIOS =
               /iPad|iPhone|iPod/.test(navigator.platform) ||
@@ -125,13 +124,10 @@
 
           reg.onupdatefound = () => {
             newWorker = reg.installing;
-            console.log("reg.installing:", newWorker);
 
             newWorker.onstatechange = () => {
               if (newWorker.state === "installed") {
-                console.log("ewWorker.state:", ewWorker.state);
                 if (reg.active) {
-                  console.log("reg.active:", reg.active);
                   // a version of the SW already has control over the app
                   showButtonToReload();
                   /*
