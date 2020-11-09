@@ -66,7 +66,11 @@
     <script type="module">
       import { Workbox } from "https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-window.prod.mjs";
 
-      const showButtonToReload = () => {
+      let isIOS =
+        /iPad|iPhone|iPod/.test(navigator.platform) ||
+        (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
+      const showButtonToReload = (callback) => {
         const button = document.createElement("button");
         button.style.position = "fixed";
         button.style.bottom = "2.1rem";
@@ -84,6 +88,10 @@
         button.style.width = "90%";
         button.innerHTML = `<span style="margin-bottom:0; color: black">We've made some updates to our app!</span> <span style="margin-top:0 color: black">Click here to refresh.</span>`;
         document.body.appendChild(button);
+
+        if (isIOS) {
+          callback();
+        }
 
         button.addEventListener("click", function () {
           window.location.reload(true);
@@ -105,10 +113,6 @@
           if (reg.waiting) {
             newWorker = reg.waiting;
 
-            let isIOS =
-              /iPad|iPhone|iPod/.test(navigator.platform) ||
-              (navigator.platform === "MacIntel" &&
-                navigator.maxTouchPoints > 1);
             // Updating SW lifecycle to update the app after user triggered refresh
 
             if (isIOS) {
@@ -128,9 +132,8 @@
             newWorker.onstatechange = () => {
               if (newWorker.state === "installed") {
                 if (reg.active) {
-                  wb.messageSW({ type: "SKIP_WAITING" });
                   // a version of the SW already has control over the app
-                  showButtonToReload();
+                  showButtonToReload(wb.messageSW({ type: "SKIP_WAITING" }));
                   /*
                     same code omitted
                   */
