@@ -227,50 +227,50 @@ class Home extends Component {
                 <div className="info">
                   <h2 style={{ fontSize: "28px" }}>
                     Total Cazuri:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.cases}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Activi:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.active}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Cazuri aparute astazi:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.todayCases}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Cazuri Recuperate:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.recovered}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Total Decese:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.deaths}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Cazuri Critice:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.critical}
                     </span>
                   </h2>
                   <h2 style={{ fontSize: "28px" }}>
                     Total Decese Astazi:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.todayDeaths}
                     </span>
                   </h2>
 
                   <h2 style={{ fontSize: "28px" }}>
                     Total Teste:
-                    <span style={{ color: "blue" }}>
+                    <span style={{ color: "red" }}>
                       {arcGisNationalData.totalTests}
                     </span>
                   </h2>
