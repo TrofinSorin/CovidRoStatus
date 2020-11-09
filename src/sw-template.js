@@ -15,6 +15,10 @@ importScripts(
 if (workbox) {
   console.log("Workbox is loaded");
 
+  // Updating SW lifecycle to update the app after user triggered refresh
+  workbox.core.skipWaiting();
+  workbox.core.clientsClaim();
+
   /* injection point for manifest files.  */
   // eslint-disable-next-line
   workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
